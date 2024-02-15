@@ -47,10 +47,11 @@ Experiencia Profesional:
 ## ¡Gracias por visitar este repositorio!
 Espero que encuentres los recursos que necesitas para avanzar en tu carrera profesional y personal en el mundo de las tecnologías de la información y comunicaciones.
 
-|                                                                            |                                                                                                                |
-| -------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------- |
-| <img src="https://avatars.githubusercontent.com/u/294888?v=4" width="350"> | Igor Parra Bastias<br>Senior Full Stack Developer \| Freelancer<br>Programador en Python/PHP/Javascript/Elixir<br /><br />**Reputación en Stackoverflow**: 10,000 (top 4% overall)<br />**Reputación en Freelancer.com**: 5.0 de 5.0 (con 65 reseñas)<br /><br />- https://www.linkedin.com/in/igor-parra-bastias-06335059<br />- http://stackoverflow.com/users/333061/igor-parra<br />- https://www.freelancer.com/u/NomikOS.html |
+<img src="https://avatars.githubusercontent.com/u/294888?v=4" width="350">
 
-
-
-
+Igor Parra Bastias<br>Senior Full Stack Developer \| Freelancer<br>Programador en Python/PHP/Javascript/Elixir
+<br /><br />
+**Reputación en Stackoverflow**: 10,000 (top 4% overall)<br />**Reputación en Freelancer.com**: 5.0 de 5.0 (con 65 reseñas)
+- https://www.linkedin.com/in/igor-parra-bastias-06335059<br />
+- http://stackoverflow.com/users/333061/igor-parra<br />
+- https://www.freelancer.com/u/NomikOS.html
