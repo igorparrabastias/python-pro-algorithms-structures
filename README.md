@@ -1,4 +1,3 @@
-# tic-cursos-apuntes
 # Apuntes para Cursos sobre Tecnologías de la Información y Comunicaciones
 
 Bienvenido al repositorio general sobre Tecnologías de la Información y Comunicaciones (TIC). Este espacio es para cualquiera interesado en profundizar en la computación, abarcando una variedad de lenguajes de programación y conceptos clave en ciencias de la computación.
