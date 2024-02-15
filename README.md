@@ -12,21 +12,12 @@ Ser autodidacta se ha convertido en una forma esencial de aprender en estos tiem
 
 En esta sección, podrás explorar el índice general de todos los módulos y clases disponibles. Cada módulo está diseñado para cubrir diferentes aspectos de las TIC, asegurando un aprendizaje integral y profundo.
 
-- [Módulo 1: Introducción a las TIC](#)
-- [Módulo 2: Desarrollo Web Moderno](#)
-- [Módulo 3: Seguridad Informática](#)
-- ...
-
+[Indice](Indice.md)
 ## Índice de Cursos Autodidactas y en Udemy
 
 Descubre una selección de cursos tanto para estudiar como autodidacta o siguiendo mis cursos en Udemy, cada uno con un enfoque único y dirigido a diferentes niveles de habilidad.
 
-- [Curso de Programación Básica](#)
-- [Curso Avanzado de Redes](#)
-- [Curso de Cloud Computing](#)
-- ...
-
-
+- [Python Pro: Masterclass en Algoritmos y Estructuras](Python%20Pro:%20Masterclass%20en%20Algoritmos%20y%20Estructuras.md)
 ## Motivación
 
 A medida que avanzamos, el acceso a una vasta cantidad de información y temas especializados crece exponencialmente, lo que hace esencial no malgastar tiempo. Considero crucial que cada curso ofrezca una comprensión amplia y detallada de sus temas, permitiéndote aprender de manera rápida y sencilla. A pesar de esto, es importante tener a mano materiales de referencia exhaustivos para consultas en momentos de necesidad. Es decir, ante desafíos específicos, es fundamental conocer todas las herramientas y metodologías disponibles, para luego buscar información adicional según sea necesario. Con la asistencia de inteligencia artificial, te equiparás para enfrentar cualquier reto.
