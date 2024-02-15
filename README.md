@@ -47,9 +47,9 @@ Igor es un apasionado desarrollador de software y autodidacta con una amplia tra
 
 ¡Gracias por visitar este repositorio! Espero que encuentres los recursos que necesitas para avanzar en tu carrera profesional y personal en el mundo de las tecnologías de la información y comunicaciones.
 
-|                                                         |                    |
-|                                                         |                    |
-| <img src="https://avatars.githubusercontent.com/u/294888?v=4" width="100"> | Igor Parra Bastias<br />Senior Full Stack Developer | Freelancer<br />Programador en Python/PHP/Javascript/Elixir<br />
+|                                                                            |                                                                                                                |
+| -------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------- |
+| <img src="https://avatars.githubusercontent.com/u/294888?v=4" width="100"> | Igor Parra Bastias<br>Senior Full Stack Developer \| Freelancer<br>Programador en Python/PHP/Javascript/Elixir |
 
 **Reputación en Stackoverflow**: 10,000 (top 4% overall)<br />
 **Reputación en Freelancer.com**: 5.0 de 5.0 (con 65 reseñas)
@@ -57,3 +57,9 @@ Igor es un apasionado desarrollador de software y autodidacta con una amplia tra
 - https://www.linkedin.com/in/igor-parra-bastias-06335059
 - http://stackoverflow.com/users/333061/igor-parra
 - https://www.freelancer.com/u/NomikOS.html |
+
+
+| Command    | Description                                    |
+| ---------- | ---------------------------------------------- |
+| git status | List all new or modified files                 |
+| git diff   | Show file differences that haven't been staged |
