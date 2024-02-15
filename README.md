@@ -48,18 +48,15 @@ A lo largo de tu carrera, puedes alejarte de los fundamentos como las estructura
 
 Igor es un apasionado desarrollador de software y autodidacta con una amplia trayectoria en ingeniería y desarrollo de software. Su aventura en el mundo tecnológico comenzó a los 14 años, y desde entonces ha acumulado una gran experiencia en la industria del software.
 
-**Experiencia Profesional**:
+Experiencia Profesional:
 
-**Ingeniería y Habilidades Técnicas**: Especializado en microservicios, computación en la nube y arquitectura basada en eventos, Igor domina plataformas como GCP y AWS, y lenguajes como Node.js, PHP, Python y Elixir.
-
-**Formación Académica**: Su formación en Matemáticas y Ciencias de la Computación le ha brindado una base teórica y práctica sólida. Ha completado cursos en prestigiosas instituciones como NTU, UBC, MITx y Stanford University en diversas materias relativas a la Ingeniería como: Software Development, Statistics, Operations Research y Data Science.
-
-**Reputación en la Comunidad IT**: Con una reputación destacada en plataformas como StackOverflow y Freelancer.com, Igor ha demostrado su habilidad y compromiso con la excelencia en el campo de la informática.
+- **Ingeniería y Habilidades Técnicas**: Especializado en microservicios, computación en la nube y arquitectura basada en eventos, Igor domina plataformas como GCP y AWS, y lenguajes como Node.js, PHP, Python y Elixir.
+- **Formación Académica**: Su formación en Matemáticas y Ciencias de la Computación le ha brindado una base teórica y práctica sólida. Ha completado cursos en prestigiosas instituciones como NTU, UBC, MITx y Stanford University en diversas materias relativas a la Ingeniería como: Software Development, Statistics, Operations Research y Data Science.
+- **Reputación en la Comunidad IT**: Con una reputación destacada en plataformas como StackOverflow y Freelancer.com, Igor ha demostrado su habilidad y compromiso con la excelencia en el campo de la informática.
 
 ## ¡Gracias por visitar este repositorio!
 Espero que encuentres los recursos que necesitas para avanzar en tu carrera profesional y personal en el mundo de las tecnologías de la información y comunicaciones.
 
-|                                                                            |                                                                                                                |
 | -------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------- |
 | <img src="https://avatars.githubusercontent.com/u/294888?v=4" width="100"> | Igor Parra Bastias<br>Senior Full Stack Developer \| Freelancer<br>Programador en Python/PHP/Javascript/Elixir |
 
