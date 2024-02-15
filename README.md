@@ -57,6 +57,7 @@ Experiencia Profesional:
 ## ¡Gracias por visitar este repositorio!
 Espero que encuentres los recursos que necesitas para avanzar en tu carrera profesional y personal en el mundo de las tecnologías de la información y comunicaciones.
 
+|                                                                            |                                                                                                                |
 | -------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------- |
 | <img src="https://avatars.githubusercontent.com/u/294888?v=4" width="100"> | Igor Parra Bastias<br>Senior Full Stack Developer \| Freelancer<br>Programador en Python/PHP/Javascript/Elixir |
 
