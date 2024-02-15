@@ -59,12 +59,8 @@ Espero que encuentres los recursos que necesitas para avanzar en tu carrera prof
 
 |                                                                            |                                                                                                                |
 | -------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------- |
-| <img src="https://avatars.githubusercontent.com/u/294888?v=4" width="100"> | Igor Parra Bastias<br>Senior Full Stack Developer \| Freelancer<br>Programador en Python/PHP/Javascript/Elixir |
+| <img src="https://avatars.githubusercontent.com/u/294888?v=4" width="300"> | Igor Parra Bastias<br>Senior Full Stack Developer \| Freelancer<br>Programador en Python/PHP/Javascript/Elixir<br /><br />**Reputación en Stackoverflow**: 10,000 (top 4% overall)<br />**Reputación en Freelancer.com**: 5.0 de 5.0 (con 65 reseñas)<br /><br />- https://www.linkedin.com/in/igor-parra-bastias-06335059<br />- http://stackoverflow.com/users/333061/igor-parra<br />- https://www.freelancer.com/u/NomikOS.html |
 
-**Reputación en Stackoverflow**: 10,000 (top 4% overall)<br />
-**Reputación en Freelancer.com**: 5.0 de 5.0 (con 65 reseñas)
 
-- https://www.linkedin.com/in/igor-parra-bastias-06335059
-- http://stackoverflow.com/users/333061/igor-parra
-- https://www.freelancer.com/u/NomikOS.html |
+
 
