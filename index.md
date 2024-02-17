@@ -1,28 +1,16 @@
-## Python: Repaso Básico
+## :open_file_folder: Python: Repaso Básico
 
-[Bases de Python](/notebook/python-repaso-basico/bases-de-python.ipynb)
-
-[Tipos de Datos y Estructuras en Python](/notebook/python-repaso-basico/tipos-de-datos-y-estructuras-en-python.ipynb)
-
-[El Versátil Iterador "for"](/notebook/python-repaso-basico/el-versatil-iterador-for.ipynb)
-
-[Rebinding](/notebook/python-repaso-basico/rebinding.ipynb)
-
-[Slicing](/notebook/python-repaso-basico/slicing.ipynb)
-
-[Manejo de Excepciones](/notebook/python-repaso-basico/manejo-de-excepciones.ipynb)
-
-[Funciones Recursivas en Python](/notebook/python-repaso-basico/funciones-recursivas-en-python.ipynb)
-
-[Análisis de Complejidad](/notebook/python-repaso-basico/analisis-de-complejidad.ipynb)
-
-[Cheat sheet](/notebook/python-repaso-basico/cheat-sheet.ipynb)
-
-[Cuestionario de sección](/notebook/python-repaso-basico/cuestionario-de-seccion.ipynb)
-
-[Respuestas](/notebook/python-repaso-basico/respuestas.ipynb)
-
-[Sabías que?](/notebook/python-repaso-basico/sabias-que.ipynb)
+:page_with_curl: [Bases de Python](/notebook/python-repaso-basico/bases-de-python.ipynb)  
+:page_with_curl: [El Versátil Iterador "for"](/notebook/python-repaso-basico/el-versatil-iterador-for.ipynb)  
+:page_with_curl: [Rebinding](/notebook/python-repaso-basico/rebinding.ipynb)  
+:page_with_curl: [Slicing](/notebook/python-repaso-basico/slicing.ipynb)  
+:page_with_curl: [Manejo de Excepciones](/notebook/python-repaso-basico/manejo-de-excepciones.ipynb)  
+:page_with_curl: [Funciones Recursivas en Python](/notebook/python-repaso-basico/funciones-recursivas-en-python.ipynb)  
+:page_with_curl: [Análisis de Complejidad](/notebook/python-repaso-basico/analisis-de-complejidad.ipynb)  
+:page_with_curl: [Cheat sheet](/notebook/python-repaso-basico/cheat-sheet.ipynb)  
+:clipboard: [Cuestionario de sección](/notebook/python-repaso-basico/cuestionario-de-seccion.ipynb)  
+:clipboard: [Respuestas](/notebook/python-repaso-basico/respuestas.ipynb)  
+:telescope: [Sabías que?](/notebook/python-repaso-basico/sabias-que.ipynb)
 
 ## Python: Repaso Avanzado
 
