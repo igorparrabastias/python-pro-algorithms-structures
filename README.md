@@ -12,12 +12,16 @@ Ser autodidacta se ha convertido en una forma esencial de aprender en estos tiem
 
 En esta sección, podrás explorar el índice general de todos los módulos y clases disponibles. Cada módulo está diseñado para cubrir diferentes aspectos de las TIC, asegurando un aprendizaje integral y profundo.
 
-[Indice](Indice.md)
+- [Indice](index.md)
 ## Índice de Cursos Autodidactas y en Udemy
 
-Descubre una selección de cursos tanto para estudiar como autodidacta o siguiendo mis cursos en Udemy, cada uno con un enfoque único y dirigido a diferentes niveles de habilidad.
+Aquí encontrarás cursos para explorar y aprender por tu cuenta o con mi guía en la plataforma Udemy. Los apuntes son los mismos en que baso mis clases en Udemy. Si buscas más profundidad, explicaciones en video, y un certificado final al aprobar el curso, Udemy es tu mejor opción.
 
-- [Python Pro: Masterclass en Algoritmos y Estructuras](Python%20Pro:%20Masterclass%20en%20Algoritmos%20y%20Estructuras.md)
+| Apuntes de Curso   | Udemy                           |
+| --------| --------------------------------- |
+| [Python Pro: Masterclass en Algoritmos y Estructuras](python-pro-masterclass-en-algoritmos-y-estructuras.md) |
+
+
 ## Motivación
 
 A medida que avanzamos, el acceso a una vasta cantidad de información y temas especializados crece exponencialmente, lo que hace esencial no malgastar tiempo. Considero crucial que cada curso ofrezca una comprensión amplia y detallada de sus temas, permitiéndote aprender de manera rápida y sencilla. A pesar de esto, es importante tener a mano materiales de referencia exhaustivos para consultas en momentos de necesidad. Es decir, ante desafíos específicos, es fundamental conocer todas las herramientas y metodologías disponibles, para luego buscar información adicional según sea necesario. Con la asistencia de inteligencia artificial, te equiparás para enfrentar cualquier reto.
@@ -55,3 +59,10 @@ Igor Parra Bastias<br>Senior Full Stack Developer \| Freelancer<br>Programador e
 - https://www.linkedin.com/in/igor-parra-bastias-06335059<br />
 - http://stackoverflow.com/users/333061/igor-parra<br />
 - https://www.freelancer.com/u/NomikOS.html
+## Licencias
+
+Este proyecto contiene dos tipos de contenidos: educativos y de código fuente, cada uno bajo su propia licencia.
+
+- **Contenido Educativo**: Los apuntes, diapositivas, y cualquier material educativo en este repositorio están disponibles bajo la licencia Creative Commons Atribución-NoComercial-CompartirIgual 4.0 Internacional (CC BY-NC-SA 4.0). Para más detalles, vea el archivo [LICENSE.md](./LICENSE.md).
+
+- **Código Fuente**: El código fuente incluido en este repositorio está licenciado bajo la licencia MIT. Para más detalles, vea el archivo [CODE_LICENSE.md](./CODE_LICENSE.md).
