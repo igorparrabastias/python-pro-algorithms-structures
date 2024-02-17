@@ -1,4 +1,4 @@
-## :open_file_folder: Python: Repaso Básico
+## :bookmark_tabs: Python: Repaso Básico
 
 :page_with_curl: [Bases de Python](/notebook/python-repaso-basico/bases-de-python.ipynb)   
 :page_with_curl: [El Versátil Iterador "for"](/notebook/python-repaso-basico/el-versatil-iterador-for.ipynb)  
@@ -12,7 +12,7 @@
 :clipboard: [Respuestas](/notebook/python-repaso-basico/respuestas.ipynb)  
 :telescope: [Sabías que?](/notebook/python-repaso-basico/sabias-que.ipynb)
 
-## :open_file_folder: Python: Repaso Avanzado
+## :bookmark_tabs: Python: Repaso Avanzado
 
 :page_with_curl: [Iteradores y Generadores](/notebook/python-repaso-avanzado/iteradores-y-generadores.ipynb)  
 :page_with_curl: [Uso de `with` para Manejo de Recursos](/notebook/python-repaso-avanzado/uso-de-with-para-manejo-de-recursos.ipynb)  
@@ -29,7 +29,7 @@
 :clipboard: [Cuestionario de sección](/notebook/python-repaso-avanzado/cuestionario-de-seccion.ipynb)  
 :clipboard: [Respuestas](/notebook/python-repaso-avanzado/respuestas.ipynb)  
 :telescope: [Sabías que?](/notebook/python-repaso-avanzado/sabias-que.ipynb)  
-## :open_file_folder: Estructuras de Datos Nativas de Python
+## :bookmark_tabs: Estructuras de Datos Nativas de Python
 
 :page_with_curl: [Introducción](/notebook/estructuras-de-datos-nativas-de-python/introduccion.ipynb)  
 :page_with_curl: [Secuencias](/notebook/estructuras-de-datos-nativas-de-python/secuencias.ipynb)  
@@ -58,7 +58,7 @@
 :page_with_curl: [Exploración Avanzada en Conjuntos (Sets) en Python](/notebook/estructuras-de-datos-nativas-de-python/exploracion-avanzada-en-conjuntos-sets-en-python.ipynb)  
 :clipboard: [Cuestionario de sección](/notebook/estructuras-de-datos-nativas-de-python/cuestionario-de-seccion.ipynb)  
 :clipboard: [Respuestas](/notebook/estructuras-de-datos-nativas-de-python/respuestas.ipynb)  
-## :open_file_folder: Estructuras de Datos Avanzadas
+## :bookmark_tabs: Estructuras de Datos Avanzadas
 
 :page_with_curl: [N-ary Trees, Segment Trees](/notebook/estructuras-de-datos-avanzadas/n-ary-trees-segment-trees.ipynb)  
 :page_with_curl: [Caso de uso: Sistema de Contabilidad en Tiempo Real](/notebook/estructuras-de-datos-avanzadas/caso-de-uso-sistema-de-contabilidad-en-tiempo-real.ipynb)  
@@ -66,19 +66,19 @@
 :page_with_curl: [Caso de uso: Autocompletado](/notebook/estructuras-de-datos-avanzadas/caso-de-uso-autocompletado.ipynb)  
 :page_with_curl: [Caso de uso: Verificación Ortográfica](/notebook/estructuras-de-datos-avanzadas/caso-de-uso-verificacion-ortografica.ipynb)  
 :page_with_curl: [Caso de uso: Sistemas de Enrutamiento](/notebook/estructuras-de-datos-avanzadas/caso-de-uso-sistemas-de-enrutamiento.ipynb)  
-## :open_file_folder: Implementación de Estructuras de Datos en Python
+## :bookmark_tabs: Implementación de Estructuras de Datos en Python
 
 :page_with_curl: [Qué son las Estructuras de Datos](/notebook/implementacion-de-estructuras-de-datos-en-python/que-son-las-estructuras-de-datos.ipynb)  
 :page_with_curl: [Comparación Entre las Estructuras de Datos Nativas y su Implementación en Python](/notebook/implementacion-de-estructuras-de-datos-en-python/comparacion-entre-las-estructuras-de-datos-nativas-y-su-implementacion-en-python.ipynb)  
 :page_with_curl: [Implementación de Estructuras de Datos a Nivel de Hardware](/notebook/implementacion-de-estructuras-de-datos-en-python/implementacion-de-estructuras-de-datos-a-nivel-de-hardware.ipynb)  
 :page_with_curl: [Ejemplos concretos de cómo las estructuras de datos interactúan con el hardware para lograr eficiencia y rendimiento](/notebook/implementacion-de-estructuras-de-datos-en-python/ejemplos-concretos-de-como-las-estructuras-de-datos-interactuan-con-el-hardware-para-lograr-eficiencia-y-rendimiento.ipynb)  
 :page_with_curl: [Es necesario hacer implementaciones propias?](/notebook/implementacion-de-estructuras-de-datos-en-python/es-necesario-hacer-implementaciones-propias.ipynb)  
-## :open_file_folder: Implementación de Estructuras Simples
+## :bookmark_tabs: Implementación de Estructuras Simples
 
 :page_with_curl: [Linked Lists (Listas Enlazadas)](/notebook/implementacion-de-estructuras-simples/linked-lists-listas-enlazadas.ipynb)  
 :page_with_curl: [Stacks (Pilas)](/notebook/implementacion-de-estructuras-simples/stacks-pilas.ipynb)  
 :page_with_curl: [Queues (Colas)](/notebook/implementacion-de-estructuras-simples/queues-colas.ipynb)  
-## :open_file_folder: Implementación de Árboles
+## :bookmark_tabs: Implementación de Árboles
 
 :page_with_curl: [Introducción](/notebook/implementacion-de-arboles/introduccion.ipynb)  
 :page_with_curl: [Árboles binarios: definición y recorridos (preorden, inorden, postorden).](/notebook/implementacion-de-arboles/arboles-binarios-definicion-y-recorridos-preorden-inorden-postorden.ipynb)  
@@ -90,13 +90,13 @@
 :page_with_curl: [Tamaño del Árbol: Contar el número total de nodos en el árbol.](/notebook/implementacion-de-arboles/tamanno-del-arbol-contar-el-numero-total-de-nodos-en-el-arbol.ipynb)  
 :page_with_curl: [Verificación de Árbol Binario de Búsqueda: Comprobar si un árbol binario cumple las propiedades de un BST.](/notebook/implementacion-de-arboles/verificacion-de-arbol-binario-de-busqueda-comprobar-si-un-arbol-binario-cumple-las-propiedades-de-un-bst.ipynb)  
 :page_with_curl: [Balanceo del Árbol: En árboles AVL, implementar rotaciones para mantener el árbol balanceado.](/notebook/implementacion-de-arboles/balanceo-del-arbol-en-arboles-avl-implementar-rotaciones-para-mantener-el-arbol-balanceado.ipynb)  
-## :open_file_folder: Implementación de Grafos
+## :bookmark_tabs: Implementación de Grafos
 
 :page_with_curl: [Introducción](/notebook/implementacion-de-grafos/introduccion.ipynb)  
 :page_with_curl: [Listas de Adyacencia](/notebook/implementacion-de-grafos/listas-de-adyacencia.ipynb)  
 :page_with_curl: [Matrices de Adyacencia](/notebook/implementacion-de-grafos/matrices-de-adyacencia.ipynb)  
 :page_with_curl: [Operaciones Básicas](/notebook/implementacion-de-grafos/operaciones-basicas.ipynb)  
-## :open_file_folder: Implementación de Tablas Hash
+## :bookmark_tabs: Implementación de Tablas Hash
 
 :page_with_curl: [Introducción](/notebook/implementacion-de-tablas-hash/introduccion.ipynb)  
 :page_with_curl: [La función hash y su necesidad](/notebook/implementacion-de-tablas-hash/la-funcion-hash-y-su-necesidad.ipynb)  
@@ -105,13 +105,13 @@
 :page_with_curl: [Caso de uso: Analizar el Impacto del Rehashing](/notebook/implementacion-de-tablas-hash/caso-de-uso-analizar-el-impacto-del-rehashing.ipynb)  
 :page_with_curl: [Ejemplos de uso ](/notebook/implementacion-de-tablas-hash/ejemplos-de-uso.ipynb)  
 :page_with_curl: [Caso de uso: Inventario para una tienda](/notebook/implementacion-de-tablas-hash/caso-de-uso-inventario-para-una-tienda.ipynb)  
-## :open_file_folder: Implementación de Heaps
+## :bookmark_tabs: Implementación de Heaps
 
 :page_with_curl: [Introducción](/notebook/implementacion-de-heaps/introduccion.ipynb)  
 :page_with_curl: [Equilibrio y orden](/notebook/implementacion-de-heaps/equilibrio-y-orden.ipynb)  
 :page_with_curl: [Caso de uso: Manejo de tareas](/notebook/implementacion-de-heaps/caso-de-uso-manejo-de-tareas.ipynb)  
 :page_with_curl: [Caso de uso: Sistema de cola de atención](/notebook/implementacion-de-heaps/caso-de-uso-sistema-de-cola-de-atencion.ipynb)  
-## :open_file_folder: Algoritmos Básicos de Ordenamiento
+## :bookmark_tabs: Algoritmos Básicos de Ordenamiento
 
 :page_with_curl: [Bubble sort: Ordenamiento de burbuja](/notebook/algoritmos-basicos-de-ordenamiento/bubble-sort-ordenamiento-de-burbuja.ipynb)  
 :page_with_curl: [Ejercicios básicos](/notebook/algoritmos-basicos-de-ordenamiento/ejercicios-basicos.ipynb)  
@@ -126,7 +126,7 @@
 :page_with_curl: [Ejercicios Avanzados 1 a 5](/notebook/algoritmos-basicos-de-ordenamiento/ejercicios-avanzados-1-a-5.ipynb)  
 :page_with_curl: [Ejercicios Avanzados 6 a 10](/notebook/algoritmos-basicos-de-ordenamiento/ejercicios-avanzados-6-a-10.ipynb)  
 :page_with_curl: [Comparación y selección de algoritmos de ordenamiento.](/notebook/algoritmos-basicos-de-ordenamiento/comparacion-y-seleccion-de-algoritmos-de-ordenamiento.ipynb)  
-## :open_file_folder: Algoritmos Básicos de Búsqueda
+## :bookmark_tabs: Algoritmos Básicos de Búsqueda
 
 :page_with_curl: [Búsqueda Lineal](/notebook/algoritmos-basicos-de-busqueda/busqueda-lineal.ipynb)  
 :page_with_curl: [Ejercicios Básicos](/notebook/algoritmos-basicos-de-busqueda/ejercicios-basicos.ipynb)  
@@ -145,20 +145,20 @@
 :page_with_curl: [Ejercicios Avanzados 1 a 5](/notebook/algoritmos-basicos-de-busqueda/ejercicios-avanzados-1-a-5.ipynb)  
 :page_with_curl: [Ejercicios Avanzados 6 a 10](/notebook/algoritmos-basicos-de-busqueda/ejercicios-avanzados-6-a-10.ipynb)  
 :page_with_curl: [Comparación y selección de algoritmos de búsqueda](/notebook/algoritmos-basicos-de-busqueda/comparacion-y-seleccion-de-algoritmos-de-busqueda.ipynb)  
-## :open_file_folder: Algoritmos de Árboles
+## :bookmark_tabs: Algoritmos de Árboles
 
 :page_with_curl: [Introducción](/notebook/algoritmos-de-arboles/introduccion.ipynb)  
 :page_with_curl: [Árboles Binarios](/notebook/algoritmos-de-arboles/arboles-binarios.ipynb)  
 :page_with_curl: [Recorridos en Árboles Binarios](/notebook/algoritmos-de-arboles/recorridos-en-arboles-binarios.ipynb)  
-## :open_file_folder: Algoritmos de Árboles: Árboles Binarios de Búsqueda
+## :bookmark_tabs: Algoritmos de Árboles: Árboles Binarios de Búsqueda
 
 :page_with_curl: [Implementación de Árboles Binarios de Búsqueda (ABB)](/notebook/algoritmos-de-arboles-arboles-binarios-de-busqueda/implementacion-de-arboles-binarios-de-busqueda-abb.ipynb)  
 :page_with_curl: [Balanceo de Árboles: Introducción a los Árboles AV](/notebook/algoritmos-de-arboles-arboles-binarios-de-busqueda/balanceo-de-arboles-introduccion-a-los-arboles-av.ipynb)  
-## :open_file_folder: Algoritmos de Árboles: Árboles Especializados
+## :bookmark_tabs: Algoritmos de Árboles: Árboles Especializados
 
 :page_with_curl: [Conceptos Básicos de Árboles Rojo-Negro](/notebook/algoritmos-de-arboles-arboles-especializados/conceptos-basicos-de-arboles-rojo-negro.ipynb)  
 :page_with_curl: [Árboles de Expresión y su Aplicación en la Evaluación de Expresiones Matemáticas](/notebook/algoritmos-de-arboles-arboles-especializados/arboles-de-expresion-y-su-aplicacion-en-la-evaluacion-de-expresiones-matematicas.ipynb)  
-## :open_file_folder: Algoritmos de Grafos
+## :bookmark_tabs: Algoritmos de Grafos
 
 :page_with_curl: [Introducción](/notebook/algoritmos-de-grafos/introduccion.ipynb)  
 :page_with_curl: [Dijkstra: Camino más corto](/notebook/algoritmos-de-grafos/dijkstra-camino-mas-corto.ipynb)  
@@ -167,11 +167,11 @@
 :page_with_curl: [Componentes Conectados](/notebook/algoritmos-de-grafos/componentes-conectados.ipynb)  
 :page_with_curl: [Detección de Ciclos](/notebook/algoritmos-de-grafos/deteccion-de-ciclos.ipynb)  
 :page_with_curl: [Ordenamiento Topológico](/notebook/algoritmos-de-grafos/ordenamiento-topologico.ipynb)  
-## :open_file_folder: Algoritmos de Grafos: Recorrido de Grafos
+## :bookmark_tabs: Algoritmos de Grafos: Recorrido de Grafos
 
 :page_with_curl: [Búsqueda en Profundidad (DFS, Depth-First Search)](/notebook/algoritmos-de-grafos-recorrido-de-grafos/busqueda-en-profundidad-dfs-depth-first-search.ipynb)  
 :page_with_curl: [Búsqueda en Anchura (BFS, Breadth-First Search)](/notebook/algoritmos-de-grafos-recorrido-de-grafos/busqueda-en-anchura-bfs-breadth-first-search.ipynb)  
-## :open_file_folder: Algoritmos de Grafos: Otras aplicaciones
+## :bookmark_tabs: Algoritmos de Grafos: Otras aplicaciones
 
 :page_with_curl: [Ponderación de Aristas](/notebook/algoritmos-de-grafos-otras-aplicaciones/ponderacion-de-aristas.ipynb)  
 :page_with_curl: [Dirección de las Aristas](/notebook/algoritmos-de-grafos-otras-aplicaciones/direccion-de-las-aristas.ipynb)  
@@ -179,7 +179,7 @@
 :page_with_curl: [Caso de uso: Determinar nivel de conexión entre dos usuarios](/notebook/algoritmos-de-grafos-otras-aplicaciones/caso-de-uso-determinar-nivel-de-conexion-entre-dos-usuarios.ipynb)  
 :page_with_curl: [Caso de uso: Ruta más corta](/notebook/algoritmos-de-grafos-otras-aplicaciones/caso-de-uso-ruta-mas-corta.ipynb)  
 :page_with_curl: [Caso de uso: Ruta más rápida](/notebook/algoritmos-de-grafos-otras-aplicaciones/caso-de-uso-ruta-mas-rapida.ipynb)  
-## :open_file_folder: Habilidades de Resolución de Problemas: Técnicas de Análisis de Problemas
+## :bookmark_tabs: Habilidades de Resolución de Problemas: Técnicas de Análisis de Problemas
 
 :page_with_curl: [Descomposición de Problemas](/notebook/habilidades-de-resolucion-de-problemas-tecnicas-de-analisis-de-problemas/descomposicion-de-problemas.ipynb)  
 :page_with_curl: [Ejercicio: Descomposición de un Sistema de Reservas de Vuelos](/notebook/habilidades-de-resolucion-de-problemas-tecnicas-de-analisis-de-problemas/ejercicio-descomposicion-de-un-sistema-de-reservas-de-vuelos.ipynb)  
@@ -193,7 +193,7 @@
 :page_with_curl: [Ejercicio: Planificación de un Sistema de Gestión de Tareas](/notebook/habilidades-de-resolucion-de-problemas-tecnicas-de-analisis-de-problemas/ejercicio-planificacion-de-un-sistema-de-gestion-de-tareas.ipynb)  
 :page_with_curl: [Ejercicio: Desarrollo de un Algoritmo de Recomendación](/notebook/habilidades-de-resolucion-de-problemas-tecnicas-de-analisis-de-problemas/ejercicio-desarrollo-de-un-algoritmo-de-recomendacion.ipynb)  
 :page_with_curl: [Ejercicio: Optimización de Procesos de Negocio](/notebook/habilidades-de-resolucion-de-problemas-tecnicas-de-analisis-de-problemas/ejercicio-optimizacion-de-procesos-de-negocio.ipynb)  
-## :open_file_folder: Habilidades de Resolución de Problemas: Complejidad Algorítmica y Optimización
+## :bookmark_tabs: Habilidades de Resolución de Problemas: Complejidad Algorítmica y Optimización
 
 :page_with_curl: [Comprensión de la Complejidad Algorítmica (Big O)](/notebook/habilidades-de-resolucion-de-problemas-complejidad-algoritmica-y-optimizacion/comprension-de-la-complejidad-algoritmica-big-o.ipynb)  
 :page_with_curl: [Ejercicio: Análisis de Complejidad](/notebook/habilidades-de-resolucion-de-problemas-complejidad-algoritmica-y-optimizacion/ejercicio-analisis-de-complejidad.ipynb)  
@@ -206,7 +206,7 @@
 :page_with_curl: [Refactorización para Mejorar la Legibilidad y Rendimiento](/notebook/habilidades-de-resolucion-de-problemas-complejidad-algoritmica-y-optimizacion/refactorizacion-para-mejorar-la-legibilidad-y-rendimiento.ipynb)  
 :page_with_curl: [Ejercicio: Refactorización de un Fragmento de Código](/notebook/habilidades-de-resolucion-de-problemas-complejidad-algoritmica-y-optimizacion/ejercicio-refactorizacion-de-un-fragmento-de-codigo.ipynb)  
 :page_with_curl: [Ejercicio: Optimización de la Gestión de Recursos](/notebook/habilidades-de-resolucion-de-problemas-complejidad-algoritmica-y-optimizacion/ejercicio-optimizacion-de-la-gestion-de-recursos.ipynb)  
-## :open_file_folder: Transición a Experto: Matemáticas y Teoría detrás de los Algoritmos
+## :bookmark_tabs: Transición a Experto: Matemáticas y Teoría detrás de los Algoritmos
 
 :page_with_curl: [Lógica y Fundamentos Matemáticos](/notebook/transicion-a-experto-matematicas-y-teoria-detras-de-los-algoritmos/logica-y-fundamentos-matematicos.ipynb)  
 :page_with_curl: [Notación Matemática y Asintótica](/notebook/transicion-a-experto-matematicas-y-teoria-detras-de-los-algoritmos/notacion-matematica-y-asintotica.ipynb)  
@@ -215,7 +215,7 @@
 :page_with_curl: [Aplicaciones en el Análisis de Eficiencia Algorítmica](/notebook/transicion-a-experto-matematicas-y-teoria-detras-de-los-algoritmos/aplicaciones-en-el-analisis-de-eficiencia-algoritmica.ipynb)  
 :page_with_curl: [Probabilidad y Estadística en Algoritmos](/notebook/transicion-a-experto-matematicas-y-teoria-detras-de-los-algoritmos/probabilidad-y-estadistica-en-algoritmos.ipynb)  
 :page_with_curl: [Teoría de la Computabilidad y Complejidad](/notebook/transicion-a-experto-matematicas-y-teoria-detras-de-los-algoritmos/teoria-de-la-computabilidad-y-complejidad.ipynb)  
-## :open_file_folder: Anexos
+## :bookmark_tabs: Anexos
 
 :page_with_curl: [Anexo 0: For en profundidad](/notebook/anexos/anexo-0-for-en-profundidad.ipynb)  
 :page_with_curl: [Anexo 1: Clasificación y Tipos de Algoritmos](/notebook/anexos/anexo-1-clasificacion-y-tipos-de-algoritmos.ipynb)  
