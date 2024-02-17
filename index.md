@@ -129,21 +129,27 @@
 ## :bookmark_tabs: Algoritmos Básicos de Búsqueda
 
 :page_with_curl: [Búsqueda Lineal](/notebook/algoritmos-basicos-de-busqueda/busqueda-lineal.ipynb)  
-:page_with_curl: [Ejercicios Básicos](/notebook/algoritmos-basicos-de-busqueda/ejercicios-basicos.ipynb)  
-:page_with_curl: [Ejercicios Avanzados 1 a 5](/notebook/algoritmos-basicos-de-busqueda/ejercicios-avanzados-1-a-5.ipynb)  
-:page_with_curl: [Ejercicios Avanzados 6 a 10](/notebook/algoritmos-basicos-de-busqueda/ejercicios-avanzados-6-a-10.ipynb)  
+- :page_with_curl: [Ejercicios Básicos](/notebook/algoritmos-basicos-de-busqueda/ejercicios-basicos.ipynb)
+- :page_with_curl: [Ejercicios Avanzados 1 a 5](/notebook/algoritmos-basicos-de-busqueda/ejercicios-avanzados-1-a-5.ipynb)  
+- :page_with_curl: [Ejercicios Avanzados 6 a 10](/notebook/algoritmos-basicos-de-busqueda/ejercicios-avanzados-6-a-10.ipynb)  
+
 :page_with_curl: [Búsqueda Binaria](/notebook/algoritmos-basicos-de-busqueda/busqueda-binaria.ipynb)  
-:page_with_curl: [Ejercicios Básicos](/notebook/algoritmos-basicos-de-busqueda/ejercicios-basicos.ipynb)  
-:page_with_curl: [Ejercicios Avanzados 1 a 5](/notebook/algoritmos-basicos-de-busqueda/ejercicios-avanzados-1-a-5.ipynb)  
-:page_with_curl: [Ejercicios Avanzados 6 a 10](/notebook/algoritmos-basicos-de-busqueda/ejercicios-avanzados-6-a-10.ipynb)  
+- :page_with_curl: [Ejercicios Básicos](/notebook/algoritmos-basicos-de-busqueda/ejercicios-basicos.ipynb)  
+- :page_with_curl: [Ejercicios Avanzados 1 a 5](/notebook/algoritmos-basicos-de-busqueda/ejercicios-avanzados-1-a-5.ipynb)  
+- :page_with_curl: [Ejercicios Avanzados 6 a 10](/notebook/algoritmos-basicos-de-busqueda/ejercicios-avanzados-6-a-10.ipynb)  
+
 :page_with_curl: [Búsqueda por Interpolación](/notebook/algoritmos-basicos-de-busqueda/busqueda-por-interpolacion.ipynb)  
-:page_with_curl: [Ejercicios Básicos](/notebook/algoritmos-basicos-de-busqueda/ejercicios-basicos.ipynb)  
-:page_with_curl: [Ejercicios Avanzados 1 a 5](/notebook/algoritmos-basicos-de-busqueda/ejercicios-avanzados-1-a-5.ipynb)  
-:page_with_curl: [Ejercicios Avanzados 6 a 10](/notebook/algoritmos-basicos-de-busqueda/ejercicios-avanzados-6-a-10.ipynb)  
-:page_with_curl: [Búsqueda por Hash](/notebook/algoritmos-basicos-de-busqueda/busqueda-por-hash.ipynb)  
-:page_with_curl: [Ejercicios Básicos](/notebook/algoritmos-basicos-de-busqueda/ejercicios-basicos.ipynb)  
-:page_with_curl: [Ejercicios Avanzados 1 a 5](/notebook/algoritmos-basicos-de-busqueda/ejercicios-avanzados-1-a-5.ipynb)  
-:page_with_curl: [Ejercicios Avanzados 6 a 10](/notebook/algoritmos-basicos-de-busqueda/ejercicios-avanzados-6-a-10.ipynb)  
+
+- :page_with_curl: [Ejercicios Básicos](/notebook/algoritmos-basicos-de-busqueda/ejercicios-basicos.ipynb)  
+- :page_with_curl: [Ejercicios Avanzados 1 a 5](/notebook/algoritmos-basicos-de-busqueda/ejercicios-avanzados-1-a-5.ipynb)  
+- :page_with_curl: [Ejercicios Avanzados 6 a 10](/notebook/algoritmos-basicos-de-busqueda/ejercicios-avanzados-6-a-10.ipynb)  
+
+
+:page_with_curl: [Búsqueda por Hash](/notebook/algoritmos-basicos-de-busqueda/busqueda-por-hash.ipynb)
+- :page_with_curl: [Ejercicios Básicos](/notebook/algoritmos-basicos-de-busqueda/ejercicios-basicos.ipynb)
+- :page_with_curl: [Ejercicios Avanzados 1 a 5](/notebook/algoritmos-basicos-de-busqueda/ejercicios-avanzados-1-a-5.ipynb)
+- :page_with_curl: [Ejercicios Avanzados 6 a 10](/notebook/algoritmos-basicos-de-busqueda/ejercicios-avanzados-6-a-10.ipynb)  
+
 :page_with_curl: [Comparación y selección de algoritmos de búsqueda](/notebook/algoritmos-basicos-de-busqueda/comparacion-y-seleccion-de-algoritmos-de-busqueda.ipynb)  
 ## :bookmark_tabs: Algoritmos de Árboles
 
