@@ -32,7 +32,7 @@ def fix_ipynb_files_v4(directory):
                         json.dump(data, f, indent=2)
                     report += f"- {file_path}\n"
 
-    with open("report_v4.md", "w", encoding="utf-8") as f_report:
+    with open("report.md", "w", encoding="utf-8") as f_report:
         f_report.write(report)
 
 # Ejecutar la función para corregir archivos en la carpeta 'notebook/' con las especificaciones actualizadas
