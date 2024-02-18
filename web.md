@@ -1,10 +1,4 @@
-Tengo mucha experiencia en desarrollo web. Me he dado cuenta que muchos otros desarroladores adoleden de compentecias básicas, linux, bash, ide, guis para databases, hacer llaves privadas, git, uml, diseño de sistemas, como abordar problemas de forma sistematica, etc (sugiere más).  Diseña un curso para impartir en udemy para impartir estos skills en Udemy Business. inluye cada una de las coosas que puse y agrega mas
-
-ChatGPT
-
-**ChatGPT**
-
-¡Claro! Diseñar un curso para Udemy Business que aborde las competencias básicas para desarrolladores es una gran idea. Considerando tu experiencia y las áreas que mencionaste, aquí tienes un esbozo del curso:
+Tengo mucha experiencia en desarrollo web. Me he dado cuenta que muchos otros desarroladores adoleden de compentecias básicas, linux, bash, ide, guis para databases, hacer llaves privadas, git, uml, diseño de sistemas, como abordar problemas de forma sistematica, etc.  Este es un curso para impartir estos skills en Udemy Business.
 
 ### **Título del Curso:**
 
@@ -67,13 +61,9 @@ Este curso está diseñado para desarrolladores que buscan fortalecer sus habili
 
 Este esquema del curso es solo un punto de partida. Puedes adaptarlo según tus conocimientos específicos y las necesidades que veas en la comunidad de desarrolladores. Además, siempre es bueno mantenerse actualizado con las últimas tendencias y tecnologías en el campo del desarrollo web para asegurarse de que el contenido del curso sea relevante y valioso para los estudiantes.
 
-https://lh3.googleusercontent.com/a/AEdFTp6Ab0uV93aC6zIx3GGqkrME5lZ14rQQy9rQS3g=s96-c
-
 **You**
 
 agrega algunos patterns
-
-ChatGPT
 
 **ChatGPT**
 
@@ -125,8 +115,6 @@ https://lh3.googleusercontent.com/a/AEdFTp6Ab0uV93aC6zIx3GGqkrME5lZ14rQQy9rQS3g=
 **You**
 
 agrega best practices y cosas como dry, solid, etc
-
-ChatGPT
 
 **ChatGPT**
 
@@ -186,8 +174,6 @@ https://lh3.googleusercontent.com/a/AEdFTp6Ab0uV93aC6zIx3GGqkrME5lZ14rQQy9rQS3g=
 
 ddd y testing
 
-ChatGPT
-
 **ChatGPT**
 
 Incluir un módulo sobre Diseño Guiado por el Dominio (DDD, por sus siglas en inglés) y prácticas de testing es una excelente manera de complementar el curso con enfoques avanzados de diseño de software y aseguramiento de calidad. Aquí tienes una propuesta para integrar estos conceptos:
@@ -243,8 +229,6 @@ https://lh3.googleusercontent.com/a/AEdFTp6Ab0uV93aC6zIx3GGqkrME5lZ14rQQy9rQS3g=
 
 bases de datos y colas, nuevas y viejas, mejores usos, normalizacion, teorema cap, en aws,
 
-ChatGPT
-
 **ChatGPT**
 
 Incluir un módulo sobre bases de datos y sistemas de colas, tanto tradicionales como modernos, es vital para proporcionar una comprensión completa del almacenamiento y manejo de datos en el desarrollo de software. Este módulo puede abordar los mejores usos, conceptos de normalización, el Teorema CAP, y la implementación en entornos como AWS. Aquí tienes un esquema para integrar este contenido:
@@ -299,8 +283,6 @@ https://lh3.googleusercontent.com/a/AEdFTp6Ab0uV93aC6zIx3GGqkrME5lZ14rQQy9rQS3g=
 **You**
 
 toma de requermientos (funcionales y no), casos de uso, diagramacion en general. comunicacion con el stakeholder,
-
-ChatGPT
 
 **ChatGPT**
 
