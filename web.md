@@ -110,8 +110,6 @@ Este módulo introduce a los estudiantes en los patrones de diseño, proporciona
 
 Agregar este módulo brindará a los estudiantes una visión más completa del desarrollo de software y les dará herramientas adicionales para abordar problemas de manera más estructurada y eficiente.
 
-https://lh3.googleusercontent.com/a/AEdFTp6Ab0uV93aC6zIx3GGqkrME5lZ14rQQy9rQS3g=s96-c
-
 **You**
 
 agrega best practices y cosas como dry, solid, etc
@@ -168,8 +166,6 @@ Este módulo se centra en enseñar las mejores prácticas y principios fundament
 
 Incorporar este módulo proporcionará a los estudiantes una base sólida no solo en habilidades técnicas, sino también en la mentalidad necesaria para ser un desarrollador eficiente y consciente. Les ayudará a entender la importancia de escribir código no solo funcional, sino también sostenible y de alta calidad.
 
-https://lh3.googleusercontent.com/a/AEdFTp6Ab0uV93aC6zIx3GGqkrME5lZ14rQQy9rQS3g=s96-c
-
 **You**
 
 ddd y testing
@@ -223,8 +219,6 @@ Este módulo introduce a los estudiantes en el Diseño Guiado por el Dominio (DD
 
 Incluir DDD y prácticas avanzadas de testing en el curso proporcionará a los estudiantes una comprensión profunda de cómo abordar proyectos de software complejos y garantizar su calidad y eficacia a través de pruebas rigurosas. Estos conceptos son cruciales para desarrolladores que buscan elevar su nivel de expertise y eficiencia en el desarrollo de soluciones de software.
 
-https://lh3.googleusercontent.com/a/AEdFTp6Ab0uV93aC6zIx3GGqkrME5lZ14rQQy9rQS3g=s96-c
-
 **You**
 
 bases de datos y colas, nuevas y viejas, mejores usos, normalizacion, teorema cap, en aws,
@@ -277,8 +271,6 @@ Este módulo ofrece una visión integral de las bases de datos y sistemas de col
 - Análisis y discusión sobre las decisiones de diseño tomadas en el proyecto.
 
 Este módulo no solo proporcionará a los estudiantes conocimientos técnicos, sino que también les enseñará a tomar decisiones informadas sobre qué herramientas y enfoques son los más adecuados para diferentes tipos de aplicaciones y escenarios de negocio. La inclusión de casos de estudio y ejemplos prácticos ayudará a los estudiantes a comprender mejor cómo aplicar estos conceptos en el mundo real.
-
-https://lh3.googleusercontent.com/a/AEdFTp6Ab0uV93aC6zIx3GGqkrME5lZ14rQQy9rQS3g=s96-c
 
 **You**
 
