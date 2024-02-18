@@ -75,6 +75,6 @@ Este proyecto contiene dos tipos de contenidos: educativos y de código fuente, 
  Puedes usar, compartir y modificar tanto los contenidos educativos como el código fuente, siempre que:
  - me des crédito por el trabajo original, 
  - no uses el material para fines comerciales, 
- - y compartas las modificaciones bajo los mismos términos:
+ - y compartas las modificaciones bajo los mismos términos, tanto:
    - para los contenidos educativos (CC BY-NC-SA 4.0)
-   - y para el código fuente, el cual puede ser usado incluso comercialmente, siempre reconociendo mi autoría (MIT).
+   - como para el código fuente. El cual puede ser usado incluso comercialmente, siempre reconociendo mi autoría (MIT).
