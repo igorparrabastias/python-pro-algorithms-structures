@@ -61,6 +61,7 @@ Igor Parra Bastias<br>Senior Full Stack Developer \| Freelancer<br>Programador e
 - https://www.linkedin.com/in/igor-parra-bastias-06335059<br />
 - http://stackoverflow.com/users/333061/igor-parra<br />
 - https://www.freelancer.com/u/NomikOS.html
+
 ## Licencias
 
 Este proyecto contiene dos tipos de contenidos: educativos y de código fuente, cada uno bajo su propia licencia.
@@ -68,3 +69,12 @@ Este proyecto contiene dos tipos de contenidos: educativos y de código fuente, 
 - **Contenido Educativo**: Los apuntes, diapositivas, y cualquier material educativo en este repositorio están disponibles bajo la licencia Creative Commons Atribución-NoComercial-CompartirIgual 4.0 Internacional (CC BY-NC-SA 4.0). Para más detalles, vea el archivo [LICENSE.md](./LICENSE.md).
 
 - **Código Fuente**: El código fuente incluido en este repositorio está licenciado bajo la licencia MIT. Para más detalles, vea el archivo [CODE_LICENSE.md](./CODE_LICENSE.md).
+
+#### En pocas palabras:
+
+ Puedes usar, compartir y modificar tanto los contenidos educativos como el código fuente, siempre que:
+ - me des crédito por el trabajo original, 
+ - no uses el material para fines comerciales, 
+ - y compartas las modificaciones bajo los mismos términos:
+   - para los contenidos educativos (CC BY-NC-SA 4.0)
+   - y para el código fuente, el cual puede ser usado incluso comercialmente, siempre reconociendo mi autoría (MIT).
