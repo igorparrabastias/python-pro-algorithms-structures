@@ -19,9 +19,18 @@ En esta sección, podrás explorar el índice general de todos los módulos y cl
 
 Aquí encontrarás cursos para explorar y aprender por tu cuenta o con mi guía en la plataforma Udemy. Los apuntes son los mismos en que baso mis clases en Udemy. Si buscas más profundidad, explicaciones en video, y un certificado final al aprobar el curso, Udemy es tu mejor opción.
 
-| Apuntes de Curso   | Udemy                           |
-| --------| --------------------------------- |
-| [Python Pro: Masterclass en Algoritmos y Estructuras](python-pro-masterclass-en-algoritmos-y-estructuras.md) |
+| Apuntes de Curso   |Descripción| Udemy                           |
+| -------------------|-- | ------------------------------- | 
+| [Python Pro: Masterclass en Algoritmos y Estructuras](python-pro-masterclass-en-algoritmos-y-estructuras.md) |Curso avanzado de estructuras de datos y algoritmos. Eficiencia e innovación en desarrollo de software para profesionales ||
+|Programación en Python y Ciencias de la Computación Desde 0|Domina los fundamentos de programación y ciencias de la computación para desarrollar soluciones eficientes y optimizadas|
+|[Fundamentos de Redes y Comunicaciones Digitales](fundamentos-de-redes-y-comunicaciones-digitales.md)|Entender las redes para optimizar aplicaciones y mejorar la seguridad. Clave para el desarrollo de software moderno|
+|[Competencias Básicas y Avanzadas Para Desarrolladores Web](web.md)|Curso diseñado para desarrolladores web que buscan no solo perfeccionar sus habilidades técnicas sino también adquirir un conjunto sólido de competencias en herramientas, seguridad, y diseño de sistemas, esenciales para el desarrollo profesional de software||
+|Escabilidad|||
+|Diseño de sistemas|||
+|Desarrollo web 101|||
+|Infraestructura en la nube|Profundiza en cómo diseñar y desplegar infraestructuras de nube escalables y seguras. Aprende a automatizar la implementación y gestión de recursos en la nube utilizando herramientas de orquestación||
+|Informática para Kids|||
+|Informática para Teens|||
 
 
 ## Motivación
