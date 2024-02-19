@@ -1,6 +1,19 @@
 # Subconjunto contiguo de suma más grande (algoritmo de Kadane)
 
-Dada una matriz arr[] de tamaño N. La tarea es encontrar la suma de la submatriz contigua dentro de una arr[] con la suma más grande.
+Dada una matriz arr[] de tamaño N. La tarea es encontrar la suma de la submatriz contigua con la suma más grande.
+
+```
+      +----+----+----+----+----+----+----+----+
+      | -2 | -3 |  4 | -1 | -2 |  1 |  5 | -3 |
+      +----+----+----+----+----+----+----+----+
+        0    1    2    3    4    5    6    7
+La subsecuencia que proporciona la suma máxima es:
+      +----+----+----+----+----+
+      |  4 | -1 | -2 |  1 |  5 |
+      +----+----+----+----+----+
+
+ya que: 4 + (-1) + (-2) + 1 + 5 = 7
+```
 
 Para resolver el problema del subconjunto contiguo de suma más grande, también conocido como el problema de la subsecuencia contigua de suma máxima, se puede utilizar el algoritmo de Kadane. Este algoritmo es eficiente y permite encontrar la máxima suma de una subsecuencia contigua en un arreglo en tiempo lineal.
 
