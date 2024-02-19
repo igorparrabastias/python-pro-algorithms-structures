@@ -1,12 +1,22 @@
-# Subconjunto contiguo de suma más grande (algoritmo de Kadane)
+# Subconjunto contiguo de suma más grande
+```
+Más conocido como: Largest Sum Contiguous Subarray
+Algoritmo: Kadane’s Algorithm
+Complejidad del tiempo: O(N)
+Complejidad del espacio: O(1)
+```
 
+## Problema
 Dada una matriz arr[] de tamaño N. La tarea es encontrar la suma de la submatriz contigua con la suma más grande.
+
+## Ejemplo
 
 ```
       +----+----+----+----+----+----+----+----+
       | -2 | -3 |  4 | -1 | -2 |  1 |  5 | -3 |
       +----+----+----+----+----+----+----+----+
         0    1    2    3    4    5    6    7
+      
 La subsecuencia que proporciona la suma máxima es:
       +----+----+----+----+----+
       |  4 | -1 | -2 |  1 |  5 |
@@ -15,9 +25,11 @@ La subsecuencia que proporciona la suma máxima es:
 ya que: 4 + (-1) + (-2) + 1 + 5 = 7
 ```
 
-Para resolver el problema del subconjunto contiguo de suma más grande, también conocido como el problema de la subsecuencia contigua de suma máxima, se puede utilizar el algoritmo de Kadane. Este algoritmo es eficiente y permite encontrar la máxima suma de una subsecuencia contigua en un arreglo en tiempo lineal.
+## Solución
 
-Aquí te dejo una explicación del algoritmo seguido de un ejemplo de código en Python bien comentado:
+Para resolver el problema del subconjunto contiguo de suma más grande, también conocido como el problema de la subsecuencia contigua de suma máxima, se puede utilizar el **algoritmo de Kadane**. Este algoritmo es eficiente y permite encontrar la máxima suma de una subsecuencia contigua en un arreglo en tiempo lineal.
+
+Aquí te dejo una explicación del algoritmo seguido de un ejemplo de código en Python:
 
 ### Pseudocódigo
 ```
@@ -64,6 +76,14 @@ print("La suma máxima de subsecuencia contigua es", maxSubArraySum(arr))
 ```
 
 Este código retorna la suma del subconjunto contiguo más grande de `arr`. En el ejemplo dado, la salida sería `7`, ya que el subconjunto de suma máxima es `[4, -1, -2, 1, 5]`.
+
+## Complejidad
+
+La complejidad del tiempo del algoritmo de Kadane es O(n), donde (n) es el número de elementos en el array de entrada. Esto se debe a que el algoritmo recorre el array una sola vez, calculando la suma máxima de subarrays contiguos en un paso lineal.
+
+En cuanto a la complejidad del espacio, el algoritmo de Kadane necesita un espacio constante O(1), ya que solo requiere un número fijo de variables para almacenar la suma máxima actual, la suma máxima final y posiblemente el inicio y el final de la subsecuencia.
+
+En resumen, Kadane's es muy eficiente tanto en tiempo como en espacio, lo que lo hace ideal para problemas de suma de subarrays contiguos en la práctica.
 
 ---
 
