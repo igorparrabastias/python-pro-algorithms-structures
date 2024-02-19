@@ -34,7 +34,7 @@ Aquí encontrarás cursos para explorar y aprender por tu cuenta o con mi guía 
 
 ## Problemas de Estructuras de Datos y Algoritmos
 
-Ejercicios de estructuras de datos y algoritmos resuletos, con el código en Python y bien comentado. Incluye pseudocódigo y diagramas tipo ASCII cuando sea posible.
+Ejercicios resueltos de estructuras de datos y algoritmos, con códigos en Python. Incluyen pseudocódigo y diagramas tipo ASCII. Análisis de complejidad y nemotécnicos para ayudar a comprender  y a recordar mejor.
 
 - [Problemas resueltos](problems.md)
 
