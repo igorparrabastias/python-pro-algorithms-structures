@@ -12,17 +12,24 @@ Dada una matriz arr[] de tamaño N. La tarea es encontrar la suma de la submatri
 ## Ejemplo
 
 ```
-      +----+----+----+----+----+----+----+----+
-      | -2 | -3 |  4 | -1 | -2 |  1 |  5 | -3 |
-      +----+----+----+----+----+----+----+----+
-        0    1    2    3    4    5    6    7
-      
-La subsecuencia que proporciona la suma máxima es:
-      +----+----+----+----+----+
-      |  4 | -1 | -2 |  1 |  5 |
-      +----+----+----+----+----+
+Problema de la Subsecuencia Contigua de Suma Máxima
 
-ya que: 4 + (-1) + (-2) + 1 + 5 = 7
+      +---+----+---+----+---+----+---+
+      | 2 | -3 | 3 | -1 | 2 | -4 | 2 |
+      +---+----+---+----+---+----+---+
+        0   1    2    3   4    5   6
+
+La subsecuencia que proporciona la suma máxima está indicada por corchetes y es la siguiente:
+
+      +---+----+---+----+---+----+---+
+      |   |    |[3]|[ -1]|[ 2]|    |   |
+      +---+----+---+----+---+----+---+
+
+El cálculo de la suma de esta subsecuencia es el siguiente:
+
+3 + (-1) + 2 = 4
+
+Por lo tanto, la Suma Máxima de una Subsecuencia Contigua es 4.
 ```
 
 ## Solución
@@ -34,97 +41,77 @@ Aquí te dejo una explicación del algoritmo seguido de un ejemplo de código en
 ### Pseudocódigo
 ```
 Inicio
-    Definir max_hasta_ahora = -infinito
-    Definir max_termina_aqui = 0
+    Si el arreglo está vacío:
+        Devolver 0
 
-    Para cada elemento X en el arreglo:
-        max_termina_aqui = max_termina_aqui + X
-        Si max_hasta_ahora < max_termina_aqui:
-            max_hasta_ahora = max_termina_aqui
-        Si max_termina_aqui < 0:
-            max_termina_aqui = 0
+    Definir max_hasta_ahora como el primer elemento del arreglo
+    Definir max_termina_aqui como el primer elemento del arreglo
+
+    Para cada elemento X en el arreglo empezando desde el segundo elemento:
+        max_termina_aqui = max(X, max_termina_aqui + X)
+        max_hasta_ahora = max(max_hasta_ahora, max_termina_aqui)
+
     Devolver max_hasta_ahora
 Fin
 ```
-
-### Explicación
-- `max_hasta_ahora` guarda la máxima suma encontrada hasta el momento.
-- `max_termina_aqui` guarda la suma de la subsecuencia contigua que termina en el índice actual.
-- Se recorre el arreglo una sola vez, y en cada paso, se actualiza `max_termina_aqui` añadiendo el valor del elemento actual del arreglo.
-- Si `max_termina_aqui` supera a `max_hasta_ahora`, entonces se actualiza `max_hasta_ahora` con el valor de `max_termina_aqui`.
-- Si `max_termina_aqui` se vuelve negativo (lo que significa que no es beneficioso seguir sumando los elementos anteriores), se resetea a 0.
-
-### Código en Python
+### Implementación del Algoritmo de Kadane
 ```python
-def maxSubArraySum(arr):
-    # Inicialización de variables
-    max_hasta_ahora = float('-inf')
-    max_termina_aqui = 0
+def maxSubArraySum(a):
+    if not a:  # Si el arreglo está vacío
+        return 0
 
-    # Recorrido del arreglo
-    for x in arr:
-        max_termina_aqui += x
-        if max_hasta_ahora < max_termina_aqui:
-            max_hasta_ahora = max_termina_aqui
-        if max_termina_aqui < 0:
-            max_termina_aqui = 0
+    max_hasta_ahora = a[0]
+    max_termina_aqui = a[0]
+    
+    for i in range(1, len(a)):
+        max_termina_aqui = max(a[i], max_termina_aqui + a[i])
+        max_hasta_ahora = max(max_hasta_ahora, max_termina_aqui)
+        
     return max_hasta_ahora
 
 # Ejemplo de uso
-arr = [-2, -3, 4, -1, -2, 1, 5, -3]
+arr = [2, -3, 3, -1, 2, -4, 2]
 print("La suma máxima de subsecuencia contigua es", maxSubArraySum(arr))
 ```
 
-Este código retorna la suma del subconjunto contiguo más grande de `arr`. En el ejemplo dado, la salida sería `7`, ya que el subconjunto de suma máxima es `[4, -1, -2, 1, 5]`.
+### Explicación Paso a Paso
+- Inicio con el Primer Elemento: Tanto el pseudocódigo como la implementación de Python comienzan explícitamente con el primer elemento del arreglo para inicializar max_hasta_ahora y max_termina_aqui. Esto refleja un enfoque práctico para manejar arreglos que comienzan con valores negativos o positivos.
+
+- Comparaciones Directas: La función max se utiliza para decidir si es mejor tomar el elemento actual por sí solo o agregarlo a la suma max_termina_aqui acumulada. Esta decisión se toma en cada paso del bucle.
+
+- Actualización de Máximos: Continuamente actualizamos max_hasta_ahora con el máximo entre el valor actual de max_hasta_ahora y max_termina_aqui. Esto asegura que siempre tengamos la suma máxima encontrada hasta el momento.
+
+## Tracing
+
+Para complementar la explicación y hacer el concepto aún más claro, aquí tienes un diagrama ASCII que muestra la evolución de las sumas para el arreglo dado \([2, -3, 3, -1, 2, -4, 2]\), utilizando el algoritmo de Kadane. Este diagrama se presenta en forma de tabla para ilustrar cómo cambian `max_termina_aqui` y `max_hasta_ahora` a medida que avanzamos a través del arreglo.
+
+| Índice | Elemento | max_termina_aqui | max_hasta_ahora |
+|--------|----------|------------------|-----------------|
+|   0    |    2     |        2         |        2        |
+|   1    |   -3     |        2         |        2        |
+|   2    |    3     |        3         |        3        |
+|   3    |   -1     |        2         |        3        |
+|   4    |    2     |        4         |        4        |
+|   5    |   -4     |        0         |        4        |
+|   6    |    2     |        2         |        4        |
+
+### Explicación de la Tabla:
+- **Índice**: La posición del elemento actual en el arreglo.
+- **Elemento**: El valor del elemento en el arreglo en la posición actual.
+- **max_termina_aqui**: La suma máxima de la subsecuencia contigua que termina en el elemento actual. Se calcula tomando el máximo entre el elemento actual y la suma de `max_termina_aqui` más el elemento actual. Si esta suma es menor que el elemento actual, se "reinicia" tomando el valor del elemento actual.
+- **max_hasta_ahora**: La suma máxima encontrada en cualquier subsecuencia contigua hasta el momento. Se actualiza si `max_termina_aqui` es mayor que `max_hasta_ahora`.
+
+Este diagrama ilustra cómo el algoritmo evalúa cada elemento del arreglo para determinar si contribuye a aumentar la suma de la subsecuencia contigua más grande encontrada hasta el momento, o si es más ventajoso "reiniciar" en el elemento actual debido a una suma negativa previa. La clave para entender este algoritmo es observar cómo se toman decisiones en cada paso para optimizar el resultado final, manteniendo la flexibilidad para adaptarse a los valores del arreglo.
 
 ## Complejidad
 
-La complejidad del tiempo del algoritmo de Kadane es O(n), donde (n) es el número de elementos en el array de entrada. Esto se debe a que el algoritmo recorre el array una sola vez, calculando la suma máxima de subarrays contiguos en un paso lineal.
+- `Complejidad del tiempo: O(N)`
+  La complejidad del tiempo del algoritmo de Kadane es O(n), donde (n) es el número de elementos en el array de entrada. Esto se debe a que el algoritmo recorre el array una sola vez, calculando la suma máxima de subarrays contiguos en un paso lineal.
 
-En cuanto a la complejidad del espacio, el algoritmo de Kadane necesita un espacio constante O(1), ya que solo requiere un número fijo de variables para almacenar la suma máxima actual, la suma máxima final y posiblemente el inicio y el final de la subsecuencia.
+- `Complejidad del espacio: O(1)`
+  En cuanto a la complejidad del espacio, el algoritmo de Kadane necesita un espacio constante O(1), ya que solo requiere un número fijo de variables para almacenar la suma máxima actual, la suma máxima final y posiblemente el inicio y el final de la subsecuencia.
 
 En resumen, Kadane's es muy eficiente tanto en tiempo como en espacio, lo que lo hace ideal para problemas de suma de subarrays contiguos en la práctica.
-
----
-
-Para proporcionar una explicación visual que complemente la comprensión del algoritmo de Kadane, vamos a utilizar un diagrama ASCII. Este diagrama representará cómo evolucionan `max_termina_aqui` y `max_hasta_ahora` a medida que recorremos el arreglo.
-
-Considera el siguiente arreglo como ejemplo:
-```
-arr = [-2, -3, 4, -1, -2, 1, 5, -3]
-```
-
-A continuación, un diagrama ASCII que muestra la evolución de las sumas:
-
-```
-Índice    Elemento    max_termina_aqui    max_hasta_ahora    Visualización
-0         -2          0                   -inf               |          
-1         -3          0                   -inf               |          
-2          4          4                    4                |****
-3         -1          3                    4                |***
-4         -2          1                    4                |*
-5          1          2                    4                |**
-6          5          7                    7                |*******
-7         -3          4                    7                |****
-```
-
-### Visualización
-- `|` marca el inicio de cada visualización.
-- `*` representa la unidad de suma en `max_termina_aqui`.
-
-Esta representación ayuda a visualizar cómo `max_termina_aqui` se ajusta con cada nuevo elemento del arreglo, incrementándose o reseteándose a 0 si la suma se vuelve negativa. Mientras tanto, `max_hasta_ahora` solo cambia cuando encontramos una nueva "bolsa de tesoros" que supera el récord anterior.
-
-### Clave de comprensión:
-- **Inicio con negativos**: Los primeros dos pasos muestran cómo, al empezar con números negativos, `max_termina_aqui` se resetea a 0 porque llevar esos "tesoros" no es beneficioso.
-- **Encuentro con un positivo**: Al llegar al `4`, inmediatamente vemos un aumento significativo en nuestra "colección", lo que nos lleva a un nuevo máximo.
-- **Fluctuaciones**: A medida que avanzamos, las fluctuaciones representan las decisiones de "recoger o dejar" valores basadas en su impacto en la suma total.
-- **Pico máximo**: El pico cuando `max_termina_aqui` alcanza 7 es nuestro momento óptimo, mostrando la mejor secuencia para "invertir".
-
-Este tipo de diagrama no solo es útil para entender cómo funciona el algoritmo de Kadane, sino también para enseñar conceptos básicos de optimización y toma de decisiones en tiempo real, aplicables en diversas áreas de la informática y la vida real.
-
----
-
-Para complementar lo ya explicado y hacer más comprensible y memorable la solución del algoritmo de Kadane, vamos a agregar algunos comentarios nemotécnicos, didácticos, ideas y anécdotas:
 
 ### Nemotécnicos y Didácticos
 - **Imagínate como un "recolector de tesoros"**: Al recorrer el arreglo, piensa en ti mismo como un explorador que recoge tesoros (valores positivos) y evita trampas (valores negativos). `max_termina_aqui` representa tu bolsa actual de tesoros, mientras que `max_hasta_ahora` es la mejor bolsa de tesoros que has logrado recoger en tu viaje.
@@ -143,4 +130,3 @@ Para complementar lo ya explicado y hacer más comprensible y memorable la soluc
 
 - **Lección de humildad**: Este algoritmo también es un recordatorio de que, en la ciencia de la computación, las soluciones más poderosas a menudo provienen de ideas simples y elegantes. A veces, tendemos a complicar los problemas buscando soluciones sofisticadas cuando, de hecho, una aproximación más directa y sencilla podría ser suficiente.
 
-Con estos comentarios adicionales, espero que la solución no solo sea más fácil de entender, sino también más memorable y aplicable en diferentes contextos. ¿Hay algo más en lo que te pueda ayudar?
