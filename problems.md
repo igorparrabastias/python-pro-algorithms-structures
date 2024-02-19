@@ -77,9 +77,9 @@ print("La suma máxima de subsecuencia contigua es", maxSubArraySum(arr))
 ### Explicación Paso a Paso
 - Inicio con el Primer Elemento: Tanto el pseudocódigo como la implementación de Python comienzan explícitamente con el primer elemento del arreglo para inicializar max_hasta_ahora y max_termina_aqui. Esto refleja un enfoque práctico para manejar arreglos que comienzan con valores negativos o positivos.
 
-- Comparaciones Directas: La función max se utiliza para decidir si es mejor tomar el elemento actual por sí solo o agregarlo a la suma max_termina_aqui acumulada. Esta decisión se toma en cada paso del bucle.
+- Comparaciones Directas: La primera función `max` se utiliza para decidir si es mejor tomar el elemento actual por sí solo o agregarlo a la suma `max_termina_aqui` acumulada. Esta decisión se toma en cada paso del bucle.
 
-- Actualización de Máximos: Continuamente actualizamos max_hasta_ahora con el máximo entre el valor actual de max_hasta_ahora y max_termina_aqui. Esto asegura que siempre tengamos la suma máxima encontrada hasta el momento.
+- Actualización de Máximos: Continuamente actualizamos `max_hasta_ahora` con el máximo entre el valor actual de `max_hasta_ahora` y `max_termina_aqui`. Esto asegura que siempre tengamos la suma máxima encontrada hasta el momento.
 
 ## Tracing
 

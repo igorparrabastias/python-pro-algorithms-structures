@@ -1,0 +1,43 @@
+# Excluir todos los archivos temporales y directorios
+*.temp
+*~
+*.bak
+*.swp
+*.tmp
+
+# Excluir directorios de configuración del entorno de desarrollo
+/.vscode/
+/.idea/
+*.sublime-workspace
+
+# Excluir archivos de configuración específicos del entorno
+.env
+.secret
+
+# Excluir directorios que suelen contener archivos binarios o de otro tipo no relacionados directamente con el código fuente
+/node_modules/
+/dist/
+/build/
+/__pycache__/
+*.pyc
+
+# Excluir archivos de salida de Jupyter Notebooks
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# Excluir posible archivo de configuración del entorno virtual de Python
+venv/
+*.venv
+env/
+
+# Excluir directorios de datos o archivos grandes que no deberían ser parte del repositorio
+/data/
+*.csv
+*.xlsx
+
+# Excluir archivos de log
+*.log
+
+dev-problems/
+
+# NOTA: No excluimos explícitamente archivos .md y .ipynb ya que queremos incluirlos en el repositorio
