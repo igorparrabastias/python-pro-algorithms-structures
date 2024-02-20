@@ -38,6 +38,7 @@ Ejercicios resueltos de estructuras de datos y algoritmos, con códigos en Pytho
 
 - [Subconjunto contiguo de suma más grande](problems/largest-sum-contiguous-subarray.ipynb)
 - [ Buscar un elemento en una matriz ordenada por filas y columnas](problems/search-in-a-row-wise-and-column-wise-sorted-matrix.ipynb)
+- [Comprobar si el par con la suma dada existe en un array](problems/two-sum.ipynb)
 
 ## Motivación
 
