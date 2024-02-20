@@ -34,7 +34,7 @@ Aquí encontrarás cursos para explorar y aprender por tu cuenta o con mi guía 
 
 ## Problemas de Estructuras de Datos y Algoritmos
 
-Ejercicios resueltos de estructuras de datos y algoritmos, con códigos en Python. Incluyen pseudocódigo y diagramas tipo ASCII. Análisis de complejidad y nemotécnicos para ayudar a comprender  y a recordar mejor.
+Ejercicios resueltos de estructuras de datos y algoritmos. Incluyen pseudocódigo y códigos en Python. Análisis de complejidad, tracing y nemotécnicos para ayudar a comprender y a recordar mejor. Estos problemas son comunes en pruebas académicas y para optar a trabajos en la industria informática.
 
 - [Subconjunto contiguo de suma más grande](problems/largest-sum-contiguous-subarray.ipynb)
 - [Buscar un elemento en una matriz ordenada por filas y columnas](problems/search-in-a-row-wise-and-column-wise-sorted-matrix.ipynb)
