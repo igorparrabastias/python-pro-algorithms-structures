@@ -37,9 +37,10 @@ Aquí encontrarás cursos para explorar y aprender por tu cuenta o con mi guía 
 Ejercicios resueltos de estructuras de datos y algoritmos, con códigos en Python. Incluyen pseudocódigo y diagramas tipo ASCII. Análisis de complejidad y nemotécnicos para ayudar a comprender  y a recordar mejor.
 
 - [Subconjunto contiguo de suma más grande](problems/largest-sum-contiguous-subarray.ipynb)
-- [ Buscar un elemento en una matriz ordenada por filas y columnas](problems/search-in-a-row-wise-and-column-wise-sorted-matrix.ipynb)
+- [Buscar un elemento en una matriz ordenada por filas y columnas](problems/search-in-a-row-wise-and-column-wise-sorted-matrix.ipynb)
 - [Comprobar si el par con la suma dada existe en un array](problems/two-sum.ipynb)
 - [Dado el recorrido en preorden y en orden de un árbol, construya el árbol binario](problems/construct-binary-tree-from-preorder-and-inorder-traversal.ipynb)
+- [Suma máxima de rutas en un árbol binario](problems/maximum-path-sum-in-a-binary-tree.ipynb)
 
 ## Motivación
 
