@@ -39,5 +39,6 @@ env/
 *.log
 
 dev-problems/
+tools/
 
 # NOTA: No excluimos explícitamente archivos .md y .ipynb ya que queremos incluirlos en el repositorio
