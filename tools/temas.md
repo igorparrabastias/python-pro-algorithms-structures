@@ -79,7 +79,7 @@ algoritmos-basicos-de-ordenamiento/comparacion-y-seleccion-de-algoritmos-de-orde
 algoritmos-basicos-de-busqueda/busqueda-lineal.ipynb
 algoritmos-basicos-de-busqueda/busqueda-binaria.ipynb
 algoritmos-basicos-de-busqueda/busqueda-por-interpolacion.ipynb
-algoritmos-basicos-de-busqueda/busqueda-por-hash-3.ipynb
+algoritmos-basicos-de-busqueda/busqueda-por-hash.ipynb
 algoritmos-basicos-de-busqueda/comparacion-y-seleccion-de-algoritmos-de-busqueda.ipynb
 
 algoritmos-de-arboles/introduccion.ipynb

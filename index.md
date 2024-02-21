@@ -177,7 +177,7 @@
   - :page_with_curl: [Ejercicios Avanzados 6 a 10](notebook/algoritmos-basicos-de-busqueda/ejercicios-avanzados-6-a-10-2.ipynb)  
 
 
-- :page_with_curl: [Búsqueda por Hash](notebook/algoritmos-basicos-de-busqueda/busqueda-por-hash-3.ipynb)
+- :page_with_curl: [Búsqueda por Hash](notebook/algoritmos-basicos-de-busqueda/busqueda-por-hash.ipynb)
 
   - :page_with_curl: [Ejercicios Básicos](notebook/algoritmos-basicos-de-busqueda/ejercicios-basicos-3.ipynb)
   - :page_with_curl: [Ejercicios Avanzados 1 a 5](notebook/algoritmos-basicos-de-busqueda/ejercicios-avanzados-1-a-5-3.ipynb)
