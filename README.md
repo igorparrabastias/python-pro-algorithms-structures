@@ -1,4 +1,4 @@
-<img src="cover.jpeg">
+<img src="img/banner-working.jpg">
 
 # Apuntes para Cursos sobre Tecnologías de la Información y Comunicaciones
 
