@@ -1,5 +1,7 @@
 <img src="img/banner-working.jpg">
 
+> Esto es un trabajo en progreso. Puedes mirar y hacer fork si deseas. 
+
 # Apuntes para Cursos sobre Tecnologías de la Información y Comunicaciones
 
 Bienvenido al repositorio general sobre Tecnologías de la Información y Comunicaciones (TIC). Este espacio es para cualquiera interesado en profundizar en la computación, abarcando una variedad de lenguajes de programación y conceptos clave en ciencias de la computación.
@@ -24,7 +26,7 @@ Aquí encontrarás cursos para explorar y aprender por tu cuenta o con mi guía 
 | [Python Pro: Masterclass en Algoritmos y Estructuras](python-pro-masterclass-en-algoritmos-y-estructuras.md) |Curso avanzado de estructuras de datos y algoritmos. Eficiencia e innovación en desarrollo de software para profesionales ||
 |Programación en Python y Ciencias de la Computación Desde 0|Domina los fundamentos de programación y ciencias de la computación para desarrollar soluciones eficientes y optimizadas|
 |[Fundamentos de Redes y Comunicaciones Digitales](fundamentos-de-redes-y-comunicaciones-digitales.md)|Entender las redes para optimizar aplicaciones y mejorar la seguridad. Clave para el desarrollo de software moderno|
-|[Competencias Básicas y Avanzadas Para Desarrolladores Web](web.md)|Curso diseñado para desarrolladores web que buscan no solo perfeccionar sus habilidades técnicas sino también adquirir un conjunto sólido de competencias en herramientas, seguridad, y diseño de sistemas, esenciales para el desarrollo profesional de software||
+|Competencias Básicas y Avanzadas Para Desarrolladores Web|Curso diseñado para desarrolladores web que buscan no solo perfeccionar sus habilidades técnicas sino también adquirir un conjunto sólido de competencias en herramientas, seguridad, y diseño de sistemas, esenciales para el desarrollo profesional de software||
 |Escabilidad|||
 |Diseño de sistemas|||
 |Desarrollo web 101|||
