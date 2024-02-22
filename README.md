@@ -1,4 +1,4 @@
-<img src="cover.jpeg">
+<img src="img/cover.jpeg">
 
 ![GitHub Tag](https://img.shields.io/github/v/tag/igorparrabastias/tic-cursos-apuntes?style=plastic)
 ![GitHub commit activity](https://img.shields.io/github/commit-activity/t/igorparrabastias/tic-cursos-apuntes?style=plastic)
@@ -20,17 +20,17 @@ Ser autodidacta se ha convertido en una forma esencial de aprender en estos tiem
 
 En esta sección, podrás explorar el índice general de todos los módulos y clases disponibles. Cada módulo está diseñado para cubrir diferentes aspectos de las TIC, asegurando un aprendizaje integral y profundo.
 
-- [Indice](index.md)
+- [Indice](pages/index.md)
 ## Índice de Cursos Autodidactas y en Udemy
 
 Aquí encontrarás cursos para explorar y aprender por tu cuenta o con mi guía en la plataforma Udemy. Los apuntes son los mismos en que baso mis clases en Udemy. Si buscas más profundidad, explicaciones en video, y un certificado final al aprobar el curso, Udemy es tu mejor opción.
 
 | Apuntes de Curso   |Descripción| Udemy                           |
 | -------------------|-- | ------------------------------- | 
-| [Python Pro: Masterclass en Algoritmos y Estructuras](python-pro-masterclass-en-algoritmos-y-estructuras.md) |Curso avanzado de estructuras de datos y algoritmos. Eficiencia e innovación en desarrollo de software para profesionales ||
+| [Python Pro: Masterclass en Algoritmos y Estructuras](pages/python-pro-masterclass-en-algoritmos-y-estructuras.md) |Curso avanzado de estructuras de datos y algoritmos. Eficiencia e innovación en desarrollo de software para profesionales ||
 |Programación en Python y Ciencias de la Computación Desde 0|Domina los fundamentos de programación y ciencias de la computación para desarrollar soluciones eficientes y optimizadas|
-|[Fundamentos de Redes y Comunicaciones Digitales](fundamentos-de-redes-y-comunicaciones-digitales.md)|Entender las redes para optimizar aplicaciones y mejorar la seguridad. Clave para el desarrollo de software moderno|
-|[Competencias Básicas y Avanzadas Para Desarrolladores Web](web.md)|Curso diseñado para desarrolladores web que buscan no solo perfeccionar sus habilidades técnicas sino también adquirir un conjunto sólido de competencias en herramientas, seguridad, y diseño de sistemas, esenciales para el desarrollo profesional de software||
+|[Fundamentos de Redes y Comunicaciones Digitales](pages/fundamentos-de-redes-y-comunicaciones-digitales.md)|Entender las redes para optimizar aplicaciones y mejorar la seguridad. Clave para el desarrollo de software moderno|
+|[Competencias Básicas y Avanzadas Para Desarrolladores Web](pages/web.md)|Curso diseñado para desarrolladores web que buscan no solo perfeccionar sus habilidades técnicas sino también adquirir un conjunto sólido de competencias en herramientas, seguridad, y diseño de sistemas, esenciales para el desarrollo profesional de software||
 |Escabilidad|||
 |Diseño de sistemas|||
 |Desarrollo web 101|||
