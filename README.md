@@ -66,6 +66,13 @@ La pregunta es si deseas ser un informático. Esto implica disfrutar trabajar co
 
 A lo largo de tu carrera, puedes alejarte de los fundamentos como las estructuras de datos y algoritmos debido a la codificación. Sin embargo, con la automatización de la codificación por inteligencia artificial, volver a las bases es más crucial que nunca. Este enfoque fundamental es lo que perseguimos en este y otros cursos.
 
+# Requerimientos
+
+```sh
+sudo apt-get install python3-tk
+
+```
+
 ## Sobre el Instructor: Igor Parra
 
 Igor es un apasionado desarrollador de software y autodidacta con una amplia trayectoria en ingeniería y desarrollo de software. Su aventura en el mundo tecnológico comenzó a los 14 años, y desde entonces ha acumulado una gran experiencia en la industria del software.
