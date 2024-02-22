@@ -3,6 +3,7 @@
 ![GitHub Tag](https://img.shields.io/github/v/tag/igorparrabastias/tic-cursos-apuntes?style=plastic)
 ![GitHub commit activity](https://img.shields.io/github/commit-activity/t/igorparrabastias/tic-cursos-apuntes?style=plastic)
 ![GitHub commits since tagged version (branch)](https://img.shields.io/github/commits-since/igorparrabastias/tic-cursos-apuntes/v0.1.0/master?style=plastic)
+![GitHub repo size](https://img.shields.io/github/repo-size/igorparrabastias/tic-cursos-apuntes?style=plastic)
 ![Static Badge](https://img.shields.io/badge/learn_is-fun-crimson?style=plastic)
 
 # Apuntes para Cursos sobre Tecnologías de la Información y Comunicaciones
