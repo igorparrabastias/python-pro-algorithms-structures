@@ -1,6 +1,8 @@
+> # :construction_worker: Esto es un trabajo en progreso. Puedes mirar y hacer fork si deseas. 
+
+
 <img src="img/banner-working.jpg">
 
-> Esto es un trabajo en progreso. Puedes mirar y hacer fork si deseas. 
 
 # Apuntes para Cursos sobre Tecnologías de la Información y Comunicaciones
 
