@@ -1,4 +1,4 @@
-> # :construction_worker: Esto es un trabajo en progreso. Puedes mirar y hacer fork si deseas. 
+> # :wrench: Esto es un trabajo en progreso. Puedes mirar y hacer fork si deseas. 
 
 
 <img src="img/banner-working.jpg">
