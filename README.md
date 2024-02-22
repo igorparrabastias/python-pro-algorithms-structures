@@ -1,7 +1,7 @@
 <img src="cover.jpeg">
 
-![GitHub release (latest by date including pre-releases)](https://img.shields.io/github/v/release/username/repository?include_prereleases&style=flat-square)
-
+![GitHub Tag](https://img.shields.io/github/v/tag/igorparrabastias/tic-cursos-apuntes)
+![GitHub commits since tagged version (branch)](https://img.shields.io/github/commits-since/igorparrabastias/tic-cursos-apuntes/v0.1.0/master)
 
 # Apuntes para Cursos sobre Tecnologías de la Información y Comunicaciones
 
