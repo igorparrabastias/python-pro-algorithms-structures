@@ -1,6 +1,7 @@
 ## :bookmark_tabs: Python: Repaso Básico
 
 - :page_with_curl: [Bases de Python](/notebook/python-repaso-basico/bases-de-python.ipynb)   
+- :page_with_curl: [Estructuras de Datos Básicas](/notebook/python-repaso-basico/estructuras-de-datos-basicas.ipynb)
 - :page_with_curl: [El Versátil Iterador "for"](/notebook/python-repaso-basico/el-versatil-iterador-for.ipynb)  
 - :page_with_curl: [Rebinding](/notebook/python-repaso-basico/rebinding.ipynb)  
 - :page_with_curl: [Slicing](/notebook/python-repaso-basico/slicing.ipynb)  
