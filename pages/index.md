@@ -60,18 +60,13 @@
   - :page_with_curl: [Ejercicios básicos](/notebook/estructuras-de-datos-nativas-de-python/ejercicios-basicos-2.ipynb)  
   - :page_with_curl: [Ejercicios avanzados 1 a 5](/notebook/estructuras-de-datos-nativas-de-python/ejercicios-avanzados-1-a-5-2.ipynb)  
   - :page_with_curl: [Ejercicios avanzados 6 a 10](/notebook/estructuras-de-datos-nativas-de-python/ejercicios-avanzados-6-a-10-2.ipynb)  
-
 - :page_with_curl: [Rangos](/notebook/estructuras-de-datos-nativas-de-python/rangos.ipynb)  
-
   - :page_with_curl: [Exploración Avanzada de Rangos en Python](/notebook/estructuras-de-datos-nativas-de-python/exploracion-avanzada-de-rangos-en-python.ipynb)  
-
 - :page_with_curl: [Conjuntos (Sets)](/notebook/estructuras-de-datos-nativas-de-python/conjuntos-sets.ipynb)  
-
   - :page_with_curl: [Profunizando en Conjuntos (Sets) en Python](/notebook/estructuras-de-datos-nativas-de-python/exploración-avanzada-en-conjuntos-sets-en-python.ipynb)
   - :page_with_curl: [Ejercicios básicos](/notebook/estructuras-de-datos-nativas-de-python/ejercicios-basicos-3.ipynb)  
   - :page_with_curl: [Ejercicios Avanzados 1 a 5](/notebook/estructuras-de-datos-nativas-de-python/ejercicios-avanzados-1-a-5-3.ipynb)  
   - :page_with_curl: [Ejercicios Avanzados 6 a 10](/notebook/estructuras-de-datos-nativas-de-python/ejercicios-avanzados-6-a-10-3.ipynb)  
-
 - :clipboard: [Cuestionario de sección](/notebook/estructuras-de-datos-nativas-de-python/cuestionario-de-seccion.ipynb)
 - :clipboard: [Respuestas](/notebook/estructuras-de-datos-nativas-de-python/respuestas.ipynb)
 
@@ -79,10 +74,8 @@
 
 - :page_with_curl: [N-ary Trees, Segment Trees](/notebook/estructuras-de-datos-avanzadas/n-ary-trees-segment-trees.ipynb)  
   - :page_with_curl: [Caso de uso: Sistema de Contabilidad en Tiempo Real](/notebook/estructuras-de-datos-avanzadas/caso-de-uso-sistema-de-contabilidad-en-tiempo-real.ipynb)  
-
   - :page_with_curl: [Caso de uso: Sistemas de Gestión de Bases de Datos (SGBD)](/notebook/estructuras-de-datos-avanzadas/caso-de-uso-sistemas-de-gestion-de-bases-de-datos-sgbd.ipynb)  
   - :page_with_curl: [Caso de uso: Sistemas de archivos en computadoras](/notebook/estructuras-de-datos-avanzadas/caso-de-uso-sistemas-de-archivos-en-computadoras.ipynb)  
-- 
 - :page_with_curl: [Tries](/notebook/estructuras-de-datos-avanzadas/tries.ipynb)  
   - :page_with_curl: [Caso de uso: Autocompletado](/notebook/estructuras-de-datos-avanzadas/caso-de-uso-autocompletado.ipynb)  
   - :page_with_curl: [Caso de uso: Encontrar palabras con un prefijo común](/notebook/estructuras-de-datos-avanzadas/encontrar-palabras-con-un-prefijo-comun.ipynb)  
