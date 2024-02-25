@@ -67,7 +67,7 @@
 
 - :page_with_curl: [Conjuntos (Sets)](/notebook/estructuras-de-datos-nativas-de-python/conjuntos-sets.ipynb)  
 
-  - :page_with_curl: [Exploración Avanzada en Conjuntos (Sets) en Python](/notebook/estructuras-de-datos-nativas-de-python/exploración-avanzada-en-conjuntos-sets-en-python.ipynb)
+  - :page_with_curl: [Profunizando en Conjuntos (Sets) en Python](/notebook/estructuras-de-datos-nativas-de-python/exploración-avanzada-en-conjuntos-sets-en-python.ipynb)
   - :page_with_curl: [Ejercicios básicos](/notebook/estructuras-de-datos-nativas-de-python/ejercicios-basicos-3.ipynb)  
   - :page_with_curl: [Ejercicios Avanzados 1 a 5](/notebook/estructuras-de-datos-nativas-de-python/ejercicios-avanzados-1-a-5-3.ipynb)  
   - :page_with_curl: [Ejercicios Avanzados 6 a 10](/notebook/estructuras-de-datos-nativas-de-python/ejercicios-avanzados-6-a-10-3.ipynb)  
