@@ -158,22 +158,23 @@
   - :page_with_curl: [Ejercicios Avanzados 1 a 5](/notebook/algoritmos-basicos-de-busqueda/ejercicios-avanzados-1-a-5-3.ipynb)
   - :page_with_curl: [Ejercicios Avanzados 6 a 10](/notebook/algoritmos-basicos-de-busqueda/ejercicios-avanzados-6-a-10-3.ipynb)  
 - :page_with_curl: [Comparación y selección de algoritmos de búsqueda](/notebook/algoritmos-basicos-de-busqueda/comparacion-y-seleccion-de-algoritmos-de-busqueda.ipynb)  
-## :bookmark_tabs: Algoritmos de Árboles
+
+## :bookmark_tabs: Árboles 1: Algoritmos de Árboles
 
 - :page_with_curl: [Introducción](/notebook/algoritmos-de-arboles/introduccion.ipynb)  
 - :page_with_curl: [Árboles Binarios](/notebook/algoritmos-de-arboles/arboles-binarios.ipynb)  
 - :page_with_curl: [Recorridos en Árboles Binarios](/notebook/algoritmos-de-arboles/recorridos-en-arboles-binarios.ipynb)  
-## :bookmark_tabs: Algoritmos de Árboles: Árboles Binarios de Búsqueda
+## :bookmark_tabs: Árboles 2: Árboles Binarios de Búsqueda
 
 - :page_with_curl: [Implementación de Árboles Binarios de Búsqueda (ABB)](/notebook/algoritmos-de-arboles-arboles-binarios-de-busqueda/implementacion-de-arboles-binarios-de-busqueda-abb.ipynb)  
 - :page_with_curl: [Balanceo de Árboles: Introducción a los Árboles AV](/notebook/algoritmos-de-arboles-arboles-binarios-de-busqueda/balanceo-de-arboles-introduccion-a-los-arboles-av.ipynb)  
 
-## :bookmark_tabs: Algoritmos de Árboles: Árboles Especializados
+## :bookmark_tabs: Árboles 3:  Árboles Especializados
 
 - :page_with_curl: [Conceptos Básicos de Árboles Rojo-Negro](/notebook/algoritmos-de-arboles-arboles-especializados/conceptos-basicos-de-arboles-rojo-negro.ipynb)  
 - :page_with_curl: [Árboles de Expresión y su Aplicación en la Evaluación de Expresiones Matemáticas](/notebook/algoritmos-de-arboles-arboles-especializados/arboles-de-expresion-y-su-aplicacion-en-la-evaluacion-de-expresiones-matematicas.ipynb)  
 
-## :bookmark_tabs: Algoritmos de Grafos
+## :bookmark_tabs: Grafos 1: Algoritmos de Grafos
 
 - :page_with_curl: [Introducción](/notebook/algoritmos-de-grafos/introduccion.ipynb)  
 - :page_with_curl: [Dijkstra: Camino más corto](/notebook/algoritmos-de-grafos/dijkstra-camino-mas-corto.ipynb)  
@@ -183,12 +184,12 @@
 - :page_with_curl: [Detección de Ciclos](/notebook/algoritmos-de-grafos/deteccion-de-ciclos.ipynb)  
 - :page_with_curl: [Ordenamiento Topológico](/notebook/algoritmos-de-grafos/ordenamiento-topologico.ipynb)  
 
-## :bookmark_tabs: Algoritmos de Grafos: Recorrido de Grafos
+## :bookmark_tabs: Grafos 2: Recorrido de Grafos
 
 - :page_with_curl: [Búsqueda en Profundidad (DFS, Depth-First Search)](/notebook/algoritmos-de-grafos-recorrido-de-grafos/busqueda-en-profundidad-dfs-depth-first-search.ipynb)  
 - :page_with_curl: [Búsqueda en Anchura (BFS, Breadth-First Search)](/notebook/algoritmos-de-grafos-recorrido-de-grafos/busqueda-en-anchura-bfs-breadth-first-search.ipynb)  
 
-## :bookmark_tabs: Algoritmos de Grafos: Otras aplicaciones
+## :bookmark_tabs: Grafos 3: Otras aplicaciones
 
 - :page_with_curl: [Ponderación de Aristas](/notebook/algoritmos-de-grafos-otras-aplicaciones/ponderacion-de-aristas.ipynb)  
 - :page_with_curl: [Dirección de las Aristas](/notebook/algoritmos-de-grafos-otras-aplicaciones/direccion-de-las-aristas.ipynb)  
