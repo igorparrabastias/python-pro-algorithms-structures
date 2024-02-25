@@ -14,8 +14,7 @@
 - :telescope: [Sabías que?](/notebook/python-repaso-basico/sabias-que.ipynb)
 
 ## :bookmark_tabs: Python: Repaso Avanzado
-
-- :page_with_curl: [Iteradores y Generadores](/notebook/python-repaso-avanzado/iteradores-y-generadores.ipynb)  
+- :page_with_curl: [Iteradores y Generadores](/notebook/python-repaso-avanzado/iteradores-y-generadores.ipynb)
 - :page_with_curl: [Uso de `with` para Manejo de Recursos](/notebook/python-repaso-avanzado/uso-de-with-para-manejo-de-recursos.ipynb)  
 - :page_with_curl: [Decoradores](/notebook/python-repaso-avanzado/decoradores.ipynb)  
 - :page_with_curl: [Funciones como Objetos de Primera Clase](/notebook/python-repaso-avanzado/funciones-como-objetos-de-primera-clase.ipynb)  
@@ -23,13 +22,10 @@
 - :page_with_curl: [Conceptos Avanzados en Programación Orientada a Objetos](/notebook/python-repaso-avanzado/conceptos-avanzados-en-programacion-orientada-a-objetos.ipynb)  
 - :page_with_curl: [Ejemplo de polimorfismo](/notebook/python-repaso-avanzado/ejemplo-de-polimorfismo.ipynb)  
 - :page_with_curl: [Abstracción en Python con Clases Abstractas](/notebook/python-repaso-avanzado/abstraccion-en-python-con-clases-abstractas.ipynb)  
-
 - :page_with_curl: [Lambdas y Funciones Anónimas](/notebook/python-repaso-avanzado/lambdas-y-funciones-anonimas.ipynb)  
 - :page_with_curl: [Profundizando en Lambdas y Funciones Anónimas](/notebook/python-repaso-avanzado/profundizando-en-lambdas-y-funciones-anonimas.ipynb)  
-
   - :page_with_curl: [Caso de uso: Clic en un botón](/notebook/python-repaso-avanzado/caso-de-uso-clic-en-un-boton.ipynb)  
   - :page_with_curl: [Casos de uso para Closures y Decoradores](/notebook/python-repaso-avanzado/casos-de-uso-para-closures-y-decoradores.ipynb)  
-
 - :clipboard: [Cuestionario de sección](/notebook/python-repaso-avanzado/cuestionario-de-seccion.ipynb)  
 - :clipboard: [Respuestas](/notebook/python-repaso-avanzado/respuestas.ipynb)  
 - :telescope: [Sabías que?](/notebook/python-repaso-avanzado/sabias-que.ipynb)  
@@ -66,7 +62,7 @@
   - :page_with_curl: [Profunizando en Conjuntos (Sets) en Python](/notebook/estructuras-de-datos-nativas-de-python/exploración-avanzada-en-conjuntos-sets-en-python.ipynb)
   - :page_with_curl: [Ejercicios básicos](/notebook/estructuras-de-datos-nativas-de-python/ejercicios-basicos-3.ipynb)  
   - :page_with_curl: [Ejercicios Avanzados 1 a 5](/notebook/estructuras-de-datos-nativas-de-python/ejercicios-avanzados-1-a-5-3.ipynb)  
-  - :page_with_curl: [Ejercicios Avanzados 6 a 10](/notebook/estructuras-de-datos-nativas-de-python/ejercicios-avanzados-6-a-10-3.ipynb)  
+  - :page_with_curl: [Ejercicios Avanzados 6 a 10](/notebook/estructuras-de-datos-nativas-de-python/ejercicios-avanzados-6-a-10-3.ipynb)
 - :clipboard: [Cuestionario de sección](/notebook/estructuras-de-datos-nativas-de-python/cuestionario-de-seccion.ipynb)
 - :clipboard: [Respuestas](/notebook/estructuras-de-datos-nativas-de-python/respuestas.ipynb)
 
