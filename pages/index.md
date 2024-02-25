@@ -286,3 +286,4 @@
 - :page_with_curl: [Anexo 8: Recolección de Basura en Python](/notebook/anexos/anexo-8-recoleccion-de-basura-en-python.ipynb)  
 - :page_with_curl: [Anexo 9: Rebinding en el Contexto del Paradigma Funcional en Python](/notebook/anexos/anexo-9-rebinding-en-el-contexto-del-paradigma-funcional-en-python.ipynb)  
 - :page_with_curl: [Anexo 10: Representación de Números en Python](../notebook/anexos/anexo10-representaci%C3%B3n-de-numeros-en-python.ipynb)
+- :page_with_curl: [Anexo 11: Preguntas y Respuestas](../notebook/anexos/anexo11-preguntas-y-respuestas.ipynb)
