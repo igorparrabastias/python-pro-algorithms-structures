@@ -47,7 +47,7 @@
 
 - :page_with_curl: [Listas](/notebook/estructuras-de-datos-nativas-de-python/listas.ipynb)  
 
-  - :page_with_curl: [Profundización Avanzada en Listas en Python](/notebook/estructuras-de-datos-nativas-de-python/profundizacion-avanzada-en-listas-en-python.ipynb)  
+  - :page_with_curl: [Profundizando en Listas en Python](/notebook/estructuras-de-datos-nativas-de-python/profundizacion-avanzada-en-listas-en-python.ipynb)  
   - :page_with_curl: [Exploración Profunda de las Listas en Python](/notebook/estructuras-de-datos-nativas-de-python/exploracion-profunda-de-las-listas-en-python.ipynb)  
   - :page_with_curl: [Ejercicios básicos](/notebook/estructuras-de-datos-nativas-de-python/ejercicios-basicos-1.ipynb)  
   - :page_with_curl: [Ejercicios avanzados 1 a 5](/notebook/estructuras-de-datos-nativas-de-python/ejercicios-avanzados-1-a-5-1.ipynb)  
