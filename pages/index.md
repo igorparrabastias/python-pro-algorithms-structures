@@ -126,23 +126,17 @@
 ## :bookmark_tabs: Algoritmos Básicos de Ordenamiento
 
 - :page_with_curl: [Bubble sort: Ordenamiento de burbuja](/notebook/algoritmos-basicos-de-ordenamiento/bubble-sort-ordenamiento-de-burbuja.ipynb)  
-
   - :page_with_curl: [Ejercicios básicos](/notebook/algoritmos-basicos-de-ordenamiento/ejercicios-basicos.ipynb)  
   - :page_with_curl: [Ejercicios Avanzados 1 a 5](/notebook/algoritmos-basicos-de-ordenamiento/ejercicios-avanzados-1-a-5.ipynb)  
   - :page_with_curl: [Ejercicios Avanzados 6 a 10](/notebook/algoritmos-basicos-de-ordenamiento/ejercicios-avanzados-6-a-10.ipynb)  
-
 - :page_with_curl: [Merge sort: Ordenamiento por mezcla](/notebook/algoritmos-basicos-de-ordenamiento/merge-sort-ordenamiento-por-mezcla.ipynb)  
-
   - :page_with_curl: [Ejercicios básicos](/notebook/algoritmos-basicos-de-ordenamiento/ejercicios-basicos-1.ipynb)  
   - :page_with_curl: [Ejercicios Avanzados 1 a 5](/notebook/algoritmos-basicos-de-ordenamiento/ejercicios-avanzados-1-a-5-1.ipynb)  
   - :page_with_curl: [Ejercicios Avanzados 6 a 10](/notebook/algoritmos-basicos-de-ordenamiento/ejercicios-avanzados-6-a-10-1.ipynb)  
-
 - :page_with_curl: [Quick sort: Ordenamiento rápido](/notebook/algoritmos-basicos-de-ordenamiento/quick-sort-ordenamiento-rapido.ipynb)  
-
   - :page_with_curl: [Ejercicios básicos](/notebook/algoritmos-basicos-de-ordenamiento/ejercicios-basicos-2.ipynb)  
   - :page_with_curl: [Ejercicios Avanzados 1 a 5](/notebook/algoritmos-basicos-de-ordenamiento/ejercicios-avanzados-1-a-5-2.ipynb)  
   - :page_with_curl: [Ejercicios Avanzados 6 a 10](/notebook/algoritmos-basicos-de-ordenamiento/ejercicios-avanzados-6-a-10-2.ipynb)  
-
 - :page_with_curl: [Comparación y selección de algoritmos de ordenamiento.](/notebook/algoritmos-basicos-de-ordenamiento/comparacion-y-seleccion-de-algoritmos-de-ordenamiento.ipynb)  
 
 ## :bookmark_tabs: Algoritmos Básicos de Búsqueda
