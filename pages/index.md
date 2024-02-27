@@ -82,9 +82,9 @@
 
 ## :bookmark_tabs: Implementación de Estructuras Simples
 
-- :page_with_curl: [Linked Lists (Listas Enlazadas)](/notebook/implementacion-de-estructuras-simples/linked-lists-listas-enlazadas.ipynb)  
-- :page_with_curl: [Stacks (Pilas)](/notebook/implementacion-de-estructuras-simples/stacks-pilas.ipynb)  
-- :page_with_curl: [Queues (Colas)](/notebook/implementacion-de-estructuras-simples/queues-colas.ipynb)  
+- :page_with_curl: [Linked Lists (Listas Enlazadas)](/notebook/implementacion-de-estructuras-simples/listas-enlazadas-linked-lists.ipynb)  
+- :page_with_curl: [Stacks (Pilas)](/notebook/implementacion-de-estructuras-simples/pilas-stacks.ipynb)  
+- :page_with_curl: [Queues (Colas)](/notebook/implementacion-de-estructuras-simples/colas-queues.ipynb)  
 
 ## :bookmark_tabs: Implementación de Árboles
 
