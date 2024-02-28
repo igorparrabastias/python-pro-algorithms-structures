@@ -89,10 +89,11 @@
 ## :bookmark_tabs: Implementación de Árboles
 
 - :page_with_curl: [Introducción](/notebook/implementacion-de-arboles/introduccion.ipynb)  
-- :page_with_curl: [Árboles binarios: definición y recorridos (preorden, inorden, postorden).](/notebook/implementacion-de-arboles/arboles-binarios-definicion-y-recorridos-preorden-inorden-postorden.ipynb)  
-- :page_with_curl: [Árboles Rojo-Negro: propiedades, inserción y eliminación.](/notebook/implementacion-de-arboles/arboles-rojo-negro.ipynb)  
-- :page_with_curl: [Trees: Métodos básicos](/notebook/implementacion-de-arboles/trees-metodos-basicos.ipynb)  
-- :page_with_curl: [Trees: Búsqueda y Eliminación](/notebook/implementacion-de-arboles/trees-busqueda-y-eliminacion.ipynb)  
+- :page_with_curl: [Árboles Binarios: definición y recorridos (preorden, inorden, postorden).](/notebook/implementacion-de-arboles/arboles-binarios-definicion-y-recorridos-preorden-inorden-postorden.ipynb)  
+- :page_with_curl: [Árboles de Segmentos.](/notebook/implementacion-de-arboles/árboles-de-segmentos.ipynb)  
+- :page_with_curl: [Árboles Rojo-Negro.](/notebook/implementacion-de-arboles/arboles-rojo-negro.ipynb)  
+- :page_with_curl: [Árboles: Métodos básicos](/notebook/implementacion-de-arboles/trees-metodos-basicos.ipynb)  
+- :page_with_curl: [Árboles: Búsqueda y Eliminación](/notebook/implementacion-de-arboles/trees-busqueda-y-eliminacion.ipynb)  
 - :page_with_curl: [Altura: Determinar la altura del árbol.](/notebook/implementacion-de-arboles/altura-determinar-la-altura-del-arbol.ipynb)  
 - :page_with_curl: [Nivel de un Nodo: Encontrar el nivel de un nodo dado en el árbol.](/notebook/implementacion-de-arboles/nivel-de-un-nodo-encontrar-el-nivel-de-un-nodo-dado-en-el-arbol.ipynb)  
 - :page_with_curl: [Tamaño del Árbol: Contar el número total de nodos en el árbol.](/notebook/implementacion-de-arboles/tamanno-del-arbol-contar-el-numero-total-de-nodos-en-el-arbol.ipynb)  
