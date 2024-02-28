@@ -90,7 +90,7 @@
 
 - :page_with_curl: [Introducción](/notebook/implementacion-de-arboles/introduccion.ipynb)  
 - :page_with_curl: [Árboles binarios: definición y recorridos (preorden, inorden, postorden).](/notebook/implementacion-de-arboles/arboles-binarios-definicion-y-recorridos-preorden-inorden-postorden.ipynb)  
-- :page_with_curl: [Árboles Rojo-Negro: propiedades, inserción y eliminación.](/notebook/implementacion-de-arboles/arboles-rojo-negro-propiedades-insercion-y-eliminacion.ipynb)  
+- :page_with_curl: [Árboles Rojo-Negro: propiedades, inserción y eliminación.](/notebook/implementacion-de-arboles/arboles-rojo-negro.ipynb)  
 - :page_with_curl: [Trees: Métodos básicos](/notebook/implementacion-de-arboles/trees-metodos-basicos.ipynb)  
 - :page_with_curl: [Trees: Búsqueda y Eliminación](/notebook/implementacion-de-arboles/trees-busqueda-y-eliminacion.ipynb)  
 - :page_with_curl: [Altura: Determinar la altura del árbol.](/notebook/implementacion-de-arboles/altura-determinar-la-altura-del-arbol.ipynb)  
