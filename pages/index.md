@@ -89,16 +89,17 @@
 ## :bookmark_tabs: Implementación de Árboles
 
 - :page_with_curl: [Introducción](/notebook/implementacion-de-arboles/introduccion.ipynb)  
-- :page_with_curl: [Árboles Binarios: definición y recorridos (preorden, inorden, postorden).](/notebook/implementacion-de-arboles/arboles-binarios-definicion-y-recorridos-preorden-inorden-postorden.ipynb)  
-- :page_with_curl: [Árboles de Segmentos.](/notebook/implementacion-de-arboles/arboles-de-segmentos.ipynb)  
-- :page_with_curl: [Árboles Rojo-Negro.](/notebook/implementacion-de-arboles/arboles-rojo-negro.ipynb)  
+- :page_with_curl: [Árboles Binarios: definición y recorridos (preorden, inorden, postorden)](/notebook/implementacion-de-arboles/arboles-binarios-definicion-y-recorridos-preorden-inorden-postorden.ipynb)  
+- :page_with_curl: [Árboles de Segmentos](/notebook/implementacion-de-arboles/arboles-de-segmentos.ipynb)  
+- :page_with_curl: [Árboles de Segmentos: Ejercicios](/notebook/implementacion-de-arboles/arboles-de-segmentos-ejercicios.ipynb)  
+- :page_with_curl: [Árboles Rojo-Negro](/notebook/implementacion-de-arboles/arboles-rojo-negro.ipynb)  
 - :page_with_curl: [Árboles: Métodos básicos](/notebook/implementacion-de-arboles/trees-metodos-basicos.ipynb)  
 - :page_with_curl: [Árboles: Búsqueda y Eliminación](/notebook/implementacion-de-arboles/trees-busqueda-y-eliminacion.ipynb)  
-- :page_with_curl: [Altura: Determinar la altura del árbol.](/notebook/implementacion-de-arboles/altura-determinar-la-altura-del-arbol.ipynb)  
-- :page_with_curl: [Nivel de un Nodo: Encontrar el nivel de un nodo dado en el árbol.](/notebook/implementacion-de-arboles/nivel-de-un-nodo-encontrar-el-nivel-de-un-nodo-dado-en-el-arbol.ipynb)  
-- :page_with_curl: [Tamaño del Árbol: Contar el número total de nodos en el árbol.](/notebook/implementacion-de-arboles/tamanno-del-arbol-contar-el-numero-total-de-nodos-en-el-arbol.ipynb)  
-- :page_with_curl: [Verificación de Árbol Binario de Búsqueda: Comprobar si un árbol binario cumple las propiedades de un BST.](/notebook/implementacion-de-arboles/verificacion-de-arbol-binario-de-busqueda-comprobar-si-un-arbol-binario-cumple-las-propiedades-de-un-bst.ipynb)  
-- :page_with_curl: [Balanceo del Árbol: En árboles AVL, implementar rotaciones para mantener el árbol balanceado.](/notebook/implementacion-de-arboles/balanceo-del-arbol-en-arboles-avl-implementar-rotaciones-para-mantener-el-arbol-balanceado.ipynb)  
+- :page_with_curl: [Altura: Determinar la altura del árbol](/notebook/implementacion-de-arboles/altura-determinar-la-altura-del-arbol.ipynb)  
+- :page_with_curl: [Nivel de un Nodo: Encontrar el nivel de un nodo dado en el árbol](/notebook/implementacion-de-arboles/nivel-de-un-nodo-encontrar-el-nivel-de-un-nodo-dado-en-el-arbol.ipynb)  
+- :page_with_curl: [Tamaño del Árbol: Contar el número total de nodos en el árbol](/notebook/implementacion-de-arboles/tamanno-del-arbol-contar-el-numero-total-de-nodos-en-el-arbol.ipynb)  
+- :page_with_curl: [Verificación de Árbol Binario de Búsqueda: Comprobar si un árbol binario cumple las propiedades de un BST](/notebook/implementacion-de-arboles/verificacion-de-arbol-binario-de-busqueda-comprobar-si-un-arbol-binario-cumple-las-propiedades-de-un-bst.ipynb)  
+- :page_with_curl: [Balanceo del Árbol: En árboles AVL, implementar rotaciones para mantener el árbol balanceado](/notebook/implementacion-de-arboles/balanceo-del-arbol-en-arboles-avl-implementar-rotaciones-para-mantener-el-arbol-balanceado.ipynb)  
 
 ## :bookmark_tabs: Implementación de Grafos
 
@@ -138,7 +139,7 @@
   - :page_with_curl: [Ejercicios básicos](/notebook/algoritmos-basicos-de-ordenamiento/ejercicios-basicos-2.ipynb)  
   - :page_with_curl: [Ejercicios Avanzados 1 a 5](/notebook/algoritmos-basicos-de-ordenamiento/ejercicios-avanzados-1-a-5-2.ipynb)  
   - :page_with_curl: [Ejercicios Avanzados 6 a 10](/notebook/algoritmos-basicos-de-ordenamiento/ejercicios-avanzados-6-a-10-2.ipynb)  
-- :page_with_curl: [Comparación y selección de algoritmos de ordenamiento.](/notebook/algoritmos-basicos-de-ordenamiento/comparacion-y-seleccion-de-algoritmos-de-ordenamiento.ipynb)  
+- :page_with_curl: [Comparación y selección de algoritmos de ordenamiento](/notebook/algoritmos-basicos-de-ordenamiento/comparacion-y-seleccion-de-algoritmos-de-ordenamiento.ipynb)  
 
 ## :bookmark_tabs: Algoritmos Básicos de Búsqueda
 
