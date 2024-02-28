@@ -90,7 +90,7 @@
 
 - :page_with_curl: [Introducción](/notebook/implementacion-de-arboles/introduccion.ipynb)  
 - :page_with_curl: [Árboles Binarios: definición y recorridos (preorden, inorden, postorden).](/notebook/implementacion-de-arboles/arboles-binarios-definicion-y-recorridos-preorden-inorden-postorden.ipynb)  
-- :page_with_curl: [Árboles de Segmentos.](/notebook/implementacion-de-arboles/árboles-de-segmentos.ipynb)  
+- :page_with_curl: [Árboles de Segmentos.](/notebook/implementacion-de-arboles/arboles-de-segmentos.ipynb)  
 - :page_with_curl: [Árboles Rojo-Negro.](/notebook/implementacion-de-arboles/arboles-rojo-negro.ipynb)  
 - :page_with_curl: [Árboles: Métodos básicos](/notebook/implementacion-de-arboles/trees-metodos-basicos.ipynb)  
 - :page_with_curl: [Árboles: Búsqueda y Eliminación](/notebook/implementacion-de-arboles/trees-busqueda-y-eliminacion.ipynb)  
