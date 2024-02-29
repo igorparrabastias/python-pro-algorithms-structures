@@ -101,6 +101,22 @@
 - :page_with_curl: [Verificación de Árbol Binario de Búsqueda: Comprobar si un árbol binario cumple las propiedades de un BST](/notebook/implementacion-de-arboles/verificacion-de-arbol-binario-de-busqueda-comprobar-si-un-arbol-binario-cumple-las-propiedades-de-un-bst.ipynb)  
 - :page_with_curl: [Balanceo del Árbol: En árboles AVL, implementar rotaciones para mantener el árbol balanceado](/notebook/implementacion-de-arboles/balanceo-del-arbol-en-arboles-avl-implementar-rotaciones-para-mantener-el-arbol-balanceado.ipynb)  
 
+## :bookmark_tabs: Árboles 1: Algoritmos de Árboles
+
+- :page_with_curl: [Introducción](/notebook/algoritmos-de-arboles/introduccion.ipynb)  
+- :page_with_curl: [Árboles Binarios](/notebook/algoritmos-de-arboles/arboles-binarios.ipynb)  
+- :page_with_curl: [Recorridos en Árboles Binarios](/notebook/algoritmos-de-arboles/recorridos-en-arboles-binarios.ipynb)  
+## :bookmark_tabs: Árboles 2: Árboles Binarios de Búsqueda
+
+- :page_with_curl: [Implementación de Árboles Binarios de Búsqueda (ABB)](/notebook/algoritmos-de-arboles-arboles-binarios-de-busqueda/implementacion-de-arboles-binarios-de-busqueda-abb.ipynb)  
+- :page_with_curl: [Balanceo de Árboles: Introducción a los Árboles AV](/notebook/algoritmos-de-arboles-arboles-binarios-de-busqueda/balanceo-de-arboles-introduccion-a-los-arboles-av.ipynb)  
+
+## :bookmark_tabs: Árboles 3:  Árboles Especializados
+
+- :page_with_curl: [Conceptos Básicos de Árboles Rojo-Negro](/notebook/algoritmos-de-arboles-arboles-especializados/conceptos-basicos-de-arboles-rojo-negro.ipynb)  
+- :page_with_curl: [Árboles de Expresión y su Aplicación en la Evaluación de Expresiones Matemáticas](/notebook/algoritmos-de-arboles-arboles-especializados/arboles-de-expresion-y-su-aplicacion-en-la-evaluacion-de-expresiones-matematicas.ipynb)  
+
+
 ## :bookmark_tabs: Implementación de Grafos
 
 - :page_with_curl: [Introducción](/notebook/implementacion-de-grafos/introduccion.ipynb)  
@@ -160,21 +176,6 @@
   - :page_with_curl: [Ejercicios Avanzados 1 a 5](/notebook/algoritmos-basicos-de-busqueda/ejercicios-avanzados-1-a-5-3.ipynb)
   - :page_with_curl: [Ejercicios Avanzados 6 a 10](/notebook/algoritmos-basicos-de-busqueda/ejercicios-avanzados-6-a-10-3.ipynb)  
 - :page_with_curl: [Comparación y selección de algoritmos de búsqueda](/notebook/algoritmos-basicos-de-busqueda/comparacion-y-seleccion-de-algoritmos-de-busqueda.ipynb)  
-
-## :bookmark_tabs: Árboles 1: Algoritmos de Árboles
-
-- :page_with_curl: [Introducción](/notebook/algoritmos-de-arboles/introduccion.ipynb)  
-- :page_with_curl: [Árboles Binarios](/notebook/algoritmos-de-arboles/arboles-binarios.ipynb)  
-- :page_with_curl: [Recorridos en Árboles Binarios](/notebook/algoritmos-de-arboles/recorridos-en-arboles-binarios.ipynb)  
-## :bookmark_tabs: Árboles 2: Árboles Binarios de Búsqueda
-
-- :page_with_curl: [Implementación de Árboles Binarios de Búsqueda (ABB)](/notebook/algoritmos-de-arboles-arboles-binarios-de-busqueda/implementacion-de-arboles-binarios-de-busqueda-abb.ipynb)  
-- :page_with_curl: [Balanceo de Árboles: Introducción a los Árboles AV](/notebook/algoritmos-de-arboles-arboles-binarios-de-busqueda/balanceo-de-arboles-introduccion-a-los-arboles-av.ipynb)  
-
-## :bookmark_tabs: Árboles 3:  Árboles Especializados
-
-- :page_with_curl: [Conceptos Básicos de Árboles Rojo-Negro](/notebook/algoritmos-de-arboles-arboles-especializados/conceptos-basicos-de-arboles-rojo-negro.ipynb)  
-- :page_with_curl: [Árboles de Expresión y su Aplicación en la Evaluación de Expresiones Matemáticas](/notebook/algoritmos-de-arboles-arboles-especializados/arboles-de-expresion-y-su-aplicacion-en-la-evaluacion-de-expresiones-matematicas.ipynb)  
 
 ## :bookmark_tabs: Grafos 1: Algoritmos de Grafos
 
