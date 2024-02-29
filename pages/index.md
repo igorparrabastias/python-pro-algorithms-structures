@@ -60,18 +60,6 @@
 - :clipboard: [Cuestionario de sección](/notebook/estructuras-de-datos-nativas-de-python/cuestionario-de-seccion.ipynb)
 - :clipboard: [Respuestas](/notebook/estructuras-de-datos-nativas-de-python/respuestas.ipynb)
 
-## :bookmark_tabs: Estructuras de Datos Avanzadas
-
-- :page_with_curl: [N-ary Trees, Segment Trees](/notebook/estructuras-de-datos-avanzadas/n-ary-trees-segment-trees.ipynb)  
-  - :page_with_curl: [Caso de uso: Sistema de Contabilidad en Tiempo Real](/notebook/estructuras-de-datos-avanzadas/caso-de-uso-sistema-de-contabilidad-en-tiempo-real.ipynb)  
-  - :page_with_curl: [Caso de uso: Sistemas de Gestión de Bases de Datos (SGBD)](/notebook/estructuras-de-datos-avanzadas/caso-de-uso-sistemas-de-gestion-de-bases-de-datos-sgbd.ipynb)  
-  - :page_with_curl: [Caso de uso: Sistemas de archivos en computadoras](/notebook/estructuras-de-datos-avanzadas/caso-de-uso-sistemas-de-archivos-en-computadoras.ipynb)  
-- :page_with_curl: [Tries](/notebook/estructuras-de-datos-avanzadas/tries.ipynb)  
-  - :page_with_curl: [Caso de uso: Autocompletado](/notebook/estructuras-de-datos-avanzadas/caso-de-uso-autocompletado.ipynb)  
-  - :page_with_curl: [Caso de uso: Encontrar palabras con un prefijo común](/notebook/estructuras-de-datos-avanzadas/encontrar-palabras-con-un-prefijo-comun.ipynb)  
-  - :page_with_curl: [Caso de uso: Verificación Ortográfica](/notebook/estructuras-de-datos-avanzadas/caso-de-uso-verificacion-ortografica.ipynb)  
-  - :page_with_curl: [Caso de uso: Sistemas de Enrutamiento](/notebook/estructuras-de-datos-avanzadas/caso-de-uso-sistemas-de-enrutamiento.ipynb)  
-
 ## :bookmark_tabs: Implementación de Estructuras de Datos en Python
 
 - :page_with_curl: [Qué son las Estructuras de Datos](/notebook/implementacion-de-estructuras-de-datos-en-python/que-son-las-estructuras-de-datos.ipynb)  
@@ -116,6 +104,17 @@
 - :page_with_curl: [Conceptos Básicos de Árboles Rojo-Negro](/notebook/algoritmos-de-arboles-arboles-especializados/conceptos-basicos-de-arboles-rojo-negro.ipynb)  
 - :page_with_curl: [Árboles de Expresión y su Aplicación en la Evaluación de Expresiones Matemáticas](/notebook/algoritmos-de-arboles-arboles-especializados/arboles-de-expresion-y-su-aplicacion-en-la-evaluacion-de-expresiones-matematicas.ipynb)  
 
+## :bookmark_tabs: Estructuras de Datos Avanzadas
+
+- :page_with_curl: [N-ary Trees, Segment Trees](/notebook/estructuras-de-datos-avanzadas/n-ary-trees-segment-trees.ipynb)  
+  - :page_with_curl: [Caso de uso: Sistema de Contabilidad en Tiempo Real](/notebook/estructuras-de-datos-avanzadas/caso-de-uso-sistema-de-contabilidad-en-tiempo-real.ipynb)  
+  - :page_with_curl: [Caso de uso: Sistemas de Gestión de Bases de Datos (SGBD)](/notebook/estructuras-de-datos-avanzadas/caso-de-uso-sistemas-de-gestion-de-bases-de-datos-sgbd.ipynb)  
+  - :page_with_curl: [Caso de uso: Sistemas de archivos en computadoras](/notebook/estructuras-de-datos-avanzadas/caso-de-uso-sistemas-de-archivos-en-computadoras.ipynb)  
+- :page_with_curl: [Tries](/notebook/estructuras-de-datos-avanzadas/tries.ipynb)  
+  - :page_with_curl: [Caso de uso: Autocompletado](/notebook/estructuras-de-datos-avanzadas/caso-de-uso-autocompletado.ipynb)  
+  - :page_with_curl: [Caso de uso: Encontrar palabras con un prefijo común](/notebook/estructuras-de-datos-avanzadas/encontrar-palabras-con-un-prefijo-comun.ipynb)  
+  - :page_with_curl: [Caso de uso: Verificación Ortográfica](/notebook/estructuras-de-datos-avanzadas/caso-de-uso-verificacion-ortografica.ipynb)  
+  - :page_with_curl: [Caso de uso: Sistemas de Enrutamiento](/notebook/estructuras-de-datos-avanzadas/caso-de-uso-sistemas-de-enrutamiento.ipynb)  
 
 ## :bookmark_tabs: Implementación de Grafos
 
