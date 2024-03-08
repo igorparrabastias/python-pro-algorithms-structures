@@ -49,6 +49,7 @@ Ejercicios resueltos de estructuras de datos y algoritmos. Incluyen pseudocódig
 - [Dado el recorrido en preorden y en orden de un árbol, construya el árbol binario](problems/construct-binary-tree-from-preorder-and-inorder-traversal.ipynb)
 - [Suma máxima de rutas en un árbol binario](problems/maximum-path-sum-in-a-binary-tree.ipynb)
 - [Invertir una lista enlazada en grupos de tamaños dados](problems/reverse-nodes-in-k-group.ipynb)
+- [Máximo Común Divisor](problems/greatest-common-divisor.ipynb)
 
 ## Motivación
 
