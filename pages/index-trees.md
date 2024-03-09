@@ -1,6 +1,11 @@
-## :bookmark_tabs: Introducción a los Árboles
+# Árboles Y Algoritmos de Operaciones
 
-- :page_with_curl: [Introducción](/notebook/implementacion-de-arboles/introduccion.ipynb)4
+ ## :bookmark_tabs: Introducción a los Árboles
+
+- :page_with_curl: [Tipos de árboles](../notebook/arboles-y-algoritmos-de-operaciones/tipos-de-arboles.ipynb)
+- :page_with_curl: [Algoritmos Relacionados con Árboles](../notebook/arboles-y-algoritmos-de-operaciones/algoritmos-relacionados-con-arboles.ipynb)
+
+- :page_with_curl: [Introducción](/notebook/implementacion-de-arboles/introduccion.ipynb)
 - :page_with_curl: [Introducción algoritmos](/notebook/algoritmos-de-arboles/introduccion.ipynb)  
 
 ## :bookmark_tabs: Árboles Generales y Árboles Binarios

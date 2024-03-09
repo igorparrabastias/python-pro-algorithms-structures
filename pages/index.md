@@ -74,7 +74,7 @@
 - :page_with_curl: [Stacks (Pilas)](/notebook/implementacion-de-estructuras-simples/pilas-stacks.ipynb)  
 - :page_with_curl: [Queues (Colas)](/notebook/implementacion-de-estructuras-simples/colas-queues.ipynb)  
 
-## :bookmark_tabs: Árboles Y sus algoritmos
+## :bookmark_tabs: Árboles Y Algoritmos de Operaciones
 [index-trees](index-trees.md)
 
 ## :bookmark_tabs: Implementación de Grafos
