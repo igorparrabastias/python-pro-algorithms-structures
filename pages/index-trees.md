@@ -1,6 +1,6 @@
 # Árboles Y Algoritmos de Operaciones
 
- Seguiremos un orden que asegura una progresión lógica, desde lo más fundamental a lo más avanzado, permitiendo a los estudiantes construir una base sólida antes de abordar estructuras más complejas.
+ Seguiremos un orden que asegura una progresión lógica, desde lo más **fundamentales** a lo más **avanzados**, permitiendo a los estudiantes construir una base sólida antes de abordar estructuras más complejas.
 
 ## Fundamentales
 
