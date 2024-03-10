@@ -64,8 +64,9 @@ Los árboles de **segmentos** y los árboles de **Fenwick**, también conocidos 
 
 - :page_with_curl: [Árbol de Fenwick o Binary Indexed Tree (BIT)](../notebook/arboles/arbol-de-fenwick-o-binary-indexed-tree-bit.ipynb) Proporciona una forma compacta y eficiente de realizar sumas acumulativas y actualizaciones, ideal para escenarios donde estas operaciones se realizan frecuentemente.
 
-- :page_with_curl: [Árbol de Expresión](../notebook/arboles/arbol-de-expresion.ipynb) Introduce árboles en el contexto de expresiones matemáticas o lógicas.
+Los árboles de expresión y decisión son estructuras fundamentales en el campo de la inteligencia artificial y el aprendizaje automático. Los árboles de expresión representan una forma de organizar y evaluar expresiones matemáticas de manera jerárquica, lo que los hace útiles en la optimización de operaciones aritméticas complejas. Por otro lado, los árboles de decisión son herramientas poderosas para la toma de decisiones basadas en condiciones lógicas, donde cada nodo representa una pregunta y cada rama una posible respuesta. Ambos tipos de árboles son ampliamente utilizados en una variedad de aplicaciones, desde la clasificación de datos hasta la optimización de algoritmos.
 
+- :page_with_curl: [Árbol de Expresión](../notebook/arboles/arbol-de-expresion.ipynb) Introduce árboles en el contexto de expresiones matemáticas o lógicas.
 - :page_with_curl: [Árbol de Decisión](../notebook/arboles/arbol-de-decision.ipynb) Aplica los conceptos de árboles en un contexto de aprendizaje automático o toma de decisiones.
 
 ## Avanzados
