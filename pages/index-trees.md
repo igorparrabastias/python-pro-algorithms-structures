@@ -1,6 +1,6 @@
 # Árboles Y Algoritmos de Operaciones
 
- Seguiremos un orden que asegura una progresión lógica, desde lo más fundamental a lo más especializado, permitiendo a los estudiantes construir una base sólida antes de abordar estructuras más complejas.
+ Seguiremos un orden que asegura una progresión lógica, desde lo más fundamental a lo más avanzado, permitiendo a los estudiantes construir una base sólida antes de abordar estructuras más complejas.
 
 ## Fundamentales
 
@@ -40,11 +40,9 @@ A continuación los árboles B, B+ y n-arios son estructuras más complejas y av
 
 - :page_with_curl: [Árbol n-ario](../notebook/arboles/arbol-n-ario.ipynb) Generalización de árboles con más de dos hijos, útil para entender la base de árboles B y B+.
 
----
+## Especializados
 
 - :page_with_curl: [Árbol Trie](../notebook/arboles/arbol-trie.ipynb)  Especializado para manejo de cadenas, útil en búsquedas de texto.
-
-## Especializados
 
 Los árboles de segmentos y los árboles de Fenwick, también conocidos como Binary Indexed Trees (BIT), son estructuras de datos avanzadas que se utilizan ampliamente en el contexto de algoritmos y programación competitiva, especialmente para resolver eficientemente problemas que involucran consultas y actualizaciones de rangos en un arreglo de números. Permitiendo resolver problemas complejos dentro de límites de tiempo estrictos.
 
