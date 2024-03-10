@@ -30,6 +30,8 @@
 
 - :page_with_curl: [Árbol Splay](../notebook/arboles/arbol-splay.ipynb) Presenta una estrategia de autoajuste para optimizar las búsquedas secuenciales.
 
+---
+
 A continuación los árboles B, B+ y n-arios son estructuras más complejas y avanzadas, diseñadas para casos de uso específicos, especialmente en sistemas de bases de datos y sistemas de archivos, donde se manejan grandes volúmenes de datos. Estos árboles están optimizados para minimizar el acceso a disco y mejorar la eficiencia en la búsqueda, inserción y eliminación de datos en contextos donde el rendimiento es crítico. Los árboles binarios, en cambio, sí se consideran estructuras básicas y fundamentales en el estudio de estructuras de datos.
 
 - :page_with_curl: [Árbol B](../notebook/arboles/arbol-b.ipynb) Es una estructura de datos de búsqueda balanceada, diseñada para almacenar información en sistemas de bases de datos y archivos, optimizando las operaciones de lectura y escritura en disco mediante la minimización de accesos. 
@@ -37,6 +39,8 @@ A continuación los árboles B, B+ y n-arios son estructuras más complejas y av
 - :page_with_curl: [Árbol B+](../notebook/arboles/arbol-b+.ipynb) Es una variante del árbol B que mejora el acceso secuencial y la eficiencia en la búsqueda al almacenar todos los elementos en las hojas y mantener un enlace entre ellas, siendo ampliamente utilizado en bases de datos y sistemas de archivos.
 
 - :page_with_curl: [Árbol n-ario](../notebook/arboles/arbol-n-ario.ipynb) Generalización de árboles con más de dos hijos, útil para entender la base de árboles B y B+.
+
+---
 
 - :page_with_curl: [Árbol Trie](../notebook/arboles/arbol-trie.ipynb)  Especializado para manejo de cadenas, útil en búsquedas de texto.
 
@@ -52,7 +56,7 @@ Los árboles de segmentos y los árboles de Fenwick, también conocidos como Bin
 
 - :page_with_curl: [Árbol de Decisión](../notebook/arboles/arbol-de-decision.ipynb) Aplica los conceptos de árboles en un contexto de aprendizaje automático o toma de decisiones.
 
-## Experto
+## Avanzados
 
 - :page_with_curl: [Árbol de Van Emde Boas](../notebook/arboles/arbol-de-van-emde-boas.ipynb)  Introduce conceptos avanzados para manejo de universos pequeños y operaciones muy eficientes.
 
