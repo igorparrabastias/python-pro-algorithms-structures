@@ -39,9 +39,7 @@
 A continuación los árboles **B**, **B+** y **n-arios**, aún siendo estructuras de árbol fundamentales son más complejas y avanzadas, diseñadas para casos de uso específicos, especialmente en sistemas de bases de datos y sistemas de archivos, donde se manejan grandes volúmenes de datos. Estos árboles están optimizados para minimizar el acceso a disco y mejorar la eficiencia en la búsqueda, inserción y eliminación de datos en contextos donde el rendimiento es crítico. Los árboles binarios, en cambio, sí se consideran estructuras básicas y fundamentales en el estudio de estructuras de datos.
 
 - :page_with_curl: [Árbol B](../notebook/arboles/arbol-b.ipynb) Es una estructura de datos de búsqueda balanceada, diseñada para almacenar información en sistemas de bases de datos y archivos, optimizando las operaciones de lectura y escritura en disco mediante la minimización de accesos. 
-
 - :page_with_curl: [Árbol B+](../notebook/arboles/arbol-b+.ipynb) Es una variante del árbol B que mejora el acceso secuencial y la eficiencia en la búsqueda al almacenar todos los elementos en las hojas y mantener un enlace entre ellas, siendo ampliamente utilizado en bases de datos y sistemas de archivos.
-
 - :page_with_curl: [Árbol n-ario](../notebook/arboles/arbol-n-ario.ipynb) Generalización de árboles con más de dos hijos, útil para entender la base de árboles B y B+. Esta característica los hace especialmente útiles para representar estructuras más complejas que los árboles binarios y son esenciales en varias aplicaciones como bases de datos y sistemas de archivos.
   - :page_with_curl: [Caso de uso: Sistemas de Gestión de Bases de Datos (SGBD)](/notebook/estructuras-de-datos-avanzadas/caso-de-uso-sistemas-de-gestion-de-bases-de-datos-sgbd.ipynb)  
   - :page_with_curl: [Caso de uso: Sistemas de archivos en computadoras](/notebook/estructuras-de-datos-avanzadas/caso-de-uso-sistemas-de-archivos-en-computadoras.ipynb)  - 
