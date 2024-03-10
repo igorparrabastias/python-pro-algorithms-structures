@@ -1,13 +1,24 @@
 # Árboles Y Algoritmos de Operaciones
 
+- :page_with_curl: [Tipos de árboles](../notebook/arboles-y-algoritmos-de-operaciones/tipos-de-arboles.ipynb)
+- :page_with_curl: [Algoritmos Relacionados con Árboles](../notebook/arboles-y-algoritmos-de-operaciones/algoritmos-relacionados-con-arboles.ipynb)
+- :page_with_curl: [Introducción](/notebook/implementacion-de-arboles/introduccion.ipynb)
+- :page_with_curl: [Introducción algoritmos](/notebook/algoritmos-de-arboles/introduccion.ipynb)  
+
 - :page_with_curl: [Árbol Binario](../notebook/arboles/arbol-binario.ipynb)
-  - :page_with_curl: [Árboles: Métodos básicos](/notebook/implementacion-de-arboles/trees-metodos-basicos.ipynb)  
-  - :page_with_curl: [Árboles: Búsqueda y Eliminación](/notebook/implementacion-de-arboles/trees-busqueda-y-eliminacion.ipynb)  
+  - :page_with_curl: [Implementación básica](/notebook/implementacion-de-arboles/trees-metodos-basicos.ipynb)  
+  - :page_with_curl: [Búsqueda y Eliminación](/notebook/implementacion-de-arboles/trees-busqueda-y-eliminacion.ipynb)  
   - :page_with_curl: [Altura: Determinar la altura del árbol](/notebook/implementacion-de-arboles/altura-determinar-la-altura-del-arbol.ipynb)  
   - :page_with_curl: [Nivel de un Nodo: Encontrar el nivel de un nodo dado en el árbol](/notebook/implementacion-de-arboles/nivel-de-un-nodo-encontrar-el-nivel-de-un-nodo-dado-en-el-arbol.ipynb)  
   - :page_with_curl: [Tamaño del Árbol: Contar el número total de nodos en el árbol](/notebook/implementacion-de-arboles/tamanno-del-arbol-contar-el-numero-total-de-nodos-en-el-arbol.ipynb)  
 
 - :page_with_curl: [Árbol Binario de Búsqueda (ABB)](../notebook/arboles/arbol-binario-de-busqueda-abb.ipynb)
+  - :page_with_curl: [Definición y recorridos (preorden, inorden, postorden)](/notebook/implementacion-de-arboles/arboles-binarios-definicion-y-recorridos-preorden-inorden-postorden.ipynb)  
+  - :page_with_curl: [Recorridos en Árboles Binarios](/notebook/algoritmos-de-arboles/recorridos-en-arboles-binarios.ipynb)  
+  - :page_with_curl: [Implementación de Árboles Binarios de Búsqueda (ABB)](/notebook/algoritmos-de-arboles-arboles-binarios-de-busqueda/implementacion-de-arboles-binarios-de-busqueda-abb.ipynb)  
+  - :page_with_curl: [Árboles Binarios](/notebook/algoritmos-de-arboles/arboles-binarios.ipynb)  
+  - :page_with_curl: [Verificación de Árbol Binario de Búsqueda: Comprobar si un árbol binario cumple las propiedades de un BST](/notebook/implementacion-de-arboles/verificacion-de-arbol-binario-de-busqueda-comprobar-si-un-arbol-binario-cumple-las-propiedades-de-un-bst.ipynb)  
+
 - :page_with_curl: [Árbol AVL](../notebook/arboles/arbol-avl.ipynb)
 - :page_with_curl: [Árbol Rojo-Negro](../notebook/arboles/arbol-rojo-negro.ipynb)
 - :page_with_curl: [Árbol Splay](../notebook/arboles/arbol-splay.ipynb)
@@ -24,25 +35,11 @@
 
  ## :bookmark_tabs: Introducción a los Árboles
 
-- :page_with_curl: [Tipos de árboles](../notebook/arboles-y-algoritmos-de-operaciones/tipos-de-arboles.ipynb)
-- :page_with_curl: [Algoritmos Relacionados con Árboles](../notebook/arboles-y-algoritmos-de-operaciones/algoritmos-relacionados-con-arboles.ipynb)
-- :page_with_curl: [Introducción](/notebook/implementacion-de-arboles/introduccion.ipynb)
-- :page_with_curl: [Introducción algoritmos](/notebook/algoritmos-de-arboles/introduccion.ipynb)  
-
-
 ## :bookmark_tabs: Árboles Generales y Árboles Binarios
-
-- :page_with_curl: [Árboles Binarios: definición y recorridos (preorden, inorden, postorden)](/notebook/implementacion-de-arboles/arboles-binarios-definicion-y-recorridos-preorden-inorden-postorden.ipynb)  
-- :page_with_curl: [Recorridos en Árboles Binarios](/notebook/algoritmos-de-arboles/recorridos-en-arboles-binarios.ipynb)  
 
 ## :bookmark_tabs: Árboles Binarios de Búsqueda (ABB)
 
-- :page_with_curl: [Implementación de Árboles Binarios de Búsqueda (ABB)](/notebook/algoritmos-de-arboles-arboles-binarios-de-busqueda/implementacion-de-arboles-binarios-de-busqueda-abb.ipynb)  
-- :page_with_curl: [Árboles Binarios](/notebook/algoritmos-de-arboles/arboles-binarios.ipynb)  
-- :page_with_curl: [Verificación de Árbol Binario de Búsqueda: Comprobar si un árbol binario cumple las propiedades de un BST](/notebook/implementacion-de-arboles/verificacion-de-arbol-binario-de-busqueda-comprobar-si-un-arbol-binario-cumple-las-propiedades-de-un-bst.ipynb)  
-
 ## :bookmark_tabs: Operaciones Básicas en Árboles
-
 
 ## :bookmark_tabs: Árboles Autoequilibrados
 
