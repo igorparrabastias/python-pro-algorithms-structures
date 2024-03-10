@@ -4,9 +4,34 @@
 
 - :page_with_curl: [Tipos de árboles](../notebook/arboles-y-algoritmos-de-operaciones/tipos-de-arboles.ipynb)
 - :page_with_curl: [Algoritmos Relacionados con Árboles](../notebook/arboles-y-algoritmos-de-operaciones/algoritmos-relacionados-con-arboles.ipynb)
-
 - :page_with_curl: [Introducción](/notebook/implementacion-de-arboles/introduccion.ipynb)
 - :page_with_curl: [Introducción algoritmos](/notebook/algoritmos-de-arboles/introduccion.ipynb)  
+
+
+
+1. **Árboles Generales:**
+   - Árbol Binario
+   - Árbol B
+   - Árbol B+
+
+2. **Árboles de Búsqueda:**
+   - Árbol Binario de Búsqueda (ABB)
+   - Árbol AVL
+   - Árbol Rojo-Negro
+
+3. **Árboles Especializados:**
+   - Árbol de Segmentos
+   - Árbol de Fenwick (Binary Indexed Tree, BIT)
+   - Árbol Trie
+
+4. **Árboles para Aplicaciones Específicas:**
+   - Árbol de Expresión
+   - Árbol de Decisión
+   - Árbol de Merkle
+   - Árbol de Van Emde Boas
+
+
+
 
 ## :bookmark_tabs: Árboles Generales y Árboles Binarios
 
