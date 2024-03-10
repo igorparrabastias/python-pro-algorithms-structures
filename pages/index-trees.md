@@ -1,6 +1,12 @@
 # Árboles Y Algoritmos de Operaciones
 
 - :page_with_curl: [Árbol Binario](../notebook/arboles/arbol-binario.ipynb)
+  - :page_with_curl: [Árboles: Métodos básicos](/notebook/implementacion-de-arboles/trees-metodos-basicos.ipynb)  
+  - :page_with_curl: [Árboles: Búsqueda y Eliminación](/notebook/implementacion-de-arboles/trees-busqueda-y-eliminacion.ipynb)  
+  - :page_with_curl: [Altura: Determinar la altura del árbol](/notebook/implementacion-de-arboles/altura-determinar-la-altura-del-arbol.ipynb)  
+  - :page_with_curl: [Nivel de un Nodo: Encontrar el nivel de un nodo dado en el árbol](/notebook/implementacion-de-arboles/nivel-de-un-nodo-encontrar-el-nivel-de-un-nodo-dado-en-el-arbol.ipynb)  
+  - :page_with_curl: [Tamaño del Árbol: Contar el número total de nodos en el árbol](/notebook/implementacion-de-arboles/tamanno-del-arbol-contar-el-numero-total-de-nodos-en-el-arbol.ipynb)  
+
 - :page_with_curl: [Árbol Binario de Búsqueda (ABB)](../notebook/arboles/arbol-binario-de-busqueda-abb.ipynb)
 - :page_with_curl: [Árbol AVL](../notebook/arboles/arbol-avl.ipynb)
 - :page_with_curl: [Árbol Rojo-Negro](../notebook/arboles/arbol-rojo-negro.ipynb)
@@ -37,11 +43,6 @@
 
 ## :bookmark_tabs: Operaciones Básicas en Árboles
 
-- :page_with_curl: [Árboles: Métodos básicos](/notebook/implementacion-de-arboles/trees-metodos-basicos.ipynb)  
-- :page_with_curl: [Árboles: Búsqueda y Eliminación](/notebook/implementacion-de-arboles/trees-busqueda-y-eliminacion.ipynb)  
-- :page_with_curl: [Altura: Determinar la altura del árbol](/notebook/implementacion-de-arboles/altura-determinar-la-altura-del-arbol.ipynb)  
-- :page_with_curl: [Nivel de un Nodo: Encontrar el nivel de un nodo dado en el árbol](/notebook/implementacion-de-arboles/nivel-de-un-nodo-encontrar-el-nivel-de-un-nodo-dado-en-el-arbol.ipynb)  
-- :page_with_curl: [Tamaño del Árbol: Contar el número total de nodos en el árbol](/notebook/implementacion-de-arboles/tamanno-del-arbol-contar-el-numero-total-de-nodos-en-el-arbol.ipynb)  
 
 ## :bookmark_tabs: Árboles Autoequilibrados
 
