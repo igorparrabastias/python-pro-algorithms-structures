@@ -52,6 +52,8 @@ A continuación los árboles **B**, **B+** y **n-arios**, aún siendo estructura
   - :ledger: [Caso de uso: Verificación Ortográfica](/notebook/estructuras-de-datos-avanzadas/caso-de-uso-verificacion-ortografica.ipynb)  
   - :ledger: [Caso de uso: Sistemas de Enrutamiento](/notebook/estructuras-de-datos-avanzadas/caso-de-uso-sistemas-de-enrutamiento.ipynb)
 
+---
+
 Los árboles de **segmentos** y los árboles de **Fenwick**, también conocidos como Binary Indexed Trees (BIT), son estructuras de datos avanzadas que se utilizan ampliamente en el contexto de algoritmos y programación competitiva, especialmente para resolver eficientemente problemas que involucran consultas y actualizaciones de rangos en un arreglo de números. Permitiendo resolver problemas complejos dentro de límites de tiempo estrictos.
 
 - :bookmark_tabs: [Árbol de Segmentos](../notebook/arboles/arbol-de-segmentos.ipynb)  Es una estructura de datos que permite realizar eficientemente consultas y actualizaciones de rangos, siendo esencial para operaciones como la suma o el mínimo en un segmento.
@@ -60,6 +62,8 @@ Los árboles de **segmentos** y los árboles de **Fenwick**, también conocidos 
   - :ledger: [Caso de uso: Sistema de Contabilidad en Tiempo Real](/notebook/estructuras-de-datos-avanzadas/caso-de-uso-sistema-de-contabilidad-en-tiempo-real.ipynb)  
 
 - :bookmark_tabs: [Árbol de Fenwick o Binary Indexed Tree (BIT)](../notebook/arboles/arbol-de-fenwick-o-binary-indexed-tree-bit.ipynb) Proporciona una forma compacta y eficiente de realizar sumas acumulativas y actualizaciones, ideal para escenarios donde estas operaciones se realizan frecuentemente.
+
+---
 
 A continuación, los árboles de **expresión** y **decisión** son estructuras fundamentales en el campo de la inteligencia artificial y el aprendizaje automático. Los árboles de expresión representan una forma de organizar y evaluar expresiones matemáticas de manera jerárquica, lo que los hace útiles en la optimización de operaciones aritméticas complejas. Por otro lado, los árboles de decisión son herramientas poderosas para la toma de decisiones basadas en condiciones lógicas, donde cada nodo representa una pregunta y cada rama una posible respuesta. Ambos tipos de árboles son ampliamente utilizados en una variedad de aplicaciones, desde la clasificación de datos hasta la optimización de algoritmos.
 
