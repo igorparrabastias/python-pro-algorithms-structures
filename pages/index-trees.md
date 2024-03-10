@@ -50,6 +50,10 @@ A continuación los árboles **B**, **B+** y **n-arios**, aún siendo estructura
 ## Especializados
 
 - :page_with_curl: [Árbol Trie](../notebook/arboles/arbol-trie.ipynb)  Especializado para manejo de cadenas, útil en búsquedas de texto.
+  - :page_with_curl: [Caso de uso: Autocompletado](/notebook/estructuras-de-datos-avanzadas/caso-de-uso-autocompletado.ipynb)  
+  - :page_with_curl: [Caso de uso: Encontrar palabras con un prefijo común](/notebook/estructuras-de-datos-avanzadas/encontrar-palabras-con-un-prefijo-comun.ipynb)  
+  - :page_with_curl: [Caso de uso: Verificación Ortográfica](/notebook/estructuras-de-datos-avanzadas/caso-de-uso-verificacion-ortografica.ipynb)  
+  - :page_with_curl: [Caso de uso: Sistemas de Enrutamiento](/notebook/estructuras-de-datos-avanzadas/caso-de-uso-sistemas-de-enrutamiento.ipynb)
 
 Los árboles de **segmentos** y los árboles de **Fenwick**, también conocidos como Binary Indexed Trees (BIT), son estructuras de datos avanzadas que se utilizan ampliamente en el contexto de algoritmos y programación competitiva, especialmente para resolver eficientemente problemas que involucran consultas y actualizaciones de rangos en un arreglo de números. Permitiendo resolver problemas complejos dentro de límites de tiempo estrictos.
 
@@ -69,19 +73,3 @@ Los árboles de **segmentos** y los árboles de **Fenwick**, también conocidos 
 - :page_with_curl: [Árbol de Van Emde Boas](../notebook/arboles/arbol-de-van-emde-boas.ipynb)  Introduce conceptos avanzados para manejo de universos pequeños y operaciones muy eficientes.
 
 - :page_with_curl: [Árbol de Merkle](../notebook/arboles/arbol-de-merkle.ipynb)  Aplicado en criptografía y sistemas distribuidos, muestra un uso especializado de los árboles.
-
-
-
-
-
-
-
-## :bookmark_tabs: Árboles Especializados
-
-
-- :page_with_curl: [Tries](/notebook/estructuras-de-datos-avanzadas/tries.ipynb)  
-  - :page_with_curl: [Caso de uso: Autocompletado](/notebook/estructuras-de-datos-avanzadas/caso-de-uso-autocompletado.ipynb)  
-  - :page_with_curl: [Caso de uso: Encontrar palabras con un prefijo común](/notebook/estructuras-de-datos-avanzadas/encontrar-palabras-con-un-prefijo-comun.ipynb)  
-  - :page_with_curl: [Caso de uso: Verificación Ortográfica](/notebook/estructuras-de-datos-avanzadas/caso-de-uso-verificacion-ortografica.ipynb)  
-  - :page_with_curl: [Caso de uso: Sistemas de Enrutamiento](/notebook/estructuras-de-datos-avanzadas/caso-de-uso-sistemas-de-enrutamiento.ipynb)  - 
-
