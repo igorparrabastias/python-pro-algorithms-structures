@@ -1,5 +1,21 @@
 # Árboles Y Algoritmos de Operaciones
 
+- [Árbol Binario](../notebook/arboles/arbol-binario.ipynb)
+- [Árbol Binario de Búsqueda (ABB)](../notebook/arboles/arbol-binario-de-busqueda-abb.ipynb)
+- [Árbol AVL](../notebook/arboles/arbol-avl.ipynb)
+- [Árbol Rojo-Negro](../notebook/arboles/arbol-rojo-negro.ipynb)
+- [Árbol Splay](../notebook/arboles/arbol-splay.ipynb)
+- [Árbol B](../notebook/arboles/arbol-b.ipynb)
+- [Árbol B+](../notebook/arboles/arbol-b+.ipynb)
+- [Árbol n-ario](../notebook/arboles/arbol-n-ario.ipynb)
+- [Árbol de Segmentos](../notebook/arboles/arbol-de-segmentos.ipynb)
+- [Árbol Trie](../notebook/arboles/arbol-trie.ipynb)
+- [Árbol de Fenwick o Binary Indexed Tree (BIT)](../notebook/arboles/arbol-de-fenwick-o-binary-indexed-tree-bit.ipynb)
+- [Árbol de Expresión](../notebook/arboles/arbol-de-expresion.ipynb)
+- [Árbol de Decisión](../notebook/arboles/arbol-de-decision.ipynb)
+- [Árbol de Van Emde Boas](../notebook/arboles/arbol-de-van-emde-boas.ipynb)
+- [Árbol de Merkle](../notebook/arboles/arbol-de-merkle.ipynb)
+
  ## :bookmark_tabs: Introducción a los Árboles
 
 - :page_with_curl: [Tipos de árboles](../notebook/arboles-y-algoritmos-de-operaciones/tipos-de-arboles.ipynb)
