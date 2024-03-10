@@ -32,7 +32,7 @@
 
 ---
 
-A continuación los árboles B, B+ y n-arios, aún siendo estructuras de árbol fundamentales son más complejas y avanzadas, diseñadas para casos de uso específicos, especialmente en sistemas de bases de datos y sistemas de archivos, donde se manejan grandes volúmenes de datos. Estos árboles están optimizados para minimizar el acceso a disco y mejorar la eficiencia en la búsqueda, inserción y eliminación de datos en contextos donde el rendimiento es crítico. Los árboles binarios, en cambio, sí se consideran estructuras básicas y fundamentales en el estudio de estructuras de datos.
+A continuación los árboles **B**, **B+** y **n-arios**, aún siendo estructuras de árbol fundamentales son más complejas y avanzadas, diseñadas para casos de uso específicos, especialmente en sistemas de bases de datos y sistemas de archivos, donde se manejan grandes volúmenes de datos. Estos árboles están optimizados para minimizar el acceso a disco y mejorar la eficiencia en la búsqueda, inserción y eliminación de datos en contextos donde el rendimiento es crítico. Los árboles binarios, en cambio, sí se consideran estructuras básicas y fundamentales en el estudio de estructuras de datos.
 
 - :page_with_curl: [Árbol B](../notebook/arboles/arbol-b.ipynb) Es una estructura de datos de búsqueda balanceada, diseñada para almacenar información en sistemas de bases de datos y archivos, optimizando las operaciones de lectura y escritura en disco mediante la minimización de accesos. 
 
@@ -44,7 +44,7 @@ A continuación los árboles B, B+ y n-arios, aún siendo estructuras de árbol 
 
 - :page_with_curl: [Árbol Trie](../notebook/arboles/arbol-trie.ipynb)  Especializado para manejo de cadenas, útil en búsquedas de texto.
 
-Los árboles de segmentos y los árboles de Fenwick, también conocidos como Binary Indexed Trees (BIT), son estructuras de datos avanzadas que se utilizan ampliamente en el contexto de algoritmos y programación competitiva, especialmente para resolver eficientemente problemas que involucran consultas y actualizaciones de rangos en un arreglo de números. Permitiendo resolver problemas complejos dentro de límites de tiempo estrictos.
+Los árboles de **segmentos** y los árboles de **Fenwick**, también conocidos como Binary Indexed Trees (BIT), son estructuras de datos avanzadas que se utilizan ampliamente en el contexto de algoritmos y programación competitiva, especialmente para resolver eficientemente problemas que involucran consultas y actualizaciones de rangos en un arreglo de números. Permitiendo resolver problemas complejos dentro de límites de tiempo estrictos.
 
 - :page_with_curl: [Árbol de Segmentos](../notebook/arboles/arbol-de-segmentos.ipynb)  Es una estructura de datos que permite realizar eficientemente consultas y actualizaciones de rangos, siendo esencial para operaciones como la suma o el mínimo en un segmento.
 
