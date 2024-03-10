@@ -1,5 +1,7 @@
 # Árboles Y Algoritmos de Operaciones
 
+## Fundamentales
+
 - :page_with_curl: [Tipos de árboles](../notebook/arboles-y-algoritmos-de-operaciones/tipos-de-arboles.ipynb)
 - :page_with_curl: [Algoritmos Relacionados con Árboles](../notebook/arboles-y-algoritmos-de-operaciones/algoritmos-relacionados-con-arboles.ipynb)
 - :page_with_curl: [Introducción](/notebook/implementacion-de-arboles/introduccion.ipynb)
@@ -19,6 +21,8 @@
   - :page_with_curl: [Árboles Binarios](/notebook/algoritmos-de-arboles/arboles-binarios.ipynb)  
   - :page_with_curl: [Verificación de Árbol Binario de Búsqueda: Comprobar si un árbol binario cumple las propiedades de un BST](/notebook/implementacion-de-arboles/verificacion-de-arbol-binario-de-busqueda-comprobar-si-un-arbol-binario-cumple-las-propiedades-de-un-bst.ipynb)  
 
+## Avanzados
+
 - :page_with_curl: [Árbol AVL](../notebook/arboles/arbol-avl.ipynb)
 - :page_with_curl: [Árbol Rojo-Negro](../notebook/arboles/arbol-rojo-negro.ipynb)
 - :page_with_curl: [Árbol Splay](../notebook/arboles/arbol-splay.ipynb)
@@ -27,19 +31,14 @@
 - :page_with_curl: [Árbol n-ario](../notebook/arboles/arbol-n-ario.ipynb)
 - :page_with_curl: [Árbol de Segmentos](../notebook/arboles/arbol-de-segmentos.ipynb)
 - :page_with_curl: [Árbol Trie](../notebook/arboles/arbol-trie.ipynb)
+
+## Experto
+
 - :page_with_curl: [Árbol de Fenwick o Binary Indexed Tree (BIT)](../notebook/arboles/arbol-de-fenwick-o-binary-indexed-tree-bit.ipynb)
 - :page_with_curl: [Árbol de Expresión](../notebook/arboles/arbol-de-expresion.ipynb)
 - :page_with_curl: [Árbol de Decisión](../notebook/arboles/arbol-de-decision.ipynb)
 - :page_with_curl: [Árbol de Van Emde Boas](../notebook/arboles/arbol-de-van-emde-boas.ipynb)
 - :page_with_curl: [Árbol de Merkle](../notebook/arboles/arbol-de-merkle.ipynb)
-
- ## :bookmark_tabs: Introducción a los Árboles
-
-## :bookmark_tabs: Árboles Generales y Árboles Binarios
-
-## :bookmark_tabs: Árboles Binarios de Búsqueda (ABB)
-
-## :bookmark_tabs: Operaciones Básicas en Árboles
 
 ## :bookmark_tabs: Árboles Autoequilibrados
 
