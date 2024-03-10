@@ -8,31 +8,6 @@
 - :page_with_curl: [Introducción algoritmos](/notebook/algoritmos-de-arboles/introduccion.ipynb)  
 
 
-
-1. **Árboles Generales:**
-   - Árbol Binario
-   - Árbol B
-   - Árbol B+
-
-2. **Árboles de Búsqueda:**
-   - Árbol Binario de Búsqueda (ABB)
-   - Árbol AVL
-   - Árbol Rojo-Negro
-
-3. **Árboles Especializados:**
-   - Árbol de Segmentos
-   - Árbol de Fenwick (Binary Indexed Tree, BIT)
-   - Árbol Trie
-
-4. **Árboles para Aplicaciones Específicas:**
-   - Árbol de Expresión
-   - Árbol de Decisión
-   - Árbol de Merkle
-   - Árbol de Van Emde Boas
-
-
-
-
 ## :bookmark_tabs: Árboles Generales y Árboles Binarios
 
 - :page_with_curl: [Árboles Binarios: definición y recorridos (preorden, inorden, postorden)](/notebook/implementacion-de-arboles/arboles-binarios-definicion-y-recorridos-preorden-inorden-postorden.ipynb)  
@@ -60,6 +35,8 @@
 - :page_with_curl: [Árboles Rojo-Negro](/notebook/implementacion-de-arboles/arboles-rojo-negro.ipynb)  
 
 ## :bookmark_tabs: Árboles Multicamino
+
+Los árboles multicamino son una generalización de los árboles binarios, permitiendo que cada nodo tenga más de dos hijos. Esta característica los hace especialmente útiles para representar estructuras más complejas que los árboles binarios y son esenciales en varias aplicaciones como bases de datos y sistemas de archivos.
 
 - :page_with_curl: [N-ary Trees, Segment Trees](/notebook/estructuras-de-datos-avanzadas/n-ary-trees-segment-trees.ipynb)
   - :page_with_curl: [Caso de uso: Sistema de Contabilidad en Tiempo Real](/notebook/estructuras-de-datos-avanzadas/caso-de-uso-sistema-de-contabilidad-en-tiempo-real.ipynb)  
