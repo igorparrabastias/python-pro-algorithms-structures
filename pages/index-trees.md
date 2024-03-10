@@ -1,6 +1,6 @@
 # Árboles Y Algoritmos de Operaciones
 
- Seguiremos un orden asegura una progresión lógica, desde lo más fundamental a lo más especializado, permitiendo a los estudiantes construir una base sólida antes de abordar estructuras más complejas.
+ Seguiremos un orden que asegura una progresión lógica, desde lo más fundamental a lo más especializado, permitiendo a los estudiantes construir una base sólida antes de abordar estructuras más complejas.
 
 ## Fundamentales
 
@@ -23,7 +23,6 @@
   - :page_with_curl: [Árboles Binarios](/notebook/algoritmos-de-arboles/arboles-binarios.ipynb)  
   - :page_with_curl: [Verificación de Árbol Binario de Búsqueda: Comprobar si un árbol binario cumple las propiedades de un BST](/notebook/implementacion-de-arboles/verificacion-de-arbol-binario-de-busqueda-comprobar-si-un-arbol-binario-cumple-las-propiedades-de-un-bst.ipynb)  
 
-## Avanzados
 
 - :page_with_curl: [Árbol AVL](../notebook/arboles/arbol-avl.ipynb)  Introduce los árboles balanceados y las operaciones de rotación para mantener el equilibrio.
 
@@ -31,7 +30,7 @@
 
 - :page_with_curl: [Árbol Splay](../notebook/arboles/arbol-splay.ipynb) Presenta una estrategia de autoajuste para optimizar las búsquedas secuenciales.
 
-Los árboles B, B+ y n-arios son estructuras más complejas y avanzadas, diseñadas para casos de uso específicos, especialmente en sistemas de bases de datos y sistemas de archivos, donde se manejan grandes volúmenes de datos. Estos árboles están optimizados para minimizar el acceso a disco y mejorar la eficiencia en la búsqueda, inserción y eliminación de datos en contextos donde el rendimiento es crítico. Los árboles binarios, en cambio, sí se consideran estructuras básicas y fundamentales en el estudio de estructuras de datos.
+A continuación los árboles B, B+ y n-arios son estructuras más complejas y avanzadas, diseñadas para casos de uso específicos, especialmente en sistemas de bases de datos y sistemas de archivos, donde se manejan grandes volúmenes de datos. Estos árboles están optimizados para minimizar el acceso a disco y mejorar la eficiencia en la búsqueda, inserción y eliminación de datos en contextos donde el rendimiento es crítico. Los árboles binarios, en cambio, sí se consideran estructuras básicas y fundamentales en el estudio de estructuras de datos.
 
 - :page_with_curl: [Árbol B](../notebook/arboles/arbol-b.ipynb) Es una estructura de datos de búsqueda balanceada, diseñada para almacenar información en sistemas de bases de datos y archivos, optimizando las operaciones de lectura y escritura en disco mediante la minimización de accesos. 
 
@@ -39,10 +38,9 @@ Los árboles B, B+ y n-arios son estructuras más complejas y avanzadas, diseña
 
 - :page_with_curl: [Árbol n-ario](../notebook/arboles/arbol-n-ario.ipynb) Generalización de árboles con más de dos hijos, útil para entender la base de árboles B y B+.
 
-
 - :page_with_curl: [Árbol Trie](../notebook/arboles/arbol-trie.ipynb)  Especializado para manejo de cadenas, útil en búsquedas de texto.
 
-## Experto
+## Especializados
 
 Los árboles de segmentos y los árboles de Fenwick, también conocidos como Binary Indexed Trees (BIT), son estructuras de datos avanzadas que se utilizan ampliamente en el contexto de algoritmos y programación competitiva, especialmente para resolver eficientemente problemas que involucran consultas y actualizaciones de rangos en un arreglo de números. Permitiendo resolver problemas complejos dentro de límites de tiempo estrictos.
 
@@ -53,6 +51,8 @@ Los árboles de segmentos y los árboles de Fenwick, también conocidos como Bin
 - :page_with_curl: [Árbol de Expresión](../notebook/arboles/arbol-de-expresion.ipynb) Introduce árboles en el contexto de expresiones matemáticas o lógicas.
 
 - :page_with_curl: [Árbol de Decisión](../notebook/arboles/arbol-de-decision.ipynb) Aplica los conceptos de árboles en un contexto de aprendizaje automático o toma de decisiones.
+
+## Experto
 
 - :page_with_curl: [Árbol de Van Emde Boas](../notebook/arboles/arbol-de-van-emde-boas.ipynb)  Introduce conceptos avanzados para manejo de universos pequeños y operaciones muy eficientes.
 
