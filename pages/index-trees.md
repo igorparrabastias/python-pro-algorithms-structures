@@ -9,12 +9,12 @@ Seguiremos un orden que asegura una progresión lógica, desde lo más **fundame
 
 Los **árboles** son estructuras de datos fundamentales en informática, que se utilizan para organizar y almacenar datos de manera jerárquica. Entre ellos, los **árboles binarios** son aquellos en los que cada nodo tiene como máximo dos hijos, lo que facilita la implementación y manipulación de datos. Por otro lado, los **árboles de búsqueda binaria** son una variante especializada en la que cada nodo cumple con una regla de ordenamiento, permitiendo búsquedas eficientes y rápidas en conjuntos de datos ordenados. Estas estructuras son esenciales en la programación y la gestión de datos, siendo ampliamente utilizadas en aplicaciones como bases de datos, algoritmos de búsqueda y optimización.
 
-- :bookmark_tabs: [Árboles](../notebook/arboles-y-algoritmos-de-operaciones/tipos-de-arboles.ipynb)
+- :bookmark_tabs: [Árboles](../notebook/arboles-y-algoritmos-de-operaciones/tipos-de-arboles.ipynb) Enumeración de los tipos principales y su categorización según su estructura y propósito.
   - :ledger: [Algoritmos Relacionados con Árboles](../notebook/arboles-y-algoritmos-de-operaciones/algoritmos-relacionados-con-arboles.ipynb)
   - :ledger: [Introducción](/notebook/implementacion-de-arboles/introduccion.ipynb)
   - :ledger: [Introducción algoritmos](/notebook/algoritmos-de-arboles/introduccion.ipynb)  
 
-- :bookmark_tabs: [Árboles Binarios](../notebook/arboles/arbol-binario.ipynb) Concepto básico sobre árboles, introduce la idea de nodos y estructura jerárquica.
+- :bookmark_tabs: [Árboles Binarios](../notebook/arboles/arbol-binario.ipynb) Concepto básico sobre árboles binarios, introduce la idea de nodos y estructura jerárquica.
   - :ledger: [Implementación básica](/notebook/implementacion-de-arboles/trees-metodos-basicos.ipynb)  
   - :ledger: [Búsqueda y Eliminación](/notebook/implementacion-de-arboles/trees-busqueda-y-eliminacion.ipynb)  
   - :ledger: [Altura: Determinar la altura del árbol](/notebook/implementacion-de-arboles/altura-determinar-la-altura-del-arbol.ipynb)  
