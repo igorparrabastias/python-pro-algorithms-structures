@@ -1,18 +1,18 @@
 # :file_folder: Árboles Y Algoritmos de Operaciones
-ledger
-Seguiremos un orden que asegura una progresión lógica, desde lo más **fundamentales** a lo más **avanzados**, permitiendo a los estudiantes construir una base sólida antes de abordar estructuras más complejas.  
+
+Seguiremos un orden que asegura una progresión lógica, desde lo más **fundamental** a lo más **avanzado**, permitiendo construir una base sólida antes de abordar estructuras más complejas.  
 - :file_folder: Repása esta página de principio a fin para tener una visión global sobre la **estructura de datos** de tipo **árbol**.
 - :ledger: Después de eso sigue cada link en el primer nivel  en forma secuencial para aprender sobre cada tipo.   
 - :page_with_curl: Y al final, una vez hayas revisado todos los tipos, avanza a los link anidados para profundizar más, teniendo ya muy claro el contexto general.
 
 ## Fundamentales
 
-Los **árboles** son estructuras de datos fundamentales en informática, que se utilizan para organizar y almacenar datos de manera jerárquica. Entre ellos, los **árboles binarios** son aquellos en los que cada nodo tiene como máximo dos hijos, lo que facilita la implementación y manipulación de datos. Por otro lado, los **árboles de búsqueda binaria** son una variante especializada en la que cada nodo cumple con una regla de ordenamiento, permitiendo búsquedas eficientes y rápidas en conjuntos de datos ordenados. Estas estructuras son esenciales en la programación y la gestión de datos, siendo ampliamente utilizadas en aplicaciones como bases de datos, algoritmos de búsqueda y optimización.
+Entre ellos, los **árboles binarios** son aquellos en los que cada nodo tiene como máximo dos hijos, lo que facilita la implementación y manipulación de datos. Por otro lado, los **árboles de búsqueda binaria** son una variante especializada en la que cada nodo cumple con una regla de ordenamiento, permitiendo búsquedas eficientes y rápidas en conjuntos de datos ordenados. Estas estructuras son esenciales en la programación y la gestión de datos, siendo ampliamente utilizadas en aplicaciones como bases de datos, algoritmos de búsqueda y optimización.
 
-- :ledger: [Árboles](../notebook/arboles-y-algoritmos-de-operaciones/tipos-de-arboles.ipynb) Enumeración de los tipos principales y su categorización según su estructura y propósito.
-  - :page_with_curl: [Algoritmos Relacionados con Árboles](../notebook/arboles-y-algoritmos-de-operaciones/algoritmos-relacionados-con-arboles.ipynb)
-  - :page_with_curl: [Introducción](/notebook/implementacion-de-arboles/introduccion.ipynb)
-  - :page_with_curl: [Introducción algoritmos](/notebook/algoritmos-de-arboles/introduccion.ipynb)  
+- :ledger: [Introducción](../notebook/arboles/introduccion.ipynb) Introducción general a árboles. Terminología y consideraciones de implementación.
+  - :page_with_curl: [Tipo de Árboles](../notebook/arboles/tipos-de-arboles.ipynb) Enumeración de los tipos principales y su categorización según su estructura y propósito. Operacion básicas.
+  - :page_with_curl: [Algoritmos Relacionados con Árboles](../notebook/arboles/algoritmos-relacionados-con-arboles.ipynb)
+  - :page_with_curl: [Ejercicios](/notebook/arboles/ejercicios.ipynb)  
 
 - :ledger: [Árboles Binarios](../notebook/arboles/arbol-binario.ipynb) Concepto básico sobre árboles binarios, introduce la idea de nodos y estructura jerárquica.
   - :page_with_curl: [Implementación básica](/notebook/implementacion-de-arboles/trees-metodos-basicos.ipynb)  
