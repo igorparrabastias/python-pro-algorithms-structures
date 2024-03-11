@@ -6,6 +6,8 @@ Seguiremos un orden que asegura una progresión lógica, desde lo más **fundame
 
 ## Fundamentales
 
+Los árboles son estructuras de datos fundamentales en informática, que se utilizan para organizar y almacenar datos de manera jerárquica. Entre ellos, los árboles binarios son aquellos en los que cada nodo tiene como máximo dos hijos, lo que facilita la implementación y manipulación de datos. Por otro lado, los árboles de búsqueda binaria son una variante especializada en la que cada nodo cumple con una regla de ordenamiento, permitiendo búsquedas eficientes y rápidas en conjuntos de datos ordenados. Estas estructuras son esenciales en la programación y la gestión de datos, siendo ampliamente utilizadas en aplicaciones como bases de datos, algoritmos de búsqueda y optimización.
+
 - :bookmark_tabs: [Árboles](../notebook/arboles-y-algoritmos-de-operaciones/tipos-de-arboles.ipynb)
   - :ledger: [Algoritmos Relacionados con Árboles](../notebook/arboles-y-algoritmos-de-operaciones/algoritmos-relacionados-con-arboles.ipynb)
   - :ledger: [Introducción](/notebook/implementacion-de-arboles/introduccion.ipynb)
@@ -24,6 +26,8 @@ Seguiremos un orden que asegura una progresión lógica, desde lo más **fundame
   - :ledger: [Implementación de Árboles Binarios de Búsqueda (ABB)](/notebook/algoritmos-de-arboles-arboles-binarios-de-busqueda/implementacion-de-arboles-binarios-de-busqueda-abb.ipynb)  
   - :ledger: [Árboles Binarios](/notebook/algoritmos-de-arboles/arboles-binarios.ipynb)  
   - :ledger: [Verificación de Árbol Binario de Búsqueda: Comprobar si un árbol binario cumple las propiedades de un BST](/notebook/implementacion-de-arboles/verificacion-de-arbol-binario-de-busqueda-comprobar-si-un-arbol-binario-cumple-las-propiedades-de-un-bst.ipynb)  
+
+Los árboles AVL, rojo-negro y splay son variantes avanzadas de los árboles binarios de búsqueda, diseñadas para mejorar el rendimiento en operaciones de inserción, eliminación y búsqueda. Los árboles AVL mantienen un equilibrio óptimo, asegurando que la diferencia de altura entre subárboles no supere un valor específico, lo que garantiza tiempos de búsqueda consistentes. Los árboles rojo-negro, por otro lado, aplican reglas de coloración para mantener un equilibrio relajado, lo que los hace más eficientes en operaciones de inserción y eliminación. Mientras tanto, los árboles splay utilizan rotaciones y reorganizaciones dinámicas para llevar a los nodos más accesibles a la raíz, optimizando las operaciones de búsqueda. Estas estructuras son cruciales en aplicaciones donde se requiere un rendimiento óptimo en la gestión y manipulación de datos, como bases de datos, sistemas de archivos y algoritmos de búsqueda.
 
 - :bookmark_tabs: [Árbol AVL](../notebook/arboles/arbol-avl.ipynb)  Introduce los árboles balanceados y las operaciones de rotación para mantener el equilibrio.
   - :ledger: [Balanceo de Árboles: Introducción a los Árboles AVL](/notebook/algoritmos-de-arboles-arboles-binarios-de-busqueda/balanceo-de-arboles-introduccion-a-los-arboles-av.ipynb)  
