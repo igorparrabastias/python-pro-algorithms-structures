@@ -1,6 +1,8 @@
 # Árboles Y Algoritmos de Operaciones
 
- Seguiremos un orden que asegura una progresión lógica, desde lo más **fundamentales** a lo más **avanzados**, permitiendo a los estudiantes construir una base sólida antes de abordar estructuras más complejas.
+En esta página puedes tener una visión global sobre las estructura de datos de tipo árbol. Donde cada link te dará más profundidad sobre cada tema.   
+Seguiremos un orden que asegura una progresión lógica, desde lo más **fundamentales** a lo más **avanzados**, permitiendo a los estudiantes construir una base sólida antes de abordar estructuras más complejas.  
+
 
 ## Fundamentales
 
@@ -39,7 +41,7 @@ A continuación los árboles **B**, **B+** y **n-arios**, aún siendo estructura
 
 - :bookmark_tabs: [Árbol B](../notebook/arboles/arbol-b.ipynb) Es una estructura de datos de búsqueda balanceada, diseñada para almacenar información en sistemas de bases de datos y archivos, optimizando las operaciones de lectura y escritura en disco mediante la minimización de accesos. 
 - :bookmark_tabs: [Árbol B+](../notebook/arboles/arbol-b+.ipynb) Es una variante del árbol B que mejora el acceso secuencial y la eficiencia en la búsqueda al almacenar todos los elementos en las hojas y mantener un enlace entre ellas, siendo ampliamente utilizado en bases de datos y sistemas de archivos.
-- :bookmark_tabs: [Árbol n-ario](../notebook/arboles/arbol-n-ario.ipynb) Generalización de árboles con más de dos hijos, útil para entender la base de árboles B y B+. Esta característica los hace especialmente útiles para representar estructuras más complejas que los árboles binarios y son esenciales en varias aplicaciones como bases de datos y sistemas de archivos.
+- :bookmark_tabs: [Árbol n-ario](../notebook/arboles/arbol-n-ario.ipynb) Generalización de árboles con más de dos hijos. Esta característica los hace especialmente útiles para representar estructuras más complejas que los árboles binarios y son esenciales en varias aplicaciones como bases de datos y sistemas de archivos.
   - :ledger: [Caso de uso: Sistemas de Gestión de Bases de Datos (SGBD)](/notebook/estructuras-de-datos-avanzadas/caso-de-uso-sistemas-de-gestion-de-bases-de-datos-sgbd.ipynb)  
   - :ledger: [Caso de uso: Sistemas de archivos en computadoras](/notebook/estructuras-de-datos-avanzadas/caso-de-uso-sistemas-de-archivos-en-computadoras.ipynb)  - 
 
