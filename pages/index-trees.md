@@ -1,10 +1,9 @@
 # :bookmark_tabs: Árboles Y Algoritmos de Operaciones
 
-En esta página puedes tener una visión global sobre la **estructura de datos** de tipo **árbol**.  
 Seguiremos un orden que asegura una progresión lógica, desde lo más **fundamentales** a lo más **avanzados**, permitiendo a los estudiantes construir una base sólida antes de abordar estructuras más complejas.  
-- Repásala esta página de principio a fin
-- Después de eso sigue cada link en el primer nivel :file_folder: en forma secuencial.   
-- Y al final, una vez haz revisado todos los tipos, avanza a los link anidados :ledger: para profundizar aún más, teniendo ya muy claro el contexto general.
+- :bookmark_tabs: Repása esta página de principio a fin para tener una visión global sobre la **estructura de datos** de tipo **árbol**.
+- :file_folder: Después de eso sigue cada link en el primer nivel  en forma secuencial para aprender sobre cada tipo.   
+- :ledger: Y al final, una vez hayas revisado todos los tipos, avanza a los link anidados para profundizar más, teniendo ya muy claro el contexto general.
 
 ## Fundamentales
 
