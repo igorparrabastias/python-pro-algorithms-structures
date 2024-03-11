@@ -1,8 +1,7 @@
 # Árboles Y Algoritmos de Operaciones
 
-En esta página puedes tener una visión global sobre las estructura de datos de tipo árbol. Donde cada link te dará más profundidad sobre cada tema.   
+En esta página puedes tener una visión global sobre la estructura de datos de tipo árbol. Repásala de principio a fin y sólo después de eso sigue cada link en forma secuencial para obtener así una  más profundidad en cada tipo.   
 Seguiremos un orden que asegura una progresión lógica, desde lo más **fundamentales** a lo más **avanzados**, permitiendo a los estudiantes construir una base sólida antes de abordar estructuras más complejas.  
-
 
 ## Fundamentales
 
