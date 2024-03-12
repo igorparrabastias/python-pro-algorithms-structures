@@ -12,9 +12,10 @@ Entre ellos, los **árboles binarios** son aquellos en los que cada nodo tiene c
 - :ledger: [Introducción](../notebook/arboles/introduccion.ipynb) Introducción general a árboles. Terminología y consideraciones de implementación.
   - :page_with_curl: [Tipo de Árboles](../notebook/arboles/tipos-de-arboles.ipynb) Enumeración de los tipos principales y su categorización según su estructura y propósito. Operacion básicas.
   - :page_with_curl: [Algoritmos Relacionados con Árboles](../notebook/arboles/algoritmos-relacionados-con-arboles.ipynb)
+  - :page_with_curl: [Ejemplo de algoritmo en Bioinformática](../notebook/arboles/ejemplo-de-algoritmo-en-bioinformatica.ipynb)
   - :page_with_curl: [Ejercicios](/notebook/arboles/ejercicios.ipynb)  
 
-- :ledger: [Árboles Binarios](../notebook/arboles/arbol-binario.ipynb) Concepto básico sobre árboles binarios, introduce la idea de nodos y estructura jerárquica.
+- :ledger: [Árboles Binarios](../notebook/arboles/arbol-binario.ipynb) Concepto básico sobre árboles binarios. estructuras de datos en las que cada nodo tiene como máximo dos hijos.
   - :page_with_curl: [Implementación básica](/notebook/implementacion-de-arboles/trees-metodos-basicos.ipynb)  
   - :page_with_curl: [Búsqueda y Eliminación](/notebook/implementacion-de-arboles/trees-busqueda-y-eliminacion.ipynb)  
   - :page_with_curl: [Altura: Determinar la altura del árbol](/notebook/implementacion-de-arboles/altura-determinar-la-altura-del-arbol.ipynb)  
