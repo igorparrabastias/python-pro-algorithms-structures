@@ -75,7 +75,7 @@
 - :page_with_curl: [Queues (Colas)](/notebook/implementacion-de-estructuras-simples/colas-queues.ipynb)  
 
 ## :bookmark_tabs: Árboles Y Algoritmos de Operaciones
-[Indíce](index-trees.md)
+[Indice](index-trees.md)
 
 ## :bookmark_tabs: Implementación de Grafos
 

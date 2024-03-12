@@ -12,6 +12,7 @@ Entre ellos, los **árboles binarios** son aquellos en los que cada nodo tiene c
 - :ledger: [Introducción](../notebook/arboles/introduccion.ipynb) Introducción general a árboles. Terminología y consideraciones de implementación.
   - :page_with_curl: [Tipo de Árboles](../notebook/arboles/tipos-de-arboles.ipynb) Enumeración de los tipos principales y su categorización según su estructura y propósito. Operacion básicas.
   - :page_with_curl: [Algoritmos Relacionados con Árboles](../notebook/arboles/algoritmos-relacionados-con-arboles.ipynb)
+  - :page_with_curl: [Ejemplo de algoritmo en Sistemas de Recomendación](../notebook/arboles/ejemplo-de-algoritmo-en-sistemas-de-recomendacion.ipynb)
   - :page_with_curl: [Ejemplo de algoritmo en Bioinformática](../notebook/arboles/ejemplo-de-algoritmo-en-bioinformatica.ipynb)
   - :page_with_curl: [Ejercicios](/notebook/arboles/ejercicios.ipynb)  
 
