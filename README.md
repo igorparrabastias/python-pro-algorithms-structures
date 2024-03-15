@@ -71,7 +71,7 @@ A lo largo de tu carrera, puedes alejarte de los fundamentos como las estructura
 
 ```sh
 sudo apt-get install python3-tk
-
+pip install graphviz
 ```
 
 ## Sobre el Instructor: Igor Parra
