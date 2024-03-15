@@ -18,12 +18,16 @@ Entre ellos, los **árboles binarios** son aquellos en los que cada nodo tiene c
   - :page_with_curl: [Ejercicios](/notebook/arboles/ejercicios.ipynb)  
 
 - :ledger: [Árboles Binarios](../notebook/arboles/arbol-binario.ipynb) Concepto básico sobre árboles binarios y recorridos. Estructura de datos en la que cada nodo tiene como máximo dos hijos, llamados  hijo izquierdo e hijo derecho.
-  - :page_with_curl: [Aplicaciones de Árboles Binarios](/notebook/implementacion-de-arboles/aplicaciones-arboles-binarios.ipynb)  
+  - :page_with_curl: [Aplicaciones de Árboles Binarios](/notebook/arboles/aplicaciones-arboles-binarios.ipynb)  
+
+---
   - :page_with_curl: [Implementación básica](/notebook/implementacion-de-arboles/trees-metodos-basicos.ipynb)  
   - :page_with_curl: [Búsqueda y Eliminación](/notebook/implementacion-de-arboles/trees-busqueda-y-eliminacion.ipynb)  
   - :page_with_curl: [Altura: Determinar la altura del árbol](/notebook/implementacion-de-arboles/altura-determinar-la-altura-del-arbol.ipynb)  
   - :page_with_curl: [Nivel de un Nodo: Encontrar el nivel de un nodo dado en el árbol](/notebook/implementacion-de-arboles/nivel-de-un-nodo-encontrar-el-nivel-de-un-nodo-dado-en-el-arbol.ipynb)  
   - :page_with_curl: [Tamaño del Árbol: Contar el número total de nodos en el árbol](/notebook/implementacion-de-arboles/tamanno-del-arbol-contar-el-numero-total-de-nodos-en-el-arbol.ipynb)  
+
+---
 
 - :ledger: [Árboles Binarios de Búsqueda (ABB)](../notebook/arboles/arbol-binario-de-busqueda-abb.ipynb)  Evolución del árbol binario, introduce la idea de ordenamiento y eficiencia en la búsqueda.
   - :page_with_curl: [Definición y recorridos (preorden, inorden, postorden)](/notebook/implementacion-de-arboles/arboles-binarios-definicion-y-recorridos-preorden-inorden-postorden.ipynb)  
