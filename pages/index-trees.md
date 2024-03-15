@@ -17,7 +17,7 @@ Entre ellos, los **árboles binarios** son aquellos en los que cada nodo tiene c
   - :page_with_curl: [Ejemplo de algoritmo en Bioinformática](../notebook/arboles/ejemplo-de-algoritmo-en-bioinformatica.ipynb)
   - :page_with_curl: [Ejercicios](/notebook/arboles/ejercicios.ipynb)  
 
-- :ledger: [Árboles Binarios](../notebook/arboles/arbol-binario.ipynb) Concepto básico sobre árboles binarios. Estructura de datos en la que cada nodo tiene como máximo dos hijos, llamados  hijo izquierdo e hijo derecho.
+- :ledger: [Árboles Binarios](../notebook/arboles/arbol-binario.ipynb) Concepto básico sobre árboles binarios y recorridos. Estructura de datos en la que cada nodo tiene como máximo dos hijos, llamados  hijo izquierdo e hijo derecho.
   - :page_with_curl: [Aplicaciones de Árboles Binarios](/notebook/implementacion-de-arboles/aplicaciones-arboles-binarios.ipynb)  
   - :page_with_curl: [Implementación básica](/notebook/implementacion-de-arboles/trees-metodos-basicos.ipynb)  
   - :page_with_curl: [Búsqueda y Eliminación](/notebook/implementacion-de-arboles/trees-busqueda-y-eliminacion.ipynb)  
