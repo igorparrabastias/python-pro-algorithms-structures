@@ -19,8 +19,11 @@ Entre ellos, los **árboles binarios** son aquellos en los que cada nodo tiene c
   - **Clases y Métodos Elementales**
     - :page_with_curl: [TreeNode y Tree](/notebook/arboles/tree-elemental.ipynb)  
 
+
+
 - :ledger: [Árboles Binarios](../notebook/arboles/arbol-binario.ipynb) Concepto básico y recorridos.
   - :page_with_curl: [Aplicaciones de Árboles Binarios](/notebook/arboles/aplicaciones-arboles-binarios.ipynb)
+  - :page_with_curl: [Consideraciones al implementar un árbol binario](/notebook/arboles/consideraciones-al-implementar-un-arbol-binario.ipynb)
 
   - **Clases y Métodos Elementales**
     - :page_with_curl: [TreeNode y BinaryTree](/notebook/arboles/clases-y-métodos-elementales.ipynb)  
