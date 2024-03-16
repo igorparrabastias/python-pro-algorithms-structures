@@ -25,18 +25,18 @@ Entre ellos, los **árboles binarios** son aquellos en los que cada nodo tiene c
 
   - **Implementación de Operaciones**
     - :page_with_curl: [Clase base](/notebook/arboles/implementacion-clase-base.ipynb)  
-  - **Métodos de Recorrido**
+    - **Métodos de Recorrido**
     - :page_with_curl: [preorder](/notebook/arboles/implementacion-preorder.ipynb)
     - :page_with_curl: [inorder](/notebook/arboles/implementacion-inorder.ipynb)
     - :page_with_curl: [postorder](/notebook/arboles/implementacion-postorder.ipynb)
     - :page_with_curl: [level_order](/notebook/arboles/implementacion-level_order.ipynb)
     - :page_with_curl: [depth_first_search](/notebook/arboles/implementacion-depth_first_search.ipynb)
-  - **Métodos de Utilidad**
-    - :page_with_curl: [height](/notebook/arboles/implementacion-height.ipynb)
-    - :page_with_curl: [size](/notebook/arboles/implementacion-size.ipynb)
-    - :page_with_curl: [is_balanced](/notebook/arboles/implementacion-is_balanced.ipynb)
-    - :page_with_curl: [get_successor](/notebook/arboles/implementacion-get_successor.ipynb)
-    - :page_with_curl: [get_predecessor](/notebook/arboles/implementacion-get_predecessor.ipynb)
+    - **Métodos de Utilidad**
+      - :page_with_curl: [height](/notebook/arboles/implementacion-height.ipynb)
+      - :page_with_curl: [size](/notebook/arboles/implementacion-size.ipynb)
+      - :page_with_curl: [is_balanced](/notebook/arboles/implementacion-is_balanced.ipynb)
+      - :page_with_curl: [get_successor](/notebook/arboles/implementacion-get_successor.ipynb)
+      - :page_with_curl: [get_predecessor](/notebook/arboles/implementacion-get_predecessor.ipynb)
   - **Métodos de Borrado**
     - :page_with_curl: [delete_leaf](/notebook/arboles/implementacion-delete_leaf.ipynb)
     - :page_with_curl: [delete_node_with_one_child](/notebook/arboles/implementacion-delete_node_with_one_child.ipynb)
