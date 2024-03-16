@@ -26,27 +26,22 @@ class BinaryTree:
         # Utiliza una cola para realizar un recorrido por niveles en el árbol.
         queue = [self.root]
 
-        # Itera sobre los nodos del árbol hasta encontrar un lugar para insertar
-        # el nuevo nodo.
+        # Itera sobre los nodos del árbol hasta encontrar un lugar para insertar el nuevo nodo.
         while queue:
             current = queue.pop(0)  # Extrae el primer nodo de la cola.
 
-            # Si el nodo actual no tiene un hijo izquierdo, inserta el nuevo
-            # nodo aquí.
+            # Si el nodo actual no tiene un hijo izquierdo, inserta el nuevo nodo aquí.
             if not current.left:
                 current.left = new_node
                 return  # Finaliza el método después de insertar el nodo.
             else:
-                # Si el nodo actual tiene un hijo izquierdo, lo agrega a la cola
-                # para continuar el recorrido.
+                # Si el nodo actual tiene un hijo izquierdo, lo agrega a la cola para continuar el recorrido.
                 queue.append(current.left)
 
-            # Si el nodo actual no tiene un hijo derecho, inserta el nuevo nodo
-            # aquí.
+            # Si el nodo actual no tiene un hijo derecho, inserta el nuevo nodo aquí.
             if not current.right:
                 current.right = new_node
                 return  # Finaliza el método después de insertar el nodo.
             else:
-                # Si el nodo actual tiene un hijo derecho, lo agrega a la cola
-                # para continuar el recorrido.
+                # Si el nodo actual tiene un hijo derecho, lo agrega a la cola para continuar el recorrido.
                 queue.append(current.right)
