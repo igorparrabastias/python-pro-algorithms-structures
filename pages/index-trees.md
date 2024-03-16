@@ -28,6 +28,7 @@ Entre ellos, los **árboles binarios** son aquellos en los que cada nodo tiene c
     - :page_with_curl: [Inserción manual](/notebook/arboles/insercion-manual.ipynb)  
     - :page_with_curl: [Inserción automática](/notebook/arboles/insercion-automatica.ipynb)  
     - :page_with_curl: [Búsqueda recursiva](/notebook/arboles/busqueda-recursiva.ipynb)  
+    - :page_with_curl: [Eliminación](/notebook/arboles/eliminacion.ipynb)  
   - **Implementación de Operaciones**
     - :page_with_curl: [Clase base](/notebook/arboles/implementacion-clase-base.ipynb)  
     - **Métodos de Recorrido**
