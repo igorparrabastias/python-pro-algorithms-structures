@@ -10,14 +10,14 @@ Seguiremos un orden que asegura una progresión lógica, desde lo más **fundame
 Entre ellos, los **árboles binarios** son aquellos en los que cada nodo tiene como máximo dos hijos, lo que facilita la implementación y manipulación de datos. Por otro lado, los **árboles de búsqueda binaria** son una variante especializada en la que cada nodo cumple con una regla de ordenamiento, permitiendo búsquedas eficientes y rápidas en conjuntos de datos ordenados. Estas estructuras son esenciales en la programación y la gestión de datos, siendo ampliamente utilizadas en aplicaciones como bases de datos, algoritmos de búsqueda y optimización.
 
 - :ledger: [Introducción](../notebook/arboles/introduccion.ipynb) Introducción general a árboles. Terminología y consideraciones de implementación.
-  - :page_with_curl: [Tipo de Árboles](../notebook/arboles/tipos-de-arboles.ipynb) Enumeración de los tipos principales y su categorización según su estructura y propósito. Operacion básicas.
+  - :page_with_curl: [Tipo de Árboles](../notebook/arboles/tipos-de-arboles.ipynb) Tipos principales y su categorización según su estructura y propósito.
   - :page_with_curl: [Algoritmos Relacionados con Árboles](../notebook/arboles/algoritmos-relacionados-con-arboles.ipynb)
   - :page_with_curl: [Ejemplo de algoritmo en Sistemas de Recomendación](../notebook/arboles/ejemplo-de-algoritmo-en-sistemas-de-recomendacion.ipynb)
   - :page_with_curl: [Ejemplo de algoritmo par Procesamiento del Lenguaje Natural](../notebook/arboles/ejemplo-de-algoritmo-par-procesamiento-del-lenguaje-natural.ipynb)
   - :page_with_curl: [Ejemplo de algoritmo en Bioinformática](../notebook/arboles/ejemplo-de-algoritmo-en-bioinformatica.ipynb)
   - :page_with_curl: [Ejercicios](/notebook/arboles/ejercicios.ipynb)  
 
-- :ledger: [Árboles Binarios](../notebook/arboles/arbol-binario.ipynb) Concepto básico sobre árboles binarios y recorridos. Estructura de datos en la que cada nodo tiene como máximo dos hijos, llamados  hijo izquierdo e hijo derecho.
+- :ledger: [Árboles Binarios](../notebook/arboles/arbol-binario.ipynb) Concepto básico y recorridos.
   - :page_with_curl: [Aplicaciones de Árboles Binarios](/notebook/arboles/aplicaciones-arboles-binarios.ipynb)
 
   - **Playground**
@@ -26,28 +26,28 @@ Entre ellos, los **árboles binarios** son aquellos en los que cada nodo tiene c
   - **Implementación de Operaciones**
     - :page_with_curl: [Clase base](/notebook/arboles/implementacion-clase-base.ipynb)  
     - **Métodos de Recorrido**
-    - :page_with_curl: [preorder](/notebook/arboles/implementacion-preorder.ipynb)
-    - :page_with_curl: [inorder](/notebook/arboles/implementacion-inorder.ipynb)
-    - :page_with_curl: [postorder](/notebook/arboles/implementacion-postorder.ipynb)
-    - :page_with_curl: [level_order](/notebook/arboles/implementacion-level_order.ipynb)
-    - :page_with_curl: [depth_first_search](/notebook/arboles/implementacion-depth_first_search.ipynb)
+      - :page_with_curl: [preorder](/notebook/arboles/implementacion-preorder.ipynb)
+      - :page_with_curl: [inorder](/notebook/arboles/implementacion-inorder.ipynb)
+      - :page_with_curl: [postorder](/notebook/arboles/implementacion-postorder.ipynb)
+      - :page_with_curl: [level_order](/notebook/arboles/implementacion-level_order.ipynb)
+      - :page_with_curl: [depth_first_search](/notebook/arboles/implementacion-depth_first_search.ipynb)
     - **Métodos de Utilidad**
       - :page_with_curl: [height](/notebook/arboles/implementacion-height.ipynb)
       - :page_with_curl: [size](/notebook/arboles/implementacion-size.ipynb)
       - :page_with_curl: [is_balanced](/notebook/arboles/implementacion-is_balanced.ipynb)
       - :page_with_curl: [get_successor](/notebook/arboles/implementacion-get_successor.ipynb)
       - :page_with_curl: [get_predecessor](/notebook/arboles/implementacion-get_predecessor.ipynb)
-  - **Métodos de Borrado**
-    - :page_with_curl: [delete_leaf](/notebook/arboles/implementacion-delete_leaf.ipynb)
-    - :page_with_curl: [delete_node_with_one_child](/notebook/arboles/implementacion-delete_node_with_one_child.ipynb)
-    - :page_with_curl: [delete_node_with_two_children](/notebook/arboles/implementacion-delete_node_with_two_children.ipynb)
-  - **Métodos Avanzados**
-    - :page_with_curl: [mirror](/notebook/arboles/implementacion-mirror.ipynb)
-    - :page_with_curl: [lowest_common_ancestor](/notebook/arboles/implementacion-lowest_common_ancestor.ipynb)
-    - :page_with_curl: [is_subtree](/notebook/arboles/implementacion-is_subtree.ipynb)
-    - :page_with_curl: [convert_to_linked_list](/notebook/arboles/implementacion-convert_to_linked_list.ipynb)
-    - :page_with_curl: [serialize](/notebook/arboles/implementacion-serialize.ipynb)
-    - :page_with_curl: [deserialize](/notebook/arboles/implementacion-deserialize.ipynb)
+    - **Métodos de Borrado**
+      - :page_with_curl: [delete_leaf](/notebook/arboles/implementacion-delete_leaf.ipynb)
+      - :page_with_curl: [delete_node_with_one_child](/notebook/arboles/implementacion-delete_node_with_one_child.ipynb)
+      - :page_with_curl: [delete_node_with_two_children](/notebook/arboles/implementacion-delete_node_with_two_children.ipynb)
+    - **Métodos Avanzados**
+      - :page_with_curl: [mirror](/notebook/arboles/implementacion-mirror.ipynb)
+      - :page_with_curl: [lowest_common_ancestor](/notebook/arboles/implementacion-lowest_common_ancestor.ipynb)
+      - :page_with_curl: [is_subtree](/notebook/arboles/implementacion-is_subtree.ipynb)
+      - :page_with_curl: [convert_to_linked_list](/notebook/arboles/implementacion-convert_to_linked_list.ipynb)
+      - :page_with_curl: [serialize](/notebook/arboles/implementacion-serialize.ipynb)
+      - :page_with_curl: [deserialize](/notebook/arboles/implementacion-deserialize.ipynb)
 
 ---
 
