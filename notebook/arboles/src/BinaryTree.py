@@ -1,19 +1,19 @@
 class Node:
     def __init__(self, key):
-        self.left = None          # Inicializa el hijo izquierdo como None
-        self.right = None         # Inicializa el hijo derecho como None
-        self.data = key           # Establece el valor de datos para el nodo
+        self.left = None     # Inicializa el hijo izquierdo como None
+        self.right = None    # Inicializa el hijo derecho como None
+        self.data = key      # Establece el valor de datos para el nodo
 
 class BinaryTree:
     def __init__(self):
-        self.root = None          # Inicializa el nodo raíz como None al crear una nueva instancia de Árbol Binario
+        self.root = None     # Inicializa el nodo raíz como None al crear una nueva instancia de Árbol Binario
 
     def insert(self, key):
-        new_node = Node(key)      # Crea un nuevo nodo con la clave proporcionada
-        if not self.root:         # Si el árbol está vacío,
-            self.root = new_node  # establece el nuevo nodo como la raíz y devuelve
+        new_node = Node(key)    # Crea un nuevo nodo con la clave proporcionada
+        if not self.root:       # Si el árbol está vacío,
+            self.root = new_node  # Establece el nuevo nodo como la raíz y devuelve
 
-        queue = [self.root]       # Crea una cola comenzando con el nodo raíz
+        queue = [self.root]     # Crea una cola comenzando con el nodo raíz
         while queue:
             current = queue.pop(0)   # Desencola el elemento frontal de la cola
 
