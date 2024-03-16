@@ -20,30 +20,30 @@ Entre ellos, los **árboles binarios** son aquellos en los que cada nodo tiene c
 - :ledger: [Árboles Binarios](../notebook/arboles/arbol-binario.ipynb) Concepto básico sobre árboles binarios y recorridos. Estructura de datos en la que cada nodo tiene como máximo dos hijos, llamados  hijo izquierdo e hijo derecho.
   - :page_with_curl: [Aplicaciones de Árboles Binarios](/notebook/arboles/aplicaciones-arboles-binarios.ipynb)
 
-  - Kinder
-    - - :page_with_curl: [Clases y Métodos Elementales](/notebook/arboles/clases-y-métodos-elementales.ipynb)  
+  - #### Kinder
+    - :page_with_curl: [Clases y Métodos Elementales](/notebook/arboles/clases-y-métodos-elementales.ipynb)  
 
-  - Implementación de Operaciones:
+  - #### Implementación de Operaciones:
 
-    #### Métodos Básicos 
+    ##### Métodos Básicos 
     - :page_with_curl: [Clase base](/notebook/arboles/implementacion-clase-base.ipynb)  
-    #### Métodos de Recorrido
+    ##### Métodos de Recorrido
     - :page_with_curl: [preorder](/notebook/arboles/implementacion-preorder.ipynb)
     - :page_with_curl: [inorder](/notebook/arboles/implementacion-inorder.ipynb)
     - :page_with_curl: [postorder](/notebook/arboles/implementacion-postorder.ipynb)
     - :page_with_curl: [level_order](/notebook/arboles/implementacion-level_order.ipynb)
     - :page_with_curl: [depth_first_search](/notebook/arboles/implementacion-depth_first_search.ipynb)
-  - #### Métodos de Utilidad
+  - ##### Métodos de Utilidad
     - :page_with_curl: [height](/notebook/arboles/implementacion-height.ipynb)
     - :page_with_curl: [size](/notebook/arboles/implementacion-size.ipynb)
     - :page_with_curl: [is_balanced](/notebook/arboles/implementacion-is_balanced.ipynb)
     - :page_with_curl: [get_successor](/notebook/arboles/implementacion-get_successor.ipynb)
     - :page_with_curl: [get_predecessor](/notebook/arboles/implementacion-get_predecessor.ipynb)
-  - #### Métodos de Borrado
+  - ##### Métodos de Borrado
     - :page_with_curl: [delete_leaf](/notebook/arboles/implementacion-delete_leaf.ipynb)
     - :page_with_curl: [delete_node_with_one_child](/notebook/arboles/implementacion-delete_node_with_one_child.ipynb)
     - :page_with_curl: [delete_node_with_two_children](/notebook/arboles/implementacion-delete_node_with_two_children.ipynb)
-  - #### Métodos Avanzados 
+  - ##### Métodos Avanzados 
     - :page_with_curl: [mirror](/notebook/arboles/implementacion-mirror.ipynb)
     - :page_with_curl: [lowest_common_ancestor](/notebook/arboles/implementacion-lowest_common_ancestor.ipynb)
     - :page_with_curl: [is_subtree](/notebook/arboles/implementacion-is_subtree.ipynb)
