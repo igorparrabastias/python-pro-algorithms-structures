@@ -1,8 +1,0 @@
-// Binary Tree
-digraph {
-	10 [label=10]
-	5 [label=5]
-	10 -> 5 [label=L]
-	15 [label=15]
-	10 -> 15 [label=R]
-}
