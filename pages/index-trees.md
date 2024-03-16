@@ -25,7 +25,7 @@ Entre ellos, los **árboles binarios** son aquellos en los que cada nodo tiene c
 
   - **Implementación de Operaciones**
     - :page_with_curl: [Clase base](/notebook/arboles/implementacion-clase-base.ipynb)  
-    **Métodos de Recorrido**
+  - **Métodos de Recorrido**
     - :page_with_curl: [preorder](/notebook/arboles/implementacion-preorder.ipynb)
     - :page_with_curl: [inorder](/notebook/arboles/implementacion-inorder.ipynb)
     - :page_with_curl: [postorder](/notebook/arboles/implementacion-postorder.ipynb)
