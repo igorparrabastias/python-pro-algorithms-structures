@@ -1,27 +1,23 @@
 from graphviz import Digraph
 
 def visualize(tree):
-    dot = Digraph(comment='Binary Tree')
+    dot = Digraph(comment='N-ary Tree')
 
     if not tree.root:
         dot.node('null', 'Empty Tree', shape='plaintext')
         return dot
 
     def add_nodes_edges(node, dot=None):
-        if node.left:
-            dot.node(str(node.left.data), str(node.left.data))
-            dot.edge(str(node.data), str(node.left.data))
-            add_nodes_edges(node.left, dot=dot)
+        # Agregar los hijos del nodo actual al gráfico y conectarlos
+        for child in node.children:
+            dot.node(str(child.data), str(child.data))
+            dot.edge(str(node.data), str(child.data))
+            add_nodes_edges(child, dot=dot)  # Recursivamente hacer lo mismo para cada hijo
 
-        if node.right:
-            dot.node(str(node.right.data), str(node.right.data))
-            dot.edge(str(node.data), str(node.right.data))
-            add_nodes_edges(node.right, dot=dot)
-
-    # Add root node
+    # Agregar nodo raíz
     dot.node(str(tree.root.data), str(tree.root.data))
 
-    # Add other nodes
+    # Agregar otros nodos empezando desde la raíz
     add_nodes_edges(tree.root, dot=dot)
 
     return dot
