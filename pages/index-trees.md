@@ -20,12 +20,11 @@ Entre ellos, los **árboles binarios** son aquellos en los que cada nodo tiene c
 - :ledger: [Árboles Binarios](../notebook/arboles/arbol-binario.ipynb) Concepto básico sobre árboles binarios y recorridos. Estructura de datos en la que cada nodo tiene como máximo dos hijos, llamados  hijo izquierdo e hijo derecho.
   - :page_with_curl: [Aplicaciones de Árboles Binarios](/notebook/arboles/aplicaciones-arboles-binarios.ipynb)
 
-  - #### Kinder
+  - #### Playground
     - :page_with_curl: [Clases y Métodos Elementales](/notebook/arboles/clases-y-métodos-elementales.ipynb)  
 
-  - #### Implementación de Operaciones:
+  - #### Implementación de Operaciones
 
-    ##### Métodos Básicos 
     - :page_with_curl: [Clase base](/notebook/arboles/implementacion-clase-base.ipynb)  
     ##### Métodos de Recorrido
     - :page_with_curl: [preorder](/notebook/arboles/implementacion-preorder.ipynb)
