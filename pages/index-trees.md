@@ -53,10 +53,7 @@ Entre ellos, los **árboles binarios** son aquellos en los que cada nodo tiene c
 ---
 
 - :ledger: [Árboles Binarios de Búsqueda ( BST)](../notebook/arboles/arbol-binario-de-busqueda-bst.ipynb)  Evolución del árbol binario, introduce la idea de ordenamiento y eficiencia en la búsqueda.
-
   - :page_with_curl: [Consideraciones al implementar métodos para BST](/notebook/arboles/consideraciones-al-implementar-metodos-para-bst.ipynb)
-
-
   - **Métodos de Utilidad**
     - :page_with_curl: [get_successor](/notebook/arboles/implementacion-get_successor.ipynb)
     - :page_with_curl: [get_predecessor](/notebook/arboles/implementacion-get_predecessor.ipynb)
