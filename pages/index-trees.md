@@ -30,11 +30,10 @@ Entre ellos, los **árboles binarios** son aquellos en los que cada nodo tiene c
     - :page_with_curl: [Búsqueda recursiva](/notebook/arboles/busqueda-recursiva.ipynb)  
     - :page_with_curl: [Eliminación de nodos](/notebook/arboles/eliminacion-de-nodos.ipynb)  
   - **Métodos de Recorrido**
-    - :page_with_curl: [preorder](/notebook/arboles/implementacion-preorder.ipynb)
-    - :page_with_curl: [inorder](/notebook/arboles/implementacion-inorder.ipynb)
-    - :page_with_curl: [postorder](/notebook/arboles/implementacion-postorder.ipynb)
-    - :page_with_curl: [level_order](/notebook/arboles/implementacion-level_order.ipynb)
-    - :page_with_curl: [depth_first_search](/notebook/arboles/implementacion-depth_first_search.ipynb)
+    - :page_with_curl: [preorder (DFS)](/notebook/arboles/implementacion-preorder.ipynb)
+    - :page_with_curl: [inorder (DFS)](/notebook/arboles/implementacion-inorder.ipynb)
+    - :page_with_curl: [postorder (DFS)](/notebook/arboles/implementacion-postorder.ipynb)
+    - :page_with_curl: [level_order (BFS)](/notebook/arboles/implementacion-level_order.ipynb)
   - **Métodos de Utilidad**
     - :page_with_curl: [height](/notebook/arboles/implementacion-height.ipynb)
     - :page_with_curl: [size](/notebook/arboles/implementacion-size.ipynb)
