@@ -59,7 +59,6 @@ Entre ellos, los **árboles binarios** son aquellos en los que cada nodo tiene c
     - :page_with_curl: [get_predecessor](/notebook/arboles/implementacion-get_predecessor.ipynb)
     - :page_with_curl: [lowest_common_ancestor](/notebook/arboles/implementacion-lowest_common_ancestor.ipynb)
     - :page_with_curl: [is_subtree](/notebook/arboles/implementacion-is_subtree.ipynb)
-
   - :page_with_curl: [Definición y recorridos (preorden, inorden, postorden)](/notebook/implementacion-de-arboles/arboles-binarios-definicion-y-recorridos-preorden-inorden-postorden.ipynb)  
   - :page_with_curl: [Recorridos en Árboles Binarios](/notebook/algoritmos-de-arboles/recorridos-en-arboles-binarios.ipynb)  
   - :page_with_curl: [Implementación de Árboles Binarios de Búsqueda (ABB)](/notebook/algoritmos-de-arboles-arboles-binarios-de-busqueda/implementacion-de-arboles-binarios-de-busqueda-abb.ipynb)  
