@@ -24,32 +24,30 @@ Entre ellos, los **árboles binarios** son aquellos en los que cada nodo tiene c
 - :ledger: [Árboles Binarios](../notebook/arboles/arbol-binario.ipynb) Concepto básico y recorridos.
   - :page_with_curl: [Aplicaciones de Árboles Binarios](/notebook/arboles/aplicaciones-arboles-binarios.ipynb)
   - :page_with_curl: [Consideraciones al implementar un árbol binario](/notebook/arboles/consideraciones-al-implementar-un-arbol-binario.ipynb)
-  - **Arboles con Métodos Elementales**
+  - **Métodos Elementales**
     - :page_with_curl: [Inserción manual](/notebook/arboles/insercion-manual.ipynb)  
     - :page_with_curl: [Inserción automática](/notebook/arboles/insercion-automatica.ipynb)  
     - :page_with_curl: [Búsqueda recursiva](/notebook/arboles/busqueda-recursiva.ipynb)  
     - :page_with_curl: [Eliminación de nodos](/notebook/arboles/eliminacion-de-nodos.ipynb)  
-  - **Implementación de Operaciones**
-    - :page_with_curl: [Clase base](/notebook/arboles/implementacion-clase-base.ipynb)  
-    - **Métodos de Recorrido**
-      - :page_with_curl: [preorder](/notebook/arboles/implementacion-preorder.ipynb)
-      - :page_with_curl: [inorder](/notebook/arboles/implementacion-inorder.ipynb)
-      - :page_with_curl: [postorder](/notebook/arboles/implementacion-postorder.ipynb)
-      - :page_with_curl: [level_order](/notebook/arboles/implementacion-level_order.ipynb)
-      - :page_with_curl: [depth_first_search](/notebook/arboles/implementacion-depth_first_search.ipynb)
-    - **Métodos de Utilidad**
-      - :page_with_curl: [height](/notebook/arboles/implementacion-height.ipynb)
-      - :page_with_curl: [size](/notebook/arboles/implementacion-size.ipynb)
-      - :page_with_curl: [is_balanced](/notebook/arboles/implementacion-is_balanced.ipynb)
-      - :page_with_curl: [get_successor](/notebook/arboles/implementacion-get_successor.ipynb)
-      - :page_with_curl: [get_predecessor](/notebook/arboles/implementacion-get_predecessor.ipynb)
-    - **Métodos Avanzados**
-      - :page_with_curl: [mirror](/notebook/arboles/implementacion-mirror.ipynb)
-      - :page_with_curl: [lowest_common_ancestor](/notebook/arboles/implementacion-lowest_common_ancestor.ipynb)
-      - :page_with_curl: [is_subtree](/notebook/arboles/implementacion-is_subtree.ipynb)
-      - :page_with_curl: [convert_to_linked_list](/notebook/arboles/implementacion-convert_to_linked_list.ipynb)
-      - :page_with_curl: [serialize](/notebook/arboles/implementacion-serialize.ipynb)
-      - :page_with_curl: [deserialize](/notebook/arboles/implementacion-deserialize.ipynb)
+  - **Métodos de Recorrido**
+    - :page_with_curl: [preorder](/notebook/arboles/implementacion-preorder.ipynb)
+    - :page_with_curl: [inorder](/notebook/arboles/implementacion-inorder.ipynb)
+    - :page_with_curl: [postorder](/notebook/arboles/implementacion-postorder.ipynb)
+    - :page_with_curl: [level_order](/notebook/arboles/implementacion-level_order.ipynb)
+    - :page_with_curl: [depth_first_search](/notebook/arboles/implementacion-depth_first_search.ipynb)
+  - **Métodos de Utilidad**
+    - :page_with_curl: [height](/notebook/arboles/implementacion-height.ipynb)
+    - :page_with_curl: [size](/notebook/arboles/implementacion-size.ipynb)
+    - :page_with_curl: [is_balanced](/notebook/arboles/implementacion-is_balanced.ipynb)
+    - :page_with_curl: [get_successor](/notebook/arboles/implementacion-get_successor.ipynb)
+    - :page_with_curl: [get_predecessor](/notebook/arboles/implementacion-get_predecessor.ipynb)
+  - **Métodos Avanzados**
+    - :page_with_curl: [mirror](/notebook/arboles/implementacion-mirror.ipynb)
+    - :page_with_curl: [lowest_common_ancestor](/notebook/arboles/implementacion-lowest_common_ancestor.ipynb)
+    - :page_with_curl: [is_subtree](/notebook/arboles/implementacion-is_subtree.ipynb)
+    - :page_with_curl: [convert_to_linked_list](/notebook/arboles/implementacion-convert_to_linked_list.ipynb)
+    - :page_with_curl: [serialize](/notebook/arboles/implementacion-serialize.ipynb)
+    - :page_with_curl: [deserialize](/notebook/arboles/implementacion-deserialize.ipynb)
 
 ---
 
