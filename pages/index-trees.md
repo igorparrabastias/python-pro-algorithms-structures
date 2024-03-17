@@ -35,8 +35,6 @@ Entre ellos, los **árboles binarios** son aquellos en los que cada nodo tiene c
     - :page_with_curl: [height](/notebook/arboles/implementacion-height.ipynb)
     - :page_with_curl: [size](/notebook/arboles/implementacion-size.ipynb)
     - :page_with_curl: [is_balanced](/notebook/arboles/implementacion-is_balanced.ipynb)
-    - :page_with_curl: [get_successor](/notebook/arboles/implementacion-get_successor.ipynb)
-    - :page_with_curl: [get_predecessor](/notebook/arboles/implementacion-get_predecessor.ipynb)
   - **Métodos Avanzados**
     - :page_with_curl: [mirror](/notebook/arboles/implementacion-mirror.ipynb)
     - :page_with_curl: [lowest_common_ancestor](/notebook/arboles/implementacion-lowest_common_ancestor.ipynb)
@@ -54,7 +52,17 @@ Entre ellos, los **árboles binarios** son aquellos en los que cada nodo tiene c
 
 ---
 
-- :ledger: [Árboles Binarios de Búsqueda (ABB)](../notebook/arboles/arbol-binario-de-busqueda-abb.ipynb)  Evolución del árbol binario, introduce la idea de ordenamiento y eficiencia en la búsqueda.
+- :ledger: [Árboles Binarios de Búsqueda ( BST)](../notebook/arboles/arbol-binario-de-busqueda-bst.ipynb)  Evolución del árbol binario, introduce la idea de ordenamiento y eficiencia en la búsqueda.
+
+  - :page_with_curl: [Consideraciones al implementar métodos para BST](/notebook/arboles/consideraciones-al-implementar-metodos-para-bst.ipynb)
+
+
+  - **Métodos de Utilidad**
+    - :page_with_curl: [get_successor](/notebook/arboles/implementacion-get_successor.ipynb)
+    - :page_with_curl: [get_predecessor](/notebook/arboles/implementacion-get_predecessor.ipynb)
+    - :page_with_curl: [lowest_common_ancestor](/notebook/arboles/implementacion-lowest_common_ancestor.ipynb)
+    - :page_with_curl: [is_subtree](/notebook/arboles/implementacion-is_subtree.ipynb)
+
   - :page_with_curl: [Definición y recorridos (preorden, inorden, postorden)](/notebook/implementacion-de-arboles/arboles-binarios-definicion-y-recorridos-preorden-inorden-postorden.ipynb)  
   - :page_with_curl: [Recorridos en Árboles Binarios](/notebook/algoritmos-de-arboles/recorridos-en-arboles-binarios.ipynb)  
   - :page_with_curl: [Implementación de Árboles Binarios de Búsqueda (ABB)](/notebook/algoritmos-de-arboles-arboles-binarios-de-busqueda/implementacion-de-arboles-binarios-de-busqueda-abb.ipynb)  
