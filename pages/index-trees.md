@@ -38,7 +38,7 @@ Entre ellos, los **árboles binarios** son aquellos en los que cada nodo tiene c
   - **Métodos Avanzados**
     - :page_with_curl: [mirror](/notebook/arboles/implementacion-mirror.ipynb)
     - :page_with_curl: [lowest_common_ancestor](/notebook/arboles/implementacion-lowest_common_ancestor.ipynb)
-    - :page_with_curl: [is_subtree](/notebook/arboles/implementacion-is_subtree.ipynb)
+    - :page_with_curl: [is_tree](/notebook/arboles/implementacion-is_tree.ipynb)
     - :page_with_curl: [convert_to_linked_list](/notebook/arboles/implementacion-convert_to_linked_list.ipynb)
     - :page_with_curl: [serialize](/notebook/arboles/implementacion-serialize.ipynb)
     - :page_with_curl: [deserialize](/notebook/arboles/implementacion-deserialize.ipynb)
