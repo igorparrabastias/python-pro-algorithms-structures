@@ -10,7 +10,7 @@ Seguiremos un orden que asegura una progresión lógica, desde lo más **fundame
 Entre ellos, los **árboles binarios** son aquellos en los que cada nodo tiene como máximo dos hijos, lo que facilita la implementación y manipulación de datos. Por otro lado, los **árboles de búsqueda binaria** son una variante especializada en la que cada nodo cumple con una regla de ordenamiento, permitiendo búsquedas eficientes y rápidas en conjuntos de datos ordenados. Estas estructuras son esenciales en la programación y la gestión de datos, siendo ampliamente utilizadas en aplicaciones como bases de datos, algoritmos de búsqueda y optimización.
 
 - :ledger: [Arboles](../notebook/arboles/introduccion.ipynb) Introducción general a árboles. Terminología y consideraciones de implementación.
-  - :page_with_curl: [Tipo de Árboles](../notebook/arboles/tipos-de-arboles.ipynb) Tipos principales y su categorización según su estructura y propósito.
+  - :page_with_curl: [Tipos de Árboles](../notebook/arboles/tipos-de-arboles.ipynb) Tipos principales y su categorización según su estructura y propósito.
   - :page_with_curl: [Algoritmos Relacionados con Árboles](../notebook/arboles/algoritmos-relacionados-con-arboles.ipynb)
   - :page_with_curl: [Ejemplo de Algoritmo en Sistemas de Recomendación](../notebook/arboles/ejemplo-de-algoritmo-en-sistemas-de-recomendacion.ipynb)
   - :page_with_curl: [Ejemplo de Algoritmo par Procesamiento del Lenguaje Natural](../notebook/arboles/ejemplo-de-algoritmo-par-procesamiento-del-lenguaje-natural.ipynb)
