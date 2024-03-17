@@ -37,7 +37,6 @@ Entre ellos, los **árboles binarios** son aquellos en los que cada nodo tiene c
     - :page_with_curl: [is_balanced](/notebook/arboles/implementacion-is_balanced.ipynb)
   - **Métodos Avanzados**
     - :page_with_curl: [mirror](/notebook/arboles/implementacion-mirror.ipynb)
-    - :page_with_curl: [lowest_common_ancestor](/notebook/arboles/implementacion-lowest_common_ancestor.ipynb)
     - :page_with_curl: [is_tree](/notebook/arboles/implementacion-is_tree.ipynb)
     - :page_with_curl: [convert_to_linked_list](/notebook/arboles/implementacion-convert_to_linked_list.ipynb)
     - :page_with_curl: [serialize](/notebook/arboles/implementacion-serialize.ipynb)
@@ -58,7 +57,11 @@ Entre ellos, los **árboles binarios** son aquellos en los que cada nodo tiene c
     - :page_with_curl: [get_successor](/notebook/arboles/implementacion-get_successor.ipynb)
     - :page_with_curl: [get_predecessor](/notebook/arboles/implementacion-get_predecessor.ipynb)
     - :page_with_curl: [lowest_common_ancestor](/notebook/arboles/implementacion-lowest_common_ancestor.ipynb)
+  - **Métodos Avanzados**
     - :page_with_curl: [is_subtree](/notebook/arboles/implementacion-is_subtree.ipynb)
+    - :page_with_curl: [convert_bst_to_linked_list](/notebook/arboles/implementacion-convert_bst_to_linked_list.ipynb)
+
+
   - :page_with_curl: [Definición y recorridos (preorden, inorden, postorden)](/notebook/implementacion-de-arboles/arboles-binarios-definicion-y-recorridos-preorden-inorden-postorden.ipynb)  
   - :page_with_curl: [Recorridos en Árboles Binarios](/notebook/algoritmos-de-arboles/recorridos-en-arboles-binarios.ipynb)  
   - :page_with_curl: [Implementación de Árboles Binarios de Búsqueda (ABB)](/notebook/algoritmos-de-arboles-arboles-binarios-de-busqueda/implementacion-de-arboles-binarios-de-busqueda-abb.ipynb)  
