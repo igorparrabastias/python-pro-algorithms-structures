@@ -44,7 +44,9 @@ Entre ellos, los **árboles binarios** son aquellos en los que cada nodo tiene c
 - :ledger: [Árboles Binarios de Búsqueda (BST)](/notebook/arboles/arbol-binario-de-busqueda-bst.ipynb)  Evolución del árbol binario, introduce la idea de ordenamiento y eficiencia en la búsqueda.
   - :page_with_curl: [Aplicaciones de Árboles Binarios de Búsqueda](/notebook/arboles/aplicaciones-arboles-binarios-de-busqueda.ipynb)
   - :page_with_curl: [Consideraciones al implementar métodos para BST](/notebook/arboles/consideraciones-al-implementar-metodos-para-bst.ipynb)
-  - **Implementación de BinarySearchTree**
+  - **Implementación de BST**
+    - :page_with_curl: [Inserción](/notebook/arboles/bst-insercion.ipynb)  
+    - :page_with_curl: [Búsqueda](/notebook/arboles/bst-busqueda.ipynb)  
     - :page_with_curl: [Implementación de Árboles Binarios de Búsqueda (BST)](/notebook/algoritmos-de-arboles-arboles-binarios-de-busqueda/implementacion-de-arboles-binarios-de-busqueda-abb.ipynb)  
   - **Métodos de Utilidad**
     - :page_with_curl: [get_successor](/notebook/arboles/implementacion-get_successor.ipynb)
