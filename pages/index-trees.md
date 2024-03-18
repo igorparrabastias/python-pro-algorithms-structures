@@ -39,7 +39,7 @@ Entre ellos, los **árboles binarios** son aquellos en los que cada nodo tiene c
     - :page_with_curl: [mirror](/notebook/arboles/implementacion-mirror.ipynb)
     - :page_with_curl: [is_tree](/notebook/arboles/implementacion-is_tree.ipynb)
     - :page_with_curl: [convert_to_linked_list](/notebook/arboles/implementacion-convert_to_linked_list.ipynb)
-    - :page_with_curl: [serialize-deserialize](/notebook/arboles/implementacion-serialize_deserialize.ipynb)
+    - :page_with_curl: [serialize_deserialize](/notebook/arboles/implementacion-serialize_deserialize.ipynb)
 
 ---
 
@@ -53,7 +53,7 @@ Entre ellos, los **árboles binarios** son aquellos en los que cada nodo tiene c
     - :page_with_curl: [find_level](/notebook/arboles/implementacion-find_level.ipynb)
     - :page_with_curl: [is_subtree](/notebook/arboles/implementacion-is_subtree.ipynb)
     - :page_with_curl: [convert_bst_to_linked_list](/notebook/arboles/implementacion-convert_bst_to_linked_list.ipynb)
-    - :page_with_curl: [bst-serialize-deserialize](/notebook/arboles/implementacion-bst-serialize_deserialize.ipynb)- 
+    - :page_with_curl: [bst_serialize_deserialize](/notebook/arboles/implementacion-bst_serialize_deserialize.ipynb)- 
 
 
   - :page_with_curl: [Definición y recorridos (preorden, inorden, postorden)](/notebook/implementacion-de-arboles/arboles-binarios-definicion-y-recorridos-preorden-inorden-postorden.ipynb)  
