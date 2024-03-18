@@ -47,6 +47,7 @@ Entre ellos, los **árboles binarios** son aquellos en los que cada nodo tiene c
   - **Implementación de BST**
     - :page_with_curl: [Inserción](/notebook/arboles/bst-insercion.ipynb)  
     - :page_with_curl: [Búsqueda](/notebook/arboles/bst-busqueda.ipynb)  
+    - :page_with_curl: [Eliminación de nodos](/notebook/arboles/bst-eliminacion-de-nodos.ipynb)  
     - :page_with_curl: [Implementación de Árboles Binarios de Búsqueda (BST)](/notebook/algoritmos-de-arboles-arboles-binarios-de-busqueda/implementacion-de-arboles-binarios-de-busqueda-abb.ipynb)  
   - **Métodos de Utilidad**
     - :page_with_curl: [get_successor](/notebook/arboles/implementacion-get_successor.ipynb)
