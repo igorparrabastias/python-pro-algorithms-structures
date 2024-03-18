@@ -43,13 +43,6 @@ Entre ellos, los **árboles binarios** son aquellos en los que cada nodo tiene c
 
 ---
 
-  - :page_with_curl: [Búsqueda y Eliminación](/notebook/implementacion-de-arboles/trees-busqueda-y-eliminacion.ipynb)  
-  - :page_with_curl: [Altura: Determinar la altura del árbol](/notebook/implementacion-de-arboles/altura-determinar-la-altura-del-arbol.ipynb)  
-  - :page_with_curl: [Nivel de un Nodo: Encontrar el nivel de un nodo dado en el árbol](/notebook/implementacion-de-arboles/nivel-de-un-nodo-encontrar-el-nivel-de-un-nodo-dado-en-el-arbol.ipynb)  
-  - :page_with_curl: [Tamaño del Árbol: Contar el número total de nodos en el árbol](/notebook/implementacion-de-arboles/tamanno-del-arbol-contar-el-numero-total-de-nodos-en-el-arbol.ipynb)  
-
----
-
 - :ledger: [Árboles Binarios de Búsqueda ( BST)](../notebook/arboles/arbol-binario-de-busqueda-bst.ipynb)  Evolución del árbol binario, introduce la idea de ordenamiento y eficiencia en la búsqueda.
   - :page_with_curl: [Consideraciones al implementar métodos para BST](/notebook/arboles/consideraciones-al-implementar-metodos-para-bst.ipynb)
   - **Métodos de Utilidad**
@@ -57,6 +50,7 @@ Entre ellos, los **árboles binarios** son aquellos en los que cada nodo tiene c
     - :page_with_curl: [get_predecessor](/notebook/arboles/implementacion-get_predecessor.ipynb)
     - :page_with_curl: [lowest_common_ancestor](/notebook/arboles/implementacion-lowest_common_ancestor.ipynb)
   - **Métodos Avanzados**
+    - :page_with_curl: [find_level](/notebook/arboles/implementacion-find_level.ipynb)
     - :page_with_curl: [is_subtree](/notebook/arboles/implementacion-is_subtree.ipynb)
     - :page_with_curl: [convert_bst_to_linked_list](/notebook/arboles/implementacion-convert_bst_to_linked_list.ipynb)
     - :page_with_curl: [bst-serialize-deserialize](/notebook/arboles/implementacion-bst-serialize-deserialize.ipynb)- 
