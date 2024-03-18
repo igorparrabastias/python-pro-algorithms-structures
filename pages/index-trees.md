@@ -15,7 +15,7 @@ Entre ellos, los **árboles binarios** son aquellos en los que cada nodo tiene c
   - :page_with_curl: [Ejemplo de Algoritmo en Sistemas de Recomendación](../notebook/arboles/ejemplo-de-algoritmo-en-sistemas-de-recomendacion.ipynb)
   - :page_with_curl: [Ejemplo de Algoritmo par Procesamiento del Lenguaje Natural](../notebook/arboles/ejemplo-de-algoritmo-par-procesamiento-del-lenguaje-natural.ipynb)
   - :page_with_curl: [Ejemplo de Algoritmo en Bioinformática](../notebook/arboles/ejemplo-de-algoritmo-en-bioinformatica.ipynb)
-  - :page_with_curl: [Implementación Básica](/notebook/arboles/tree-elemental.ipynb)  
+  - :page_with_curl: [Implementación de `Tree`](/notebook/arboles/tree-elemental.ipynb)  
   - :page_with_curl: [Ejercicios](/notebook/arboles/ejercicios.ipynb)  
 
 - :ledger: [Árboles Binarios](../notebook/arboles/arbol-binario.ipynb) Concepto básico y recorridos.
