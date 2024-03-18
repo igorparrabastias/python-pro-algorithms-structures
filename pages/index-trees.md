@@ -21,7 +21,7 @@ Entre ellos, los **árboles binarios** son aquellos en los que cada nodo tiene c
 - :ledger: [Árboles Binarios](../notebook/arboles/arbol-binario.ipynb) Concepto básico y recorridos.
   - :page_with_curl: [Aplicaciones de Árboles Binarios](/notebook/arboles/aplicaciones-arboles-binarios.ipynb)
   - :page_with_curl: [Consideraciones al implementar un árbol binario](/notebook/arboles/consideraciones-al-implementar-un-arbol-binario.ipynb)
-  - **Implementación de BinaryTree**
+  - **Implementación de `BinaryTree`**
     - :page_with_curl: [Inserción manual](/notebook/arboles/insercion-manual.ipynb)  
     - :page_with_curl: [Inserción automática](/notebook/arboles/insercion-automatica.ipynb)  
     - :page_with_curl: [Búsqueda recursiva](/notebook/arboles/busqueda-recursiva.ipynb)  
@@ -44,7 +44,7 @@ Entre ellos, los **árboles binarios** son aquellos en los que cada nodo tiene c
 - :ledger: [Árboles Binarios de Búsqueda (BST)](/notebook/arboles/arbol-binario-de-busqueda-bst.ipynb)  Evolución del árbol binario, introduce la idea de ordenamiento y eficiencia en la búsqueda.
   - :page_with_curl: [Aplicaciones de Árboles Binarios de Búsqueda](/notebook/arboles/aplicaciones-arboles-binarios-de-busqueda.ipynb)
   - :page_with_curl: [Consideraciones al implementar métodos para BST](/notebook/arboles/consideraciones-al-implementar-metodos-para-bst.ipynb)
-  - **Implementación de BST**
+  - **Implementación de `BST`**
     - :page_with_curl: [Inserción](/notebook/arboles/bst-insercion.ipynb)  
     - :page_with_curl: [Búsqueda](/notebook/arboles/bst-busqueda.ipynb)  
     - :page_with_curl: [Eliminación de nodos](/notebook/arboles/bst-eliminacion-de-nodos.ipynb)  
