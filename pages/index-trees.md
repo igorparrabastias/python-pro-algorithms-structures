@@ -41,9 +41,7 @@ Entre ellos, los **árboles binarios** son aquellos en los que cada nodo tiene c
     - :page_with_curl: [convert_to_linked_list](/notebook/arboles/implementacion-convert_to_linked_list.ipynb)
     - :page_with_curl: [serialize_deserialize](/notebook/arboles/implementacion-serialize_deserialize.ipynb)
 
----
-
-- :ledger: [Árboles Binarios de Búsqueda (BST)](../notebook/arboles/arbol-binario-de-busqueda-bst.ipynb)  Evolución del árbol binario, introduce la idea de ordenamiento y eficiencia en la búsqueda.
+- :ledger: [Árboles Binarios de Búsqueda (BST)](/notebook/arboles/arbol-binario-de-busqueda-bst.ipynb)  Evolución del árbol binario, introduce la idea de ordenamiento y eficiencia en la búsqueda.
   - :page_with_curl: [Aplicaciones de Árboles Binarios de Búsqueda](/notebook/arboles/aplicaciones-arboles-binarios-de-busqueda.ipynb)
   - :page_with_curl: [Consideraciones al implementar métodos para BST](/notebook/arboles/consideraciones-al-implementar-metodos-para-bst.ipynb)
   - **Métodos de Utilidad**
@@ -55,8 +53,6 @@ Entre ellos, los **árboles binarios** son aquellos en los que cada nodo tiene c
     - :page_with_curl: [is_subtree](/notebook/arboles/implementacion-is_subtree.ipynb)
     - :page_with_curl: [bst_convert_to_linked_list](/notebook/arboles/implementacion-bst_convert_to_linked_list.ipynb)
     - :page_with_curl: [bst_serialize_deserialize](/notebook/arboles/implementacion-bst_serialize_deserialize.ipynb)
-
-
   - :page_with_curl: [Implementación de Árboles Binarios de Búsqueda (ABB)](/notebook/algoritmos-de-arboles-arboles-binarios-de-busqueda/implementacion-de-arboles-binarios-de-busqueda-abb.ipynb)  
   - :page_with_curl: [Verificación de Árbol Binario de Búsqueda: Comprobar si un árbol binario cumple las propiedades de un BST](/notebook/implementacion-de-arboles/verificacion-de-arbol-binario-de-busqueda-comprobar-si-un-arbol-binario-cumple-las-propiedades-de-un-bst.ipynb)  
 
