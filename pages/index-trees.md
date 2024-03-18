@@ -44,6 +44,8 @@ Entre ellos, los **árboles binarios** son aquellos en los que cada nodo tiene c
 - :ledger: [Árboles Binarios de Búsqueda (BST)](/notebook/arboles/arbol-binario-de-busqueda-bst.ipynb)  Evolución del árbol binario, introduce la idea de ordenamiento y eficiencia en la búsqueda.
   - :page_with_curl: [Aplicaciones de Árboles Binarios de Búsqueda](/notebook/arboles/aplicaciones-arboles-binarios-de-busqueda.ipynb)
   - :page_with_curl: [Consideraciones al implementar métodos para BST](/notebook/arboles/consideraciones-al-implementar-metodos-para-bst.ipynb)
+  - - **Implementación**
+    - :page_with_curl: [Implementación de Árboles Binarios de Búsqueda (BST)](/notebook/algoritmos-de-arboles-arboles-binarios-de-busqueda/implementacion-de-arboles-binarios-de-busqueda-abb.ipynb)  
   - **Métodos de Utilidad**
     - :page_with_curl: [get_successor](/notebook/arboles/implementacion-get_successor.ipynb)
     - :page_with_curl: [get_predecessor](/notebook/arboles/implementacion-get_predecessor.ipynb)
@@ -54,7 +56,6 @@ Entre ellos, los **árboles binarios** son aquellos en los que cada nodo tiene c
     - :page_with_curl: [find_level](/notebook/arboles/implementacion-find_level.ipynb)
     - :page_with_curl: [bst_convert_to_linked_list](/notebook/arboles/implementacion-bst_convert_to_linked_list.ipynb)
     - :page_with_curl: [bst_serialize_deserialize](/notebook/arboles/implementacion-bst_serialize_deserialize.ipynb)
-  - :page_with_curl: [Implementación de Árboles Binarios de Búsqueda (ABB)](/notebook/algoritmos-de-arboles-arboles-binarios-de-busqueda/implementacion-de-arboles-binarios-de-busqueda-abb.ipynb)  
 
 Los árboles **AVL**, **rojo-negro** y **splay** son variantes avanzadas de los **árboles binarios de búsqueda**, diseñadas para mejorar el rendimiento en operaciones de inserción, eliminación y búsqueda. Los **árboles AVL** mantienen un equilibrio óptimo, asegurando que la diferencia de altura entre subárboles no supere un valor específico, lo que garantiza tiempos de búsqueda consistentes. Los **árboles rojo-negro**, por otro lado, aplican reglas de coloración para mantener un equilibrio relajado, lo que los hace más eficientes en operaciones de inserción y eliminación. Mientras tanto, los **árboles splay** utilizan rotaciones y reorganizaciones dinámicas para llevar a los nodos más accesibles a la raíz, optimizando las operaciones de búsqueda. Estas estructuras son cruciales en aplicaciones donde se requiere un rendimiento óptimo en la gestión y manipulación de datos, como bases de datos, sistemas de archivos y algoritmos de búsqueda.
 
