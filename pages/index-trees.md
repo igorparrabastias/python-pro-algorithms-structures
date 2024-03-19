@@ -15,12 +15,13 @@ Entre ellos, los **árboles binarios** son aquellos en los que cada nodo tiene c
   - :page_with_curl: [Ejemplo de Algoritmo en Sistemas de Recomendación](../notebook/arboles/ejemplo-de-algoritmo-en-sistemas-de-recomendacion.ipynb)
   - :page_with_curl: [Ejemplo de Algoritmo par Procesamiento del Lenguaje Natural](../notebook/arboles/ejemplo-de-algoritmo-par-procesamiento-del-lenguaje-natural.ipynb)
   - :page_with_curl: [Ejemplo de Algoritmo en Bioinformática](../notebook/arboles/ejemplo-de-algoritmo-en-bioinformatica.ipynb)
-  - :page_with_curl: [Implementación de `Tree`](/notebook/arboles/tree-elemental.ipynb)  
-  - :page_with_curl: [Ejercicios](/notebook/arboles/ejercicios.ipynb)  
+  - **Implementación de `Tree`**
+    - :page_with_curl: [Implementación Básica de Arbol](/notebook/arboles/tree-elemental.ipynb)  
+  <!-- - :page_with_curl: [Ejercicios](/notebook/arboles/ejercicios.ipynb)   -->
 
 - :ledger: [Árboles Binarios](../notebook/arboles/arbol-binario.ipynb) Concepto básico y recorridos.
   - :page_with_curl: [Aplicaciones de Árboles Binarios](/notebook/arboles/aplicaciones-arboles-binarios.ipynb)
-  - :page_with_curl: [Consideraciones al implementar un árbol binario](/notebook/arboles/consideraciones-al-implementar-un-arbol-binario.ipynb)
+  - :page_with_curl: [Consideraciones al Implementar un Arbol Binario](/notebook/arboles/consideraciones-al-implementar-un-arbol-binario.ipynb)
   - **Implementación de `BinaryTree`**
     - :page_with_curl: [Inserción manual](/notebook/arboles/insercion-manual.ipynb)  
     - :page_with_curl: [Inserción automática](/notebook/arboles/insercion-automatica.ipynb)  
@@ -43,7 +44,7 @@ Entre ellos, los **árboles binarios** son aquellos en los que cada nodo tiene c
 
 - :ledger: [Árboles Binarios de Búsqueda (BST)](/notebook/arboles/arbol-binario-de-busqueda-bst.ipynb)  Evolución del árbol binario, introduce la idea de ordenamiento y eficiencia en la búsqueda.
   - :page_with_curl: [Aplicaciones de Árboles Binarios de Búsqueda](/notebook/arboles/aplicaciones-arboles-binarios-de-busqueda.ipynb)
-  - :page_with_curl: [Consideraciones al implementar métodos para BST](/notebook/arboles/consideraciones-al-implementar-metodos-para-bst.ipynb)
+  - :page_with_curl: [Consideraciones al Implementar Métodos para BST](/notebook/arboles/consideraciones-al-implementar-metodos-para-bst.ipynb)
   - **Implementación de `BST`**
     - :page_with_curl: [Inserción](/notebook/arboles/bst-insercion.ipynb)  
     - :page_with_curl: [Búsqueda](/notebook/arboles/bst-busqueda.ipynb)  
@@ -61,9 +62,22 @@ Entre ellos, los **árboles binarios** son aquellos en los que cada nodo tiene c
 
 Los árboles **AVL**, **rojo-negro** y **splay** son variantes avanzadas de los **árboles binarios de búsqueda**, diseñadas para mejorar el rendimiento en operaciones de inserción, eliminación y búsqueda. Los **árboles AVL** mantienen un equilibrio óptimo, asegurando que la diferencia de altura entre subárboles no supere un valor específico, lo que garantiza tiempos de búsqueda consistentes. Los **árboles rojo-negro**, por otro lado, aplican reglas de coloración para mantener un equilibrio relajado, lo que los hace más eficientes en operaciones de inserción y eliminación. Mientras tanto, los **árboles splay** utilizan rotaciones y reorganizaciones dinámicas para llevar a los nodos más accesibles a la raíz, optimizando las operaciones de búsqueda. Estas estructuras son cruciales en aplicaciones donde se requiere un rendimiento óptimo en la gestión y manipulación de datos, como bases de datos, sistemas de archivos y algoritmos de búsqueda.
 
+
+---
 - :ledger: [Árbol AVL](../notebook/arboles/arbol-avl.ipynb)  Introduce los árboles balanceados y las operaciones de rotación para mantener el equilibrio.
+  - :page_with_curl: [Aplicaciones de Árboles AVL](/notebook/arboles/aplicaciones-arboles-avl.ipynb)
+  - :page_with_curl: [Consideraciones al Implementar un Arbol AVL](/notebook/arboles/consideraciones-al-implementar-un-arbol-avl.ipynb)
+  - **Implementación de `AVLTree`**
+    - :page_with_curl: [Inserción](/notebook/arboles/avl-insercion.ipynb)  
+    - :page_with_curl: [Búsqueda](/notebook/arboles/avl-busqueda.ipynb)  
+    - :page_with_curl: [Eliminación de nodos](/notebook/arboles/avl-eliminacion-de-nodos.ipynb)  
+
+
+
   - :page_with_curl: [Balanceo de Árboles: Introducción a los Árboles AVL](/notebook/algoritmos-de-arboles-arboles-binarios-de-busqueda/balanceo-de-arboles-introduccion-a-los-arboles-av.ipynb)  
   - :page_with_curl: [Balanceo del Árbol: En árboles AVL, implementar rotaciones para mantener el árbol balanceado](/notebook/implementacion-de-arboles/balanceo-del-arbol-en-arboles-avl-implementar-rotaciones-para-mantener-el-arbol-balanceado.ipynb)  
+
+---
 
 - :ledger: [Árbol Rojo-Negro](../notebook/arboles/arbol-rojo-negro.ipynb) : Otro tipo de árbol balanceado, introduce un mecanismo diferente para mantener el balance.
   - :page_with_curl: [Conceptos Básicos de Árboles Rojo-Negro](/notebook/algoritmos-de-arboles-arboles-especializados/conceptos-basicos-de-arboles-rojo-negro.ipynb)  
