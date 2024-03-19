@@ -61,9 +61,6 @@ Entre ellos, los **árboles binarios** son aquellos en los que cada nodo tiene c
     - :page_with_curl: [bst_serialize_deserialize](/notebook/arboles/implementacion-bst_serialize_deserialize.ipynb)
 
 Los árboles **AVL**, **rojo-negro** y **splay** son variantes avanzadas de los **árboles binarios de búsqueda**, diseñadas para mejorar el rendimiento en operaciones de inserción, eliminación y búsqueda. Los **árboles AVL** mantienen un equilibrio óptimo, asegurando que la diferencia de altura entre subárboles no supere un valor específico, lo que garantiza tiempos de búsqueda consistentes. Los **árboles rojo-negro**, por otro lado, aplican reglas de coloración para mantener un equilibrio relajado, lo que los hace más eficientes en operaciones de inserción y eliminación. Mientras tanto, los **árboles splay** utilizan rotaciones y reorganizaciones dinámicas para llevar a los nodos más accesibles a la raíz, optimizando las operaciones de búsqueda. Estas estructuras son cruciales en aplicaciones donde se requiere un rendimiento óptimo en la gestión y manipulación de datos, como bases de datos, sistemas de archivos y algoritmos de búsqueda.
-
-
----
 - :ledger: [Árbol AVL](../notebook/arboles/arbol-avl.ipynb)  Introduce los árboles balanceados y las operaciones de rotación para mantener el equilibrio.
   - :page_with_curl: [Aplicaciones de Árboles AVL](/notebook/arboles/aplicaciones-arboles-avl.ipynb)
   - :page_with_curl: [Consideraciones al Implementar un Arbol AVL](/notebook/arboles/consideraciones-al-implementar-un-arbol-avl.ipynb)
@@ -71,13 +68,6 @@ Los árboles **AVL**, **rojo-negro** y **splay** son variantes avanzadas de los 
     - :page_with_curl: [Inserción](/notebook/arboles/avl-insercion.ipynb)  
     - :page_with_curl: [Búsqueda](/notebook/arboles/avl-busqueda.ipynb)  
     - :page_with_curl: [Eliminación de nodos](/notebook/arboles/avl-eliminacion-de-nodos.ipynb)  
-
-
-
-  - :page_with_curl: [Balanceo de Árboles: Introducción a los Árboles AVL](/notebook/algoritmos-de-arboles-arboles-binarios-de-busqueda/balanceo-de-arboles-introduccion-a-los-arboles-av.ipynb)  
-  - :page_with_curl: [Balanceo del Árbol: En árboles AVL, implementar rotaciones para mantener el árbol balanceado](/notebook/implementacion-de-arboles/balanceo-del-arbol-en-arboles-avl-implementar-rotaciones-para-mantener-el-arbol-balanceado.ipynb)  
-
----
 
 - :ledger: [Árbol Rojo-Negro](../notebook/arboles/arbol-rojo-negro.ipynb) : Otro tipo de árbol balanceado, introduce un mecanismo diferente para mantener el balance.
   - :page_with_curl: [Conceptos Básicos de Árboles Rojo-Negro](/notebook/algoritmos-de-arboles-arboles-especializados/conceptos-basicos-de-arboles-rojo-negro.ipynb)  
