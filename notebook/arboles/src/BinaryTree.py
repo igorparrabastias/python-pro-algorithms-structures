@@ -1,11 +1,11 @@
 # Definición de la clase Node que representa cada nodo en el árbol.
 class Node:
-    def __init__(self, key):
+    def __init__(self, data):
         # Inicializa los nodos hijo izquierdo y derecho como None (vacíos).
         self.left = None
         self.right = None
-        # Almacena la clave (o valor) en el nodo.
-        self.data = key
+        # Almacena la data (o valor) en el nodo.
+        self.data = data
 
 # Definición de la clase BinaryTree que representa el árbol binario completo.
 class BinaryTree:
@@ -14,9 +14,9 @@ class BinaryTree:
         self.root = None
 
     # Método para insertar un nuevo nodo en el árbol.
-    def insert(self, key):
-        # Crea un nuevo nodo con la clave proporcionada.
-        new_node = Node(key)
+    def insert(self, data):
+        # Crea un nuevo nodo con la data proporcionada.
+        new_node = Node(data)
 
         # Si el árbol está vacío, establece el nuevo nodo como raíz.
         if not self.root:
