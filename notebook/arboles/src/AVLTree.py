@@ -11,6 +11,8 @@ class AVLTree:
     def __init__(self):
         self.root = None  # Raíz del árbol
 
+    # -------------- Section: Insertion Methods -------------- #
+
     # Método para insertar un dato en el árbol
     def insert(self, data):
         if not self.root:  # Si el árbol está vacío
@@ -97,3 +99,27 @@ class AVLTree:
 
         # Retornar la nueva raíz después de la rotación
         return y
+
+    # -------------- Section: Search Methods -------------- #
+
+    # Método para buscar un valor en el árbol AVL
+    def search(self, key):
+        return self._search_recursive(self.root, key)
+
+    # Función recursiva privada para realizar la búsqueda
+    def _search_recursive(self, current_node, key):
+        # Si el nodo actual es None, el valor no se encontró
+        if not current_node:
+            return False
+
+        # Si el valor actual del nodo es el que buscamos, retorna True
+        if current_node.data == key:
+            return True
+
+        # Si el valor buscado es menor que el del nodo actual, busca en el subárbol izquierdo
+        elif key < current_node.data:
+            return self._search_recursive(current_node.left, key)
+
+        # Si el valor buscado es mayor que el del nodo actual, busca en el subárbol derecho
+        else:
+            return self._search_recursive(current_node.right, key)
