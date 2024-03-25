@@ -7,18 +7,25 @@ def visualize_bt(tree):
         dot.node('null', 'Empty Tree', shape='plaintext')
         return dot
 
+    # Usamos id(node) para asegurar que cada nodo sea único.
     def add_nodes_edges(node, dot=None):
+        node_id = str(id(node))  # Identificador único basado en la id de memoria del nodo
+
         if node.left:
-            dot.node(str(node.left.data), str(node.left.data))
-            dot.edge(str(node.data), str(node.left.data), label='L')
+            left_id = str(id(node.left))
+            dot.node(left_id, str(node.left.data))
+            dot.edge(node_id, left_id, label='L')
             add_nodes_edges(node.left, dot=dot)
 
         if node.right:
-            dot.node(str(node.right.data), str(node.right.data))
-            dot.edge(str(node.data), str(node.right.data), label='R')
+            right_id = str(id(node.right))
+            dot.node(right_id, str(node.right.data))
+            dot.edge(node_id, right_id, label='R')
             add_nodes_edges(node.right, dot=dot)
 
-    dot.node(str(tree.root.data), str(tree.root.data))
+    # Inicia el proceso con el nodo raíz
+    root_id = str(id(tree.root))
+    dot.node(root_id, str(tree.root.data))
     add_nodes_edges(tree.root, dot=dot)
 
     return dot
