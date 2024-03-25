@@ -123,3 +123,76 @@ class AVLTree:
         # Si el valor buscado es mayor que el del nodo actual, busca en el subárbol derecho
         else:
             return self._search_recursive(current_node.right, key)
+
+    # -------------- Section: Delete Methods -------------- #
+
+    def _get_min_value_node(self, node):
+        """
+        Obtiene el nodo con el valor mínimo en un subárbol.
+        El nodo más a la izquierda del subárbol es el que tiene el valor mínimo.
+        """
+        current_node = node
+        while current_node.left is not None:
+            current_node = current_node.left
+        return current_node
+
+    # Método para eliminar un nodo del árbol AVL
+    def delete(self, data):
+        self.root = self._delete_recursive(self.root, data)
+
+    def _delete_recursive(self, node, data):
+        # Paso 1: Realizar la eliminación estándar de BST
+        if not node:
+            return node
+
+        if data < node.data:
+            node.left = self._delete_recursive(node.left, data)
+        elif data > node.data:
+            node.right = self._delete_recursive(node.right, data)
+        else:
+            # Nodo con solo un hijo o sin hijos
+            if node.left is None:
+                temp = node.right
+                node = None
+                return temp
+            elif node.right is None:
+                temp = node.left
+                node = None
+                return temp
+
+            # Nodo con dos hijos: Obtener el sucesor inorden (el menor en el subárbol derecho)
+            temp = self._get_min_value_node(node.right)
+            node.data = temp.data
+            node.right = self._delete_recursive(node.right, temp.data)
+
+        # Si el árbol tenía solo un nodo, retornarlo
+        if node is None:
+            return node
+
+        # Paso 2: Actualizar la altura del nodo actual
+        node.height = 1 + max(self._get_height(node.left),
+                                self._get_height(node.right))
+
+        # Paso 3: Obtener el factor de equilibrio
+        balance = self._get_balance(node)
+
+        # Paso 4: Balancear el árbol
+        # Caso Izquierda Izquierda
+        if balance > 1 and self._get_balance(node.left) >= 0:
+            return self._rotate_right(node)
+
+        # Caso Izquierda Derecha
+        if balance > 1 and self._get_balance(node.left) < 0:
+            node.left = self._rotate_left(node.left)
+            return self._rotate_right(node)
+
+        # Caso Derecha Derecha
+        if balance < -1 and self._get_balance(node.right) <= 0:
+            return self._rotate_left(node)
+
+        # Caso Derecha Izquierda
+        if balance < -1 and self._get_balance(node.right) > 0:
+            node.right = self._rotate_right(node.right)
+            return self._rotate_left(node)
+
+        return node
