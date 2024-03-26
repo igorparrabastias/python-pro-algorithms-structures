@@ -72,12 +72,10 @@ Los árboles **AVL**, **rojo-negro** y **splay** son variantes avanzadas de los 
 - :ledger: [Árbol Rojo-Negro](/notebook/arboles/arbol-rojo-negro.ipynb) : Otro tipo de árbol balanceado, introduce un mecanismo diferente para mantener el balance.
   - :page_with_curl: [Aplicaciones de Árboles Rojo-Negro](/notebook/arboles/aplicaciones-arboles-rojo-negro.ipynb)
   - :page_with_curl: [Consideraciones al Implementar un Arbol Rojo-Negro](/notebook/arboles/consideraciones-al-implementar-un-arbol-rojo-negro.ipynb)
-  - **Implementación de `AVLTree`**
+  - **Implementación de `RBTree`**
     - :page_with_curl: [Inserción](/notebook/arboles/rojo-negro-insercion.ipynb)  
     - :page_with_curl: [Búsqueda](/notebook/arboles/rojo-negro-busqueda.ipynb)  
     - :page_with_curl: [Eliminación de nodos](/notebook/arboles/rojo-negro-eliminacion-de-nodos.ipynb)  
-  
-
   - :page_with_curl: [Conceptos Básicos de Árboles Rojo-Negro](/notebook/algoritmos-de-arboles-arboles-especializados/conceptos-basicos-de-arboles-rojo-negro.ipynb)  
   - :page_with_curl: [Árboles Rojo-Negro](/notebook/implementacion-de-arboles/arboles-rojo-negro.ipynb)  
 
