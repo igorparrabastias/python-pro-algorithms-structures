@@ -61,9 +61,11 @@ def visualize_rbtree(tree):
 
     def add_nodes_edges(node, dot=None, parent_id=None, edge_label=''):
         if node == tree.NIL:
+            # Crear un nodo NIL único para cada posición
             nil_id = f"nil{parent_id}{edge_label}"
             dot.node(nil_id, 'NIL', shape='box', style='filled', fillcolor='grey', fontcolor='white')
-            dot.edge(parent_id, nil_id, label=edge_label)
+            if parent_id is not None:  # Asegurarse de que el nodo raíz no se autoconecte
+                dot.edge(parent_id, nil_id, label=edge_label)
             return
 
         node_id = str(id(node))  # Identificador único basado en la id de memoria del nodo
@@ -75,22 +77,14 @@ def visualize_rbtree(tree):
         else:  # Nodo negro
             dot.node(node_id, node_label, style='filled', fillcolor='black', fontcolor='white')
 
-        # Si el nodo no es la raíz, añade un borde al padre
+        # Conectar con el nodo padre si existe
         if parent_id is not None:
             dot.edge(parent_id, node_id, label=edge_label)
 
         add_nodes_edges(node.left, dot=dot, parent_id=node_id, edge_label='L')
         add_nodes_edges(node.right, dot=dot, parent_id=node_id, edge_label='R')
 
-    # Inicia el proceso con el nodo raíz
-    root_id = str(id(tree.root))
-    root_label = f"{tree.root.data}\n{tree.root.color.upper()}"
-
-    if tree.root.color == "red":
-        dot.node(root_id, root_label, style='filled', fillcolor='white', fontcolor='black')
-    else:  # Nodo raíz negro
-        dot.node(root_id, root_label, style='filled', fillcolor='black', fontcolor='white')
-
-    add_nodes_edges(tree.root, dot=dot, parent_id=root_id)
+    # Inicia el proceso con el nodo raíz sin intentar conectarlo a un nodo padre
+    add_nodes_edges(tree.root, dot=dot)
 
     return dot
