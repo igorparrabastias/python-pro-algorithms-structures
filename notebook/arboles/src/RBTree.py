@@ -7,6 +7,9 @@ class Node:
         self.left = None
         self.right = None
 
+    def __str__(self):
+        return f"Node(color={self.color}, data={self.data})"
+
 class RBTree:
     # Constructor para el árbol rojo-negro
     def __init__(self):
