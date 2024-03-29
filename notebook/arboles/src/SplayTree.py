@@ -178,3 +178,46 @@ class SplayTree:
 
         # Retornamos None ya que no encontramos el nodo con el dato buscado.
         return None
+
+    # ---- Sección: Métodos de Eliminación ---- #
+
+    def delete(self, data):
+        # Primero, buscamos el nodo con el valor a eliminar y realizamos un splay
+        # para llevarlo a la raíz.
+        node_to_delete = self.search(data)
+
+        if node_to_delete is None:
+            print(f"El nodo con el valor {data} no se encuentra en el árbol.")
+            return
+
+        # Separamos el árbol en dos subárboles, izquierdo y derecho, excluyendo la
+        # raíz (nodo a eliminar).
+        left_subtree = node_to_delete.left
+        right_subtree = node_to_delete.right
+
+        if left_subtree:
+            left_subtree.parent = None
+        if right_subtree:
+            right_subtree.parent = None
+
+        # Si el subárbol izquierdo es no nulo, buscamos el elemento más grande (el
+        # más a la derecha) para hacerlo la nueva raíz.
+        if left_subtree:
+            self.root = left_subtree
+            # Buscamos el elemento más a la derecha del subárbol izquierdo.
+            largest_in_left = left_subtree
+            while largest_in_left.right:
+                largest_in_left = largest_in_left.right
+            # Realizamos un splay de este nodo, para que sea la nueva raíz del
+            # árbol.
+            self.splay(largest_in_left)
+            # Conectamos el subárbol derecho con la nueva raíz.
+            self.root.right = right_subtree
+            if right_subtree:
+                right_subtree.parent = self.root
+        else:
+            # Si no hay subárbol izquierdo, el subárbol derecho se convierte
+            # directamente en la nueva raíz.
+            self.root = right_subtree
+
+        print(f"El nodo con el valor {data} ha sido eliminado.")
