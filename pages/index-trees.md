@@ -1,3 +1,5 @@
+:arrow_backward: [Indice](index.md)
+
 # :file_folder: Árboles Y Algoritmos de Operaciones
 
 Seguiremos un orden que asegura una progresión lógica, desde lo más **fundamental** a lo más **avanzado**, permitiendo construir una base sólida antes de abordar estructuras más complejas.  
