@@ -1,104 +1,146 @@
-# La clase Node define la estructura básica de un nodo dentro de un árbol
-# binario.
 class Node:
-    # El método inicializador crea un nuevo nodo con el dato proporcionado y
-    # establece sus hijos izquierdo y derecho a None.
     def __init__(self, data):
-        self.data = data  # Almacena el dato pasado al nodo.
-        self.left = None  # Inicializa el hijo izquierdo del nodo como None.
-        self.right = None  # Inicializa el hijo derecho del nodo como None.
+        # Constructor de la clase Nodo.
+        # 'data' contiene el valor almacenado en el nodo.
+        # 'left' apunta al hijo izquierdo del nodo (None si no tiene).
+        # 'right' apunta al hijo derecho del nodo (None si no tiene).
+        # 'parent' apunta al nodo padre (None si es la raíz).
+        self.data = data
+        self.left = None
+        self.right = None
+        self.parent = None
 
-# La clase SplayTree representa un árbol splay, un tipo especial de árbol de
-# búsqueda binario.
+
 class SplayTree:
-    # El método inicializador crea un nuevo árbol splay sin nodos (es decir, con
-    # la raíz igual a None).
     def __init__(self):
-        self.root = None  # Establece la raíz del árbol a None.
+        # Constructor de la clase SplayTree.
+        # Inicializa un árbol splay sin nodos, por lo tanto 'root' es None.
+        self.root = None
 
-    # Método para realizar una rotación a la derecha en el árbol.
-    def rightRotate(self, x):
-        print(f"Realizando rotación a la derecha en el nodo con dato {x.data}")
-        y = x.left
-        x.left = y.right
-        y.right = x
-        return y  # Retorna el nuevo subárbol después de la rotación.
-
-    # Método para realizar una rotación a la izquierda en el árbol.
-    def leftRotate(self, x):
-        print(f"Realizando rotación a la izquierda en el nodo con dato {x.data}")
+    def rotate_left(self, x):
+        # Realiza una rotación hacia la izquierda en el nodo x para reestructurar el árbol.
+        # Este movimiento promueve el nodo derecho de x (y) a la posición de x,
+        # Mientras que x se convierte en el hijo izquierdo de y.
         y = x.right
         x.right = y.left
+
+        if y.left:
+            y.left.parent = x
+
+        y.parent = x.parent
+
+        if not x.parent:
+            print(f"Rotación izquierda: {x.data} ahora es la nueva raíz.")
+            self.root = y
+        elif x == x.parent.left:
+            x.parent.left = y
+        else:
+            x.parent.right = y
+
         y.left = x
-        return y  # Retorna el nuevo subárbol después de la rotación.
+        x.parent = y
 
-    # Método splay ajusta el árbol para que el nodo con el dato buscado sea
-    # movido a la raíz.
-    def splay(self, root, data):
-        # Si la raíz es None o contiene el dato buscado, no se realiza ninguna
-        # acción.
-        if root is None or root.data == data:
-            return root
+    def rotate_right(self, x):
+        # Realiza una rotación hacia la derecha en el nodo x para reestructurar el árbol.
+        # Este movimiento promueve el nodo izquierdo de x (y) a la posición de x,
+        # Mientras que x se convierte en el hijo derecho de y.
+        y = x.left
+        x.left = y.right
 
-        # Si el dato es menor que el dato en la raíz, se realizan operaciones en
-        # el subárbol izquierdo.
-        if root.data > data:
-            # Si no hay subárbol izquierdo, no se puede continuar y se retorna
-            # la raíz.
-            if root.left is None:
-                return root
-            # Rotaciones dobles o simples se realizan dependiendo del valor del
-            # hijo izquierdo.
-            if root.left.data > data:
-                root.left.left = self.splay(root.left.left, data)
-                root = self.rightRotate(root)
-            elif root.left.data < data:
-                root.left.right = self.splay(root.left.right, data)
-                if root.left.right:
-                    root.left = self.leftRotate(root.left)
-            return self.rightRotate(root) if root.left else root
+        if y.right:
+            y.right.parent = x
 
-        # Si el dato es mayor que el dato en la raíz, se realizan operaciones en
-        # el subárbol derecho.
+        y.parent = x.parent
+
+        if not x.parent:
+            print(f"Rotación derecha: {x.data} ahora es la nueva raíz.")
+            self.root = y
+        elif x == x.parent.right:
+            x.parent.right = y
         else:
-            # Si no hay subárbol derecho, no se puede continuar y se retorna la
-            # raíz.
-            if root.right is None:
-                return root
-            # Rotaciones dobles o simples se realizan dependiendo del valor del
-            # hijo derecho.
-            if root.right.data > data:
-                root.right.left = self.splay(root.right.left, data)
-                if root.right.left:
-                    root.right = self.rightRotate(root.right)
-            elif root.right.data < data:
-                root.right.right = self.splay(root.right.right, data)
-                root = self.leftRotate(root)
-            return self.leftRotate(root) if root.right else root
+            x.parent.left = y
 
-    # Método para insertar un nuevo dato en el árbol.
+        y.right = x
+        x.parent = y
+
+    def splay(self, x):
+        # Realiza la operación de 'splay' en el nodo x. El objetivo es traer el nodo x a la raíz del árbol,
+        # mediante una serie de rotaciones, para optimizar tiempos de acceso futuros a este nodo.
+        while x.parent:
+            if not x.parent.parent:
+                if x == x.parent.left:
+                    print(f"Splay - rotación a la derecha (Zig): {x.data}")
+                    self.rotate_right(x.parent)
+                else:
+                    print(f"Splay - rotación a la izquierda (Zag): {x.data}")
+                    self.rotate_left(x.parent)
+            elif x == x.parent.left and x.parent == x.parent.parent.left:
+                print(
+                    f"Splay - doble rotación a la derecha (Zig-Zig): {x.data}")
+                self.rotate_right(x.parent.parent)
+                self.rotate_right(x.parent)
+            elif x == x.parent.right and x.parent == x.parent.parent.right:
+                print(
+                    f"Splay - doble rotación a la izquierda (Zag-Zag): {x.data}")
+                self.rotate_left(x.parent.parent)
+                self.rotate_left(x.parent)
+            elif x == x.parent.right and x.parent == x.parent.parent.left:
+                print(
+                    f"Splay - rotación a la izquierda seguido de rotación a la derecha (Zag-Zig): {x.data}")
+                self.rotate_left(x.parent)
+                self.rotate_right(x.parent)
+            else:
+                print(
+                    f"Splay - rotación a la derecha seguido de rotación a la izquierda (Zig-Zag): {x.data}")
+                self.rotate_right(x.parent)
+                self.rotate_left(x.parent)
+
     def insert(self, data):
-        print(f"Insertando dato {data} en el árbol")
-        # Si el árbol está vacío, se crea una nueva raíz con el dato.
-        if not self.root:
-            self.root = Node(data)
-            return
-        # Se realiza la operación splay para el dato y se ajusta el árbol.
-        self.root = self.splay(self.root, data)
-        # Si el dato ya existe en el árbol, no se realiza la inserción.
-        if self.root.data == data:
-            return
-        # Se crea un nuevo nodo y se reajusta el árbol con este nuevo nodo como
-        # raíz.
-        new_node = Node(data)
-        if self.root.data > data:
-            new_node.right = self.root
-            new_node.left = self.root.left
-            self.root.left = None
+        # Insertar un nuevo dato en el árbol splay.
+        # El método encuentra la posición correcta del nuevo nodo y luego realiza un 'splay' de este.
+        print(f"Insertar: {data}")
+        node = Node(data)
+        y = None
+        x = self.root
+
+        # Buscar dónde insertar el nuevo nodo.
+        while x:
+            y = x
+            if node.data < x.data:
+                x = x.left
+            else:
+                x = x.right
+
+        node.parent = y
+
+        # Si el árbol estaba vacío, el nuevo nodo será la raíz.
+        if y is None:
+            self.root = node
         else:
-            new_node.left = self.root
-            new_node.right = self.root.right
-            self.root.right = None
-        # Se establece el nuevo nodo como la raíz del árbol.
-        self.root = new_node
-        print(f"Dato {data} insertado exitosamente")
+            # Si el valor es menor, inserta a la izquierda, sino a la derecha.
+            if node.data < y.data:
+                y.left = node
+            else:
+                y.right = node
+
+        # Una vez insertado el nodo, es necesario hacer un 'splay' para optimizar futuros accesos.
+        self.splay(node)
+
+    def find(self, data):
+        # Busca un nodo por su valor y realiza un 'splay' de este.
+        # Esto colocará al nodo encontrado como la raíz del árbol,
+        # o la última posición accedida en caso de no encontrarlo.
+        print(f"Buscar: {data}")
+        x = self.root
+        while x:
+            if data < x.data:
+                x = x.left
+            elif data > x.data:
+                x = x.right
+            else:
+                # Si se encuentra el dato, se realiza un 'splay' del nodo.
+                self.splay(x)
+                return x
+
+        # Si no se encuentra el dato, devuelve None.
+        return None
