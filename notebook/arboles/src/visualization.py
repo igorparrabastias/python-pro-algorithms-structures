@@ -88,30 +88,3 @@ def visualize_rbtree(tree):
     add_nodes_edges(tree.root, dot=dot)
 
     return dot
-
-import pygraphviz as pgv
-
-def visualize_splaytree(tree):
-    if not tree.root:
-        print("El árbol está vacío")
-        return
-
-    def add_nodes_edges(tree, graph, node=None, pos='', x=0, y=0, layer=1):
-        if node is not None:
-            graph.add_node(pos, label=node.key, shape='circle')
-            if node.left:
-                left_pos = f'{pos}l'
-                graph.add_edge(pos, left_pos)
-                add_nodes_edges(tree, graph, node.left, left_pos, x-1, y-1, layer+1)
-            if node.right:
-                right_pos = f'{pos}r'
-                graph.add_edge(pos, right_pos)
-                add_nodes_edges(tree, graph, node.right, right_pos, x+1, y-1, layer+1)
-
-    graph = pgv.AGraph(strict=True, directed=True)
-    add_nodes_edges(tree, graph, tree.root)
-
-    # Renderizar el árbol usando Graphviz
-    # Esto guardará el árbol en un archivo PNG
-    graph.layout(prog='dot')
-    graph.draw('splay_tree.png')
