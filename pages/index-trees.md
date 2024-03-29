@@ -6,6 +6,7 @@ Seguiremos un orden que asegura una progresión lógica, desde lo más **fundame
 
 <details>
   <summary>Tips</summary>
+  
 - :file_folder: Repása esta página de principio a fin para tener una visión global sobre la **estructura de datos** de tipo **árbol**.  
 - :ledger: Después de eso sigue cada link en el primer nivel  en forma secuencial para aprender sobre cada tipo.   
 - :page_with_curl: Y al final, una vez hayas revisado todos los tipos, avanza a los link anidados para profundizar más, teniendo ya muy claro el contexto general.
