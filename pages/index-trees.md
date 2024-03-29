@@ -24,6 +24,7 @@ Entre ellos, los **árboles binarios** son aquellos en los que cada nodo tiene c
   - :page_with_curl: [Ejemplo de Algoritmo en Bioinformática](/notebook/arboles/ejemplo-de-algoritmo-en-bioinformatica.ipynb)
   - **Implementación de `Tree`**
     - :page_with_curl: [Implementación Básica de Arbol](/notebook/arboles/tree-elemental.ipynb)  
+    - :floppy_disk: [Tree.py](../notebook/arboles/src/Tree.py)
   <!-- - :page_with_curl: [Ejercicios](/notebook/arboles/ejercicios.ipynb)   -->
 
 - :ledger: [Árboles Binarios](/notebook/arboles/arbol-binario.ipynb) Concepto básico y recorridos.
@@ -33,7 +34,8 @@ Entre ellos, los **árboles binarios** son aquellos en los que cada nodo tiene c
     - :page_with_curl: [Inserción manual](/notebook/arboles/insercion-manual.ipynb)  
     - :page_with_curl: [Inserción automática](/notebook/arboles/insercion-automatica.ipynb)  
     - :page_with_curl: [Búsqueda recursiva](/notebook/arboles/busqueda-recursiva.ipynb)  
-    - :page_with_curl: [Eliminación de nodos](/notebook/arboles/eliminacion-de-nodos.ipynb)  
+    - :page_with_curl: [Eliminación de nodos](/notebook/arboles/eliminacion-de-nodos.ipynb) 
+    - :floppy_disk: [BinaryTree.py](../notebook/arboles/src/BinaryTree.py) 
   - **Métodos de Recorrido**
     - :page_with_curl: [preorder (DFS)](/notebook/arboles/implementacion-preorder.ipynb)
     - :page_with_curl: [inorder (DFS)](/notebook/arboles/implementacion-inorder.ipynb)
@@ -56,6 +58,7 @@ Entre ellos, los **árboles binarios** son aquellos en los que cada nodo tiene c
     - :page_with_curl: [Inserción](/notebook/arboles/bst-insercion.ipynb)  
     - :page_with_curl: [Búsqueda](/notebook/arboles/bst-busqueda.ipynb)  
     - :page_with_curl: [Eliminación de nodos](/notebook/arboles/bst-eliminacion-de-nodos.ipynb)  
+    - :floppy_disk: [BST.py](../notebook/arboles/src/BST.py) 
   - **Métodos de Utilidad**
     - :page_with_curl: [get_successor](/notebook/arboles/implementacion-get_successor.ipynb)
     - :page_with_curl: [get_predecessor](/notebook/arboles/implementacion-get_predecessor.ipynb)
@@ -75,6 +78,7 @@ Los árboles **AVL**, **rojo-negro** y **splay** son variantes avanzadas de los 
     - :page_with_curl: [Inserción](/notebook/arboles/avl-insercion.ipynb)  
     - :page_with_curl: [Búsqueda](/notebook/arboles/avl-busqueda.ipynb)  
     - :page_with_curl: [Eliminación de nodos](/notebook/arboles/avl-eliminacion-de-nodos.ipynb)  
+    - :floppy_disk: [AVLTree.py](../notebook/arboles/src/AVLTree.py) 
 
 - :ledger: [Árbol Rojo-Negro](/notebook/arboles/arbol-rojo-negro.ipynb) : Otro tipo de árbol balanceado, introduce un mecanismo diferente para mantener el balance.
   - :page_with_curl: [Aplicaciones de Árboles Rojo-Negro](/notebook/arboles/aplicaciones-arboles-rojo-negro.ipynb)
@@ -83,6 +87,7 @@ Los árboles **AVL**, **rojo-negro** y **splay** son variantes avanzadas de los 
     - :page_with_curl: [Inserción](/notebook/arboles/rojo-negro-insercion.ipynb)  
     - :page_with_curl: [Búsqueda](/notebook/arboles/rojo-negro-busqueda.ipynb)  
     - :page_with_curl: [Eliminación de nodos](/notebook/arboles/rojo-negro-eliminacion-de-nodos.ipynb)  
+    - :floppy_disk: [RBTree.py](../notebook/arboles/src/RBTree.py) 
 - :ledger: [Árbol Splay](/notebook/arboles/arbol-splay.ipynb) Presenta una estrategia de autoajuste para optimizar las búsquedas secuenciales.
 
 ---
