@@ -17,6 +17,41 @@ class SplayTree:
         # Inicializa un árbol splay sin nodos, por lo tanto 'root' es None.
         self.root = None
 
+    # ---- Sección: Métodos de Inserción ---- #
+
+    def insert(self, data):
+        # Insertar un nuevo dato en el árbol splay.
+        # El método encuentra la posición correcta del nuevo nodo y luego realiza un 'splay' de este.
+        print(f"Insertar: {data}")
+        node = Node(data)
+        y = None
+        x = self.root
+
+        # Buscar dónde insertar el nuevo nodo.
+        while x:
+            y = x
+            if node.data < x.data:
+                x = x.left
+            else:
+                x = x.right
+
+        node.parent = y
+
+        # Si el árbol estaba vacío, el nuevo nodo será la raíz.
+        if y is None:
+            self.root = node
+        else:
+            # Si el valor es menor, inserta a la izquierda, sino a la derecha.
+            if node.data < y.data:
+                y.left = node
+            else:
+                y.right = node
+
+        # Una vez insertado el nodo, es necesario hacer un 'splay' para optimizar futuros accesos.
+        self.splay(node)
+
+    # ---- Sección: Métodos auxiliares de Inserción ---- #
+
     def rotate_left(self, x):
         # Realiza una rotación hacia la izquierda en el nodo x para reestructurar el árbol.
         # Este movimiento promueve el nodo derecho de x (y) a la posición de x,
@@ -63,6 +98,8 @@ class SplayTree:
         y.right = x
         x.parent = y
 
+    # ---- Sección: Métodos auxiliares generales ---- #
+
     def splay(self, x):
         # Realiza la operación de 'splay' en el nodo x. El objetivo es traer el nodo x a la raíz del árbol,
         # mediante una serie de rotaciones, para optimizar tiempos de acceso futuros a este nodo.
@@ -95,52 +132,49 @@ class SplayTree:
                 self.rotate_right(x.parent)
                 self.rotate_left(x.parent)
 
-    def insert(self, data):
-        # Insertar un nuevo dato en el árbol splay.
-        # El método encuentra la posición correcta del nuevo nodo y luego realiza un 'splay' de este.
-        print(f"Insertar: {data}")
-        node = Node(data)
-        y = None
-        x = self.root
+    # ---- Sección: Métodos de Busqueda ---- #
 
-        # Buscar dónde insertar el nuevo nodo.
-        while x:
-            y = x
-            if node.data < x.data:
-                x = x.left
+    def search(self, data):
+        # Inicializamos con el nodo raíz y preparamos una variable para recordar el
+        # último visitado.
+        node = self.root
+        lastVisited = None
+
+        # Recorremos los nodos del árbol para buscar el dato solicitado.
+        while node:
+            # Guardamos el último nodo visitado para poder realizar un "splay" si es
+            # necesario.
+            lastVisited = node
+            # Imprimimos el valor del nodo actual para trazar la búsqueda.
+            print(f"Visitando: {node.data}")
+
+            # Decidimos en qué dirección continuar la búsqueda basándonos en el
+            # valor buscado.
+            if data < node.data:
+                # Nos movemos al hijo izquierdo si el dato buscado es menor.
+                node = node.left
+            elif data > node.data:
+                # Nos movemos al hijo derecho si el dato buscado es mayor.
+                node = node.right
             else:
-                x = x.right
+                # Si encontramos el nodo con el dato, realizamos la operación de
+                # splay.
+                print(f"Nodo encontrado: {node.data}. Realizando splay...")
+                # Al encontrar el nodo, lo llevamos a la raíz.
+                self.splay(node)
+                return node  # Retornamos el nodo encontrado.
 
-        node.parent = y
-
-        # Si el árbol estaba vacío, el nuevo nodo será la raíz.
-        if y is None:
-            self.root = node
+        # Si hemos terminado el bucle sin retornar un nodo, significa que no se
+        # encontró el buscado.
+        if lastVisited:
+            # Si había nodos en el árbol, realizamos splay en el último visitado
+            # para mantener propiedades optimización.
+            print(
+                f"Nodo no encontrado. Realizando splay en último nodo visitado: {lastVisited.data}")
+            self.splay(lastVisited)
         else:
-            # Si el valor es menor, inserta a la izquierda, sino a la derecha.
-            if node.data < y.data:
-                y.left = node
-            else:
-                y.right = node
+            # En caso de que el árbol esté vacío, informamos al usuario.
+            print("El árbol está vacío.")
 
-        # Una vez insertado el nodo, es necesario hacer un 'splay' para optimizar futuros accesos.
-        self.splay(node)
-
-    def find(self, data):
-        # Busca un nodo por su valor y realiza un 'splay' de este.
-        # Esto colocará al nodo encontrado como la raíz del árbol,
-        # o la última posición accedida en caso de no encontrarlo.
-        print(f"Buscar: {data}")
-        x = self.root
-        while x:
-            if data < x.data:
-                x = x.left
-            elif data > x.data:
-                x = x.right
-            else:
-                # Si se encuentra el dato, se realiza un 'splay' del nodo.
-                self.splay(x)
-                return x
-
-        # Si no se encuentra el dato, devuelve None.
+        # Retornamos None ya que no encontramos el nodo con el dato buscado.
         return None
