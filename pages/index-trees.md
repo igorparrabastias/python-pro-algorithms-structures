@@ -76,9 +76,6 @@ Los árboles **AVL**, **rojo-negro** y **splay** son variantes avanzadas de los 
     - :page_with_curl: [Inserción](/notebook/arboles/rojo-negro-insercion.ipynb)  
     - :page_with_curl: [Búsqueda](/notebook/arboles/rojo-negro-busqueda.ipynb)  
     - :page_with_curl: [Eliminación de nodos](/notebook/arboles/rojo-negro-eliminacion-de-nodos.ipynb)  
-  - :page_with_curl: [Conceptos Básicos de Árboles Rojo-Negro](/notebook/algoritmos-de-arboles-arboles-especializados/conceptos-basicos-de-arboles-rojo-negro.ipynb)  
-  - :page_with_curl: [Árboles Rojo-Negro](/notebook/implementacion-de-arboles/arboles-rojo-negro.ipynb)  
-
 - :ledger: [Árbol Splay](/notebook/arboles/arbol-splay.ipynb) Presenta una estrategia de autoajuste para optimizar las búsquedas secuenciales.
 
 ---
