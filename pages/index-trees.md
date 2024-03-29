@@ -2,13 +2,12 @@
 
 # :file_folder: Árboles Y Algoritmos de Operaciones
 
-<details>
-  <summary>Info</summary>
-Seguiremos un orden que asegura una progresión lógica, desde lo más fundamental a lo más avanzado, permitiendo construir una base sólida antes de abordar estructuras más complejas.  
+Seguiremos un orden que asegura una progresión lógica, desde lo más **fundamental** a lo más **avanzado**, permitiendo construir una base sólida antes de abordar estructuras más complejas.  
 
+<details>
+  <summary>Tips</summary>
 - :file_folder: Repása esta página de principio a fin para tener una visión global sobre la **estructura de datos** de tipo **árbol**.  
 - :ledger: Después de eso sigue cada link en el primer nivel  en forma secuencial para aprender sobre cada tipo.   
-
 - :page_with_curl: Y al final, una vez hayas revisado todos los tipos, avanza a los link anidados para profundizar más, teniendo ya muy claro el contexto general.
 </details>
 
