@@ -88,7 +88,15 @@ Los árboles **AVL**, **rojo-negro** y **splay** son variantes avanzadas de los 
     - :page_with_curl: [Búsqueda](/notebook/arboles/rojo-negro-busqueda.ipynb)  
     - :page_with_curl: [Eliminación de nodos](/notebook/arboles/rojo-negro-eliminacion-de-nodos.ipynb)  
     - :floppy_disk: [RBTree.py](../notebook/arboles/src/RBTree.py) 
+
 - :ledger: [Árbol Splay](/notebook/arboles/arbol-splay.ipynb) Presenta una estrategia de autoajuste para optimizar las búsquedas secuenciales.
+  - :page_with_curl: [Aplicaciones de Árboles Splay](/notebook/arboles/aplicaciones-arboles-splay.ipynb)
+  - :page_with_curl: [Consideraciones al Implementar un Arbol Splay](/notebook/arboles/consideraciones-al-implementar-un-arbol-splay.ipynb)
+  - **Implementación de `SplayTree`**
+    - :page_with_curl: [Inserción](/notebook/arboles/splay-insercion.ipynb)  
+    - :page_with_curl: [Búsqueda](/notebook/arboles/splay-busqueda.ipynb)  
+    - :page_with_curl: [Eliminación de nodos](/notebook/arboles/splay-eliminacion-de-nodos.ipynb)  
+    - :floppy_disk: [SplayTree.py](../notebook/arboles/src/SplayTree.py) 
 
 ---
 
