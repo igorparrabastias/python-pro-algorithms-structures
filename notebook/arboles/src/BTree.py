@@ -65,10 +65,3 @@ class BTree:
         if not y.leaf:
             z.child = y.child[t:(2 * t)]
             y.child = y.child[0:t]
-
-
-# Creación del árbol B y ejemplo de inserción
-b_tree = BTree(3)  # Un árbol B con grado mínimo 3
-for i in range(10):
-    b_tree.insert(i)
-b_tree.print_tree(b_tree.root)
