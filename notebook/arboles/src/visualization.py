@@ -99,36 +99,64 @@ def visualize_rbtree(tree):
     return dot
 
 
-def visualize_b_tree(root):
-    dot = Digraph(comment='B Tree / B+ Tree')
+def visualize_b_tree(node):
+    dot = Digraph(comment='B Tree')
+    # Establecer la forma de los nodos como cajas
+    dot.attr('node', shape='box')
+
+    def add_nodes_edges(node, dot, parent_id=None):
+        if node is None:
+            return
+
+        # Crear un identificador único para el nodo actual basado en las claves
+        node_id = str(hash(node))
+        # Crear etiqueta para el nodo actual solo con las claves (ignorando los valores None)
+        node_label = '|'.join(str(key) for key, _ in node.keys)
+        dot.node(node_id, label=node_label)
+
+        if parent_id is not None:
+            # Conectar el nodo actual con su padre
+            dot.edge(parent_id, node_id)
+
+        for child in node.children:
+            # Añadir recursivamente los hijos y conectarlos
+            add_nodes_edges(child, dot, parent_id=node_id)
+
+    # Iniciar la visualización desde el nodo raíz
+    add_nodes_edges(node, dot)
+
+    return dot
+
+
+def visualize_bplus_tree(root):
+    dot = Digraph(comment='B+ Tree')
 
     if not root:
         dot.node('null', 'Empty Tree', shape='plaintext')
         return dot
 
-    def add_nodes_edges(node, dot=None, parent_id=None):
-        # Crear un identificador único para el nodo actual basado en sus claves
+    def add_nodes_edges(node, dot=None, parent_id=None, is_leaf=False):
+        if node is None:
+            return
+
+        # Identificador basado en las claves del nodo
         node_id = '-'.join(str(key) for key in node.keys)
-        if parent_id is not None:
-            # Conectar el nodo actual con su padre
-            dot.edge(parent_id, node_id)
+
+        if is_leaf:
+            dot.node(node_id, label='|'.join('<f{0}>{1}'.format(
+                i, key) for i, key in enumerate(node.keys)), shape='record', height='.1')
         else:
-            # Si no hay padre, es la raíz
             dot.node(node_id, label='|'.join(str(key) for key in node.keys))
 
-        if node.children:
-            # El nodo no es una hoja, continuar con sus hijos
-            for child in node.children:
-                if child:  # Verificar si el hijo no es None
-                    add_nodes_edges(child, dot=dot, parent_id=node_id)
-        else:
-            # Para árboles B+, conectar hojas entre sí
-            # Este código no implementa la conexión secuencial explícita entre hojas.
-            if node != root and len(node.keys) > 0:
-                dot.node(node_id, label='|'.join(str(key)
-                         for key in node.keys) + '|', shape='record')
+        if parent_id is not None:
+            dot.edge(parent_id, node_id)
 
-    # Comenzar la visualización desde la raíz
+        for child in node.children:
+            if child:
+                # Pasar is_leaf=True si estamos en el último nivel
+                add_nodes_edges(
+                    child, dot=dot, parent_id=node_id, is_leaf=node.leaf)
+
     add_nodes_edges(root, dot=dot)
 
     return dot
