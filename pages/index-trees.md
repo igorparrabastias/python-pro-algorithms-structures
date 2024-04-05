@@ -103,9 +103,10 @@ Los árboles **AVL**, **rojo-negro** y **splay** son variantes avanzadas de los 
 A continuación los árboles **B**, **B+** y **n-arios**, aún siendo estructuras de árbol fundamentales son más complejas y avanzadas, diseñadas para casos de uso específicos, especialmente en sistemas de bases de datos y sistemas de archivos, donde se manejan grandes volúmenes de datos. Estos árboles están optimizados para minimizar el acceso a disco y mejorar la eficiencia en la búsqueda, inserción y eliminación de datos en contextos donde el rendimiento es crítico.
 
 - :ledger: [Árbol B y B+](/notebook/arboles/arbol-bb+.ipynb) 
-  - :page_with_curl: [Árbol B](/notebook/arboles/arbol-b.ipynb)
   - :page_with_curl: [Aplicaciones de Árboles B y B+](/notebook/arboles/aplicaciones-arboles-bb+.ipynb)
+  - :page_with_curl: [Qué es un árbol B](/notebook/arboles/arbol-b.ipynb)
   - :page_with_curl: [Consideraciones al Implementar un Arbol B](/notebook/arboles/consideraciones-al-implementar-un-arbol-b.ipynb)
+  - :page_with_curl: [Qué es un árbol B+](/notebook/arboles/arbol-bplus.ipynb)
   - :page_with_curl: [Consideraciones al Implementar un Arbol B+](/notebook/arboles/consideraciones-al-implementar-un-arbol-b+.ipynb)
   - **Implementación de `BTree`**
     - :page_with_curl: [Inserción](/notebook/arboles/b-insercion.ipynb)  

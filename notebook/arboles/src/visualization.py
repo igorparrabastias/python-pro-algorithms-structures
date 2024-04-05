@@ -110,8 +110,8 @@ def visualize_b_tree(node):
 
         # Crear un identificador único para el nodo actual basado en las claves
         node_id = str(hash(node))
-        # Crear etiqueta para el nodo actual solo con las claves (ignorando los valores None)
-        node_label = '|'.join(str(key) for key, _ in node.keys)
+        # Crear etiqueta para el nodo actual con las claves
+        node_label = ' | '.join(str(key) for key in node.keys)
         dot.node(node_id, label=node_label)
 
         if parent_id is not None:
