@@ -147,3 +147,8 @@ A continuación, los árboles de **expresión** y **decisión** son estructuras 
 
 - :ledger: [Árbol de Van Emde Boas](/notebook/arboles/arbol-de-van-emde-boas.ipynb)  Introduce conceptos avanzados para manejo de universos pequeños y operaciones muy eficientes.
 - :ledger: [Árbol de Merkle](/notebook/arboles/arbol-de-merkle.ipynb)  Aplicado en criptografía y sistemas distribuidos, muestra un uso especializado de los árboles.
+- Árboles de Expresión de Búsqueda (Ternary Search Trees): Pueden considerarse una forma de árbol B en el que cada nodo puede tener hasta tres hijos y dos claves. Son útiles para ciertas aplicaciones específicas, como autocompletar en motores de búsqueda.
+
+## Apendices
+
+  - :page_with_curl: [Estructuras de Datos y Nodos](/notebook/arboles/estructuras-de-datos-y-nodos.ipynb) (merge)  
