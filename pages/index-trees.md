@@ -103,6 +103,7 @@ Los árboles **AVL**, **rojo-negro** y **splay** son variantes avanzadas de los 
 A continuación los árboles **B**, **B+**, aún siendo estructuras de árbol fundamentales son más complejas y avanzadas, diseñadas para casos de uso específicos, especialmente en sistemas de bases de datos y sistemas de archivos, donde se manejan grandes volúmenes de datos. Estos árboles están optimizados para minimizar el acceso a disco y mejorar la eficiencia en la búsqueda, inserción y eliminación de datos en contextos donde el rendimiento es crítico.
 
 - :ledger: [Arbol B](/notebook/arboles/arbol-b.ipynb) Balancea inserciones y búsquedas distribuyendo claves en nodos multi-vía.
+  - :page_with_curl: [Aplicaciones de Árboles B](/notebook/arboles/aplicaciones-arboles-b.ipynb)
   - :page_with_curl: [Consideraciones al Implementar un Arbol B](/notebook/arboles/consideraciones-al-implementar-un-arbol-b.ipynb)
   - **Implementación de `BTree`**
     - :page_with_curl: [Inserción](/notebook/arboles/b-insercion.ipynb)  
@@ -111,6 +112,7 @@ A continuación los árboles **B**, **B+**, aún siendo estructuras de árbol fu
     - :floppy_disk: [BTree.py](../notebook/arboles/src/BTree.py) 
 
 - :ledger: [Arbol B+](/notebook/arboles/arbol-bplus.ipynb) Extiende Árboles B, manteniendo datos solo en hojas para recorridos secuenciales optimizados.
+  - :page_with_curl: [Aplicaciones de Árboles B+](/notebook/arboles/aplicaciones-arboles-bplus.ipynb)
   - :page_with_curl: [Consideraciones al Implementar un Arbol B+](/notebook/arboles/consideraciones-al-implementar-un-arbol-b+.ipynb)
 
 ## Apendices
