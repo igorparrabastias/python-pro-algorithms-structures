@@ -25,6 +25,8 @@ class BTree:
 
         print("Árbol B inicializado con grado mínimo", t)
 
+    # -------------- Section: Insertion Methods -------------- #
+
     # Función para insertar una nueva llave en el árbol
     def insert(self, k):
         root = self.root
@@ -94,3 +96,29 @@ class BTree:
             y.children = y.children[0:t]
 
         print("Nodo hijo dividido en dos nodos.")
+
+    # -------------- Section: Search Methods -------------- #
+
+    # Método para buscar una clave en el árbol B
+    def search(node, key, depth=0):
+        # Inicializa la posición en 0
+        i = 0
+        # Busca la posición de la clave si esta es mayor que la clave actual del
+        # nodo
+        while i < len(node.keys) and key > node.keys[i]:
+            i += 1
+        # Si encuentra la clave, devuelve el nodo y su posición
+        if i < len(node.keys) and key == node.keys[i]:
+            # Imprime detalles sobre dónde se encontró la clave
+            print(
+                f"Clave {key} encontrada en el nivel {depth}, posición {i} del nodo.")
+            return node, i, depth
+        # Si llega a una hoja y no encuentra la clave, devuelve None
+        if node.leaf:
+            print(f"Clave {key} no encontrada en el nivel {depth}.")
+            return None
+        else:
+            # Realiza búsqueda recursiva en el hijo correspondiente
+            print(
+                f"Navegando al nivel {depth+1} en la búsqueda de la clave {key}.")
+            return search(node.children[i], key, depth+1)
