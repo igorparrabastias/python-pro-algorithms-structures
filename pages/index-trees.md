@@ -102,17 +102,16 @@ Los árboles **AVL**, **rojo-negro** y **splay** son variantes avanzadas de los 
 
 A continuación los árboles **B**, **B+** y **n-arios**, aún siendo estructuras de árbol fundamentales son más complejas y avanzadas, diseñadas para casos de uso específicos, especialmente en sistemas de bases de datos y sistemas de archivos, donde se manejan grandes volúmenes de datos. Estos árboles están optimizados para minimizar el acceso a disco y mejorar la eficiencia en la búsqueda, inserción y eliminación de datos en contextos donde el rendimiento es crítico.
 
-- :ledger: [Árbol B y B+](/notebook/arboles/arbol-bb+.ipynb) 
-  - :page_with_curl: [Aplicaciones de Árboles B y B+](/notebook/arboles/aplicaciones-arboles-bb+.ipynb)
-  - :page_with_curl: [Qué es un árbol B](/notebook/arboles/arbol-b.ipynb)
+- :ledger: [Arbol B](/notebook/arboles/arbol-b.ipynb)
   - :page_with_curl: [Consideraciones al Implementar un Arbol B](/notebook/arboles/consideraciones-al-implementar-un-arbol-b.ipynb)
-  - :page_with_curl: [Qué es un árbol B+](/notebook/arboles/arbol-bplus.ipynb)
-  - :page_with_curl: [Consideraciones al Implementar un Arbol B+](/notebook/arboles/consideraciones-al-implementar-un-arbol-b+.ipynb)
   - **Implementación de `BTree`**
     - :page_with_curl: [Inserción](/notebook/arboles/b-insercion.ipynb)  
     - :page_with_curl: [Búsqueda](/notebook/arboles/b-busqueda.ipynb)  
     - :page_with_curl: [Eliminación de nodos](/notebook/arboles/b-eliminacion-de-nodos.ipynb)  
     - :floppy_disk: [BTree.py](../notebook/arboles/src/BTree.py) 
+
+- :ledger: [Arbol B+](/notebook/arboles/arbol-bplus.ipynb)
+  - :page_with_curl: [Consideraciones al Implementar un Arbol B+](/notebook/arboles/consideraciones-al-implementar-un-arbol-b+.ipynb)
 
 - :ledger: [Árbol n-ario](/notebook/arboles/arbol-n-ario.ipynb) Generalización de árboles con más de dos hijos. Esta característica los hace especialmente útiles para representar estructuras más complejas que los árboles binarios y son esenciales en varias aplicaciones como bases de datos y sistemas de archivos.
   - :page_with_curl: [Caso de uso: Sistemas de Gestión de Bases de Datos (SGBD)](/notebook/estructuras-de-datos-avanzadas/caso-de-uso-sistemas-de-gestion-de-bases-de-datos-sgbd.ipynb)  
@@ -154,3 +153,4 @@ A continuación, los árboles de **expresión** y **decisión** son estructuras 
 ## Apendices
 
   - :page_with_curl: [Estructuras de Datos y Nodos](/notebook/arboles/estructuras-de-datos-y-nodos.ipynb) (merge)  
+  - :page_with_curl: [Comparación Árboles B y B+](/notebook/arboles/arbol-bb+.ipynb) 
