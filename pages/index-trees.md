@@ -114,6 +114,11 @@ A continuación los árboles **B**, **B+**, aún siendo estructuras de árbol fu
 - :ledger: [Arbol B+](/notebook/arboles/arbol-bplus.ipynb) Extiende Árboles B, manteniendo datos solo en hojas para recorridos secuenciales optimizados.
   - :page_with_curl: [Aplicaciones de Árboles B+](/notebook/arboles/aplicaciones-arboles-bplus.ipynb)
   - :page_with_curl: [Consideraciones al Implementar un Arbol B+](/notebook/arboles/consideraciones-al-implementar-un-arbol-b+.ipynb)
+  - **Implementación de `BPlusTree`**
+    - :page_with_curl: [Inserción](/notebook/arboles/bplus-insercion.ipynb)  
+    - :page_with_curl: [Búsqueda](/notebook/arboles/bplus-busqueda.ipynb)  
+    - :page_with_curl: [Eliminación de nodos](/notebook/arboles/bplus-eliminacion-de-nodos.ipynb)  
+    - :floppy_disk: [BTree.py](../notebook/arboles/src/BTree.py) 
 
 ## Apendices
 

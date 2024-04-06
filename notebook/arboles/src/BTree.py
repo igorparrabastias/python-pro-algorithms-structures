@@ -11,8 +11,6 @@ class BTreeNode:
 
         print("Nodo BTree inicializado como hoja" if leaf else "Nodo BTree inicializado")
 
-# Clase del árbol B que contiene las operaciones fundamentales
-
 
 class BTree:
     # Constructor del árbol B que establece grado mínimo t y crea raíz
