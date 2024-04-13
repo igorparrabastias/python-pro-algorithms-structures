@@ -52,6 +52,9 @@
   - :page_with_curl: [Ejercicios avanzados 6 a 10](/notebook/estructuras-de-datos-nativas-de-python/ejercicios-avanzados-6-a-10-2.ipynb)  
 - :page_with_curl: [Rangos](/notebook/estructuras-de-datos-nativas-de-python/rangos.ipynb)  
   - :page_with_curl: [Exploración Avanzada de Rangos en Python](/notebook/estructuras-de-datos-nativas-de-python/exploracion-avanzada-de-rangos-en-python.ipynb)  
+
+- :page_with_curl: [Diccionarios](/notebook/estructuras-de-datos-nativas-de-python/diccionarios.ipynb)  
+
 - :page_with_curl: [Conjuntos (Sets)](/notebook/estructuras-de-datos-nativas-de-python/conjuntos-sets.ipynb)  
   - :page_with_curl: [Profunizando en Conjuntos (Sets) en Python](/notebook/estructuras-de-datos-nativas-de-python/exploración-avanzada-en-conjuntos-sets-en-python.ipynb)
   - :page_with_curl: [Ejercicios básicos](/notebook/estructuras-de-datos-nativas-de-python/ejercicios-basicos-3.ipynb)  
