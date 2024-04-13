@@ -70,8 +70,8 @@
 - :page_with_curl: [Qué son las Estructuras de Datos](/notebook/implementacion-de-estructuras-de-datos-en-python/que-son-las-estructuras-de-datos.ipynb)  
 - :page_with_curl: [Comparación Entre las Estructuras de Datos Nativas y su Implementación en Python](/notebook/implementacion-de-estructuras-de-datos-en-python/comparacion-entre-las-estructuras-de-datos-nativas-y-su-implementacion-en-python.ipynb)  
 - :page_with_curl: [Implementación de Estructuras de Datos a Nivel de Hardware](/notebook/implementacion-de-estructuras-de-datos-en-python/implementacion-de-estructuras-de-datos-a-nivel-de-hardware.ipynb)  
-- :page_with_curl: [Interacción de estructuras de datos y hardware para eficiencia y rendimiento](/notebook/implementacion-de-estructuras-de-datos-en-python/interaccion-de-estructuras-de-datos-y-hardware-para-eficiencia-y-rendimiento.ipynb)  
-- :page_with_curl: [Es necesario hacer implementaciones propias?](/notebook/implementacion-de-estructuras-de-datos-en-python/es-necesario-hacer-implementaciones-propias.ipynb)  
+- :page_with_curl: [Interacción de Estructuras de Datos y Hardware para Eficiencia y Rendimiento](/notebook/implementacion-de-estructuras-de-datos-en-python/interaccion-de-estructuras-de-datos-y-hardware-para-eficiencia-y-rendimiento.ipynb)  
+- :page_with_curl: [Es Necesario Hacer Implementaciones Propias?](/notebook/implementacion-de-estructuras-de-datos-en-python/es-necesario-hacer-implementaciones-propias.ipynb)  
 
 ## :bookmark_tabs: Implementación de Estructuras Simples
 
