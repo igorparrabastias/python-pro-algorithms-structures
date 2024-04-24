@@ -10,7 +10,7 @@
 
 Para comenzar con el proyecto del **Creador de Agenda Telefónica**, primero definiremos un esqueleto básico de la aplicación en Python y luego integraremos las pruebas unitarias usando el módulo `unittest`.
 
-### Esqueleto de la Aplicación
+## Esqueleto de la Aplicación
 
 Vamos a estructurar la aplicación en un solo archivo para mantener la simplicidad, aunque en un proyecto real podrías querer modularizar el código en varios archivos.
 
