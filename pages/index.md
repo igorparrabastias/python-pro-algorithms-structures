@@ -12,7 +12,7 @@
 - :clipboard: [Cuestionario de sección](/notebook/python-repaso-basico/cuestionario-de-seccion.ipynb)  
 - :clipboard: [Respuestas](/notebook/python-repaso-basico/respuestas.ipynb)  
 - :telescope: [Sabías que?](/notebook/python-repaso-basico/sabias-que.ipynb)
-- :telescope: [Proyecto: Creador de Agenda Telefónica](/notebook/python-repaso-basico/proyecto-creador-de-agenda-telefonica.md)
+- :construction_worker: [Proyecto: Creador de Agenda Telefónica](/notebook/python-repaso-basico/proyecto-creador-de-agenda-telefonica.md)
 
 ## :bookmark_tabs: Python: Repaso Avanzado
 - :page_with_curl: [Iteradores y Generadores](/notebook/python-repaso-avanzado/iteradores-y-generadores.ipynb)
@@ -30,7 +30,7 @@
 - :clipboard: [Cuestionario de sección](/notebook/python-repaso-avanzado/cuestionario-de-seccion.ipynb)  
 - :clipboard: [Respuestas](/notebook/python-repaso-avanzado/respuestas.ipynb)  
 - :telescope: [Sabías que?](/notebook/python-repaso-avanzado/sabias-que.ipynb)  
-- :telescope: [Proyecto: Simulador de Biblioteca Digital](/notebook/python-repaso-basico/proyecto-simulador-de-biblioteca-digital.md)
+- :construction_worker: [Proyecto: Simulador de Biblioteca Digital](/notebook/python-repaso-basico/proyecto-simulador-de-biblioteca-digital.md)
 
 ## :bookmark_tabs: Estructuras de Datos Nativas de Python
 
