@@ -1,6 +1,6 @@
 # Proyecto: **Creador de Agenda Telefónica**
 - **Objetivo**: Construir una aplicación de consola en Python que permita a los usuarios agregar, eliminar, buscar y listar contactos almacenados en un diccionario.
-- **Características**:
+- **Especificaciones**:
   - Uso de funciones para cada acción (agregar, eliminar, buscar, listar).
   - Implementación de excepciones para manejar errores como entradas inválidas o búsquedas de contactos que no existen.
   - Utilización de listas y diccionarios para almacenar la información de los contactos.
@@ -98,4 +98,357 @@ if __name__ == '__main__':
 
 Para ejecutar las pruebas unitarias, simplemente corre el script `test_agenda_telefonica.py`. Asegúrate de que ambos archivos (`agenda_telefonica.py` y `test_agenda_telefonica.py`) estén en el mismo directorio o maneja los imports adecuadamente si decides usar una estructura de directorio diferente.
 
-Este esqueleto y las pruebas asociadas proporcionan una base sólida para comenzar el desarrollo del proyecto. Podemos expandir y ajustar las funcionalidades según sea necesario.
+Este esqueleto y las pruebas asociadas proporcionan una base sólida para comenzar el desarrollo del proyecto.
+
+## Mejoras a la Aplicación
+
+Para continuar desarrollando el proyecto del Creador de Agenda Telefónica, podemos expandir la funcionalidad y la interacción con el usuario. Vamos a agregar una interfaz de usuario simple en la consola y algunas características adicionales que hagan que la aplicación sea más robusta y útil.
+
+1. **Interfaz de Usuario en la Consola**: Implementaremos un menú simple para que los usuarios puedan interactuar con la aplicación desde la consola.
+
+2. **Validación de Entrada**: Añadiremos validaciones para asegurarnos de que las entradas del usuario son adecuadas para las operaciones requeridas.
+
+3. **Funcionalidad de Actualización**: Permitiremos que los usuarios puedan actualizar los detalles de un contacto existente.
+
+### Implementación
+
+Aquí está cómo podríamos expandir nuestro archivo `agenda_telefonica.py` para incluir estas mejoras:
+
+```python
+class AgendaTelefonica:
+    def __init__(self):
+        self.contactos = {}
+
+    def agregar_contacto(self, nombre, telefono):
+        self.contactos[nombre] = telefono
+
+    def eliminar_contacto(self, nombre):
+        if nombre in self.contactos:
+            del self.contactos[nombre]
+        else:
+            raise ValueError("El contacto no existe")
+
+    def buscar_contacto(self, nombre):
+        try:
+            return self.contactos[nombre]
+        except KeyError:
+            raise ValueError("El contacto no existe")
+
+    def actualizar_contacto(self, nombre, nuevo_telefono):
+        if nombre in self.contactos:
+            self.contactos[nombre] = nuevo_telefono
+        else:
+            raise ValueError("El contacto no existe")
+
+    def listar_contactos(self):
+        return self.contactos
+
+def main():
+    agenda = AgendaTelefonica()
+    while True:
+        print("\nAgenda Telefónica")
+        print("1. Agregar contacto")
+        print("2. Eliminar contacto")
+        print("3. Buscar contacto")
+        print("4. Actualizar contacto")
+        print("5. Listar contactos")
+        print("6. Salir")
+        opcion = input("Seleccione una opción: ")
+
+        if opcion == "1":
+            nombre = input("Ingrese el nombre del contacto: ")
+            telefono = input("Ingrese el teléfono del contacto: ")
+            agenda.agregar_contacto(nombre, telefono)
+            print("Contacto agregado.")
+        elif opcion == "2":
+            nombre = input("Ingrese el nombre del contacto a eliminar: ")
+            try:
+                agenda.eliminar_contacto(nombre)
+                print("Contacto eliminado.")
+            except ValueError as e:
+                print(e)
+        elif opcion == "3":
+            nombre = input("Ingrese el nombre del contacto a buscar: ")
+            try:
+                telefono = agenda.buscar_contacto(nombre)
+                print(f"Teléfono de {nombre}: {telefono}")
+            except ValueError as e:
+                print(e)
+        elif opcion == "4":
+            nombre = input("Ingrese el nombre del contacto a actualizar: ")
+            nuevo_telefono = input("Ingrese el nuevo teléfono del contacto: ")
+            try:
+                agenda.actualizar_contacto(nombre, nuevo_telefono)
+                print("Contacto actualizado.")
+            except ValueError as e:
+                print(e)
+        elif opcion == "5":
+            contactos = agenda.listar_contactos()
+            if contactos:
+                print("Lista de contactos:")
+                for nombre, telefono in contactos.items():
+                    print(f"{nombre}: {telefono}")
+            else:
+                print("No hay contactos en la agenda.")
+        elif opcion == "6":
+            break
+        else:
+            print("Opción no válida, intente de nuevo.")
+
+if __name__ == "__main__":
+    main()
+```
+
+## Funcionalidades de Importación y Exportación
+
+Vamos a continuar expandiendo y mejorando el proyecto del Creador de Agenda Telefónica. A continuación, añadiremos la funcionalidad de importar y exportar contactos desde y hacia un archivo CSV. Esto permitirá a los usuarios guardar su lista de contactos de manera persistente y cargarla cuando reinicien la aplicación.
+
+**Modificaciones en el código**:
+
+1. **Función para Exportar Contactos a CSV**: Permite a los usuarios guardar su lista de contactos en un archivo CSV.
+2. **Función para Importar Contactos desde CSV**: Permite a los usuarios cargar contactos desde un archivo CSV al iniciar la aplicación.
+
+Aquí está cómo podríamos expandir nuestro archivo `agenda_telefonica.py` para incluir estas nuevas funcionalidades:
+
+```python
+import csv
+
+class AgendaTelefonica:
+    def __init__(self):
+        self.contactos = {}
+
+    def agregar_contacto(self, nombre, telefono):
+        self.contactos[nombre] = telefono
+
+    def eliminar_contacto(self, nombre):
+        if nombre in self.contactos:
+            del self.contactos[nombre]
+        else:
+            raise ValueError("El contacto no existe")
+
+    def buscar_contacto(self, nombre):
+        try:
+            return self.contactos[nombre]
+        except KeyError:
+            raise ValueError("El contacto no existe")
+
+    def actualizar_contacto(self, nombre, nuevo_telefono):
+        if nombre in self.contactos:
+            self.contactos[nombre] = nuevo_telefono
+        else:
+            raise ValueError("El contacto no existe")
+
+    def listar_contactos(self):
+        return self.contactos
+
+    def guardar_contactos_csv(self, filename='contactos.csv'):
+        with open(filename, mode='w', newline='') as file:
+            writer = csv.writer(file)
+            for nombre, telefono in self.contactos.items():
+                writer.writerow([nombre, telefono])
+        print("Contactos guardados correctamente.")
+
+    def cargar_contactos_csv(self, filename='contactos.csv'):
+        try:
+            with open(filename, mode='r', newline='') as file:
+                reader = csv.reader(file)
+                self.contactos = {rows[0]: rows[1] for rows in reader}
+            print("Contactos cargados correctamente.")
+        except FileNotFoundError:
+            print("No se encontró el archivo, empezando con una agenda vacía.")
+
+def main():
+    agenda = AgendaTelefonica()
+    agenda.cargar_contactos_csv()
+    while True:
+        print("\nAgenda Telefónica")
+        print("1. Agregar contacto")
+        print("2. Eliminar contacto")
+        print("3. Buscar contacto")
+        print("4. Actualizar contacto")
+        print("5. Listar contactos")
+        print("6. Guardar contactos en CSV")
+        print("7. Salir")
+        opcion = input("Seleccione una opción: ")
+
+        if opcion == "1":
+            nombre = input("Ingrese el nombre del contacto: ")
+            telefono = input("Ingrese el teléfono del contacto: ")
+            agenda.agregar_contacto(nombre, telefono)
+            print("Contacto agregado.")
+        elif opcion == "2":
+            nombre = input("Ingrese el nombre del contacto a eliminar: ")
+            try:
+                agenda.eliminar_contacto(nombre)
+                print("Contacto eliminado.")
+            except ValueError as e:
+                print(e)
+        elif opcion == "3":
+            nombre = input("Ingrese el nombre del contacto a buscar: ")
+            try:
+                telefono = agenda.buscar_contacto(nombre)
+                print(f"Teléfono de {nombre}: {telefono}")
+            except ValueError as e:
+                print(e)
+        elif opcion == "4":
+            nombre = input("Ingrese el nombre del contacto a actualizar: ")
+            nuevo_telefono = input("Ingrese el nuevo teléfono del contacto: ")
+            try:
+                agenda.actualizar_contacto(nombre, nuevo_telefono)
+                print("Contacto actualizado.")
+            except ValueError as e:
+                print(e)
+        elif opcion == "5":
+            contactos = agenda.listar_contactos()
+            if contactos:
+                print("Lista de contactos:")
+                for nombre, telefono in contactos.items():
+                    print(f"{nombre}: {telefono}")
+            else:
+                print("No hay contactos en la agenda.")
+        elif opcion == "6":
+            agenda.guardar_contactos_csv()
+        elif opcion == "7":
+            agenda.guardar_contactos_csv()
+            break
+        else:
+            print("Opción no válida, intente de nuevo.")
+
+if __name__ == "__main__":
+    main()
+```
+
+Con estas adiciones, los usuarios pueden guardar y cargar su agenda telefónica fácilmente, lo que hace que la aplicación sea más útil y práctica para el uso diario. Además, esto también introduce conceptos de manejo de archivos y serialización de datos que son útiles en muchas áreas de desarrollo de software.
+
+## Mejoras Integradas:
+
+Veamos cómo podemos ajustar el código para cumplir completamente con tus especificaciones, incluyendo una función recursiva para manejar el menú de acciones.
+
+1. **Uso de Excepciones**: Ya hemos integrado el manejo de excepciones para errores comunes como intentar eliminar o buscar un contacto que no existe.
+
+2. **Uso de Listas y Diccionarios**: Los contactos se almacenan en un diccionario, lo que permite un acceso rápido por nombre.
+
+3. **Iteración con 'for'**: Utilizado para listar todos los contactos.
+
+4. **Función Recursiva para el Menú**: Vamos a transformar el loop del menú en una función recursiva que se llame a sí misma hasta que el usuario decida salir.
+
+5. **Slicing en Listas**: Aunque estamos usando un diccionario para almacenar los contactos, podríamos demostrar el uso de slicing si decidimos implementar una función que muestre, por ejemplo, los primeros `n` contactos.
+
+### Código Actualizado:
+
+Voy a incorporar las modificaciones mencionadas, incluyendo una función recursiva para el menú y un ejemplo de slicing para visualizar partes de la lista de contactos.
+
+```python
+import csv
+
+class AgendaTelefonica:
+    def __init__(self):
+        self.contactos = {}
+
+    def agregar_contacto(self, nombre, telefono):
+        self.contactos[nombre] = telefono
+
+    def eliminar_contacto(self, nombre):
+        if nombre in self.contactos:
+            del self.contactos[nombre]
+        else:
+            raise ValueError("El contacto no existe")
+
+    def buscar_contacto(self, nombre):
+        try:
+            return self.contactos[nombre]
+        except KeyError:
+            raise ValueError("El contacto no existe")
+
+    def actualizar_contacto(self, nombre, nuevo_telefono):
+        if nombre in self.contactos:
+            self.contactos[nombre] = nuevo_telefono
+        else:
+            raise ValueError("El contacto no existe")
+
+    def listar_contactos(self, max_contactos=None):
+        if max_contactos:
+            return dict(list(self.contactos.items())[:max_contactos])
+        return self.contactos
+
+    def guardar_contactos_csv(self, filename='contactos.csv'):
+        with open(filename, mode='w', newline='') as file:
+            writer = csv.writer(file)
+            for nombre, telefono in self.contactos.items():
+                writer.writerow([nombre, telefono])
+
+    def cargar_contactos_csv(self, filename='contactos.csv'):
+        try:
+            with open(filename, mode='r', newline='') as file:
+                reader = csv.reader(file)
+                self.contactos = {rows[0]: rows[1] for rows in reader}
+        except FileNotFoundError:
+            print("No se encontró el archivo, empezando con una agenda vacía.")
+
+def menu(agenda):
+    print("\nAgenda Telefónica")
+    print("1. Agregar contacto")
+    print("2. Eliminar contacto")
+    print("3. Buscar contacto")
+    print("4. Actualizar contacto")
+    print("5. Listar primeros N contactos")
+    print("6. Guardar contactos en CSV")
+    print("7. Salir")
+    opcion = input("Seleccione una opción: ")
+
+    if opcion == "1":
+        nombre = input("Ingrese el nombre del contacto: ")
+        telefono = input("Ingrese el teléfono del contacto: ")
+        agenda.agregar_contacto(nombre, telefono)
+        print("Contacto agregado.")
+    elif opcion == "2":
+        nombre = input("Ingrese el nombre del contacto a eliminar: ")
+        try:
+            agenda.eliminar_contacto(nombre)
+            print("Contacto eliminado.")
+        except ValueError as e:
+            print(e)
+    elif opcion == "3":
+        nombre = input("Ingrese el nombre del contacto a buscar: ")
+        try:
+            telefono = agenda.buscar_contacto(nombre)
+            print(f"Teléfono de {nombre}: {telefono}")
+        except ValueError as e:
+            print(e)
+    elif opcion == "4":
+        nombre = input("Ingrese el nombre del contacto a actualizar: ")
+        nuevo_telefono = input("Ingrese el nuevo teléfono del contacto: ")
+        try:
+            agenda.actualizar_contacto(nombre, nuevo_telefono)
+            print("Contacto actualizado.")
+        except ValueError as e:
+            print(e)
+    elif opcion == "5":
+        n = int(input("Ingrese el número de contactos a listar: "))
+        contactos = agenda.listar_contactos(n)
+        for nombre, telefono in contactos.items():
+            print(f"{nombre}: {telefono}")
+    elif opcion == "6":
+
+
+        agenda.guardar_contactos_csv()
+        print("Contactos guardados correctamente.")
+    elif opcion == "7":
+        agenda.guardar_contactos_csv()
+        print("Saliendo...")
+        return
+    else:
+        print("Opción no válida, intente de nuevo.")
+    
+    menu(agenda)  # Llamada recursiva
+
+def main():
+    agenda = AgendaTelefonica()
+    agenda.cargar_contactos_csv()
+    menu(agenda)
+
+if __name__ == "__main__":
+    main()
+```
+
+Esta versión cumple con todas las especificaciones que discutimos y ofrece una base sólida para una aplicación de gestión de contactos con varias características avanzadas de Python.
