@@ -8,6 +8,8 @@
   - Uso del iterador "for" para iterar sobre estructuras de datos.
   - Creación de una función recursiva para menús o repetir acciones.
 
+# Implementación
+
 Para comenzar con el proyecto del **Creador de Agenda Telefónica**, primero definiremos un esqueleto básico de la aplicación en Python y luego integraremos las pruebas unitarias usando el módulo `unittest`.
 
 ## Esqueleto de la Aplicación
