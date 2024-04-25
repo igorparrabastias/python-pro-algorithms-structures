@@ -10,9 +10,11 @@
 
 # Implementación
 
+Implementaremos este proyecto en 4 pasos. Cada paso será un iteración mejorada del paso previo. Es decir, cada paso mostrará el mismo skeleton pero cada vez más avanzado.
+
 Para comenzar con el proyecto del **Creador de Agenda Telefónica**, primero definiremos un esqueleto básico de la aplicación en Python y luego integraremos las pruebas unitarias usando el módulo `unittest`.
 
-## Esqueleto de la Aplicación
+## Paso 1: Esqueleto de la Aplicación
 
 Vamos a estructurar la aplicación en un solo archivo para mantener la simplicidad, aunque en un proyecto real podrías querer modularizar el código en varios archivos.
 
@@ -102,7 +104,7 @@ Para ejecutar las pruebas unitarias, simplemente corre el script `test_agenda_te
 
 Este esqueleto y las pruebas asociadas proporcionan una base sólida para comenzar el desarrollo del proyecto.
 
-## Mejoras a la Aplicación
+## Paso 2:  Mejoras a la Aplicación
 
 Para continuar desarrollando el proyecto del Creador de Agenda Telefónica, podemos expandir la funcionalidad y la interacción con el usuario. Vamos a agregar una interfaz de usuario simple en la consola y algunas características adicionales que hagan que la aplicación sea más robusta y útil.
 
@@ -201,7 +203,7 @@ if __name__ == "__main__":
     main()
 ```
 
-## Funcionalidades de Importación y Exportación
+## Paso 3:  Funcionalidades de Importación y Exportación
 
 Vamos a continuar expandiendo y mejorando el proyecto del Creador de Agenda Telefónica. A continuación, añadiremos la funcionalidad de importar y exportar contactos desde y hacia un archivo CSV. Esto permitirá a los usuarios guardar su lista de contactos de manera persistente y cargarla cuando reinicien la aplicación.
 
@@ -322,7 +324,7 @@ if __name__ == "__main__":
 
 Con estas adiciones, los usuarios pueden guardar y cargar su agenda telefónica fácilmente, lo que hace que la aplicación sea más útil y práctica para el uso diario. Además, esto también introduce conceptos de manejo de archivos y serialización de datos que son útiles en muchas áreas de desarrollo de software.
 
-## Mejoras Integradas:
+## Paso 4:  Mejoras Integradas:
 
 Finalmente vamos a integrar todas las especificaciones mencionadas en el diseño original del proyecto de Creador de Agenda Telefónica. Veamos cómo podemos ajustar el código para cumplir completamente con tus especificaciones, incluyendo una función recursiva para manejar el menú de acciones.
 
