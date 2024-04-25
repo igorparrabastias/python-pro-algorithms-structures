@@ -457,12 +457,12 @@ if __name__ == "__main__":
 
 Esta versión cumple con todas las especificaciones que discutimos y ofrece una base sólida para una aplicación de gestión de contactos con varias características avanzadas de Python.
 
-## Archivos finales
+# Archivos finales
 
 [agenda_telefonica.py](src/agenda_telefonica.py)  
 [test_agenda_telefonica.py](src/test_agenda_telefonica.py)
 
-## Resúmen
+# Resúmen
 
 ¡El proyecto del Creador de Agenda Telefónica está listo para ser utilizado! Hemos incorporado todas las características esenciales que discutimos:
 
