@@ -322,7 +322,7 @@ Con estas adiciones, los usuarios pueden guardar y cargar su agenda telefónica 
 
 ## Mejoras Integradas:
 
-Veamos cómo podemos ajustar el código para cumplir completamente con tus especificaciones, incluyendo una función recursiva para manejar el menú de acciones.
+Finalmente vamos a integrar todas las especificaciones mencionadas en el diseño original del proyecto de Creador de Agenda Telefónica. Veamos cómo podemos ajustar el código para cumplir completamente con tus especificaciones, incluyendo una función recursiva para manejar el menú de acciones.
 
 1. **Uso de Excepciones**: Ya hemos integrado el manejo de excepciones para errores comunes como intentar eliminar o buscar un contacto que no existe.
 
