@@ -10,11 +10,11 @@
 
 # Implementación
 
-Implementaremos este proyecto en 4 pasos. Cada paso será un iteración mejorada del paso previo. Es decir, cada paso mostrará el mismo skeleton pero cada vez más avanzado.
-
-Para comenzar con el proyecto del **Creador de Agenda Telefónica**, primero definiremos un esqueleto básico de la aplicación en Python y luego integraremos las pruebas unitarias usando el módulo `unittest`.
+Implementaremos este proyecto en 4 pasos. Cada paso será un iteración mejorada del paso previo. Es decir, cada paso mostrará el mismo código, pero cada vez más avanzado.
 
 ## Paso 1: Esqueleto de la Aplicación
+
+Para comenzar con el proyecto del **Creador de Agenda Telefónica**, primero definiremos un esqueleto básico de la aplicación en Python y luego integraremos las pruebas unitarias usando el módulo `unittest`.
 
 Vamos a estructurar la aplicación en un solo archivo para mantener la simplicidad, aunque en un proyecto real podrías querer modularizar el código en varios archivos.
 
