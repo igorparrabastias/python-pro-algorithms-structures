@@ -22,22 +22,16 @@ Ser autodidacta se ha convertido en una forma esencial de aprender en estos tiem
 En esta sección, podrás explorar el índice general de todos los módulos y clases disponibles. Cada módulo está diseñado para cubrir diferentes aspectos de las TIC, asegurando un aprendizaje integral y profundo.
 
 - [Indice](pages/index.md)
-## Índice de Cursos Autodidactas y en Udemy
+## Índice de Cursos Autodidactas
 
-Aquí encontrarás cursos para explorar y aprender por tu cuenta o con mi guía en la plataforma Udemy. Los apuntes son los mismos en que baso mis clases en Udemy. Si buscas más profundidad, explicaciones en video, y un certificado final al aprobar el curso, Udemy es tu mejor opción.
+Aquí encontrarás cursos para explorar y aprender por tu cuenta. 
 
-| Apuntes de Curso   |Descripción| Udemy                           |
-| -------------------|-- | ------------------------------- | 
-| [Python Pro: Masterclass en Algoritmos y Estructuras](pages/python-pro-masterclass-en-algoritmos-y-estructuras.md) |Curso avanzado de estructuras de datos y algoritmos. Eficiencia e innovación en desarrollo de software para profesionales ||
-|Programación en Python y Ciencias de la Computación Desde 0|Domina los fundamentos de programación y ciencias de la computación para desarrollar soluciones eficientes y optimizadas|
+| Apuntes de Curso   |Descripción|
+| -------------------|-----------| 
+| [Python Pro: Masterclass en Algoritmos y Estructuras](pages/python-pro-masterclass-en-algoritmos-y-estructuras.md) |Curso avanzado de estructuras de datos y algoritmos. Eficiencia e innovación en desarrollo de software para profesionales |
+|[Evolución de la Representación Semántica: Fundamento del PLN y la IA](pages/fundamento-del-nlp-y-la-ia.md)|Tema fundamental en la inteligencia artificial, especialmente en el procesamiento del lenguaje natural (PLN). La representación semántica vectorial permite a las máquinas comprender y manipular el lenguaje humano al capturar el significado de las palabras y sus relaciones en un espacio matemático. Esto es clave para tareas como la traducción automática, el análisis de sentimientos, y la generación de texto.l|
 |[Fundamentos de Redes y Comunicaciones Digitales](pages/fundamentos-de-redes-y-comunicaciones-digitales.md)|Entender las redes para optimizar aplicaciones y mejorar la seguridad. Clave para el desarrollo de software moderno|
-|[Competencias Básicas y Avanzadas Para Desarrolladores Web](pages/web.md)|Curso diseñado para desarrolladores web que buscan no solo perfeccionar sus habilidades técnicas sino también adquirir un conjunto sólido de competencias en herramientas, seguridad, y diseño de sistemas, esenciales para el desarrollo profesional de software||
-|Escabilidad|||
-|Diseño de sistemas|||
-|Desarrollo web 101|||
-|Infraestructura en la nube|Profundiza en cómo diseñar y desplegar infraestructuras de nube escalables y seguras. Aprende a automatizar la implementación y gestión de recursos en la nube utilizando herramientas de orquestación||
-|Informática para Kids|||
-|Informática para Teens|||
+|[Competencias Básicas y Avanzadas Para Desarrolladores Web](pages/web.md)|Curso diseñado para desarrolladores web que buscan no solo perfeccionar sus habilidades técnicas sino también adquirir un conjunto sólido de competencias en herramientas, seguridad, y diseño de sistemas, esenciales para el desarrollo profesional de software|
 
 ## Problemas de Estructuras de Datos y Algoritmos
 
