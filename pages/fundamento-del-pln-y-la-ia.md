@@ -4697,13 +4697,12 @@ La introducción de los Transformers ha marcado un cambio paradigmático en el c
 ---
 # <center>2017: Modelo de Transformadores</center>
 
-### **Propuesta del Modelo de Transformadores por Vaswani et al.**
+## Attention is All You Need
+
 En 2017, Vaswani y otros colaboradores en Google publicaron el revolucionario artículo "Attention is All You Need", introduciendo el modelo de **transformadores**. Este modelo innovador se distinguió por reemplazar completamente las redes neuronales recurrentes y convolucionales con un mecanismo eficiente de *self-attention* y procesamiento completamente paralelo, resolviendo muchas de las limitaciones inherentes a las arquitecturas anteriores.
 
 #### **Contexto y Motivación**
 El diseño de modelos de secuencias tradicionales, como las LSTM y GRU, presentaba problemas significativos relacionados con el procesamiento secuencial, lo que dificultaba la captura de dependencias a largo plazo y ralentizaba el entrenamiento. Los transformadores, en contraste, abordaron estos desafíos mediante un enfoque que facilitaba la paralelización y mejoraba la capacidad del modelo para aprender relaciones complejas entre elementos de la secuencia.
-
----
 
 #### **Arquitectura del Modelo de Transformadores**
 La arquitectura de los transformadores se compone de una serie de **encoders** y **decoders** que funcionan en conjunto para procesar secuencias de datos, como frases en tareas de traducción automática. Cada encoder y decoder consta de múltiples subcomponentes que trabajan juntos para generar representaciones ricas del texto.
@@ -4739,6 +4738,50 @@ Dado que los transformadores procesan las palabras de manera paralela y no secue
 
 #### **Conclusión de la Propuesta**
 El trabajo de Vaswani et al. no solo propuso una arquitectura novedosa, sino que también demostró su efectividad en tareas como la traducción automática, logrando resultados superiores en comparación con las arquitecturas basadas en RNN. La simplicidad y eficiencia del modelo de transformadores han sentado las bases para futuros avances en el campo del PLN y el aprendizaje profundo.
+
+## **Revolución en NLP**
+La introducción de los transformadores por Vaswani et al. en 2017 desencadenó una revolución en el procesamiento del lenguaje natural (NLP), llevando a la creación de modelos como **BERT**, **GPT** y otros. Estos modelos han cambiado radicalmente la forma en que las máquinas procesan y comprenden el lenguaje humano, logrando avances sin precedentes en tareas de PLN.
+
+#### **BERT (Bidirectional Encoder Representations from Transformers)**
+1. **Introducción a BERT**:
+   - **Propuesto por Google en 2018**, BERT fue diseñado para preentrenarse en grandes cantidades de texto de una manera bidireccional, es decir, el modelo considera tanto el contexto a la izquierda como a la derecha de una palabra. Esto es diferente de modelos previos que procesaban texto de manera unidireccional.
+2. **Mecanismo de Preentrenamiento**:
+   - **Tarea de Masked Language Modeling (MLM)**: Durante el preentrenamiento, algunas palabras de la secuencia se enmascaran aleatoriamente y el modelo debe predecir esas palabras en función del contexto circundante.
+   - **Tarea de Next Sentence Prediction (NSP)**: BERT también se entrena para predecir si una oración sigue directamente a otra en el texto, lo que mejora su capacidad para entender las relaciones entre frases.
+3. **Impacto y Aplicaciones**:
+   - BERT ha mejorado el rendimiento en tareas como la clasificación de textos, la respuesta a preguntas y la detección de relaciones semánticas, estableciendo nuevos estándares en muchos benchmarks de NLP.
+   - **Ejemplos de Uso**: Google Search ha integrado BERT para entender mejor las consultas de los usuarios, proporcionando resultados más precisos y contextualmente relevantes.
+
+#### **GPT (Generative Pre-trained Transformer)**
+1. **Introducción a GPT**:
+   - **Desarrollado por OpenAI**, la serie de modelos GPT (incluyendo GPT, GPT-2, y GPT-3) utiliza una arquitectura de transformadores basada principalmente en decoders. A diferencia de BERT, que se centra en tareas de comprensión del lenguaje, GPT está optimizado para la generación de texto.
+2. **Preentrenamiento y Fine-tuning**:
+   - GPT se preentrena en grandes volúmenes de texto utilizando una tarea de modelado de lenguaje no enmascarado, donde el modelo aprende a predecir la siguiente palabra en una secuencia dada la historia anterior.
+   - **Fine-tuning**: Después del preentrenamiento, GPT se ajusta finamente para tareas específicas, como la redacción de artículos, la traducción automática y la generación de código.
+3. **Avances de GPT-3**:
+   - GPT-3, con **175 mil millones de parámetros**, es uno de los modelos más grandes jamás entrenados. Puede generar texto coherente, mantener conversaciones, escribir ensayos y realizar tareas complejas como traducción y codificación.
+   - **Casos de Uso**: GPT-3 se ha utilizado en aplicaciones que van desde chatbots avanzados hasta herramientas de generación de contenido y asistentes de programación.
+
+#### **Otros Modelos Basados en Transformadores**
+1. **T5 (Text-to-Text Transfer Transformer)**:
+   - Desarrollado por Google, **T5** convierte todas las tareas de NLP en un formato de entrada y salida de texto a texto. Esto significa que tareas como la traducción, el resumen y la respuesta a preguntas se abordan de manera uniforme, lo que facilita el entrenamiento y la implementación.
+   - **Ejemplo**: Para una tarea de traducción, el modelo recibe un texto de entrada como "Translate English to Spanish: Hello" y genera la traducción "Hola".
+2. **RoBERTa (Robustly Optimized BERT Pretraining Approach)**:
+   - Una versión mejorada de BERT desarrollada por Facebook AI, **RoBERTa** optimiza las técnicas de preentrenamiento eliminando la tarea de NSP y entrenando el modelo con más datos y por más tiempo. Esto resulta en un mejor rendimiento en tareas de comprensión del lenguaje.
+3. **DistilBERT**:
+   - **DistilBERT** es una versión comprimida de BERT que conserva el 97% de su rendimiento pero con solo la mitad del tamaño, lo que lo hace ideal para aplicaciones donde los recursos computacionales son limitados.
+4. **XLNet**:
+   - Desarrollado por Google y Carnegie Mellon University, **XLNet** combina lo mejor de BERT y modelos de lenguaje autoregresivos. Utiliza una técnica llamada "permutation language modeling", que supera algunas limitaciones del enfoque enmascarado de BERT.
+5. **ALBERT (A Lite BERT)**:
+   - **ALBERT** es otra variante optimizada de BERT que reduce la cantidad de parámetros mediante la compartición de pesos y la factorización de la matriz de embeddings, logrando un modelo más ligero y eficiente.
+
+#### **Impacto General en el Campo de NLP**
+1. **Comprensión y Generación del Lenguaje**:
+   - Los modelos basados en transformadores han logrado un entendimiento más profundo y una generación más fluida de texto en comparación con las arquitecturas anteriores. Esto ha permitido desarrollar asistentes virtuales, herramientas de traducción más precisas y aplicaciones que generan contenido de manera autónoma.
+2. **Transfer Learning en NLP**:
+   - La introducción de técnicas de *transfer learning* ha permitido a los modelos entrenarse en grandes corpus de datos generales y luego adaptarse eficientemente a tareas específicas con menos datos, optimizando tanto el rendimiento como el tiempo de desarrollo.
+3. **Avances en Investigación y Aplicaciones Comerciales**:
+   - Los transformadores han impulsado una ola de innovación en la investigación de NLP y se han implementado en aplicaciones prácticas que van desde motores de búsqueda hasta asistentes de voz y sistemas de recomendación.
 
 ---
 # <center>Conclusión General</center>
