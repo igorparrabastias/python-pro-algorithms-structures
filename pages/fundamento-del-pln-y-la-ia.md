@@ -844,9 +844,7 @@ Este enfoque estructural también influyó en la forma en que los investigadores
 	
 	La distancia euclidiana es la medida más común y se basa en el teorema de Pitágoras. Se utiliza para calcular la distancia entre dos puntos en un espacio euclidiano. Para dos puntos \( A(x_1, y_1) \) y \( B(x_2, y_2) \), la distancia se calcula como:
 	
-	\[
-	d(A, B) = \sqrt{\left(x_2 - x_1\right)^2 + \left(y_2 - y_1\right)^2}
-	\]
+	d(A, B) = sqrt((x_2 - x_1)^2 + (y_2 - y_1)^2)
 	
 	Esta métrica es adecuada para datos continuos y en espacios de alta dimensión.
 	
