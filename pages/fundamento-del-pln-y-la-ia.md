@@ -4697,7 +4697,7 @@ La introducción de los Transformers ha marcado un cambio paradigmático en el c
 ---
 # <center>2017: Modelo de Transformadores</center>
 
-## Attention is All You Need
+## :page_facing_up: **Attention is All You Need
 
 En 2017, Vaswani y otros colaboradores en Google publicaron el revolucionario artículo "Attention is All You Need", introduciendo el modelo de **transformadores**. Este modelo innovador se distinguió por reemplazar completamente las redes neuronales recurrentes y convolucionales con un mecanismo eficiente de *self-attention* y procesamiento completamente paralelo, resolviendo muchas de las limitaciones inherentes a las arquitecturas anteriores.
 
@@ -4739,7 +4739,8 @@ Dado que los transformadores procesan las palabras de manera paralela y no secue
 #### **Conclusión de la Propuesta**
 El trabajo de Vaswani et al. no solo propuso una arquitectura novedosa, sino que también demostró su efectividad en tareas como la traducción automática, logrando resultados superiores en comparación con las arquitecturas basadas en RNN. La simplicidad y eficiencia del modelo de transformadores han sentado las bases para futuros avances en el campo del PLN y el aprendizaje profundo.
 
-## **Revolución en NLP**
+## :page_facing_up: **Revolución en NLP**
+
 La introducción de los transformadores por Vaswani et al. en 2017 desencadenó una revolución en el procesamiento del lenguaje natural (NLP), llevando a la creación de modelos como **BERT**, **GPT** y otros. Estos modelos han cambiado radicalmente la forma en que las máquinas procesan y comprenden el lenguaje humano, logrando avances sin precedentes en tareas de PLN.
 
 #### **BERT (Bidirectional Encoder Representations from Transformers)**
@@ -4784,6 +4785,90 @@ La introducción de los transformadores por Vaswani et al. en 2017 desencadenó 
    - Los transformadores han impulsado una ola de innovación en la investigación de NLP y se han implementado en aplicaciones prácticas que van desde motores de búsqueda hasta asistentes de voz y sistemas de recomendación.
 
 ---
-# <center>Conclusión General</center>
+# <center>2020: ChatGPT</center>
 
-A lo largo de estas clases, hemos recorrido más de seis décadas de avances en la representación vectorial de palabras. Desde los fundamentos matemáticos y lingüísticos de los años 50 hasta las revolucionarias técnicas de Word2Vec en 2013, cada etapa ha contribuido significativamente al estado actual del procesamiento del lenguaje natural. Comprender esta evolución no solo nos permite apreciar el progreso tecnológico, sino también prepararnos para futuros desarrollos en el campo.
+En 2020, OpenAI presentó **ChatGPT**, un modelo conversacional basado en la arquitectura de **GPT-3**. Este desarrollo representó un gran avance en el procesamiento del lenguaje natural, ya que permitió a las máquinas interactuar de manera más fluida y coherente con los humanos a través del texto. ChatGPT se entrena en un vasto corpus de datos que abarca conversaciones humanas, artículos, y contenido de la web, utilizando una combinación de técnicas avanzadas para optimizar su capacidad de generar texto.
+
+## :page_facing_up: ***Fundamentos de ChatGPT**
+1. **Arquitectura de GPT-3**:
+   - ChatGPT se construye sobre el modelo de lenguaje GPT-3, que cuenta con **175 mil millones de parámetros**. Estos parámetros permiten al modelo captar patrones lingüísticos complejos, comprender el contexto y generar respuestas que imitan el lenguaje humano con gran precisión.
+   - A diferencia de versiones anteriores, GPT-3 utiliza un modelo de transformador con múltiples capas de autoatención, lo que mejora su capacidad para entender dependencias semánticas a lo largo de textos largos.
+
+2. **Optimización para Conversaciones**:
+   - **ChatGPT** ha sido ajustado específicamente para mantener diálogos interactivos. Durante su entrenamiento, se utilizan técnicas de ajuste fino basadas en ejemplos de conversaciones humanas, lo que ayuda al modelo a formular respuestas más contextuales y apropiadas.
+   - También ha sido optimizado para seguir instrucciones, pedir clarificaciones cuando sea necesario y recordar el contexto de la conversación actual, lo que le permite mantener una conversación más natural y humana.
+
+#### **Métodos de Entrenamiento**
+1. **Preentrenamiento**:
+   - ChatGPT es preentrenado en un gran volumen de datos de texto, utilizando una tarea de modelado de lenguaje donde el objetivo es predecir la siguiente palabra en una secuencia. Este proceso le proporciona un conocimiento amplio del lenguaje y la información general.
+2. **Ajuste Fino con Instrucciones**:
+   - El modelo se ajusta usando ejemplos específicos de conversaciones donde recibe instrucciones claras sobre cómo comportarse. Los ejemplos incluyen casos en los que se espera que proporcione respuestas útiles, educadas y seguras.
+   - **Entrenamiento con Retroalimentación Humana**: OpenAI ha utilizado métodos como el aprendizaje por refuerzo con retroalimentación humana (RLHF) para mejorar las respuestas de ChatGPT. En este proceso, los evaluadores humanos califican las respuestas generadas por el modelo, y estas calificaciones se utilizan para refinar el comportamiento del modelo.
+
+#### **Capacidades y Aplicaciones**
+1. **Conversaciones Naturales**:
+   - ChatGPT puede mantener conversaciones largas y contextualmente relevantes, recordar información a lo largo de la conversación, y adaptar sus respuestas según el tono y la intención del usuario.
+2. **Generación de Contenido**:
+   - Es capaz de escribir ensayos, resúmenes, correos electrónicos, y más. Puede asistir en la creación de contenido creativo, como historias y guiones, o proporcionar resúmenes detallados de documentos técnicos.
+3. **Soporte al Cliente y Asistencia Virtual**:
+   - ChatGPT se ha utilizado en aplicaciones de servicio al cliente para manejar consultas, resolver problemas, y proporcionar asistencia personalizada, imitando la interacción humana de manera eficiente.
+4. **Educación y Asistencia en el Aprendizaje**:
+   - Ayuda a los estudiantes respondiendo preguntas sobre una amplia gama de temas, explicando conceptos complejos, y ayudando con tareas y proyectos.
+
+#### **Desafíos y Limitaciones**
+1. **Generación de Información Incorrecta**:
+   - Aunque ChatGPT puede generar respuestas detalladas y persuasivas, a veces puede producir información incorrecta o inventada, lo que se conoce como "alucinaciones del modelo". Esto es un desafío importante en aplicaciones críticas donde la precisión es esencial.
+2. **Sesgos en las Respuestas**:
+   - El modelo puede reflejar sesgos presentes en los datos de entrenamiento. A pesar de los esfuerzos por mitigar estos problemas, ChatGPT aún puede generar contenido sesgado o inadecuado.
+3. **Falta de Comprensión Real**:
+   - Aunque ChatGPT imita el lenguaje humano de manera convincente, no tiene una comprensión real del significado. Sus respuestas se basan en patrones aprendidos y no en una comprensión semántica profunda.
+
+#### **Impacto y Evolución**
+ChatGPT ha transformado la manera en que las personas interactúan con sistemas de inteligencia artificial, facilitando aplicaciones que van desde la automatización de tareas hasta el aprendizaje asistido. Ha inspirado el desarrollo de versiones más avanzadas, como ChatGPT-4, que buscan mejorar la precisión, coherencia y seguridad de las interacciones.
+
+## :page_facing_up: ** **Arquitectura de ChatGPT**
+ChatGPT se basa en la arquitectura de **GPT-3** (Generative Pre-trained Transformer 3), que utiliza un modelo de **transformador**. Esta arquitectura fue introducida en el paper "Attention is All You Need" de Vaswani et al. y es la base de muchos avances modernos en el procesamiento del lenguaje natural.
+
+#### **Componentes Principales del Modelo de Transformadores**
+1. **Mecanismo de Self-Attention**:
+   - El mecanismo de *self-attention* permite que cada palabra en la secuencia preste atención a otras palabras del texto, ponderando la importancia de cada una en relación con las demás. Esto es crucial para capturar relaciones semánticas y contextuales a lo largo de la oración, independientemente de la distancia entre las palabras.
+   - **Cálculo de la Atención**: Se utilizan tres matrices aprendibles: **Query (Q)**, **Key (K)** y **Value (V)**. Las puntuaciones de atención se calculan como el producto escalar entre Q y K, y estas puntuaciones se normalizan utilizando softmax. Los valores resultantes se ponderan y combinan para producir la salida de la capa de atención.
+
+2. **Multi-Head Attention**:
+   - En lugar de usar una sola atención, el modelo utiliza múltiples "cabezas de atención". Esto permite al modelo enfocarse en diferentes partes de la secuencia de manera simultánea, capturando múltiples aspectos del contexto.
+   - Cada cabeza de atención realiza una operación de self-attention independiente, y sus resultados se concatenan y pasan por una capa completamente conectada.
+
+3. **Capa Feed-Forward**:
+   - Después del mecanismo de self-attention, cada posición de la secuencia pasa por una red neuronal feed-forward. Esta red consiste en dos capas lineales con una activación no lineal (por ejemplo, ReLU) en el medio.
+   - La operación se realiza de manera independiente para cada posición, lo que le da al modelo la capacidad de aprender transformaciones no lineales complejas.
+
+4. **Positional Encoding**:
+   - Debido a que los transformadores no tienen una estructura secuencial implícita como las RNN, se necesita un mecanismo para incorporar la información posicional de las palabras. Las *positional encodings* se suman a los embeddings de las palabras para que el modelo entienda el orden de las palabras en una secuencia.
+   - Estas codificaciones se generan utilizando funciones trigonométricas (seno y coseno) que permiten al modelo distinguir la posición relativa de las palabras.
+
+
+### **Métodos de Entrenamiento de ChatGPT**
+ChatGPT se entrena utilizando un enfoque en dos etapas: **preentrenamiento** y **ajuste fino**.
+
+#### **1. Preentrenamiento**
+El modelo se preentrena en un enorme corpus de texto extraído de diversas fuentes, como libros, artículos y contenido web, utilizando una tarea de modelado de lenguaje no supervisada.
+
+- **Objetivo de Modelado de Lenguaje**: Durante el preentrenamiento, el modelo aprende a predecir la siguiente palabra en una secuencia de texto, dado el contexto de las palabras anteriores. Este proceso le proporciona un conocimiento amplio del lenguaje, incluyendo gramática, sintaxis, y una base de información general.
+- **Paralelización y Eficiencia**: Gracias a la arquitectura de los transformadores, ChatGPT puede procesar secuencias largas de manera más eficiente que las RNN, lo que permite entrenar el modelo utilizando grandes volúmenes de datos.
+
+#### **2. Ajuste Fino (Fine-Tuning)**
+Después del preentrenamiento, ChatGPT pasa por un proceso de ajuste fino para especializarse en tareas conversacionales. Este proceso se realiza utilizando datos etiquetados por humanos y puede incluir técnicas avanzadas como el aprendizaje por refuerzo.
+
+- **Entrenamiento Supervisado con Datos de Conversaciones**:
+  - Los entrenadores humanos proporcionan ejemplos de conversaciones en los que se espera que el modelo dé respuestas útiles y adecuadas. El modelo se ajusta utilizando estos ejemplos, aprendiendo a generar respuestas más contextuales y apropiadas.
+- **Aprendizaje por Refuerzo con Retroalimentación Humana (RLHF)**:
+  - En este método, se generan múltiples respuestas para una misma entrada, y evaluadores humanos clasifican estas respuestas según su calidad. Esta retroalimentación se utiliza para mejorar el modelo mediante un algoritmo de aprendizaje por refuerzo.
+  - **Proceso de RLHF**:
+    1. Los evaluadores humanos interactúan con el modelo y proporcionan clasificaciones para diferentes respuestas generadas.
+    2. Se utiliza un modelo de recompensa para guiar el ajuste fino del modelo principal, optimizando la calidad y relevancia de las respuestas.
+
+#### **Consideraciones de Entrenamiento**
+1. **Datos Diversos y Amplios**:
+   - El preentrenamiento en un corpus diverso le permite al modelo tener un conocimiento general robusto, pero también implica el riesgo de incorporar sesgos presentes en los datos.
+2. **Mitigación de Sesgos y Seguridad**:
+   - Durante el ajuste fino, se implementan técnicas para reducir la generación de contenido inapropiado o sesgado. Sin embargo, esta mitigación no es perfecta y sigue siendo un área activa de investigación.
