@@ -902,8 +902,122 @@ Este enfoque estructural también influyó en la forma en que los investigadores
 
 - **Optimización**: Ajuste para minimizar la diferencia entre distancias originales y las representadas.
 
+
+	## Introducción a la Optimización en Representación Semántica
+	
+	La optimización en el contexto del procesamiento de lenguaje natural (PLN) se refiere a la práctica de ajustar modelos y representaciones para lograr un desempeño óptimo en tareas específicas. En este módulo, nos centraremos en la minimización de la diferencia entre las distancias originales y las distancias representadas en un espacio de características. Esta técnica es fundamental para mejorar la calidad de la representación semántica de los datos.
+	
+	## Conceptos Clave
+	
+	### Distancias Originales y Representadas
+	
+	- **Distancias Originales**: Se refiere a las distancias calculadas entre objetos en su espacio original, que puede ser, por ejemplo, el espacio de características de las palabras o documentos.
+	- **Distancias Representadas**: Son las distancias que se obtienen después de aplicar un modelo de representación, como un modelo de incrustación (embedding) o una reducción de dimensionalidad.
+	
+	### Objetivo de la Optimización
+	
+	El objetivo principal de la optimización es minimizar la discrepancia entre las distancias originales y las distancias representadas. Esta minimización se traduce en una representación más fiel de las relaciones semánticas entre los elementos en el espacio reducido.
+	
+	## Métodos de Optimización
+	
+	Existen varios enfoques para llevar a cabo esta optimización:
+	
+	### 1. Métodos de Aprendizaje Supervisado
+	
+	Los métodos supervisados utilizan etiquetas o categorías conocidas para guiar el proceso de optimización. Técnicas como la regresión logística y las máquinas de soporte vectorial (SVM) pueden ser empleadas para ajustar el modelo a las distancias deseadas.
+	
+	### 2. Métodos de Aprendizaje No Supervisado
+	
+	En el aprendizaje no supervisado, el modelo intenta aprender las relaciones inherentes en los datos sin etiquetas. Algoritmos como el Análisis de Componentes Principales (PCA) y el t-SNE (t-distributed Stochastic Neighbor Embedding) son ejemplos de técnicas que buscan representar las distancias originales de manera efectiva en un espacio reducido.
+	
+	### 3. Algoritmos de Optimización
+	
+	Los algoritmos de optimización, como el descenso de gradiente y sus variantes (p. ej., Adam, RMSprop), son esenciales para ajustar los parámetros del modelo. Estos algoritmos buscan minimizar una función de pérdida que cuantifica la diferencia entre las distancias originales y las representadas.
+	
+	## Funciones de Pérdida
+	
+	La elección de la función de pérdida es crucial para el éxito de la optimización. Algunas funciones de pérdida comunes incluyen:
+	
+	- **Error Cuadrático Medio (MSE)**: Mide la media de los cuadrados de las diferencias entre las distancias originales y las representadas.
+	- **Kullback-Leibler Divergence**: Utilizada en modelos probabilísticos, mide la diferencia entre dos distribuciones de probabilidad.
+	- **Contrastive Loss**: Especialmente útil en tareas de aprendizaje de representación, penaliza la distancia entre ejemplos similares y favorece la separación de ejemplos disímiles.
+	
+	## Evaluación de Resultados
+	
+	Después de aplicar los métodos de optimización, es fundamental evaluar la calidad de las representaciones obtenidas. Las métricas comunes incluyen:
+	
+	- **Correlación de Spearman**: Evalúa la relación entre las distancias originales y las representadas.
+	- **Visualización**: Técnicas como la visualización en 2D o 3D pueden proporcionar una intuición sobre la calidad de la representación.
+	
+	## Conclusiones
+	
+	La optimización para minimizar la diferencia entre distancias originales y representadas es un componente esencial en la representación semántica dentro del procesamiento de lenguaje natural. A través de métodos de aprendizaje supervisado y no supervisado, junto con algoritmos de optimización y funciones de pérdida adecuadas, es posible lograr representaciones que capturen de manera efectiva las relaciones semánticas en los datos. La evaluación continua y la iteración son claves para mejorar la calidad de estas representaciones.
+
+
+
+
+
 :bookmark_tabs: **3. Impacto en Representaciones Vectoriales**
 - **Fundamento para Técnicas Posteriores**: Base para algoritmos de reducción dimensional como PCA y LSA.
+
+
+	## Introducción a la Reducción Dimensional
+	
+	La reducción dimensional es un proceso fundamental en el campo del procesamiento de datos, especialmente en el contexto del procesamiento de lenguaje natural (PLN) y el análisis de datos. Este proceso tiene como objetivo simplificar la representación de datos complejos, facilitando su análisis y visualización sin perder información relevante. Dos de los algoritmos más destacados en esta área son el Análisis de Componentes Principales (PCA) y el Análisis Semántico Latente (LSA).
+	
+	## Importancia de la Reducción Dimensional
+	
+	En muchos escenarios de PLN, los datos textuales se representan en espacios de alta dimensión, donde cada dimensión puede corresponder a una palabra o un término del vocabulario. Sin embargo, trabajar en espacios de alta dimensión puede ser problemático debido a varios factores:
+	
+	1. **Curse of Dimensionality**: A medida que aumenta el número de dimensiones, la cantidad de datos necesarios para obtener resultados significativos también aumenta. Esto puede llevar a la escasez de datos y a la sobreajuste de los modelos.
+	   
+	2. **Ruido y Redundancia**: En espacios de alta dimensión, los datos pueden contener ruido y redundancia, lo que puede dificultar la identificación de patrones significativos.
+	
+	3. **Visualización**: La visualización de datos en dimensiones altas es inherentemente complicada, lo que dificulta la interpretación de los resultados.
+	
+	Por estas razones, es esencial contar con técnicas que permitan reducir la dimensionalidad de los datos, preservando al mismo tiempo la estructura y la información crítica.
+	
+	## Análisis de Componentes Principales (PCA)
+	
+	El PCA es una técnica estadística que transforma un conjunto de variables posiblemente correlacionadas en un conjunto de variables no correlacionadas, denominadas componentes principales. Estos componentes son ordenados de tal manera que el primer componente retiene la mayor parte de la varianza de los datos, el segundo componente retiene la mayor parte de la varianza de los datos restantes, y así sucesivamente.
+	
+	### Proceso de PCA
+	
+	1. **Estandarización**: Los datos se estandarizan para que cada variable tenga una media de cero y una desviación estándar de uno. Esto es crucial para que las variables con diferentes escalas no dominen el análisis.
+	
+	2. **Cálculo de la Matriz de Covarianza**: Se calcula la matriz de covarianza para evaluar cómo varían conjuntamente las diferentes variables.
+	
+	3. **Cálculo de los Autovalores y Autovectores**: Se extraen los autovalores y autovectores de la matriz de covarianza. Los autovectores representan las direcciones de máxima varianza, mientras que los autovalores indican la magnitud de la varianza en esas direcciones.
+	
+	4. **Selección de Componentes Principales**: Se seleccionan los componentes principales que retienen la mayor parte de la varianza, reduciendo así la dimensionalidad del conjunto de datos.
+	
+	### Aplicaciones de PCA en PLN
+	
+	En el contexto del PLN, PCA puede ser utilizado para la reducción de dimensionalidad en representaciones de texto, como matrices de términos-documentos. Esta técnica permite identificar patrones subyacentes en los datos textuales, facilitando tareas como la clasificación de textos y la detección de temas.
+	
+	## Análisis Semántico Latente (LSA)
+	
+	El LSA es una técnica que combina la reducción dimensional con el análisis semántico, permitiendo descubrir relaciones latentes entre términos y documentos. A diferencia del PCA, que se centra en la varianza de los datos, LSA se enfoca en la estructura semántica del texto.
+	
+	### Proceso de LSA
+	
+	1. **Creación de la Matriz Término-Documento**: Se construye una matriz donde las filas representan términos y las columnas representan documentos. Las entradas de la matriz pueden ser frecuencias de término, TF-IDF, entre otros.
+	
+	2. **Descomposición en Valores Singulares (SVD)**: Se aplica la descomposición en valores singulares a la matriz término-documento. Este proceso descompone la matriz en tres matrices: una matriz de términos, una matriz de valores singulares y una matriz de documentos.
+	
+	3. **Reducción Dimensional**: Se seleccionan los primeros k valores singulares y sus correspondientes vectores, que representan las relaciones semánticas más significativas.
+	
+	4. **Representación Semántica**: Los términos y documentos se representan en un espacio semántico reducido, donde se pueden identificar similitudes y relaciones de manera más efectiva.
+	
+	### Aplicaciones de LSA en PLN
+	
+	LSA se utiliza ampliamente en tareas de recuperación de información, análisis de temas y clasificación de texto. Al capturar la estructura semántica de los textos, LSA permite mejorar la relevancia de los resultados en sistemas de búsqueda y recomendaciones.
+	
+	
+
+
+
+
 - **Entendimiento de Estructuras Semánticas**: Cómo las palabras se agrupan en espacios semánticos.
 
 :bookmark_tabs: **4. Limitaciones**
