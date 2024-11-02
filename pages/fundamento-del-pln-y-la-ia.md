@@ -36,6 +36,9 @@ Bienvenidos a esta serie de clases donde exploraremos la evolución histórica d
     - [Conceptos Clave](#conceptos-clave)
     - [Aplicaciones en Vectorización de Palabras](#aplicaciones-en-vectorización-de-palabras)
     - [Importancia en NLP e IA](#importancia-en-nlp-e-ia)
+    - [Conceptos Fundamentales](#conceptos-fundamentales)
+    - [Aplicaciones en NLP](#aplicaciones-en-nlp-1)
+    - [Importancia en la Representación Semántica](#importancia-en-la-representación-semántica)
     - [Enfoques Basados en Reglas](#enfoques-basados-en-reglas)
     - [Enfoques Estadísticos (Década de 1980-1990)](#enfoques-estadísticos-década-de-1980-1990)
     - [Desafíos y Limitaciones](#desafíos-y-limitaciones)
@@ -348,10 +351,32 @@ Este enfoque estructural también influyó en la forma en que los investigadores
 
 - **Estadística Básica**: Probabilidad, frecuencias y distribuciones.
 
+  La **Estadística Básica** es un conjunto de conceptos fundamentales que se utilizan para analizar y describir datos. En el contexto del procesamiento del lenguaje natural (NLP) y la evolución de la representación semántica, la estadística básica juega un papel crucial para comprender patrones y relaciones en los datos textuales.
 
+  ### Conceptos Fundamentales
+  1. **Probabilidad**:
+    - La probabilidad mide la **posibilidad** de que ocurra un evento específico. En NLP, se usa para modelar la ocurrencia de palabras y frases en un corpus.
+    - **Ejemplo**: La probabilidad de que aparezca la palabra "gato" en un documento puede calcularse como el número de veces que aparece "gato" dividido por el número total de palabras.
 
+  2. **Frecuencias**:
+    - La frecuencia se refiere al **número de veces** que un evento o palabra ocurre en un conjunto de datos. 
+    - **Frecuencia Absoluta**: Número total de veces que aparece una palabra.
+    - **Frecuencia Relativa**: Proporción de la aparición de una palabra con respecto al total de palabras.
+    - **Ejemplo**: Si "perro" aparece 50 veces en un texto de 1000 palabras, la frecuencia relativa es 50/1000 = 0.05.
 
+  3. **Distribuciones**:
+    - Una distribución describe cómo se distribuyen o dispersan los datos en un conjunto. 
+    - **Distribución de Palabras**: En NLP, una distribución común es la **distribución de Zipf**, que describe cómo unas pocas palabras son muy frecuentes, mientras que la mayoría son poco frecuentes.
+    - **Ejemplo**: Palabras como "el", "de", "y" son extremadamente comunes, mientras que términos más específicos, como "algoritmo" o "estocástico", son mucho menos frecuentes.
 
+  ### Aplicaciones en NLP
+  - **Modelado de Lenguaje**: Las probabilidades y frecuencias se utilizan para construir modelos que predicen la siguiente palabra en una secuencia. Por ejemplo, un modelo basado en frecuencias puede sugerir que "lluvia" es más probable que "nevado" en un contexto tropical.
+  - **Análisis de Texto**: Las distribuciones de palabras ayudan a identificar términos clave y patrones en un corpus. Esto es útil para tareas como la clasificación de documentos y el análisis de sentimientos.
+
+  ### Importancia en la Representación Semántica
+  La estadística básica es fundamental para técnicas como el **análisis de co-ocurrencia** y los **modelos probabilísticos** que representan el significado de las palabras. Al analizar cómo se distribuyen las palabras y con qué frecuencia aparecen en ciertos contextos, los sistemas pueden inferir relaciones semánticas y construir representaciones vectoriales más precisas.
+
+  Este conocimiento estadístico fue esencial en los primeros enfoques de NLP y sigue siendo relevante en modelos más avanzados, ayudando a capturar mejor las complejidades del lenguaje humano.
 
 
 :bookmark_tabs: **3. Aplicaciones Tempranas**
@@ -424,9 +449,7 @@ Este enfoque estructural también influyó en la forma en que los investigadores
   La Recuperación de Información ha evolucionado significativamente, impulsada por avances en vectorización de palabras y técnicas semánticas, haciendo que las búsquedas sean más precisas y relevantes. Esto sigue siendo un área clave en el desarrollo de aplicaciones de inteligencia artificial y procesamiento del lenguaje natural.
 
 
-
 :bookmark_tabs: **4. Limitaciones y Desafíos**
-
 
 
 - **Capacidad Computacional**: Limitada en la época, dificultando cálculos complejos.
@@ -503,6 +526,43 @@ Este enfoque estructural también influyó en la forma en que los investigadores
 
 :bookmark_tabs: **1. Introducción a los Autores**
 - **Joseph B. Kruskal**: Estadístico y matemático conocido por el algoritmo de Kruskal.
+	Joseph B. Kruskal (1928-2022) fue un destacado estadístico y matemático estadounidense, conocido principalmente por su contribución al campo de la teoría de grafos y el desarrollo del algoritmo de Kruskal, que es fundamental para la construcción de árboles de expansión mínima en grafos. Su trabajo ha tenido un impacto duradero en diversas áreas, incluyendo la estadística, la informática y el análisis de datos.
+	
+	### Biografía
+	
+	Joseph Kruskal nació el 2 de enero de 1928 en Nueva York. Se graduó en 1948 de la Universidad de Harvard, donde comenzó a desarrollar su interés por la estadística y las matemáticas. Posteriormente, obtuvo su doctorado en 1955 en la Universidad de Princeton, donde su investigación se centró en la teoría de grafos y el análisis de datos multivariantes.
+	
+	### Contribuciones Matemáticas
+	
+	#### Algoritmo de Kruskal
+	
+	El algoritmo de Kruskal es un método para encontrar el árbol de expansión mínima (MST, por sus siglas en inglés) de un grafo ponderado. Un árbol de expansión mínima es un subconjunto de las aristas de un grafo que conecta todos los vértices sin formar ciclos y con el peso total mínimo. Este algoritmo se basa en el principio de selección de aristas de menor peso y se puede describir en los siguientes pasos:
+	
+	1. **Inicialización**: Comienza con un conjunto de aristas vacío. Cada vértice del grafo se considera un componente separado.
+	   
+	2. **Ordenación**: Ordena todas las aristas del grafo en orden ascendente según su peso.
+	
+	3. **Construcción del MST**:
+	   - Itera sobre las aristas ordenadas, seleccionando la arista de menor peso.
+	   - Si la inclusión de esta arista no forma un ciclo (es decir, conecta dos componentes diferentes), se agrega al árbol de expansión.
+	   - Este proceso se repite hasta que se hayan incluido \( V - 1 \) aristas, donde \( V \) es el número de vértices en el grafo.
+	
+	El algoritmo de Kruskal es eficiente y tiene una complejidad temporal de \( O(E \log E) \), donde \( E \) es el número de aristas. Esta eficiencia lo convierte en una opción popular para resolver problemas de optimización en redes.
+	
+	#### Otros Aportes
+	
+	Además del algoritmo de Kruskal, Joseph B. Kruskal también contribuyó a la estadística mediante el desarrollo de métodos de análisis de datos multivariantes y técnicas de escalamiento. Su trabajo en escalamiento multidimensional, por ejemplo, ha sido fundamental para la visualización de datos complejos y la representación gráfica de relaciones entre variables.
+	
+	### Legado
+	
+	El legado de Kruskal se extiende más allá de sus contribuciones teóricas. Su trabajo ha influido en la práctica de la estadística aplicada y en el desarrollo de algoritmos en la informática moderna. El algoritmo de Kruskal, en particular, sigue siendo un pilar en la enseñanza de la teoría de grafos y es ampliamente utilizado en aplicaciones prácticas, como redes de telecomunicaciones y diseño de circuitos.
+	
+	Kruskal también fue un defensor de la educación matemática y la divulgación científica, promoviendo la importancia de la estadística y las matemáticas en la comprensión del mundo moderno.
+	
+	### Conclusión
+	
+	Joseph B. Kruskal es una figura emblemática en el campo de las matemáticas y la estadística. Su algoritmo de Kruskal no solo ha proporcionado una solución eficiente a un problema fundamental en teoría de grafos, sino que también ha servido como base para el desarrollo de métodos más avanzados en el análisis de datos. Su legado continúa vivo en la investigación y la enseñanza de las matemáticas, inspirando a nuevas generaciones de estudiantes y profesionales.
+  
 - **James C. Shepherd**: Colaborador en técnicas de análisis multidimensional.
 
 :bookmark_tabs: **2. Desarrollo del Análisis Multidimensional**
