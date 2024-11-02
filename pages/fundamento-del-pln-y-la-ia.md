@@ -4787,7 +4787,10 @@ La introducción de los transformadores por Vaswani et al. en 2017 desencadenó 
 
 En 2020, OpenAI presentó **ChatGPT**, un modelo conversacional basado en la arquitectura de **GPT-3**. Este desarrollo representó un gran avance en el procesamiento del lenguaje natural, ya que permitió a las máquinas interactuar de manera más fluida y coherente con los humanos a través del texto. ChatGPT se entrena en un vasto corpus de datos que abarca conversaciones humanas, artículos, y contenido de la web, utilizando una combinación de técnicas avanzadas para optimizar su capacidad de generar texto.
 
-# :space_invader: **Fundamentos de ChatGPT**
+
+# :ledger: **Fundamentos de ChatGPT**
+
+## :pushpin: **Arquitectura de GPT-3**
 
 1. **Arquitectura de GPT-3**:
    - ChatGPT se construye sobre el modelo de lenguaje GPT-3, que cuenta con **175 mil millones de parámetros**. Estos parámetros permiten al modelo captar patrones lingüísticos complejos, comprender el contexto y generar respuestas que imitan el lenguaje humano con gran precisión.
@@ -4872,3 +4875,35 @@ Después del preentrenamiento, ChatGPT pasa por un proceso de ajuste fino para e
    - El preentrenamiento en un corpus diverso le permite al modelo tener un conocimiento general robusto, pero también implica el riesgo de incorporar sesgos presentes en los datos.
 2. **Mitigación de Sesgos y Seguridad**:
    - Durante el ajuste fino, se implementan técnicas para reducir la generación de contenido inapropiado o sesgado. Sin embargo, esta mitigación no es perfecta y sigue siendo un área activa de investigación.
+
+
+# :ledger: ChatGPT-4o y o1
+
+En el contexto de los avances recientes en procesamiento del lenguaje natural, **ChatGPT-4o** y **o1** representan las últimas iteraciones de los modelos de OpenAI basados en la arquitectura de transformadores, construidos sobre el éxito de modelos como GPT-3 y GPT-4. Aquí te explico en detalle:
+
+# :space_invader:  **ChatGPT-4o (2024)**
+**ChatGPT-4o** es una versión mejorada y optimizada del modelo GPT-4, con un enfoque en ofrecer una experiencia más rápida y eficiente. A continuación, se destacan las principales características y avances de ChatGPT-4o:
+
+1. **Multimodalidad**:
+   - ChatGPT-4o no solo trabaja con texto, sino que también es capaz de procesar y generar información a partir de imágenes, audio y posiblemente video. Esto amplía enormemente las aplicaciones del modelo, permitiendo interacciones más completas y contextuales en entornos multimediales.
+  
+2. **Eficiencia y Reducción de Costos**:
+   - Una de las metas principales de ChatGPT-4o es ofrecer un rendimiento más eficiente. OpenAI ha optimizado el modelo para que sea más rápido y consuma menos recursos computacionales, logrando una reducción significativa en los costos de procesamiento.
+
+3. **Mejoras en la Precisión**:
+   - El modelo ha mejorado su comprensión y generación de texto, proporcionando respuestas más precisas y contextualmente relevantes. Esto es especialmente útil en tareas complejas de lenguaje natural, donde el contexto y la sutileza son cruciales.
+
+# :space_invader:   **Modelo o1 (Strawberry)**
+El modelo **o1**, apodado "Strawberry", se destaca por su enfoque en **razonamiento lógico y análisis profundo**. A diferencia de otros modelos que se centran principalmente en la generación de texto, o1 ha sido diseñado para sobresalir en tareas que requieren una comprensión lógica avanzada.
+
+1. **Enfoque en Razonamiento Complejo**:
+   - o1 es especialmente eficaz en tareas relacionadas con matemáticas, programación, y ciencias. Gracias a técnicas avanzadas de aprendizaje por refuerzo, el modelo ha mejorado su capacidad de resolver problemas complejos y realizar análisis precisos.
+  
+2. **Optimización para Aplicaciones Técnicas**:
+   - Este modelo se ha convertido en una herramienta poderosa para desarrolladores y científicos, proporcionando soluciones precisas en programación y cálculos científicos. Puede realizar tareas como verificar código, resolver ecuaciones matemáticas y analizar datos científicos.
+
+3. **Aprendizaje por Refuerzo**:
+   - o1 ha incorporado mejoras significativas en el aprendizaje basado en retroalimentación, lo que le permite ajustarse y optimizar su rendimiento de manera continua, especialmente en situaciones que requieren un pensamiento analítico riguroso.
+
+## :pushpin:  **Importancia en el Contexto de la Revolución en NLP**
+Estos modelos, ChatGPT-4o y o1, representan un avance importante en la línea de modelos basados en transformadores. Se basan en las bases sentadas por arquitecturas anteriores como BERT y GPT, pero llevan las capacidades del procesamiento de lenguaje natural a nuevos niveles. Gracias a estos avances, las aplicaciones en el mundo real se han expandido, abarcando desde la generación multimodal de contenido hasta la asistencia técnica en programación y ciencia.
