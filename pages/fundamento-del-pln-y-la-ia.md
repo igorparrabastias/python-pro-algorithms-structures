@@ -4,6 +4,72 @@
 
 Bienvenidos a esta serie de clases donde exploraremos la evolución histórica del concepto de vectorizar palabras. A lo largo de las décadas, desde los años 1950 hasta el 2013, veremos cómo han evolucionado las técnicas y teorías que nos permiten hoy en día representar palabras en forma de vectores matemáticos, fundamentales para el procesamiento del lenguaje natural y la inteligencia artificial.
 
+- [Evolución de la Representación Semántica: Fundamento del PLN y la IA](#evolución-de-la-representación-semántica-fundamento-del-pln-y-la-ia)
+  - [Introducción General](#introducción-general)
+  - [Década de 1950: Fundamentos del Análisis Semántico](#década-de-1950-fundamentos-del-análisis-semántico)
+    - [**Introducción al Origen de las Representaciones Distribuidas en la Lingüística**](#introducción-al-origen-de-las-representaciones-distribuidas-en-la-lingüística)
+    - [Conceptos Clave de la Teoría de Shannon](#conceptos-clave-de-la-teoría-de-shannon)
+    - [Relación con Vectorizar Palabras](#relación-con-vectorizar-palabras)
+    - [Implicaciones de la Hipótesis Distribucional](#implicaciones-de-la-hipótesis-distribucional)
+    - [Cómo Influyó en el Desarrollo de Modelos Semánticos](#cómo-influyó-en-el-desarrollo-de-modelos-semánticos)
+    - [Ejemplo Práctico](#ejemplo-práctico)
+    - [Impacto a Largo Plazo](#impacto-a-largo-plazo)
+    - [Cómo Funciona](#cómo-funciona)
+    - [Importancia en NLP](#importancia-en-nlp)
+    - [Limitaciones](#limitaciones)
+    - [Cómo se Construyen](#cómo-se-construyen)
+    - [Ejemplo Práctico](#ejemplo-práctico-1)
+    - [Importancia en NLP](#importancia-en-nlp-1)
+    - [Usos Prácticos](#usos-prácticos)
+    - [Limitaciones](#limitaciones-1)
+    - [**Principales Ideas y Bases Matemáticas de la Semántica**](#principales-ideas-y-bases-matemáticas-de-la-semántica)
+    - [Concepto Central](#concepto-central)
+    - [Cómo Funciona](#cómo-funciona-1)
+    - [Aplicaciones en NLP](#aplicaciones-en-nlp)
+    - [Ejemplo Práctico](#ejemplo-práctico-2)
+    - [Importancia](#importancia)
+    - [Concepto Básico](#concepto-básico)
+    - [Cómo Capturan Relaciones Semánticas](#cómo-capturan-relaciones-semánticas)
+    - [Construcción del Espacio Vectorial](#construcción-del-espacio-vectorial)
+    - [Aplicaciones](#aplicaciones)
+    - [Importancia en NLP y IA](#importancia-en-nlp-y-ia)
+    - [Conceptos Clave](#conceptos-clave)
+    - [Aplicaciones en Vectorización de Palabras](#aplicaciones-en-vectorización-de-palabras)
+    - [Importancia en NLP e IA](#importancia-en-nlp-e-ia)
+    - [Enfoques Basados en Reglas](#enfoques-basados-en-reglas)
+    - [Enfoques Estadísticos (Década de 1980-1990)](#enfoques-estadísticos-década-de-1980-1990)
+    - [Desafíos y Limitaciones](#desafíos-y-limitaciones)
+    - [Importancia en la Evolución de la IA](#importancia-en-la-evolución-de-la-ia)
+    - [Concepto Básico](#concepto-básico-1)
+    - [Modelos de Recuperación de Información](#modelos-de-recuperación-de-información)
+    - [Importancia en el Contexto de Vectorizar Palabras](#importancia-en-el-contexto-de-vectorizar-palabras)
+    - [Ejemplo Práctico](#ejemplo-práctico-3)
+    - [Desafíos y Avances](#desafíos-y-avances)
+    - [Limitaciones Principales](#limitaciones-principales)
+    - [Impacto en el Desarrollo de la Vectorización de Palabras](#impacto-en-el-desarrollo-de-la-vectorización-de-palabras)
+    - [Evolución y Avances](#evolución-y-avances)
+    - [Características de las Primeras Técnicas](#características-de-las-primeras-técnicas)
+    - [Implicaciones y Desafíos](#implicaciones-y-desafíos)
+    - [Evolución Hacia la Comprensión Profunda](#evolución-hacia-la-comprensión-profunda)
+  - [Años 1960: Mapeo Multidimensional](#años-1960-mapeo-multidimensional)
+    - [**Contribuciones de Joseph B. Kruskal y James C. Shepherd**](#contribuciones-de-joseph-b-kruskal-y-james-c-shepherd)
+    - [**Propuesta del Mapeo Multidimensional y su Relevancia**](#propuesta-del-mapeo-multidimensional-y-su-relevancia)
+  - [Década de 1970: Semántica Latente y Análisis de Componentes Principales](#década-de-1970-semántica-latente-y-análisis-de-componentes-principales)
+  - [Década de 1980: Latent Semantic Analysis (LSA)](#década-de-1980-latent-semantic-analysis-lsa)
+    - [**Desarrollo de LSA para Representar y Analizar Grandes Volúmenes de Texto**](#desarrollo-de-lsa-para-representar-y-analizar-grandes-volúmenes-de-texto)
+    - [**El Impacto de esta Técnica en la Comprensión Automática del Lenguaje**](#el-impacto-de-esta-técnica-en-la-comprensión-automática-del-lenguaje)
+  - [Década de 1990: Redes Neuronales y Representaciones Distribuidas](#década-de-1990-redes-neuronales-y-representaciones-distribuidas)
+    - [**Uso Temprano de Redes Neuronales para Representaciones Distribuidas**](#uso-temprano-de-redes-neuronales-para-representaciones-distribuidas)
+    - [**Avances y Limitaciones de Estas Técnicas en Comparación con Enfoques Posteriores**](#avances-y-limitaciones-de-estas-técnicas-en-comparación-con-enfoques-posteriores)
+  - [Primeros 2000: Modelos Probabilísticos y Topic Modeling](#primeros-2000-modelos-probabilísticos-y-topic-modeling)
+    - [**Introducción de Modelos como Latent Dirichlet Allocation (LDA)**](#introducción-de-modelos-como-latent-dirichlet-allocation-lda)
+    - [**Cómo los Modelos Probabilísticos Influyeron en la Semántica Vectorial**](#cómo-los-modelos-probabilísticos-influyeron-en-la-semántica-vectorial)
+  - [2013 y la Revolución de Word2Vec](#2013-y-la-revolución-de-word2vec)
+    - [**Propuesta de Tomas Mikolov y su Equipo de Google**](#propuesta-de-tomas-mikolov-y-su-equipo-de-google)
+    - [**Simplificación y Popularización de las Representaciones Vectoriales con el Modelo Word2Vec**](#simplificación-y-popularización-de-las-representaciones-vectoriales-con-el-modelo-word2vec)
+  - [Conclusión General](#conclusión-general)
+
+
 ---
 
 ## Década de 1950: Fundamentos del Análisis Semántico
@@ -255,13 +321,11 @@ Este enfoque estructural también influyó en la forma en que los investigadores
   2. **Matrices**:
     - Una matriz es una tabla de números organizada en filas y columnas. En NLP, las matrices se utilizan para almacenar datos como las frecuencias de palabras en diferentes documentos (matrices de contingencia) o para representar relaciones entre palabras.
     - Ejemplo: Una matriz de 3 filas y 2 columnas se vería así:
-      \[
-      \begin{bmatrix}
-      1 & 2 \\
-      3 & 4 \\
-      5 & 6
-      \end{bmatrix}
-      \]
+      ```
+      1 2
+      3 4
+      5 6
+      ```
 
   3. **Operaciones Fundamentales**:
     - **Suma de Vectores**: Se realiza sumando los elementos correspondientes de dos vectores.
@@ -282,16 +346,148 @@ Este enfoque estructural también influyó en la forma en que los investigadores
   ### Importancia en NLP e IA
   El álgebra lineal proporciona el marco matemático para realizar cálculos de manera eficiente y estructurada. Sin esta base, sería imposible manejar y procesar grandes conjuntos de datos de texto, hacer cálculos de similitud semántica o entrenar modelos de lenguaje complejos. Su uso se extiende a tareas como la clasificación de texto, la generación de embeddings y la optimización de modelos de aprendizaje profundo.
 
-
 - **Estadística Básica**: Probabilidad, frecuencias y distribuciones.
 
 :bookmark_tabs: **3. Aplicaciones Tempranas**
+
 - **Traducción Automática**: Intentos iniciales de traducir textos utilizando reglas y patrones estadísticos.
+
+  La **Traducción Automática** comenzó como uno de los primeros intentos de aplicar computadoras para procesar el lenguaje humano, con el objetivo de convertir texto de un idioma a otro. Los enfoques iniciales, desarrollados a mediados del siglo XX, se basaban en reglas y patrones estadísticos, antes de que los métodos modernos basados en redes neuronales y modelos de aprendizaje profundo se hicieran prominentes.
+
+  ### Enfoques Basados en Reglas
+  1. **Sistemas de Reglas Lingüísticas**:
+    - Estos sistemas dependían de gramáticas complejas y diccionarios bilingües. Se escribían a mano reglas específicas para manejar la estructura gramatical y las peculiaridades de los idiomas.
+    - Ejemplo: Una regla podría especificar que en inglés "adjetivo + sustantivo" se traduciría al francés como "sustantivo + adjetivo".
+    
+  2. **Limitaciones**:
+    - Los sistemas basados en reglas eran frágiles y difíciles de escalar porque requerían un conocimiento detallado de ambos idiomas y no podían manejar bien las excepciones o las complejidades del lenguaje natural.
+    - La calidad de las traducciones solía ser baja, especialmente para textos largos o complejos, ya que las reglas no podían capturar adecuadamente las sutilezas semánticas y contextuales.
+
+  ### Enfoques Estadísticos (Década de 1980-1990)
+  1. **Modelos Basados en Frecuencias y Estadísticas**:
+    - A medida que el acceso a grandes corpus de texto bilingüe aumentó, los investigadores comenzaron a usar técnicas estadísticas para mejorar la traducción automática. Los modelos estadísticos, como el Modelo de Traducción de IBM, analizaban grandes conjuntos de datos para encontrar patrones en cómo se traducían las palabras y frases.
+    - **Modelo de Frecuencias**: Usaba la frecuencia de las palabras y las co-ocurrencias para determinar las traducciones más probables.
+    
+  2. **Cadenas de Markov y Alineamiento de Palabras**:
+    - Se utilizaron algoritmos de alineamiento para emparejar frases de un idioma con sus traducciones en otro idioma, calculando probabilidades para cada emparejamiento posible.
+    - **Modelos Basados en Frases**: Estos sistemas traducían bloques de texto en lugar de palabras individuales, lo que mejoraba la fluidez y precisión de las traducciones.
+
+  ### Desafíos y Limitaciones
+  - **Pérdida de Significado**: Los métodos estadísticos a menudo no capturaban bien el contexto o las ambigüedades del lenguaje, lo que llevaba a traducciones inexactas.
+  - **Requerimientos de Datos**: Se necesitaban grandes cantidades de datos bilingües para entrenar estos sistemas, y no siempre era fácil conseguir corpus de alta calidad para todos los idiomas.
+
+  ### Importancia en la Evolución de la IA
+  Los intentos iniciales de traducción automática basados en reglas y estadísticas sentaron las bases para los modelos más avanzados que vendrían después. Estos enfoques tempranos mostraron el potencial y las dificultades del procesamiento del lenguaje, impulsando la investigación en métodos más sofisticados, como los modelos neuronales y los sistemas basados en transformadores (por ejemplo, Google Translate y GPT). Además, la necesidad de manejar grandes cantidades de datos textuales y procesarlos eficientemente contribuyó al desarrollo de técnicas de vectorización de palabras y análisis semántico que seguimos utilizando hoy en día.
+
 - **Recuperación de Información**: Búsqueda de documentos relevantes basados en términos clave.
 
+  La **Recuperación de Información (RI)** es un campo de la informática que se centra en la búsqueda y localización de documentos relevantes en grandes volúmenes de datos, como bases de datos o la web, usando términos clave proporcionados por el usuario. Este proceso es fundamental para motores de búsqueda como Google, sistemas de búsqueda en bibliotecas digitales, y otras aplicaciones que dependen de encontrar información rápidamente.
+
+  ### Concepto Básico
+  1. **Indexación de Documentos**:
+    - Los sistemas de recuperación de información construyen índices de documentos en los que se almacenan palabras clave y sus ubicaciones en los documentos. Esto hace que la búsqueda sea mucho más rápida y eficiente.
+    - Los términos clave se extraen de los documentos y se organizan en una estructura que permite un acceso rápido.
+
+  2. **Términos de Consulta**:
+    - Cuando un usuario busca información, proporciona una consulta que consiste en uno o más términos clave.
+    - El sistema compara estos términos con su índice para encontrar documentos que contengan palabras similares o relacionadas.
+
+  ### Modelos de Recuperación de Información
+  1. **Modelo Booleano**:
+    - Basado en la lógica booleana, donde los términos clave se combinan usando operadores como "AND", "OR" y "NOT". Solo devuelve documentos que cumplan estrictamente con las condiciones.
+    - Ejemplo: Una consulta como "gato AND perro" buscaría documentos que contengan ambas palabras.
+
+  2. **Modelo Vectorial**:
+    - Representa tanto los documentos como la consulta del usuario en un espacio vectorial. Los documentos más relevantes son aquellos cuyos vectores están más cerca de la consulta, según una métrica de similitud como el **coseno del ángulo**.
+    - Este modelo permite medir la relevancia de manera continua, en lugar de un simple "sí o no".
+
+  3. **Modelo Probabilístico**:
+    - Calcula la probabilidad de que un documento sea relevante para una consulta en particular, basándose en la ocurrencia de términos clave y otros factores.
+
+  ### Importancia en el Contexto de Vectorizar Palabras
+  La recuperación de información es uno de los primeros campos que se benefició de las técnicas de vectorización de palabras. Al representar tanto las palabras como los documentos en forma de vectores, los sistemas pudieron mejorar significativamente la precisión y relevancia de los resultados. Estas representaciones vectoriales capturan mejor la relación semántica entre términos, permitiendo que las búsquedas encuentren documentos relevantes incluso cuando no coinciden exactamente con los términos clave proporcionados.
+
+  ### Ejemplo Práctico
+  Cuando realizas una búsqueda en un motor como Google, el sistema no solo busca las palabras exactas que escribiste, sino que también considera sinónimos, contextos similares, y otros factores semánticos. Esto es posible gracias al análisis vectorial y las técnicas avanzadas de procesamiento de lenguaje natural.
+
+  ### Desafíos y Avances
+  - **Ambigüedad Semántica**: Las palabras pueden tener múltiples significados, y las consultas pueden ser ambiguas. Los sistemas modernos utilizan modelos de lenguaje y técnicas avanzadas para desambiguar.
+  - **Expansión de Consultas**: Añadir sinónimos o términos relacionados a la consulta para mejorar la recuperación de documentos relevantes.
+  - **Modelos Basados en Aprendizaje Automático**: Los sistemas modernos utilizan algoritmos de machine learning para aprender patrones y mejorar continuamente en la entrega de información precisa.
+
+  La Recuperación de Información ha evolucionado significativamente, impulsada por avances en vectorización de palabras y técnicas semánticas, haciendo que las búsquedas sean más precisas y relevantes. Esto sigue siendo un área clave en el desarrollo de aplicaciones de inteligencia artificial y procesamiento del lenguaje natural.
+
+
+
 :bookmark_tabs: **4. Limitaciones y Desafíos**
+
+
+
 - **Capacidad Computacional**: Limitada en la época, dificultando cálculos complejos.
+
+
+  La **Capacidad Computacional** en las primeras décadas del desarrollo de la inteligencia artificial y el procesamiento del lenguaje natural (NLP) era extremadamente limitada en comparación con los estándares actuales. Las computadoras de mediados del siglo XX tenían restricciones significativas en términos de velocidad de procesamiento, memoria y almacenamiento, lo que dificultaba la implementación de cálculos complejos y el manejo de grandes volúmenes de datos textuales.
+
+  ### Limitaciones Principales
+  1. **Velocidad de Procesamiento**:
+    - Los procesadores eran mucho más lentos, lo que significaba que los cálculos, incluso los más simples, podían tardar considerablemente más tiempo.
+    - Algoritmos como el análisis de co-ocurrencia o las operaciones con matrices requerían mucho tiempo para completarse debido a estas limitaciones.
+
+  2. **Memoria y Almacenamiento**:
+    - La memoria disponible en las computadoras era muy reducida, a menudo limitada a unos pocos kilobytes o megabytes. Esto restringía la cantidad de datos que se podían procesar simultáneamente.
+    - El almacenamiento también era limitado y costoso, lo que dificultaba guardar grandes corpus de texto necesarios para análisis semánticos.
+
+  3. **Costos Elevados**:
+    - Las computadoras eran caras y difíciles de acceder. Solo grandes instituciones académicas, gubernamentales o corporativas podían permitirse utilizarlas para investigaciones en IA y NLP.
+    - Esto limitaba el ritmo del avance científico, ya que menos personas tenían los recursos para experimentar con modelos complejos.
+
+  ### Impacto en el Desarrollo de la Vectorización de Palabras
+  1. **Simplificación de Modelos**:
+    - Debido a las limitaciones, los primeros modelos de análisis semántico y vectorización de palabras eran bastante simples. Se priorizaban métodos que pudieran ejecutarse con los recursos disponibles, aunque sacrificaran precisión y profundidad.
+    - Por ejemplo, las primeras representaciones de palabras dependían de frecuencias de co-ocurrencia y matrices dispersas que no requerían tanto procesamiento como los modelos más avanzados.
+
+  2. **Reducción de Dimensionalidad**:
+    - Técnicas como la **reducción de dimensionalidad** fueron desarrolladas, en parte, para mitigar estas limitaciones computacionales. Métodos como el **Análisis de Componentes Principales (PCA)** y el **Latent Semantic Analysis (LSA)** ayudaban a simplificar los datos al mantener solo las dimensiones más importantes, reduciendo la carga de procesamiento.
+
+  3. **Algoritmos Basados en Aprox. y Heurísticas**:
+    - En lugar de realizar cálculos exactos, a menudo se utilizaban aproximaciones y heurísticas para acelerar los procesos. Esto era necesario para que los sistemas pudieran operar dentro de las capacidades computacionales de la época.
+
+  ### Evolución y Avances
+  Con el tiempo, a medida que el hardware de las computadoras mejoró, con procesadores más rápidos y mayor capacidad de memoria, se hizo posible desarrollar y ejecutar modelos mucho más complejos. Esto permitió avances significativos en la representación semántica, desde las matrices de co-ocurrencia simples hasta los sofisticados modelos de aprendizaje profundo que usamos hoy en día.
+
+  La limitación de la capacidad computacional fue un obstáculo importante, pero también impulsó la innovación en el desarrollo de técnicas eficientes para manejar y procesar datos de texto. Sin estas primeras restricciones, muchas de las optimizaciones y enfoques que seguimos utilizando podrían no haberse desarrollado de la misma manera.
+
+
 - **Comprensión Profunda del Lenguaje**: Las primeras técnicas eran superficiales y no capturaban matices semánticos.
+
+  La **Comprensión Profunda del Lenguaje** se refiere a la capacidad de un sistema para entender no solo las palabras y frases en un texto, sino también los significados subyacentes, matices y contextos que los humanos captan naturalmente. Sin embargo, las primeras técnicas de procesamiento del lenguaje natural (NLP) eran bastante superficiales y limitadas en su capacidad para lograr esto.
+
+  ### Características de las Primeras Técnicas
+  1. **Enfoques Basados en Reglas y Frecuencia**:
+    - Los métodos iniciales se centraban en contar la frecuencia de las palabras o en aplicar reglas gramaticales predefinidas. Aunque útiles, estos enfoques no captaban la riqueza semántica del lenguaje, como el sarcasmo, la ambigüedad o los significados implícitos.
+    - Por ejemplo, en análisis de co-ocurrencia, se analizaba cuántas veces las palabras aparecían juntas, pero no se entendía el motivo o el contexto de esas apariciones.
+
+  2. **Sin Comprensión de Contexto**:
+    - Las técnicas superficiales trataban cada palabra como una entidad independiente, sin considerar cómo el significado de una palabra podría cambiar según las palabras que la rodean. Esto hacía que los modelos fueran incapaces de desambiguar palabras con múltiples significados (por ejemplo, "banco" como asiento o institución financiera).
+    - No podían entender frases complejas ni procesar adecuadamente construcciones como metáforas o ironías.
+
+  3. **Limitaciones Semánticas**:
+    - No se capturaban relaciones semánticas más profundas, como sinónimos, antónimos o la estructura narrativa de un texto. Esto limitaba la utilidad de las aplicaciones tempranas de NLP, como la traducción automática o el análisis de sentimientos.
+    - Ejemplo: Un sistema superficial podría traducir literalmente una frase, sin entender que una expresión idiomática tiene un significado diferente al de las palabras individuales.
+
+  ### Implicaciones y Desafíos
+  1. **Resultados Inexactos**:
+    - Debido a la falta de comprensión profunda, las aplicaciones de NLP de la época eran inexactas o generaban resultados poco naturales. Los modelos no podían inferir el propósito o la intención detrás de un mensaje.
+    - Por ejemplo, un sistema de recuperación de información podría devolver documentos irrelevantes porque no entendía las relaciones semánticas complejas entre los términos de búsqueda.
+
+  2. **Falta de Flexibilidad**:
+    - Las técnicas basadas en reglas eran rígidas y no se adaptaban bien a la variabilidad del lenguaje humano. Esto hacía que los modelos fueran poco efectivos al enfrentarse a texto no estructurado o lenguaje informal.
+
+  ### Evolución Hacia la Comprensión Profunda
+  A medida que las técnicas de NLP avanzaron, se introdujeron modelos más sofisticados, como **Word Embeddings** (e.g., Word2Vec, GloVe) y redes neuronales profundas, que comenzaron a capturar mejor los matices del lenguaje. Modelos como **BERT** y **GPT** utilizan representaciones contextuales, lo que les permite entender cómo el significado de una palabra cambia según el contexto.
+
+  La transición de técnicas superficiales a enfoques más profundos ha sido clave para desarrollar sistemas que pueden interpretar el lenguaje de manera más humana, abriendo la puerta a aplicaciones como asistentes virtuales avanzados, análisis de texto más preciso y traducciones automáticas más naturales.
+
 
 ---
 
