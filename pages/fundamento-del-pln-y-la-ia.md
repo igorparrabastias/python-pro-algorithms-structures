@@ -862,9 +862,9 @@ Este enfoque estructural también influyó en la forma en que los investigadores
 	
 	La distancia coseno mide la similitud entre dos vectores basándose en el ángulo entre ellos, en lugar de la magnitud. Se utiliza comúnmente en el procesamiento de lenguaje natural para comparar documentos o textos representados como vectores de características. La fórmula es:
 	
-	\[
+	$$
 	\text{sim}(A, B) = \frac{A \cdot B}{||A|| \cdot ||B||}
-	\]
+	$$
 	
 	Donde \( A \cdot B \) es el producto punto de los vectores y \( ||A|| \) y \( ||B|| \) son sus normas. Un valor de 1 indica que los vectores son idénticos, mientras que 0 indica que son ortogonales.
 	
