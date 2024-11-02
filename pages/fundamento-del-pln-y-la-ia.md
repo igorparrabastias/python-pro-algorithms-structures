@@ -348,6 +348,12 @@ Este enfoque estructural también influyó en la forma en que los investigadores
 
 - **Estadística Básica**: Probabilidad, frecuencias y distribuciones.
 
+
+
+
+
+
+
 :bookmark_tabs: **3. Aplicaciones Tempranas**
 
 - **Traducción Automática**: Intentos iniciales de traducir textos utilizando reglas y patrones estadísticos.
