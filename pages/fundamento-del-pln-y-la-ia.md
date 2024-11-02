@@ -4,10 +4,6 @@
 
 Bienvenidos a esta serie de clases donde exploraremos la evolución histórica del concepto de vectorizar palabras. A lo largo de las décadas, desde los años 1950 hasta el 2013, veremos cómo han evolucionado las técnicas y teorías que nos permiten hoy en día representar palabras en forma de vectores matemáticos, fundamentales para el procesamiento del lenguaje natural y la inteligencia artificial.
 
-
-
-
-
 ---
 # <center>Década de 1950: Fundamentos del Análisis Semántico</center>
 
@@ -15,7 +11,7 @@ Bienvenidos a esta serie de clases donde exploraremos la evolución histórica d
 
 # :bookmark_tabs: **1. Contexto Histórico**
 
-## :page_facing_up: **Posguerra y Avances Tecnológicos**: Tras la Segunda Guerra Mundial, hubo un auge en el desarrollo de tecnologías computacionales.
+## :pushpin: **Posguerra y Avances Tecnológicos**: Tras la Segunda Guerra Mundial, hubo un auge en el desarrollo de tecnologías computacionales.
 
 Después de la Segunda Guerra Mundial, el mundo experimentó un gran impulso en el desarrollo de tecnologías computacionales. Este período, conocido como la "revolución computacional de posguerra", fue catalizado por proyectos militares como ENIAC (1945), la primera computadora electrónica de propósito general, que originalmente fue diseñada para calcular tablas de tiro de artillería. Los avances tecnológicos realizados durante la guerra, incluyendo el desarrollo de COLOSSUS en Bletchley Park para descifrar códigos nazis, establecieron las bases fundamentales de la computación moderna.
 
@@ -27,7 +23,7 @@ Este período también vio los primeros intentos de procesamiento del lenguaje n
 
 Esta era marcó el comienzo de una revolución en la que se comenzaron a explorar las posibilidades de la computación para resolver problemas complejos. Los primeros programadores, muchos de ellos mujeres como Grace Hopper (quien desarrolló el primer compilador) y las "computadoras humanas" del ENIAC, establecieron las bases de la programación moderna. El análisis de datos lingüísticos comenzó a emerger como un campo de estudio, con investigadores como Noam Chomsky desarrollando teorías formales sobre la estructura del lenguaje que más tarde influirían en el diseño de lenguajes de programación y sistemas de procesamiento del lenguaje natural.
 
-## :page_facing_up: **Lingüística Estructural**: Dominio de teorías que veían el lenguaje como una estructura formal.
+## :pushpin: **Lingüística Estructural**: Dominio de teorías que veían el lenguaje como una estructura formal.
 
 La lingüística estructural fue un enfoque dominante en el estudio del lenguaje durante el siglo XX, basado en la idea de que el lenguaje es una estructura formal y organizada. Esto significa que las palabras y oraciones no se estudian de manera aislada, sino como parte de un sistema más amplio, donde cada elemento tiene un papel y sigue ciertas reglas. Estas teorías influyeron en el desarrollo de las primeras técnicas de vectorización de palabras, ya que llevaron a los investigadores a pensar en el lenguaje como un conjunto estructurado de relaciones que se podían analizar y representar matemáticamente.
 
@@ -39,7 +35,7 @@ Este enfoque estructural también influyó en la forma en que los investigadores
 
 # :bookmark_tabs: **2. Teorías Lingüísticas Iniciales**
 
-## :page_facing_up: **Teoría de la Información de Shannon (1948)**: Base para entender cómo transmitir información eficientemente.
+## :pushpin: **Teoría de la Información de Shannon (1948)**: Base para entender cómo transmitir información eficientemente.
 
 La Teoría de la Información, desarrollada por Claude Shannon en 1948, es una piedra angular en el campo de la comunicación y el procesamiento de datos. En esencia, Shannon se preguntó cómo transmitir información de manera eficiente y confiable a través de canales de comunicación con ruido, como líneas telefónicas o sistemas de radio. Esto fue crucial en la era de las comunicaciones electrónicas emergentes, y sus ideas revolucionaron el entendimiento de cómo codificar, transmitir y recibir datos.
 
@@ -74,7 +70,7 @@ La Teoría de la Información de Shannon sentó las bases para muchos avances en
 
 En resumen, la Teoría de la Información proporcionó un marco matemático que permitió a los investigadores comprender y optimizar cómo se procesan y transmiten datos textuales. Estas ideas fueron un paso crucial hacia el desarrollo de técnicas más avanzadas para vectorizar palabras, permitiendo que los sistemas de procesamiento de lenguaje puedan manejar y entender grandes cantidades de texto de manera más eficiente y precisa.
 
-## :page_facing_up: **Hipótesis Distribucional de Harris (1954)**: "Las palabras que aparecen en los mismos contextos tienden a tener significados similares."
+## :pushpin: **Hipótesis Distribucional de Harris (1954)**: "Las palabras que aparecen en los mismos contextos tienden a tener significados similares."
 
 La **Hipótesis Distribucional de Zellig Harris**, formulada en 1954, es un principio fundamental en la semántica computacional y el procesamiento del lenguaje natural (NLP). Esta hipótesis establece que el significado de una palabra se puede inferir a partir de los contextos en los que aparece. Es decir, si dos palabras se utilizan en contextos similares, es probable que tengan significados relacionados. Un ejemplo clásico sería que las palabras "perro" y "gato" aparecen en contextos similares, como frases relacionadas con mascotas o animales domésticos, lo que sugiere que tienen alguna relación semántica.
 
@@ -111,7 +107,7 @@ La Hipótesis Distribucional de Harris ha tenido un impacto duradero en la evolu
 
 # :bookmark_tabs: **3. Primeras Representaciones Semánticas**
 
-## :page_facing_up: **Análisis de Co-ocurrencia**: Estudio de cómo las palabras aparecen juntas en el texto.
+## :pushpin: **Análisis de Co-ocurrencia**: Estudio de cómo las palabras aparecen juntas en el texto.
 
 El **Análisis de Co-ocurrencia** es un método que examina la frecuencia con la que ciertas palabras aparecen juntas dentro de un texto o corpus. La idea central es que las palabras que co-aparecen con regularidad en contextos similares tienen una relación semántica o comparten algún significado. Este análisis es esencial para entender patrones en el lenguaje y es una base para construir representaciones vectoriales.
 
@@ -133,7 +129,7 @@ El **Análisis de Co-ocurrencia** es un método que examina la frecuencia con la
 
 El análisis de co-ocurrencia ha sido fundamental en el desarrollo de técnicas más avanzadas que permiten a las máquinas entender y procesar el lenguaje natural de manera más eficiente y precisa.
 
-## :page_facing_up: **Matrices de Contingencia**: Representación de frecuencias de palabras en documentos.
+## :pushpin: **Matrices de Contingencia**: Representación de frecuencias de palabras en documentos.
 
 Las **Matrices de Contingencia** son estructuras matemáticas utilizadas para representar la frecuencia con la que las palabras aparecen en diferentes documentos dentro de un corpus. Estas matrices son una forma organizada de almacenar y analizar datos de texto, permitiendo a los investigadores captar patrones y relaciones entre palabras y documentos.
 
@@ -175,7 +171,7 @@ Las matrices de contingencia fueron un paso crucial en el desarrollo de métodos
 
 # :bookmark_tabs: **1. Conceptos Clave**
 
-## :page_facing_up: **Semántica Distribucional**: Significado de una palabra basado en su uso.
+## :pushpin: **Semántica Distribucional**: Significado de una palabra basado en su uso.
 
 La **Semántica Distribucional** es un enfoque en lingüística computacional y procesamiento del lenguaje natural que define el significado de una palabra en función de los contextos en los que se utiliza. En otras palabras, las palabras adquieren su significado no de manera aislada, sino a través de las relaciones y patrones que tienen con otras palabras en el lenguaje.
 
@@ -205,7 +201,7 @@ Esto muestra cómo el significado se puede capturar y manipular matemáticamente
 ### Importancia
 La semántica distribucional revolucionó cómo las máquinas procesan el lenguaje, permitiendo que entiendan y generen texto de manera más parecida a los humanos. Al enfocarse en el uso de las palabras, ha permitido avances significativos en tareas como la traducción automática, la generación de texto y la comprensión del lenguaje.
 
-## :page_facing_up: **Espacios Vectoriales**: Representación matemática para capturar relaciones semánticas.
+## :pushpin: **Espacios Vectoriales**: Representación matemática para capturar relaciones semánticas.
 
 Los **Espacios Vectoriales** son estructuras matemáticas que se utilizan para representar palabras y capturar las relaciones semánticas entre ellas. En el contexto del procesamiento del lenguaje natural (NLP), un espacio vectorial es un entorno donde cada palabra se representa como un vector, y las posiciones de estos vectores en el espacio reflejan las relaciones y similitudes semánticas entre las palabras.
 
@@ -248,7 +244,7 @@ Los espacios vectoriales son fundamentales porque transforman el lenguaje, un fe
 
 # :bookmark_tabs: **2. Herramientas Matemáticas**
 
-## :page_facing_up: **Álgebra Lineal**: Vectores, matrices y operaciones fundamentales.
+## :pushpin: **Álgebra Lineal**: Vectores, matrices y operaciones fundamentales.
 
 El **Álgebra Lineal** es una rama de las matemáticas que se centra en el estudio de vectores, matrices y las operaciones que se pueden realizar con ellos. Es una herramienta esencial en el procesamiento del lenguaje natural (NLP) y la inteligencia artificial, ya que permite modelar y manipular grandes volúmenes de datos textuales de manera eficiente.
 
@@ -285,7 +281,7 @@ El **Álgebra Lineal** es una rama de las matemáticas que se centra en el estud
 ### Importancia en NLP e IA
 El álgebra lineal proporciona el marco matemático para realizar cálculos de manera eficiente y estructurada. Sin esta base, sería imposible manejar y procesar grandes conjuntos de datos de texto, hacer cálculos de similitud semántica o entrenar modelos de lenguaje complejos. Su uso se extiende a tareas como la clasificación de texto, la generación de embeddings y la optimización de modelos de aprendizaje profundo.
 
-## :page_facing_up: **Estadística Básica**: Probabilidad, frecuencias y distribuciones.
+## :pushpin: **Estadística Básica**: Probabilidad, frecuencias y distribuciones.
 
 La **Estadística Básica** es un conjunto de conceptos fundamentales que se utilizan para analizar y describir datos. En el contexto del procesamiento del lenguaje natural (NLP) y la evolución de la representación semántica, la estadística básica juega un papel crucial para comprender patrones y relaciones en los datos textuales.
 
@@ -317,7 +313,7 @@ Este conocimiento estadístico fue esencial en los primeros enfoques de NLP y si
 
 # :bookmark_tabs: **3. Aplicaciones Tempranas**
 
-## :page_facing_up: **Traducción Automática**: Intentos iniciales de traducir textos utilizando reglas y patrones estadísticos.
+## :pushpin: **Traducción Automática**: Intentos iniciales de traducir textos utilizando reglas y patrones estadísticos.
 
 La **Traducción Automática** comenzó como uno de los primeros intentos de aplicar computadoras para procesar el lenguaje humano, con el objetivo de convertir texto de un idioma a otro. Los enfoques iniciales, desarrollados a mediados del siglo XX, se basaban en reglas y patrones estadísticos, antes de que los métodos modernos basados en redes neuronales y modelos de aprendizaje profundo se hicieran prominentes.
 
@@ -346,7 +342,7 @@ La **Traducción Automática** comenzó como uno de los primeros intentos de apl
 ### Importancia en la Evolución de la IA
 Los intentos iniciales de traducción automática basados en reglas y estadísticas sentaron las bases para los modelos más avanzados que vendrían después. Estos enfoques tempranos mostraron el potencial y las dificultades del procesamiento del lenguaje, impulsando la investigación en métodos más sofisticados, como los modelos neuronales y los sistemas basados en transformadores (por ejemplo, Google Translate y GPT). Además, la necesidad de manejar grandes cantidades de datos textuales y procesarlos eficientemente contribuyó al desarrollo de técnicas de vectorización de palabras y análisis semántico que seguimos utilizando hoy en día.
 
-## :page_facing_up: **Recuperación de Información**: Búsqueda de documentos relevantes basados en términos clave.
+## :pushpin: **Recuperación de Información**: Búsqueda de documentos relevantes basados en términos clave.
 
 La **Recuperación de Información (RI)** es un campo de la informática que se centra en la búsqueda y localización de documentos relevantes en grandes volúmenes de datos, como bases de datos o la web, usando términos clave proporcionados por el usuario. Este proceso es fundamental para motores de búsqueda como Google, sistemas de búsqueda en bibliotecas digitales, y otras aplicaciones que dependen de encontrar información rápidamente.
 
@@ -386,7 +382,7 @@ La Recuperación de Información ha evolucionado significativamente, impulsada p
 
 # :bookmark_tabs: **4. Limitaciones y Desafíos**
 
-## :page_facing_up: **Capacidad Computacional**: Limitada en la época, dificultando cálculos complejos.
+## :pushpin: **Capacidad Computacional**: Limitada en la época, dificultando cálculos complejos.
 
 
 La **Capacidad Computacional** en las primeras décadas del desarrollo de la inteligencia artificial y el procesamiento del lenguaje natural (NLP) era extremadamente limitada en comparación con los estándares actuales. Las computadoras de mediados del siglo XX tenían restricciones significativas en términos de velocidad de procesamiento, memoria y almacenamiento, lo que dificultaba la implementación de cálculos complejos y el manejo de grandes volúmenes de datos textuales.
@@ -421,7 +417,7 @@ Con el tiempo, a medida que el hardware de las computadoras mejoró, con procesa
 La limitación de la capacidad computacional fue un obstáculo importante, pero también impulsó la innovación en el desarrollo de técnicas eficientes para manejar y procesar datos de texto. Sin estas primeras restricciones, muchas de las optimizaciones y enfoques que seguimos utilizando podrían no haberse desarrollado de la misma manera.
 
 
-## :page_facing_up: **Comprensión Profunda del Lenguaje**: Las primeras técnicas eran superficiales y no capturaban matices semánticos.
+## :pushpin: **Comprensión Profunda del Lenguaje**: Las primeras técnicas eran superficiales y no capturaban matices semánticos.
 
 La **Comprensión Profunda del Lenguaje** se refiere a la capacidad de un sistema para entender no solo las palabras y frases en un texto, sino también los significados subyacentes, matices y contextos que los humanos captan naturalmente. Sin embargo, las primeras técnicas de procesamiento del lenguaje natural (NLP) eran bastante superficiales y limitadas en su capacidad para lograr esto.
 
@@ -459,7 +455,7 @@ La transición de técnicas superficiales a enfoques más profundos ha sido clav
 
 # :bookmark_tabs: **1. Introducción a los Autores**
 
-## :page_facing_up: **Joseph B. Kruskal**: Estadístico y matemático conocido por el algoritmo de Kruskal.
+## :pushpin: **Joseph B. Kruskal**: Estadístico y matemático conocido por el algoritmo de Kruskal.
 Joseph B. Kruskal (1928-2022) fue un destacado estadístico y matemático estadounidense, conocido principalmente por su contribución al campo de la teoría de grafos y el desarrollo del algoritmo de Kruskal, que es fundamental para la construcción de árboles de expansión mínima en grafos. Su trabajo ha tenido un impacto duradero en diversas áreas, incluyendo la estadística, la informática y el análisis de datos.
 
 ### Biografía
@@ -497,7 +493,7 @@ Kruskal también fue un defensor de la educación matemática y la divulgación 
 
 Joseph B. Kruskal es una figura emblemática en el campo de las matemáticas y la estadística. Su algoritmo de Kruskal no solo ha proporcionado una solución eficiente a un problema fundamental en teoría de grafos, sino que también ha servido como base para el desarrollo de métodos más avanzados en el análisis de datos. Su legado continúa vivo en la investigación y la enseñanza de las matemáticas, inspirando a nuevas generaciones de estudiantes y profesionales.
 
-## :page_facing_up: **James C. Shepherd**: Colaborador en técnicas de análisis multidimensional.
+## :pushpin: **James C. Shepherd**: Colaborador en técnicas de análisis multidimensional.
 
 James C. Shepherd es un nombre destacado en el campo del análisis multidimensional, una técnica fundamental en la investigación de datos y el procesamiento de información. Su trabajo ha influido en diversas disciplinas, desde la psicología hasta la estadística, y ha sido crucial en la evolución de métodos que permiten a los investigadores entender y visualizar datos complejos.
 
@@ -538,7 +534,7 @@ James C. Shepherd ha dejado una huella indeleble en el campo del análisis multi
 
 # :bookmark_tabs: **2. Desarrollo del Análisis Multidimensional**
 
-## :page_facing_up: **Análisis de Escalamiento Multidimensional (MDS)**: Técnica para visualizar similitudes o disimilitudes en datos.
+## :pushpin: **Análisis de Escalamiento Multidimensional (MDS)**: Técnica para visualizar similitudes o disimilitudes en datos.
 ## Introducción al Análisis de Escalamiento Multidimensional (MDS)
 
 El Análisis de Escalamiento Multidimensional (MDS) es una técnica estadística utilizada para la visualización de la similitud o disimilitud entre un conjunto de objetos o datos. Su principal objetivo es representar en un espacio de menor dimensión (generalmente 2D o 3D) las relaciones de proximidad entre los elementos analizados, facilitando así la interpretación y el análisis de patrones en los datos.
@@ -591,7 +587,7 @@ Aunque MDS es una herramienta poderosa, presenta ciertas limitaciones:
 El Análisis de Escalamiento Multidimensional es una técnica valiosa para la visualización de relaciones en datos complejos. Su capacidad para representar similitudes y disimilitudes en espacios de menor dimensión facilita la identificación de patrones y tendencias que de otro modo podrían pasar desapercibidos. Sin embargo, es crucial abordar su uso con una comprensión clara de sus fundamentos y limitaciones, para garantizar interpretaciones precisas y útiles en el contexto de la investigación.
 
 
-## :page_facing_up: **Objetivo**: Representar datos de alta dimensionalidad en espacios de menor dimensión preservando relaciones.
+## :pushpin: **Objetivo**: Representar datos de alta dimensionalidad en espacios de menor dimensión preservando relaciones.
 
 ### Introducción
 
@@ -655,7 +651,7 @@ Al aplicar técnicas de reducción de dimensionalidad, es crucial tener en cuent
 
 # :bookmark_tabs: **1. Aplicación en Lingüística**
 
-## :page_facing_up: **Visualización de Relaciones Semánticas**: Representación gráfica de palabras basadas en similitudes.
+## :pushpin: **Visualización de Relaciones Semánticas**: Representación gráfica de palabras basadas en similitudes.
 
 La visualización de relaciones semánticas es una técnica fundamental en el campo del Procesamiento de Lenguaje Natural (PLN) que permite representar gráficamente las similitudes y las relaciones entre palabras. A través de estas representaciones, los investigadores y desarrolladores pueden obtener una mejor comprensión de cómo se relacionan diferentes conceptos y palabras en un espacio semántico. Esta técnica es especialmente útil para tareas como la desambiguación de palabras, la generación de texto y la recuperación de información.
 
@@ -702,7 +698,7 @@ La visualización de relaciones semánticas también es útil para evaluar y mej
 La visualización de relaciones semánticas es una herramienta poderosa en el arsenal del procesamiento del lenguaje natural. A través de diversas técnicas de representación gráfica, es posible desentrañar la complejidad de las relaciones entre palabras, proporcionando insights valiosos para la investigación y la aplicación práctica en diversas áreas. A medida que las tecnologías de PLN continúan evolucionando, la importancia de estas visualizaciones seguirá creciendo, permitiendo una comprensión más profunda del lenguaje humano.
 
 
-## :page_facing_up: **Reducción de Dimensionalidad**: Simplificación de datos complejos para su interpretación.
+## :pushpin: **Reducción de Dimensionalidad**: Simplificación de datos complejos para su interpretación.
 
 La reducción de dimensionalidad es un concepto fundamental en el campo del aprendizaje automático y el procesamiento de datos, que se refiere a la técnica de reducir el número de variables aleatorias bajo consideración, obteniendo un conjunto de características más manejable. Esta técnica es especialmente útil en contextos donde los datos son de alta dimensionalidad, lo que puede complicar su análisis y visualización. A continuación, se presentan los aspectos clave de la reducción de dimensionalidad.
 
@@ -757,7 +753,7 @@ La reducción de dimensionalidad es una herramienta poderosa que permite simplif
 
 # :bookmark_tabs: **2. Método del MDS**
 
-## :page_facing_up: **Cálculo de Distancias**: Medición de similitud entre elementos.
+## :pushpin: **Cálculo de Distancias**: Medición de similitud entre elementos.
 
 ## Introducción al Cálculo de Distancias
 
@@ -824,7 +820,7 @@ El cálculo de distancias tiene múltiples aplicaciones en el ámbito del proces
 
 La elección de la métrica de distancia adecuada es crucial y depende del tipo de datos y del problema específico que se esté abordando. Es importante considerar la naturaleza de los datos (continuos, categóricos, binarios) y el contexto del análisis para seleccionar la métrica que mejor se adapte a las necesidades del proyecto. Además, es fundamental tener en cuenta la escalabilidad y la eficiencia computacional, especialmente en conjuntos de datos de gran tamaño.
 
-## :page_facing_up: **Optimización**: Ajuste para minimizar la diferencia entre distancias originales y las representadas.
+## :pushpin: **Optimización**: Ajuste para minimizar la diferencia entre distancias originales y las representadas.
 
 ## Introducción a la Optimización en Representación Semántica
 
@@ -878,7 +874,7 @@ La optimización para minimizar la diferencia entre distancias originales y repr
 
 # :bookmark_tabs: **3. Impacto en Representaciones Vectoriales**
 
-## :page_facing_up: **Fundamento para Técnicas Posteriores**: Base para algoritmos de reducción dimensional como PCA y LSA.
+## :pushpin: **Fundamento para Técnicas Posteriores**: Base para algoritmos de reducción dimensional como PCA y LSA.
 
 ## Introducción a la Reducción Dimensional
 
@@ -932,7 +928,7 @@ El LSA es una técnica que combina la reducción dimensional con el análisis se
 
 LSA se utiliza ampliamente en tareas de recuperación de información, análisis de temas y clasificación de texto. Al capturar la estructura semántica de los textos, LSA permite mejorar la relevancia de los resultados en sistemas de búsqueda y recomendaciones.
 
-## :page_facing_up: **Entendimiento de Estructuras Semánticas**: Cómo las palabras se agrupan en espacios semánticos.
+## :pushpin: **Entendimiento de Estructuras Semánticas**: Cómo las palabras se agrupan en espacios semánticos.
 
 ## Introducción a las Estructuras Semánticas
 
@@ -980,7 +976,7 @@ El entendimiento de las estructuras semánticas y la forma en que las palabras s
 
 # :bookmark_tabs: **4. Limitaciones**
 
-## :page_facing_up: **Interpretabilidad**: Dificultad para interpretar dimensiones reducidas.
+## :pushpin: **Interpretabilidad**: Dificultad para interpretar dimensiones reducidas.
 
 
 ## Introducción a la Interpretabilidad en Dimensiones Reducidas
@@ -1027,7 +1023,7 @@ Para abordar los problemas de interpretabilidad en dimensiones reducidas, se pue
 
 La interpretabilidad en el contexto de la reducción de dimensiones es un desafío significativo en el procesamiento de lenguaje natural. A medida que los modelos y las técnicas se vuelven más sofisticados, es esencial desarrollar enfoques que no solo optimicen el rendimiento, sino que también permitan una comprensión clara y accesible de los resultados. La capacidad de interpretar las dimensiones reducidas es crucial para garantizar que los modelos sean útiles y aplicables en situaciones del mundo real.
 
-## :page_facing_up: **Computación Intensiva**: Requerimientos computacionales elevados para grandes conjuntos de datos.
+## :pushpin: **Computación Intensiva**: Requerimientos computacionales elevados para grandes conjuntos de datos.
 
 
 ## Introducción a la Computación Intensiva
@@ -1079,7 +1075,7 @@ La computación intensiva es un componente crítico en el procesamiento de grand
 
 # :bookmark_tabs: **1. Introducción a la Semántica Latente**
 
-## :page_facing_up: **Concepto de Variables Latentes**: Factores ocultos que influyen en los datos observados.
+## :pushpin: **Concepto de Variables Latentes**: Factores ocultos que influyen en los datos observados.
 
 ## Introducción a las Variables Latentes
 
@@ -1127,7 +1123,7 @@ Existen varios métodos estadísticos para estimar variables latentes, entre los
 
 Las variables latentes son un concepto esencial en el análisis de datos, ya que permiten comprender mejor la estructura subyacente que influye en las observaciones. Al incorporar variables latentes en los modelos, los investigadores pueden obtener una visión más profunda y precisa de los fenómenos que están estudiando. La capacidad de inferir variables latentes a partir de datos observados es una herramienta poderosa en diversas disciplinas, desde la psicología hasta la economía y el procesamiento de lenguaje natural.
 
-## :page_facing_up: **Aplicación en Lingüística**: Descubrimiento de temas subyacentes en textos.
+## :pushpin: **Aplicación en Lingüística**: Descubrimiento de temas subyacentes en textos.
 
 
 ## Introducción al Descubrimiento de Temas Subyacentes
@@ -1183,7 +1179,7 @@ El descubrimiento de temas subyacentes en textos es un campo en constante evoluc
 
 # :bookmark_tabs: **2. Análisis de Componentes Principales (PCA)**
 
-## :page_facing_up: **Objetivo**: Reducir la dimensionalidad de los datos manteniendo la mayor varianza posible.
+## :pushpin: **Objetivo**: Reducir la dimensionalidad de los datos manteniendo la mayor varianza posible.
 
 
 ## Introducción a la Reducción de Dimensionalidad
@@ -1240,7 +1236,7 @@ Los autoencoders son redes neuronales que se utilizan para aprender una represen
 
 Al aplicar técnicas de reducción de dimensionalidad, es crucial tener en cuenta el contexto y los objetivos del análisis. La elección del método adecuado dependerá de la naturaleza de los datos, la cantidad de dimensiones a reducir y el tipo de análisis posterior que se desea realizar. La reducción de dimensionalidad no solo mejora la eficiencia de los modelos, sino que también puede revelar patrones y relaciones que no son evidentes en los datos de alta dimensión.
 
-## :page_facing_up: **Procedimiento**:
+## :pushpin: **Procedimiento**:
 
 - **Calcular la Media**: Centrar los datos.
 - **Matriz de Covarianza**: Evaluar cómo varían conjuntamente las variables.
@@ -1248,7 +1244,7 @@ Al aplicar técnicas de reducción de dimensionalidad, es crucial tener en cuent
 
 # :bookmark_tabs: **3. Importancia de los Vectores**
 
-## :page_facing_up: **Representación Matemática**: Las palabras y documentos se representan como vectores en un espacio.
+## :pushpin: **Representación Matemática**: Las palabras y documentos se representan como vectores en un espacio.
 
 
 ## Introducción a la Representación Matemática en Procesamiento de Lenguaje Natural
@@ -1306,7 +1302,7 @@ Una técnica sencilla para representar un documento es calcular el promedio de l
 
 La representación matemática de palabras y documentos como vectores en un espacio es un pilar fundamental en el campo del Procesamiento de Lenguaje Natural. A través de diversas técnicas, desde la bolsa de palabras hasta los embeddings, se busca capturar la semántica y la estructura del lenguaje de manera que los algoritmos de aprendizaje automático puedan procesar y comprender el texto de manera efectiva. La elección de la técnica adecuada dependerá del problema específico y de los recursos disponibles.
 
-## :page_facing_up: **Similitud Semántica**: Medida a través de distancias y ángulos entre vectores.
+## :pushpin: **Similitud Semántica**: Medida a través de distancias y ángulos entre vectores.
 
 
 ## Introducción a la Similitud Semántica
@@ -1372,7 +1368,7 @@ La similitud semántica es una herramienta poderosa en el procesamiento de lengu
 
 # :bookmark_tabs: **1. Modelado Estadístico del Lenguaje**
 
-## :page_facing_up: **Frecuencias de Palabras**: Análisis de cómo a menudo aparecen las palabras.
+## :pushpin: **Frecuencias de Palabras**: Análisis de cómo a menudo aparecen las palabras.
 
 ## Introducción a la Frecuencia de Palabras
 
@@ -1436,7 +1432,7 @@ Aunque el análisis de frecuencia de palabras es una herramienta poderosa, tiene
 
 El análisis de frecuencias de palabras es un componente esencial del procesamiento de lenguaje natural que permite a los investigadores y analistas obtener insights valiosos sobre el lenguaje y su uso. A medida que la tecnología avanza, las técnicas de análisis de frecuencia se vuelven cada vez más sofisticadas, permitiendo un entendimiento más profundo de la semántica y la estructura del lenguaje.
 
-## :page_facing_up: **Distribuciones de Probabilidad**: Modelar la probabilidad de ocurrencia.
+## :pushpin: **Distribuciones de Probabilidad**: Modelar la probabilidad de ocurrencia.
 
 
 ## Introducción a las Distribuciones de Probabilidad
@@ -1518,7 +1514,7 @@ Las distribuciones de probabilidad son una base teórica esencial para el análi
 
 # :bookmark_tabs: **2. Aplicaciones del PCA en Lingüística**
 
-## :page_facing_up: **Detección de Temas**: Identificar temas principales en un corpus.
+## :pushpin: **Detección de Temas**: Identificar temas principales en un corpus.
 
 
 ## Introducción a la Detección de Temas
@@ -1569,7 +1565,7 @@ La detección de temas tiene múltiples aplicaciones en diversas áreas, tales c
 
 La detección de temas es una herramienta poderosa en el arsenal del procesamiento de lenguaje natural. A medida que la cantidad de datos textuales continúa creciendo, la capacidad para identificar y entender los temas emergentes se vuelve cada vez más esencial. La elección del método adecuado dependerá del contexto del problema, la naturaleza del corpus y los objetivos específicos del análisis.
 
-## :page_facing_up: **Filtrado de Ruido**: Eliminar información redundante o menos significativa.
+## :pushpin: **Filtrado de Ruido**: Eliminar información redundante o menos significativa.
 
 
 ## Filtrado de Ruido en Procesamiento de Lenguaje Natural
@@ -1629,7 +1625,7 @@ El filtrado de ruido es un componente esencial en el procesamiento de lenguaje n
 
 # :bookmark_tabs: **3. Ejemplos Prácticos**
 
-## :page_facing_up: **Análisis de Textos**: Aplicación en libros, artículos científicos, etc.
+## :pushpin: **Análisis de Textos**: Aplicación en libros, artículos científicos, etc.
 
 
 ## Introducción al Análisis de Textos
@@ -1688,7 +1684,7 @@ A pesar de los avances en las técnicas de análisis de textos, existen varios d
 
 El análisis de textos es una herramienta poderosa que permite a los investigadores y profesionales extraer información valiosa de una amplia variedad de fuentes. A medida que las técnicas y herramientas continúan evolucionando, el potencial para descubrir nuevos conocimientos y patrones en los textos se expande, ofreciendo oportunidades emocionantes para la investigación y la práctica en múltiples disciplinas.
 
-## :page_facing_up: **Mejora en Recuperación de Información**: Resultados más relevantes en búsquedas.
+## :pushpin: **Mejora en Recuperación de Información**: Resultados más relevantes en búsquedas.
 
 
 ## Introducción a la Recuperación de Información
@@ -1754,7 +1750,7 @@ La mejora en la recuperación de información es un campo multidisciplinario que
 
 # :bookmark_tabs: **4. Desafíos y Limitaciones**
 
-## :page_facing_up: **Interpretación de Componentes**: Las nuevas variables pueden ser abstractas.
+## :pushpin: **Interpretación de Componentes**: Las nuevas variables pueden ser abstractas.
 
 
 ## Introducción a la Interpretación de Componentes
@@ -1801,7 +1797,7 @@ Para facilitar la interpretación de componentes abstractos, se pueden emplear d
 
 La interpretación de componentes en el análisis de datos, especialmente en el ámbito del procesamiento de lenguaje natural, es un proceso complejo que requiere una comprensión profunda de las variables originales y de los nuevos componentes generados. A medida que avanzamos en el análisis de datos, es crucial desarrollar habilidades para interpretar no solo los datos cuantitativos, sino también las representaciones abstractas que emergen de ellos. Esto no solo enriquecerá nuestra comprensión del lenguaje y su uso, sino que también mejorará nuestras capacidades para construir modelos más efectivos y precisos en el campo del PLN.
 
-## :page_facing_up: **Datos Escasos**: Problemas con palabras raras o documentos cortos.
+## :pushpin: **Datos Escasos**: Problemas con palabras raras o documentos cortos.
 
 
 ## Introducción a los Datos Escasos en Procesamiento de Lenguaje Natural
@@ -1852,11 +1848,11 @@ La gestión de datos escasos, ya sea en forma de palabras raras o documentos cor
 
 # :bookmark_tabs: **1. Orígenes del LSA**
 
-## :page_facing_up: **Propuesto por Deerwester et al. (1990)** aunque desarrollado en los 80.
+## :pushpin: **Propuesto por Deerwester et al. (1990)** aunque desarrollado en los 80.
 
 El Análisis Semántico Latente (LSA, por sus siglas en inglés) fue propuesto formalmente por Deerwester et al. en 1990. Sin embargo, su desarrollo y las ideas que lo sustentan comenzaron a surgir durante la década de 1980. Este método se convirtió en un hito en el procesamiento del lenguaje natural (PLN) y la recuperación de información, gracias a su capacidad para capturar relaciones semánticas entre términos y documentos, superando las limitaciones de las búsquedas tradicionales basadas en palabras clave.
 
-## :page_facing_up: **Objetivo**: Superar las limitaciones de las búsquedas basadas en palabras clave.
+## :pushpin: **Objetivo**: Superar las limitaciones de las búsquedas basadas en palabras clave.
 
 Antes de LSA, los sistemas de búsqueda dependían de la coincidencia exacta de palabras clave. Esto significaba que si un usuario buscaba un término específico, el sistema solo podía recuperar documentos que contuvieran exactamente ese término, lo que resultaba ineficaz en casos de sinónimos o polisemia. El objetivo principal de LSA era abordar este problema mediante la representación de palabras y documentos en un espacio semántico compartido, donde las similitudes entre términos se basaran en contextos y no solo en coincidencias literales.
 
@@ -1907,7 +1903,7 @@ Las búsquedas basadas en palabras clave, aunque útiles, presentan limitaciones
 
 # :bookmark_tabs: **2. Fundamentos del LSA**
 
-## :page_facing_up: **Descomposición en Valores Singulares (SVD)**: Factorización de matrices para reducir dimensionalidad.
+## :pushpin: **Descomposición en Valores Singulares (SVD)**: Factorización de matrices para reducir dimensionalidad.
 
 Aquí tienes una explicación desarrollada en el contexto de una clase estilo curso sobre **Descomposición en Valores Singulares (SVD)**:
 
@@ -1962,7 +1958,7 @@ La SVD se utiliza para simplificar datos complejos, especialmente cuando se trab
 ---
 
 
-## :page_facing_up: **Espacio Semántico Latente**: Representación de palabras y documentos en un espacio común.
+## :pushpin: **Espacio Semántico Latente**: Representación de palabras y documentos en un espacio común.
 
 
 ## Introducción al Espacio Semántico Latente
@@ -2014,7 +2010,7 @@ El Espacio Semántico Latente es una herramienta poderosa en el procesamiento de
 
 # :bookmark_tabs: **3. Proceso de LSA**
 
-## :page_facing_up: **Construcción de la Matriz Termino-Documento**: Frecuencias de términos en documentos.
+## :pushpin: **Construcción de la Matriz Termino-Documento**: Frecuencias de términos en documentos.
 
 La construcción de la matriz término-documento es un paso fundamental en el procesamiento de lenguaje natural (PLN) y en la representación semántica de textos. Esta matriz permite representar la relación entre un conjunto de documentos y los términos (palabras o frases) que los componen, facilitando así el análisis y la extracción de información. A continuación, se detallan los aspectos clave en la construcción de esta matriz, centrándonos en las frecuencias de términos.
 
@@ -2075,7 +2071,7 @@ La matriz término-documento es una herramienta poderosa en diversas aplicacione
 
 La construcción de la matriz término-documento es un proceso esencial en el análisis de textos en el campo del procesamiento de lenguaje natural. A través del cálculo de frecuencias de términos, se pueden extraer patrones significativos y facilitar la comprensión de grandes volúmenes de información textual. La correcta implementación de este proceso es
 
-## :page_facing_up: **Aplicación del SVD**: Descomponer la matriz y reducir dimensiones.
+## :pushpin: **Aplicación del SVD**: Descomponer la matriz y reducir dimensiones.
 
 
 ## Introducción al SVD
@@ -2135,7 +2131,7 @@ Esta aproximación conserva la estructura principal de los datos mientras elimin
 
 La descomposición en valores singulares es una herramienta poderosa en el procesamiento de lenguaje natural y en la ciencia de datos en general. Su capacidad para descomponer matrices y reducir dimensiones permite a los investigadores y profesionales abordar problemas complejos de manera más efectiva. La comprensión y aplicación del SVD es esencial para cualquier persona interesada en el análisis de datos y el aprendizaje automático.
 
-## :page_facing_up: **Representación Vectorial**: Cada palabra y documento como vector en el espacio reducido.
+## :pushpin: **Representación Vectorial**: Cada palabra y documento como vector en el espacio reducido.
 
 
 La representación vectorial es un concepto fundamental en el campo del Procesamiento de Lenguaje Natural (PLN) que permite transformar palabras, frases y documentos en vectores en un espacio de alta dimensión. Este enfoque facilita el análisis y la manipulación de datos textuales mediante técnicas matemáticas y estadísticas. A continuación, se detallan los componentes clave y las metodologías asociadas a la representación vectorial.
@@ -2201,7 +2197,7 @@ En conclusión, la representación vectorial es una herramienta poderosa en el P
 
 # :bookmark_tabs: **1. Mejoras en Recuperación de Información**
 
-## :page_facing_up: **Sinónimos y Polisemia**: Capacidad para relacionar términos similares y desambiguar significados.
+## :pushpin: **Sinónimos y Polisemia**: Capacidad para relacionar términos similares y desambiguar significados.
 
 
 ## Introducción a Sinónimos y Polisemia
@@ -2244,7 +2240,7 @@ La capacidad para identificar sinónimos y desambiguar polisemia es esencial par
 
 El estudio de sinónimos y polisemia es fundamental para el desarrollo de sistemas de procesamiento de lenguaje natural más sofisticados y precisos. La habilidad para relacionar términos similares y desambiguar significados no solo enriquece la comunicación, sino que también permite a las máquinas comprender y procesar el lenguaje humano de manera más efectiva. A medida que avanzamos en el campo del PLN, la investigación en estas áreas continuará siendo un pilar esencial para el desarrollo de tecnologías lingüísticas avanzadas.
 
-## :page_facing_up: **Consultas Más Efectivas**: Resultados más relevantes en búsquedas.
+## :pushpin: **Consultas Más Efectivas**: Resultados más relevantes en búsquedas.
 
 
 ## Introducción a las Consultas Más Efectivas
@@ -2309,7 +2305,7 @@ La formulación de consultas efectivas es un arte que combina la comprensión de
 
 # :bookmark_tabs: **2. Aplicaciones en Educación**
 
-## :page_facing_up: **Evaluación Automática de Ensayos**: Análisis de similitud entre textos estudiantiles y materiales de referencia.
+## :pushpin: **Evaluación Automática de Ensayos**: Análisis de similitud entre textos estudiantiles y materiales de referencia.
 
 
 ## Introducción a la Evaluación Automática de Ensayos
@@ -2372,7 +2368,7 @@ Los modelos de PLN pueden heredar sesgos presentes en los datos de entrenamiento
 
 La evaluación automática de ensayos mediante el análisis de similitud entre textos es un área prometedora que combina técnicas avanzadas de PLN con aplicaciones educativas. A medida que la tecnología avanza, se espera que estas herramientas se vuelvan más precisas y útiles para apoyar tanto a estudiantes como a educadores en el proceso de enseñanza-aprendizaje. La comprensión de las técnicas y desafíos asociados es esencial para desarrollar sistemas efectivos y justos en la evaluación de textos.
 
-## :page_facing_up: **Herramientas de Tutoría Inteligente**: Adaptación de contenido según comprensión del estudiante.
+## :pushpin: **Herramientas de Tutoría Inteligente**: Adaptación de contenido según comprensión del estudiante.
 
 
 ## Introducción a las Herramientas de Tutoría Inteligente
@@ -2420,7 +2416,7 @@ Las herramientas de tutoría inteligente representan un avance significativo en 
 
 # :bookmark_tabs: **3. Avances en Procesamiento del Lenguaje Natural**
 
-## :page_facing_up: **Traducción Automática**: Mejora en la alineación de frases y términos.
+## :pushpin: **Traducción Automática**: Mejora en la alineación de frases y términos.
 
 
 ## Introducción a la Traducción Automática
@@ -2477,7 +2473,7 @@ Para medir la efectividad de la alineación de frases y términos, se utilizan v
 
 La mejora en la alineación de frases y términos es un componente esencial en el avance de la traducción automática. A medida que los modelos de aprendizaje automático y profundo continúan evolucionando, es probable que veamos traducciones cada vez más precis
 
-## :page_facing_up: **Resumen Automático**: Extracción de información clave de textos extensos.
+## :pushpin: **Resumen Automático**: Extracción de información clave de textos extensos.
 
 
 ## Introducción al Resumen Automático
@@ -2551,7 +2547,7 @@ El futuro del resumen automático probablemente estará marcado por la integraci
 
 # :bookmark_tabs: **4. Limitaciones y Críticas**
 
-## :page_facing_up: **Requerimientos Computacionales**: Procesamiento intensivo para grandes corpus.
+## :pushpin: **Requerimientos Computacionales**: Procesamiento intensivo para grandes corpus.
 
 
 ### Introducción a los Requerimientos Computacionales en Procesamiento de Lenguaje Natural
@@ -2598,7 +2594,7 @@ Para manejar grandes corpus, es esencial que los sistemas sean escalables. Esto 
 
 El procesamiento intensivo de grandes corpus en PLN plantea desafíos significativos en términos de requerimientos computacionales. Desde la infraestructura de almacenamiento hasta la optimización de algoritmos y la escalabilidad, cada componente juega un papel crucial en la capacidad de un sistema para manejar y analizar grandes volúmenes de datos textuales. A medida que la cantidad de datos disponibles sigue creciendo, la comprensión y la implementación de estos requerimientos se vuelven cada vez más críticas para el avance del campo del procesamiento de lenguaje natural.
 
-## :page_facing_up: **Estática del Modelo**: Dificultad para actualizar con nuevos datos sin rehacer el modelo completo.
+## :pushpin: **Estática del Modelo**: Dificultad para actualizar con nuevos datos sin rehacer el modelo completo.
 
 
 La estática del modelo es un concepto crucial en el ámbito del procesamiento de lenguaje natural (PLN) y se refiere a la dificultad que enfrentan los modelos de aprendizaje automático para adaptarse a nuevos datos sin necesidad de ser reentrenados desde cero. Esta limitación tiene implicaciones significativas en la práctica, especialmente en aplicaciones que requieren una actualización constante y en tiempo real. A continuación, se desglosan algunas de las razones y consecuencias de esta problemática.
@@ -2638,7 +2634,7 @@ La estática del modelo representa un desafío significativo en el campo del pro
 
 # :bookmark_tabs: **1. Renacimiento de las Redes Neuronales**
 
-## :page_facing_up: **Backpropagation**: Popularización del algoritmo de retropropagación de errores.
+## :pushpin: **Backpropagation**: Popularización del algoritmo de retropropagación de errores.
 
 
 ## Introducción a la Retropropagación
@@ -2681,7 +2677,7 @@ La implementación del algoritmo de retropropagación implica los siguientes pas
 
 La retropropagación ha sido un pilar en el desarrollo de modelos de aprendizaje profundo. Su capacidad para ajustar los parámetros de las redes neuronales a partir de datos de entrenamiento ha llevado a avances significativos en diversas áreas, como la visión por computadora, el procesamiento del lenguaje natural y la robótica. A medida que la investigación avanza, se continúan desarrollando técnicas para mejorar la eficiencia y la efectividad del algoritmo, haciendo que la retropropagación siga siendo un tema de gran relevancia en el campo de la inteligencia artificial.
 
-## :page_facing_up: **Modelos Conexistas**: Simulación de procesos cognitivos mediante redes neuronales.
+## :pushpin: **Modelos Conexistas**: Simulación de procesos cognitivos mediante redes neuronales.
 
 
 ## Introducción a los Modelos Conexistas
@@ -2739,7 +2735,7 @@ Los modelos conexistas representan un enfoque poderoso para la simulación de pr
 
 # :bookmark_tabs: **2. Representaciones Distribuidas**
 
-## :page_facing_up: **Concepto**: Representar información a través de patrones de activación en una red.
+## :pushpin: **Concepto**: Representar información a través de patrones de activación en una red.
 
 
 ### Introducción a la Representación de Información
@@ -2774,7 +2770,7 @@ El proceso de entrenamiento de una red neuronal implica la optimización de los 
 
 La representación de información a través de patrones de activación en redes neuronales es un avance crucial en el campo del procesamiento de lenguaje natural. Este enfoque no solo mejora la capacidad de las máquinas para comprender el lenguaje humano, sino que también abre nuevas vías para la investigación en semántica, comprensión del lenguaje y aplicaciones prácticas en inteligencia artificial. A medida que continuamos explorando y desarrollando estas técnicas, es probable que veamos un progreso aún mayor en la forma en que las máquinas interactúan con el lenguaje humano.
 
-## :page_facing_up: **Ventajas**: Capacidad para generalizar y manejar información incompleta.
+## :pushpin: **Ventajas**: Capacidad para generalizar y manejar información incompleta.
 
 
 ## Ventajas: Capacidad para generalizar y manejar información incompleta
@@ -2808,7 +2804,7 @@ La capacidad para generalizar y manejar información incompleta son ventajas sig
 
 # :bookmark_tabs: **3. Modelos Pioneros**
 
-## :page_facing_up: **Redes de Hopfield**: Modelos de memoria asociativa.
+## :pushpin: **Redes de Hopfield**: Modelos de memoria asociativa.
 
 
 ## Introducción a las Redes de Hopfield
@@ -2882,7 +2878,7 @@ Las redes de Hopfield han encontrado aplicaciones en diversos campos, tales como
 
 Las redes de Hopfield representan un avance significativo en el campo de la inteligencia artificial y el procesamiento
 
-## :page_facing_up: **Modelos de Elman y Jordan**: Redes recurrentes para secuencias temporales.
+## :pushpin: **Modelos de Elman y Jordan**: Redes recurrentes para secuencias temporales.
 
 
 ## Introducción a los Modelos de Elman y Jordan
@@ -2948,7 +2944,7 @@ Los modelos de Elman y Jordan son hitos en el desarrollo de redes neuronales rec
 
 # :bookmark_tabs: **1. Aplicaciones en Lenguaje**
 
-## :page_facing_up: **Modelado del Lenguaje**: Predicción de palabras siguientes en una secuencia.
+## :pushpin: **Modelado del Lenguaje**: Predicción de palabras siguientes en una secuencia.
 
 
 ## Introducción al Modelado del Lenguaje
@@ -3011,7 +3007,7 @@ La evaluación de modelos de lenguaje se realiza comúnmente utilizando métrica
 
 La predicción de la siguiente palabra en una secuencia es un componente esencial del modelado del lenguaje. A través de la evolución de técnicas que van desde modelos N-gram hasta arquitecturas avanzadas como Transformers, el campo ha avanzado significativamente en su capacidad para entender y generar lenguaje natural. Estas técnicas no solo son fundamentales para la investigación académica, sino que también tienen aplicaciones prácticas en diversas áreas, desde asistentes virtuales hasta sistemas de recomendación
 
-## :page_facing_up: **Desambiguación Lexical**: Decidir el significado correcto de una palabra según el contexto.
+## :pushpin: **Desambiguación Lexical**: Decidir el significado correcto de una palabra según el contexto.
 
 
 ## Introducción a la Desambiguación Lexical
@@ -3065,7 +3061,7 @@ La desambiguación lexical es una tarea fundamental en el PLN que permite a las 
 
 # :bookmark_tabs: **2. Limitaciones**
 
-## :page_facing_up: **Capacidad Computacional**: Entrenamiento lento y problemas con grandes volúmenes de datos.
+## :pushpin: **Capacidad Computacional**: Entrenamiento lento y problemas con grandes volúmenes de datos.
 
 
 El procesamiento de lenguaje natural (PLN) ha avanzado significativamente en las últimas décadas, impulsado por el desarrollo de modelos de aprendizaje profundo. Sin embargo, uno de los desafíos persistentes en este campo es la **capacidad computacional**, que se manifiesta en el entrenamiento lento de modelos y en la gestión de grandes volúmenes de datos. A continuación, se exploran estos aspectos en profundidad.
@@ -3094,7 +3090,7 @@ El procesamiento de lenguaje natural (PLN) ha avanzado significativamente en las
 
 La capacidad computacional es un factor determinante en el éxito del procesamiento de lenguaje natural. Los retos asociados con el entrenamiento lento de modelos y la gestión de grandes volúmenes de datos requieren una atención cuidadosa y un enfoque estratégico. A medida que la tecnología avanza, es probable que se desarrollen nuevas metodologías y herramientas que aborden estos desafíos, permitiendo así un progreso continuo en el campo del PLN. La investigación en optimización de algoritmos, arquitecturas de modelos más eficientes y mejores prácticas en la gestión de datos será esencial para superar estas limitaciones.
 
-## :page_facing_up: **Problemas de Vanishing Gradient**: Dificultad en entrenar redes profundas.
+## :pushpin: **Problemas de Vanishing Gradient**: Dificultad en entrenar redes profundas.
 
 
 ## Introducción al Problema del Vanishing Gradient
@@ -3146,7 +3142,7 @@ El problema del vanishing gradient es un desafío crítico en el entrenamiento d
 
 # :bookmark_tabs: **3. Comparación con Enfoques Posteriores**
 
-## :page_facing_up: **Frente a Word2Vec y Modelos Actuales**: Menor eficiencia y capacidad de representación.
+## :pushpin: **Frente a Word2Vec y Modelos Actuales**: Menor eficiencia y capacidad de representación.
 
 
 ## Introducción a Word2Vec y su Contexto
@@ -3197,7 +3193,7 @@ Los modelos preentrenados, como BERT y GPT, han demostrado ser extremadamente ef
 
 La evolución de la representación semántica desde Word2Vec hasta los modelos actuales refleja un avance significativo en la comprensión del lenguaje natural. A medida que los modelos continúan desarrollándose, es esencial considerar tanto la eficiencia como la capacidad de representación para abordar los desafíos complejos que plantea el procesamiento del lenguaje en la actualidad.
 
-## :page_facing_up: **Aprendizaje No Supervisado**: En los 90, predominaban métodos supervisados, limitando la escalabilidad.
+## :pushpin: **Aprendizaje No Supervisado**: En los 90, predominaban métodos supervisados, limitando la escalabilidad.
 
 
 ### Introducción al Aprendizaje No Supervisado
@@ -3243,7 +3239,7 @@ El aprendizaje no supervisado ha revolucionado la forma en que se procesan y ana
 
 # :bookmark_tabs: **4. Legado y Contribución**
 
-## :page_facing_up: **Fundamentos Teóricos**: Sentaron bases para modelos más avanzados.
+## :pushpin: **Fundamentos Teóricos**: Sentaron bases para modelos más avanzados.
 
 
 ## Introducción a los Fundamentos Teóricos
@@ -3279,7 +3275,7 @@ El aprendizaje automático ha transformado el PLN al introducir métodos que per
 
 Los fundamentos teóricos del PLN han evolucionado a lo largo del tiempo, integrando conocimientos de diversas disciplinas. Desde la lingüística hasta los modelos estadísticos y el aprendizaje automático, cada uno de estos enfoques ha contribuido al desarrollo de modelos más avanzados que permiten a las máquinas procesar y entender el lenguaje humano de manera más efectiva. La comprensión de estos fundamentos es esencial para cualquier investigador o profesional que desee avanzar en el campo del procesamiento de lenguaje natural.
 
-## :page_facing_up: **Inspiración para Investigación Futura**: Motivaron mejoras en arquitecturas y algoritmos.
+## :pushpin: **Inspiración para Investigación Futura**: Motivaron mejoras en arquitecturas y algoritmos.
 
 
 ## Introducción
@@ -3334,7 +3330,7 @@ La evolución del PLN está marcada por innovaciones constantes y un enfoque en 
 
 # :bookmark_tabs: **1. Evolución del Topic Modeling**
 
-## :page_facing_up: **Pritchard et al. (2000)**: Introducción de modelos genéticos que influyeron en LDA.
+## :pushpin: **Pritchard et al. (2000)**: Introducción de modelos genéticos que influyeron en LDA.
 
 
 La obra de Pritchard et al. (2000) ha sido fundamental en el desarrollo de modelos genéticos que han influido en diversas áreas, incluyendo el procesamiento de lenguaje natural (PLN) y, en particular, la modelización de temas a través de Latent Dirichlet Allocation (LDA). En este contexto, es esencial comprender cómo los conceptos de la genética y la evolución pueden ser aplicados a la inferencia estadística y al aprendizaje automático.
@@ -3365,11 +3361,11 @@ La introducción de modelos genéticos por Pritchard et al. ha permitido una may
 
 La obra de Pritchard et al. (2000) no solo ha tenido un impacto significativo en la genética y la biología evolutiva, sino que también ha proporcionado un marco conceptual y metodológico que ha permeado en el campo del procesamiento de lenguaje natural. La intersección de estos campos resalta la importancia de enfoques interdisciplinarios en la investigación y el desarrollo de nuevas técnicas en el análisis de datos.
 
-## :page_facing_up: **Blei, Ng y Jordan (2003)**: Proponen LDA como modelo generativo.
+## :pushpin: **Blei, Ng y Jordan (2003)**: Proponen LDA como modelo generativo.
 
 # :bookmark_tabs: **2. Fundamentos de LDA**
 
-## :page_facing_up: **Modelo Generativo**: Supone que los documentos son mezcla de temas, y los temas son distribuciones de palabras.
+## :pushpin: **Modelo Generativo**: Supone que los documentos son mezcla de temas, y los temas son distribuciones de palabras.
 
 
 ## Introducción a los Modelos Generativos
@@ -3423,7 +3419,7 @@ Los modelos generativos, y en particular LDA, tienen numerosas aplicaciones en e
 
 Los modelos generativos proporcionan un marco poderoso para entender la estructura de los documentos a través de la mezcla de temas y distribuciones de palabras. Su capacidad para modelar la complejidad del lenguaje humano los convierte en herramientas valiosas en el campo del procesamiento de lenguaje natural, permitiendo a los investigadores y profesionales extraer información significativa de grandes volúmenes de texto.
 
-## :page_facing_up: **Dirichlet Distribution**: Distribución de probabilidad utilizada para modelar las distribuciones de temas y palabras.
+## :pushpin: **Dirichlet Distribution**: Distribución de probabilidad utilizada para modelar las distribuciones de temas y palabras.
 
 
 La distribución de Dirichlet es una distribución de probabilidad que juega un papel fundamental en el modelado de temas y palabras dentro del campo del Procesamiento de Lenguaje Natural (PLN). Esta distribución es especialmente útil en el contexto de modelos generativos, donde se busca entender cómo se distribuyen las palabras en diferentes temas dentro de un corpus de texto.
@@ -3470,7 +3466,7 @@ La distribución de Dirichlet es una herramienta poderosa en el arsenal del proc
 
 # :bookmark_tabs: **3. Proceso de LDA**
 
-## :page_facing_up: **Asignación de Temas a Palabras**: Cada palabra en un documento es asignada a un tema.
+## :pushpin: **Asignación de Temas a Palabras**: Cada palabra en un documento es asignada a un tema.
 
 
 ### Introducción a la Asignación de Temas a Palabras
@@ -3531,7 +3527,7 @@ A pesar de los avances en este campo, la asignación de temas a palabras enfrent
 - **Escalabilidad**: Procesar grandes volúmenes de texto requiere algoritmos eficientes que puedan manejar la complejidad computacional.
 - **Interpretabilidad**: Los resultados de los modelos de asignación de temas a menudo son difíciles de interpretar, lo que
 
-## :page_facing_up: **Inferencia de Temas**: Utilizando métodos como Gibbs Sampling para estimar distribuciones.
+## :pushpin: **Inferencia de Temas**: Utilizando métodos como Gibbs Sampling para estimar distribuciones.
 
 
 ## Introducción a la Inferencia de Temas
@@ -3605,7 +3601,7 @@ La inferencia de temas utilizando métodos como el muestreo de Gibbs es una herr
 
 # :bookmark_tabs: **1. Representación Probabilística del Lenguaje**
 
-## :page_facing_up: **Captura de Incertidumbre**: Las palabras y temas tienen distribuciones de probabilidad asociadas.
+## :pushpin: **Captura de Incertidumbre**: Las palabras y temas tienen distribuciones de probabilidad asociadas.
 
 
 ## Introducción a la Captura de Incertidumbre
@@ -3662,7 +3658,7 @@ Existen diversas técnicas en PLN que permiten capturar la incertidumbre asociad
 
 La captura de incertidumbre es un aspecto fundamental en el procesamiento de lenguaje natural que permite a los modelos manejar la ambigüedad y la variabilidad del lenguaje humano. Al asociar palabras y temas con distribuciones de probabilidad, los modelos pueden hacer inferencias más precisas y contextualmente relevantes. La comprensión de estas distribuciones y las técnicas para modelarlas es esencial para el desarrollo de sistemas de PLN efectivos y robustos.
 
-## :page_facing_up: **Flexibilidad**: Capacidad para manejar polisemia y sinónimos de manera probabilística.
+## :pushpin: **Flexibilidad**: Capacidad para manejar polisemia y sinónimos de manera probabilística.
 
 
 ## Flexibilidad en el Procesamiento de Lenguaje Natural
@@ -3714,7 +3710,7 @@ La flexibilidad en el manejo de la polisemia y los sinónimos de manera probabil
 
 # :bookmark_tabs: **2. Ventajas sobre Modelos Determinísticos**
 
-## :page_facing_up: **Escalabilidad**: Manejo eficiente de grandes corpus.
+## :pushpin: **Escalabilidad**: Manejo eficiente de grandes corpus.
 
 
 ## Introducción a la Escalabilidad en el Procesamiento de Lenguaje Natural
@@ -3762,7 +3758,7 @@ El uso de formatos de almacenamiento eficientes, como Parquet o Avro, puede mejo
 
 La escalabilidad es un aspecto fundamental en el manejo de grandes corpus en el procesamiento de lenguaje natural. A medida que los volúmenes de datos continúan creciendo, es esencial adoptar estrategias y tecnologías que permitan un procesamiento eficiente y efectivo. La comprensión de estos principios no solo mejora la capacidad de manejar datos a gran escala, sino que también abre la puerta a nuevas oportunidades en la investigación y aplicación del PLN.
 
-## :page_facing_up: **Actualización Incremental**: Posibilidad de incorporar nuevos datos sin reconstruir el modelo completo.
+## :pushpin: **Actualización Incremental**: Posibilidad de incorporar nuevos datos sin reconstruir el modelo completo.
 
 
 ## Introducción a la Actualización Incremental
@@ -3810,7 +3806,7 @@ La actualización incremental se presenta como una herramienta poderosa en el ca
 
 # :bookmark_tabs: **3. Aplicaciones Prácticas**
 
-## :page_facing_up: **Análisis de Sentimiento**: Detección de emociones y opiniones en textos.
+## :pushpin: **Análisis de Sentimiento**: Detección de emociones y opiniones en textos.
 
 
 ## Introducción al Análisis de Sentimiento
@@ -3869,7 +3865,7 @@ El análisis de sentimiento tiene diversas aplicaciones prácticas, incluyendo:
 
 El análisis de sentimiento es una herramienta poderosa en el arsenal del procesamiento de lenguaje natural, ofreciendo insights valiosos sobre las emociones y opiniones de los usuarios. A medida que la tecnología avanza, es probable que veamos mejoras en las técnicas y métodos utilizados, así como un aumento en las aplicaciones prácticas de esta disciplina en diversos sectores.
 
-## :page_facing_up: **Recomendación de Contenidos**: Sugerencias basadas en temas de interés del usuario.
+## :pushpin: **Recomendación de Contenidos**: Sugerencias basadas en temas de interés del usuario.
 
 
 ### Introducción a la Recomendación de Contenidos
@@ -3919,7 +3915,7 @@ La recomendación de contenidos es un campo en constante evolución que combina 
 
 # :bookmark_tabs: **4. Limitaciones**
 
-## :page_facing_up: **Número de Temas**: Necesidad de predefinir la cantidad de temas.
+## :pushpin: **Número de Temas**: Necesidad de predefinir la cantidad de temas.
 
 
 En el ámbito del procesamiento de lenguaje natural (PLN), la organización y estructuración de la información es fundamental para el desarrollo de modelos efectivos y eficientes. La predefinición de la cantidad de temas es un aspecto crítico que influye en la calidad y relevancia de los resultados obtenidos en tareas como la clasificación de texto, el análisis de sentimientos y la generación de resúmenes. A continuación, se detallan las razones y consideraciones detrás de esta necesidad.
@@ -3952,7 +3948,7 @@ Al definir la cantidad de temas, es importante considerar varios factores, como 
 
 En resumen, la predefinición de la cantidad de temas es un aspecto esencial en el procesamiento de lenguaje natural que impacta en la claridad, precisión, interpretación y eficiencia de los modelos. Al abordar este tema, es crucial tener en cuenta tanto los objetivos del análisis como las características del conjunto de datos, para así lograr resultados significativos y aplicables en el mundo real.
 
-## :page_facing_up: **Interpretabilidad**: Dificultad para asignar significado concreto a los temas descubiertos.
+## :pushpin: **Interpretabilidad**: Dificultad para asignar significado concreto a los temas descubiertos.
 
 
 ## Interpretabilidad en el Procesamiento de Lenguaje Natural
@@ -4011,7 +4007,7 @@ La interpretabilidad en el procesamiento de lenguaje natural es un campo en evol
 
 # :bookmark_tabs: **1. Contexto del Descubrimiento**
 
-## :page_facing_up: **Necesidad de Representaciones Eficientes**: Manejar grandes volúmenes de datos textuales en Google.
+## :pushpin: **Necesidad de Representaciones Eficientes**: Manejar grandes volúmenes de datos textuales en Google.
 
 
 ## Introducción a la Representación Semántica
@@ -4052,7 +4048,7 @@ Para abordar estos desafíos, se han desarrollado varios métodos de representac
 
 La necesidad de representaciones eficientes en el manejo de grandes volúmenes de datos textuales es innegable. A medida que Google y otras plataformas continúan enfrentando el crecimiento exponencial de la información textual, la evolución de las técnicas de representación semántica será fundamental para mejorar la precisión y relevancia de los resultados de búsqueda. La investigación y desarrollo en este campo seguirán desempeñando un papel crucial en la forma en que interactuamos con la información en el futuro.
 
-## :page_facing_up: **Innovación Técnica**: Simplificación de modelos neuronales para entrenamiento más rápido.
+## :pushpin: **Innovación Técnica**: Simplificación de modelos neuronales para entrenamiento más rápido.
 
 
 ## Introducción a la Simplificación de Modelos Neuronales
@@ -4104,7 +4100,7 @@ La simplificación de modelos neuronales es una innovación técnica crucial que
 
 # :bookmark_tabs: **2. Arquitecturas Clave**
 
-## :page_facing_up: **Continuous Bag of Words (CBOW)**: Predice una palabra basándose en su contexto.
+## :pushpin: **Continuous Bag of Words (CBOW)**: Predice una palabra basándose en su contexto.
 
 El modelo **Continuous Bag of Words (CBOW)** es una de las dos arquitecturas principales propuestas por Tomas Mikolov y su equipo en 2013 para entrenar representaciones vectoriales de palabras, también conocidas como *word embeddings*. Este modelo es fundamental en el campo del procesamiento del lenguaje natural (PLN) y ha sido ampliamente utilizado debido a su simplicidad y eficiencia.
 
@@ -4130,7 +4126,7 @@ El objetivo principal del modelo CBOW es predecir una palabra objetivo dada una 
 - **Significados Polifacéticos**: El modelo tiene dificultades para capturar diferentes significados de una palabra (polisemia) porque asigna un único vector a cada palabra, independientemente del contexto.
 
 
-## :page_facing_up: **Skip-Gram**: Predice el contexto basándose en una palabra objetivo.
+## :pushpin: **Skip-Gram**: Predice el contexto basándose en una palabra objetivo.
 
 
 El modelo Skip-Gram es una técnica fundamental en el ámbito del Procesamiento de Lenguaje Natural (PLN) que se utiliza para aprender representaciones vectoriales de palabras, también conocidas como "word embeddings". Este enfoque fue introducido por Mikolov et al. en 2013 como parte de su trabajo en Word2Vec, un marco que ha tenido un impacto significativo en la forma en que se manejan y representan las palabras en el contexto del aprendizaje automático.
@@ -4182,7 +4178,7 @@ El modelo Skip-Gram es una técnica poderosa en el campo del procesamiento de le
 
 # :bookmark_tabs: **1. Características Principales**
 
-## :page_facing_up: **Vectores de Palabras**: Cada palabra es representada como un vector en un espacio de dimensiones reducidas.
+## :pushpin: **Vectores de Palabras**: Cada palabra es representada como un vector en un espacio de dimensiones reducidas.
 
 
 ## Introducción a los Vectores de Palabras
@@ -4231,7 +4227,7 @@ Los vectores de palabras tienen múltiples aplicaciones en el campo del PLN, tal
 
 La representación de palabras como vectores en un espacio de dimensiones reducidas ha revolucionado el procesamiento de lenguaje natural. Al permitir la captura de relaciones semánticas y sintácticas, los vectores de palabras se han convertido en una herramienta fundamental para una variedad de aplicaciones en el campo del PLN. A medida que la investigación avanza, la comprensión y mejora de estas representaciones seguirán desempeñando un papel crucial en el desarrollo de sistemas de inteligencia artificial más sofisticados.
 
-## :page_facing_up: **Captura de Relaciones Semánticas**: Vectores permiten operaciones aritméticas semánticamente significativas.
+## :pushpin: **Captura de Relaciones Semánticas**: Vectores permiten operaciones aritméticas semánticamente significativas.
 
 
 ## Introducción a la Captura de Relaciones Semánticas
@@ -4285,7 +4281,7 @@ La captura de relaciones semánticas a través de operaciones aritméticas en ve
 
 # :bookmark_tabs: **2. Ventajas del Modelo**
 
-## :page_facing_up: **Eficiencia Computacional**: Entrenamiento rápido incluso con grandes corpus.
+## :pushpin: **Eficiencia Computacional**: Entrenamiento rápido incluso con grandes corpus.
 
 
 ## Introducción a la Eficiencia Computacional en Procesamiento de Lenguaje Natural
@@ -4341,7 +4337,7 @@ Las representaciones de palabras y frases juegan un papel crucial en la eficienc
 
 La eficiencia computacional en el entrenamiento de modelos de PLN es un área en constante evolución, impulsada por la necesidad de procesar grandes volúmenes de datos de manera efectiva. Las estrategias discutidas, desde el muestreo hasta el uso de modelos preentrenados, son fundamentales para lograr un equilibrio entre la precisión del modelo y el tiempo y recursos requeridos para su entrenamiento. A medida que la tecnología avanza, se espera que surjan nuevas técnicas y herramientas que continúen mejorando la eficiencia en este campo.
 
-## :page_facing_up: **Escalabilidad**: Aplicable a vocabularios extensos.
+## :pushpin: **Escalabilidad**: Aplicable a vocabularios extensos.
 
 
 ## Introducción a la Escalabilidad en Procesamiento de Lenguaje Natural
@@ -4387,7 +4383,7 @@ La escalabilidad es un aspecto crítico en el procesamiento de lenguaje natural,
 
 # :bookmark_tabs: **3. Impacto en Procesamiento del Lenguaje Natural**
 
-## :page_facing_up: **Base para Modelos Avanzados**: Inspiró técnicas como GloVe, FastText y modelos basados en transformadores.
+## :pushpin: **Base para Modelos Avanzados**: Inspiró técnicas como GloVe, FastText y modelos basados en transformadores.
 
 
 ## Introducción a la Representación Semántica
@@ -4435,7 +4431,7 @@ Los transformadores a menudo se preentrenan en grandes corpus de texto utilizand
 
 La evolución de la representación semántica ha recorrido un largo camino desde los primeros enfoques basados en conteos hasta los sofisticados modelos de transformadores actuales. Técnicas como GloVe y FastText han proporcionado bases sólidas que han influido en el desarrollo de modelos más avanzados, permitiendo a las máquinas comprender el lenguaje humano de manera más efectiva. A medida que la investigación continúa, es probable que veamos aún más innovaciones en este campo, lo que abrirá nuevas posibilidades para el PLN.
 
-## :page_facing_up: **Mejoras en Tareas NLP**: Traducción, análisis de sentimiento, respuesta a preguntas, entre otros.
+## :pushpin: **Mejoras en Tareas NLP**: Traducción, análisis de sentimiento, respuesta a preguntas, entre otros.
 
 
 ## Introducción a las Mejoras en Tareas NLP
@@ -4505,7 +4501,7 @@ Las mejoras en las tareas de NLP son el resultado de la combinación de modelos 
 
 # :bookmark_tabs: **4. Limitaciones y Consideraciones Éticas**
 
-## :page_facing_up: **Sesgos en los Datos**: Los vectores pueden reflejar prejuicios presentes en los datos de entrenamiento.
+## :pushpin: **Sesgos en los Datos**: Los vectores pueden reflejar prejuicios presentes en los datos de entrenamiento.
 
 
 ### Introducción a los Sesgos en los Datos
@@ -4556,7 +4552,7 @@ Para abordar los sesgos en los datos, se pueden implementar varias estrategias:
 
 Los sesgos en los datos son un desafío significativo en el desarrollo de modelos de procesamiento de lenguaje natural. Comprender cómo estos sesgos se manifiestan en los vectores y trabajar activamente para mitigarlos es crucial para construir sistemas de inteligencia artificial más justos y equitativos. La responsabilidad en el uso de datos y modelos es fundamental para asegurar que la tecnología beneficie a todos los grupos de la sociedad de manera equitativa.
 
-## :page_facing_up: **Contexto Limitado**: No captura bien el significado de palabras polisemias en diferentes contextos.
+## :pushpin: **Contexto Limitado**: No captura bien el significado de palabras polisemias en diferentes contextos.
 
 
 ## Contexto Limitado en el Procesamiento de Lenguaje Natural
@@ -4602,7 +4598,7 @@ El contexto limitado es un desafío persistente en el procesamiento de lenguaje 
 
 # :bookmark_tabs: **5. Evolución Posterior**
 
-## :page_facing_up: **Modelos Contextuales**: Desarrollo de Word Embeddings que consideran contexto (e.g., ELMo, BERT).
+## :pushpin: **Modelos Contextuales**: Desarrollo de Word Embeddings que consideran contexto (e.g., ELMo, BERT).
 
 
 ## Introducción a los Modelos Contextuales
@@ -4650,7 +4646,7 @@ Tanto ELMo como BERT han demostrado ser efectivos en una variedad de tareas de P
 - **Respuesta a Preguntas**: En sistemas de respuesta a preguntas, BERT ha demostrado ser especialmente efectivo al comprender la relación entre preguntas y respuestas en un contexto dado
 
 
-## :page_facing_up: **Transformers y Deep Learning**: Avances que superan las capacidades de Word2Vec.
+## :pushpin: **Transformers y Deep Learning**: Avances que superan las capacidades de Word2Vec.
 
 
 ## Introducción a Transformers y su Contexto en el Procesamiento de Lenguaje Natural
@@ -4697,7 +4693,7 @@ La introducción de los Transformers ha marcado un cambio paradigmático en el c
 ---
 # <center>2017: Modelo de Transformadores</center>
 
-## :page_facing_up: **Attention is All You Need
+## :bookmark_tabs: **Attention is All You Need**
 
 En 2017, Vaswani y otros colaboradores en Google publicaron el revolucionario artículo "Attention is All You Need", introduciendo el modelo de **transformadores**. Este modelo innovador se distinguió por reemplazar completamente las redes neuronales recurrentes y convolucionales con un mecanismo eficiente de *self-attention* y procesamiento completamente paralelo, resolviendo muchas de las limitaciones inherentes a las arquitecturas anteriores.
 
@@ -4739,7 +4735,7 @@ Dado que los transformadores procesan las palabras de manera paralela y no secue
 #### **Conclusión de la Propuesta**
 El trabajo de Vaswani et al. no solo propuso una arquitectura novedosa, sino que también demostró su efectividad en tareas como la traducción automática, logrando resultados superiores en comparación con las arquitecturas basadas en RNN. La simplicidad y eficiencia del modelo de transformadores han sentado las bases para futuros avances en el campo del PLN y el aprendizaje profundo.
 
-## :page_facing_up: **Revolución en NLP**
+## :bookmark_tabs: **Revolución en NLP**
 
 La introducción de los transformadores por Vaswani et al. en 2017 desencadenó una revolución en el procesamiento del lenguaje natural (NLP), llevando a la creación de modelos como **BERT**, **GPT** y otros. Estos modelos han cambiado radicalmente la forma en que las máquinas procesan y comprenden el lenguaje humano, logrando avances sin precedentes en tareas de PLN.
 
@@ -4789,7 +4785,8 @@ La introducción de los transformadores por Vaswani et al. en 2017 desencadenó 
 
 En 2020, OpenAI presentó **ChatGPT**, un modelo conversacional basado en la arquitectura de **GPT-3**. Este desarrollo representó un gran avance en el procesamiento del lenguaje natural, ya que permitió a las máquinas interactuar de manera más fluida y coherente con los humanos a través del texto. ChatGPT se entrena en un vasto corpus de datos que abarca conversaciones humanas, artículos, y contenido de la web, utilizando una combinación de técnicas avanzadas para optimizar su capacidad de generar texto.
 
-## :page_facing_up: ***Fundamentos de ChatGPT**
+## :bookmark_tabs: **Fundamentos de ChatGPT**
+
 1. **Arquitectura de GPT-3**:
    - ChatGPT se construye sobre el modelo de lenguaje GPT-3, que cuenta con **175 mil millones de parámetros**. Estos parámetros permiten al modelo captar patrones lingüísticos complejos, comprender el contexto y generar respuestas que imitan el lenguaje humano con gran precisión.
    - A diferencia de versiones anteriores, GPT-3 utiliza un modelo de transformador con múltiples capas de autoatención, lo que mejora su capacidad para entender dependencias semánticas a lo largo de textos largos.
@@ -4826,7 +4823,8 @@ En 2020, OpenAI presentó **ChatGPT**, un modelo conversacional basado en la arq
 #### **Impacto y Evolución**
 ChatGPT ha transformado la manera en que las personas interactúan con sistemas de inteligencia artificial, facilitando aplicaciones que van desde la automatización de tareas hasta el aprendizaje asistido. Ha inspirado el desarrollo de versiones más avanzadas, como ChatGPT-4, que buscan mejorar la precisión, coherencia y seguridad de las interacciones.
 
-## :page_facing_up: ** **Arquitectura de ChatGPT**
+## :bookmark_tabs: **Arquitectura de ChatGPT**
+
 ChatGPT se basa en la arquitectura de **GPT-3** (Generative Pre-trained Transformer 3), que utiliza un modelo de **transformador**. Esta arquitectura fue introducida en el paper "Attention is All You Need" de Vaswani et al. y es la base de muchos avances modernos en el procesamiento del lenguaje natural.
 
 #### **Componentes Principales del Modelo de Transformadores**
