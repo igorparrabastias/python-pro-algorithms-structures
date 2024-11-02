@@ -852,9 +852,9 @@ Este enfoque estructural también influyó en la forma en que los investigadores
 	
 	La distancia Manhattan, también conocida como distancia de bloque, mide la distancia entre dos puntos en una cuadrícula, calculando la suma de las diferencias absolutas de sus coordenadas. Para los puntos \( A(x_1, y_1) \) y \( B(x_2, y_2) \), se define como:
 	
-	\[
+	$$
 	d(A, B) = |x_2 - x_1| + |y_2 - y_1|
-	\]
+	$$
 	
 	Esta métrica es útil en situaciones donde solo se pueden mover en direcciones ortogonales.
 	
@@ -872,15 +872,15 @@ Este enfoque estructural también influyó en la forma en que los investigadores
 	
 	La distancia de Jaccard se utiliza para medir la similitud entre conjuntos. Se define como el tamaño de la intersección dividido por el tamaño de la unión de los conjuntos. Para dos conjuntos \( A \) y \( B \):
 	
-	\[
+	$$
 	J(A, B) = \frac{|A \cap B|}{|A \cup B|}
-	\]
+	$$
 	
 	La distancia de Jaccard se puede derivar como:
 	
-	\[
+	$$
 	d(A, B) = 1 - J(A, B)
-	\]
+	$$
 	
 	Esta métrica es especialmente útil en problemas de clasificación y agrupamiento donde los datos son categóricos.
 	
