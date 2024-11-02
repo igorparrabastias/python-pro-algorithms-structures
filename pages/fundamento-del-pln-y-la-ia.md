@@ -1329,15 +1329,15 @@ La distancia entre dos vectores se puede calcular utilizando diversas métricas.
 
 - **Distancia Euclidiana**: Es la medida más intuitiva y se define como la raíz cuadrada de la suma de las diferencias al cuadrado de las coordenadas de los vectores. Es útil para medir la similitud en espacios donde las dimensiones son comparables.
 
-\[
+$$
 d(\mathbf{a}, \mathbf{b}) = \sqrt{\sum_{i=1}^{n} (a_i - b_i)^2}
-\]
+$$
 
 - **Distancia Coseno**: Esta métrica mide el ángulo entre dos vectores y es especialmente útil en el contexto de la similitud semántica, ya que se centra en la orientación de los vectores en lugar de su magnitud. Se define como el coseno del ángulo entre los vectores, calculado como:
 
-\[
+$$
 \text{sim}(\mathbf{a}, \mathbf{b}) = \frac{\mathbf{a} \cdot \mathbf{b}}{\|\mathbf{a}\| \|\mathbf{b}\|}
-\]
+$$
 
 Un valor de 1 indica que los vectores son idénticos, mientras que un valor de 0 indica que son ortogonales (sin similitud).
 
@@ -1345,9 +1345,9 @@ Un valor de 1 indica que los vectores son idénticos, mientras que un valor de 0
 
 El ángulo entre dos vectores puede ser interpretado como una medida de similitud semántica. Un ángulo pequeño indica que los vectores son similares, mientras que un ángulo grande indica que son diferentes. La relación entre el ángulo y la distancia coseno se puede expresar como:
 
-\[
+$$
 \theta = \cos^{-1}\left(\frac{\mathbf{a} \cdot \mathbf{b}}{\|\mathbf{a}\| \|\mathbf{b}\|}\right)
-\]
+$$
 
 ### Ejemplo Práctico
 
@@ -1457,9 +1457,9 @@ Un evento es un subconjunto del espacio muestral. Por ejemplo, el evento de obte
 
 La probabilidad de un evento se define como la medida de la certeza de que dicho evento ocurra, y se calcula como el número de resultados favorables dividido por el número total de resultados posibles. Formalmente, para un evento \( A \):
 
-\[
+$$
 P(A) = \frac{\text{Número de resultados favorables}}{\text{Número total de resultados}}
-\]
+$$
 
 ## Tipos de Distribuciones de Probabilidad
 
@@ -1487,9 +1487,9 @@ Las distribuciones continuas, por otro lado, se utilizan para modelar variables 
 
 La distribución normal está definida por dos parámetros: la media \( \mu \) y la desviación estándar \( \sigma \). La función de densidad de probabilidad se expresa como:
 
-\[
+$$
 f(x) = \frac{1}{\sigma \sqrt{2\pi}} e^{-\frac{(x - \mu)^2}{2\sigma^2}}
-\]
+$$
 
 donde \( e \) es la base del logaritmo natural.
 
@@ -1501,9 +1501,9 @@ En el PLN, las distribuciones de probabilidad son cruciales para modelar la ocur
 
 Los modelos de lenguaje, como el modelo n-gram, utilizan distribuciones de probabilidad para predecir la próxima palabra en una secuencia dada. En un modelo n-gram, la probabilidad de una palabra se calcula en función de las \( n-1 \) palabras anteriores:
 
-\[
+$$
 P(w_n | w_{n-1}, w_{n-2}, \ldots, w_{n-n+1}) = \frac{C(w_{n-1}, w_{n-2}, \ldots, w_{n-n+1}, w_n)}{C(w_{n-1}, w_{n-2}, \ldots, w_{n-n+1})}
-\]
+$$
 
 donde \( C \) representa la función de conteo.
 
@@ -2825,12 +2825,12 @@ Para almacenar un patrón en la red, se asignan valores a los pesos sinápticos 
 
 La matriz de pesos \( W \) se construye como sigue:
 
-\[
+$$
 W_{ij} = \begin{cases} 
 0 & \text{si } i = j \\
 \frac{1}{N} \sum_{k=1}^{p} \xi_i^k \xi_j^k & \text{si } i \neq j 
 \end{cases}
-\]
+$$
 
 donde \( \xi^k \) representa el \( k \)-ésimo patrón a almacenar y \( N \) es el número total de neuronas.
 
@@ -2840,9 +2840,9 @@ donde \( \xi^k \) representa el \( k \)-ésimo patrón a almacenar y \( N \) es 
 
 El estado de las neuronas se actualiza de manera asincrónica. En cada iteración, se selecciona una neurona al azar y se calcula su nuevo estado utilizando la siguiente regla de activación:
 
-\[
+$$
 s_i(t+1) = \text{sign}\left(\sum_{j \neq i} W_{ij} s_j(t)\right)
-\]
+$$
 
 donde \( s_i(t) \) es el estado de la neurona \( i \) en el tiempo \( t \) y \( \text{sign} \) es la función que devuelve 1 si el argumento es positivo y -1 si es negativo.
 
@@ -2850,9 +2850,9 @@ donde \( s_i(t) \) es el estado de la neurona \( i \) en el tiempo \( t \) y \( 
 
 Las redes de Hopfield son conocidas por su capacidad de converger a un estado estable, que corresponde a uno de los patrones almacenados. Este proceso se asemeja a la minimización de una función de energía, donde la red busca un mínimo local. La energía de la red se define como:
 
-\[
+$$
 E = -\frac{1}{2} \sum_{i \neq j} W_{ij} s_i s_j
-\]
+$$
 
 La red tiende a evolucionar hacia configuraciones de menor energía, lo que implica que, al final del proceso de actualización, la red se estabiliza en uno de los patrones almacenados.
 
@@ -3428,26 +3428,26 @@ La distribución de Dirichlet es una distribución de probabilidad que juega un 
 
 La distribución de Dirichlet es una distribución continua en el espacio de probabilidad de \( K \) dimensiones, donde \( K \) representa el número de categorías o temas. Se puede definir formalmente como sigue:
 
-\[
+$$
 p(\mathbf{x}) = \frac{1}{B(\boldsymbol{\alpha})} \prod_{k=1}^{K} x_k^{\alpha_k - 1}
-\]
+$$
 
-donde \( \mathbf{x} = (x_1, x_2, \ldots, x_K) \) es un vector que representa las proporciones de cada categoría (con \( x_k \geq 0 \) y \( \sum_{k=1}^{K} x_k = 1 \)), \( \boldsymbol{\alpha} = (\alpha_1, \alpha_2, \ldots, \alpha_K) \) es un vector de parámetros que determina la forma de la distribución, y \( B(\boldsymbol{\alpha}) \) es la función beta multivariada que actúa como un factor de normalización.
+donde $\mathbf{x} = (x_1, x_2, \ldots, x_K)$ es un vector que representa las proporciones de cada categoría (con $x_k \geq 0$ y $\sum_{k=1}^{K} x_k = 1$), $\boldsymbol{\alpha} = (\alpha_1, \alpha_2, \ldots, \alpha_K)$ es un vector de parámetros que determina la forma de la distribución, y $B(\boldsymbol{\alpha})$ es la función beta multivariada que actúa como un factor de normalización.
 
 ### Parámetros
 
-Los parámetros \( \alpha_k \) son cruciales para entender la naturaleza de la distribución. Estos parámetros pueden interpretarse como "pseudo-contadores" que indican cuántas veces se espera que aparezca cada categoría. Por ejemplo:
+Los parámetros $\boldsymbol{\alpha} = (\alpha_1, \alpha_2, \ldots, \alpha_K)$ son cruciales para entender la naturaleza de la distribución. Estos parámetros pueden interpretarse como "pseudo-contadores" que indican cuántas veces se espera que aparezca cada categoría. Por ejemplo:
 
-- Si todos los \( \alpha_k \) son iguales y mayores que 1, la distribución resultante será más uniforme.
-- Si algunos \( \alpha_k \) son menores que 1, la distribución se concentrará más en ciertas categorías, lo que indica que se espera que esas categorías aparezcan con más frecuencia.
+- Si todos los $\alpha_k$ son iguales y mayores que 1, la distribución resultante será más uniforme.
+- Si algunos $\alpha_k$ son menores que 1, la distribución se concentrará más en ciertas categorías, lo que indica que se espera que esas categorías aparezcan con más frecuencia.
 
 ### Propiedades Clave
 
-1. **Suma a Uno**: La suma de las proporciones \( x_k \) siempre será igual a uno, lo que es fundamental para que se interpreten como probabilidades.
+1. **Suma a Uno**: La suma de las proporciones $x_k$ siempre será igual a uno, lo que es fundamental para que se interpreten como probabilidades.
 
-2. **Concentración**: La distribución de Dirichlet puede ser más o menos concentrada dependiendo de los valores de \( \alpha \). Valores altos conducen a una distribución más concentrada en torno a la media, mientras que valores bajos permiten más variabilidad.
+2. **Concentración**: La distribución de Dirichlet puede ser más o menos concentrada dependiendo de los valores de $\boldsymbol{\alpha}$. Valores altos conducen a una distribución más concentrada en torno a la media, mientras que valores bajos permiten más variabilidad.
 
-3. **Conexión con la Distribución Beta**: La distribución de Dirichlet es una generalización de la distribución beta. En el caso de \( K=2 \), se reduce a la distribución beta, que se utiliza comúnmente para modelar proporciones.
+3. **Conexión con la Distribución Beta**: La distribución de Dirichlet es una generalización de la distribución beta. En el caso de $K=2$, se reduce a la distribución beta, que se utiliza comúnmente para modelar proporciones.
 
 ## Aplicaciones en Procesamiento de Lenguaje Natural
 
@@ -3569,18 +3569,18 @@ El cálculo de las probabilidades en el muestreo de Gibbs se basa en la regla de
 
 Matemáticamente, esto se puede expresar como:
 
-\[
+$$
 P(z_i = k | z_{-i}, w) \propto \frac{n_{dk} + \alpha}{n_d + K\alpha} \cdot \frac{n_{kw} + \beta}{n_k + V\beta}
-\]
+$$
 
 donde:
-- \(z_i\) es la asignación de tema para la palabra \(i\).
-- \(n_{dk}\) es el número de palabras en el documento \(d\) asignadas al tema \(k\).
-- \(n_{kw}\) es el número de veces que la palabra \(w\) ha sido asignada al tema \(k\).
-- \(n_d\) es el total de palabras en el documento \(d\).
-- \(n_k\) es el total de palabras asignadas al tema \(k\).
-- \(V\) es el vocabulario total.
-- \(\alpha\) y \(\beta\) son hiperparámetros que controlan la distribución de temas y palabras, respectivamente.
+- $z_i$ es la asignación de tema para la palabra $i$.
+- $n_{dk}$ es el número de palabras en el documento $d$ asignadas al tema $k$.
+- $n_{kw}$ es el número de veces que la palabra $w$ ha sido asignada al tema $k$.
+- $n_d$ es el total de palabras en el documento $d$.
+- $n_k$ es el total de palabras asignadas al tema $k$.
+- $V$ es el vocabulario total.
+- $\alpha$ y $\beta$ son hiperparámetros que controlan la distribución de temas y palabras, respectivamente.
 
 ## Ventajas y Desventajas del Muestreo de Gibbs
 
