@@ -1335,9 +1335,9 @@ Este enfoque estructural también influyó en la forma en que los investigadores
 	
 	TF-IDF es una mejora sobre la bolsa de palabras que considera no solo la frecuencia de las palabras en un documento, sino también su importancia relativa en un conjunto de documentos (corpus). La fórmula se define como:
 	
-	$$
+	\[
 	\text{TF-IDF}(t, d) = \text{TF}(t, d) \times \text{IDF}(t)
-	$$
+	\]
 	
 	donde:
 	- \(\text{TF}(t, d)\) es la frecuencia del término \( t \) en el documento \( d \).
@@ -1397,15 +1397,15 @@ Este enfoque estructural también influyó en la forma en que los investigadores
 	
 	- **Distancia Euclidiana**: Es la medida más intuitiva y se define como la raíz cuadrada de la suma de las diferencias al cuadrado de las coordenadas de los vectores. Es útil para medir la similitud en espacios donde las dimensiones son comparables.
 	
-	  $$
+	  \[
 	  d(\mathbf{a}, \mathbf{b}) = \sqrt{\sum_{i=1}^{n} (a_i - b_i)^2}
-	  $$
+	  \]
 	
 	- **Distancia Coseno**: Esta métrica mide el ángulo entre dos vectores y es especialmente útil en el contexto de la similitud semántica, ya que se centra en la orientación de los vectores en lugar de su magnitud. Se define como el coseno del ángulo entre los vectores, calculado como:
 	
-	  $$
+	  \[
 	  \text{sim}(\mathbf{a}, \mathbf{b}) = \frac{\mathbf{a} \cdot \mathbf{b}}{\|\mathbf{a}\| \|\mathbf{b}\|}
-	  $$
+	  \]
 	
 	  Un valor de 1 indica que los vectores son idénticos, mientras que un valor de 0 indica que son ortogonales (sin similitud).
 	
@@ -1413,9 +1413,9 @@ Este enfoque estructural también influyó en la forma en que los investigadores
 	
 	El ángulo entre dos vectores puede ser interpretado como una medida de similitud semántica. Un ángulo pequeño indica que los vectores son similares, mientras que un ángulo grande indica que son diferentes. La relación entre el ángulo y la distancia coseno se puede expresar como:
 	
-	$$
+	\[
 	\theta = \cos^{-1}\left(\frac{\mathbf{a} \cdot \mathbf{b}}{\|\mathbf{a}\| \|\mathbf{b}\|}\right)
-	$$
+	\]
 	
 	### Ejemplo Práctico
 	
@@ -1524,9 +1524,9 @@ Este enfoque estructural también influyó en la forma en que los investigadores
 	
 	La probabilidad de un evento se define como la medida de la certeza de que dicho evento ocurra, y se calcula como el número de resultados favorables dividido por el número total de resultados posibles. Formalmente, para un evento \( A \):
 	
-	$$
+	\[
 	P(A) = \frac{\text{Número de resultados favorables}}{\text{Número total de resultados}}
-	$$
+	\]
 	
 	## Tipos de Distribuciones de Probabilidad
 	
@@ -1540,9 +1540,9 @@ Este enfoque estructural también influyó en la forma en que los investigadores
 	
 	La distribución binomial se caracteriza por dos parámetros: \( n \) (el número de ensayos) y \( p \) (la probabilidad de éxito en cada ensayo). La función de probabilidad se define como:
 	
-	$$
+	\[
 	P(X = k) = \binom{n}{k} p^k (1-p)^{n-k}
-	$$
+	\]
 	
 	donde \( k \) es el número de éxitos.
 	
@@ -1554,9 +1554,9 @@ Este enfoque estructural también influyó en la forma en que los investigadores
 	
 	La distribución normal está definida por dos parámetros: la media \( \mu \) y la desviación estándar \( \sigma \). La función de densidad de probabilidad se expresa como:
 	
-	$$
+	\[
 	f(x) = \frac{1}{\sigma \sqrt{2\pi}} e^{-\frac{(x - \mu)^2}{2\sigma^2}}
-	$$
+	\]
 	
 	donde \( e \) es la base del logaritmo natural.
 	
@@ -2086,9 +2086,9 @@ Este enfoque estructural también influyó en la forma en que los investigadores
 	
 	Dada una matriz \( A \) de dimensiones \( m \times n \), la descomposición en valores singulares se expresa como:
 	
-	$$
+	\[
 	A = U \Sigma V^T
-	$$
+	\]
 	
 	donde:
 	- \( U \) es una matriz ortogonal de dimensiones \( m \times m \) que contiene los vectores singulares izquierdos.
@@ -2119,9 +2119,9 @@ Este enfoque estructural también influyó en la forma en que los investigadores
 	
 	3. **Reconstrucción aproximada**: La matriz original \( A \) se puede aproximar mediante:
 	
-	$$
+	\[
 	A_k = U_k \Sigma_k V_k^T
-	$$
+	\]
 	
 	Esta aproximación conserva la estructura principal de los datos mientras elimina el ruido y la redundancia.
 	
@@ -2822,12 +2822,12 @@ Este enfoque estructural también influyó en la forma en que los investigadores
 	
 	La matriz de pesos \( W \) se construye como sigue:
 	
-	$$
+	\[
 	W_{ij} = \begin{cases} 
 	0 & \text{si } i = j \\
 	\frac{1}{N} \sum_{k=1}^{p} \xi_i^k \xi_j^k & \text{si } i \neq j 
 	\end{cases}
-	$$
+	\]
 	
 	donde \( \xi^k \) representa el \( k \)-ésimo patrón a almacenar y \( N \) es el número total de neuronas.
 	
@@ -2837,9 +2837,9 @@ Este enfoque estructural también influyó en la forma en que los investigadores
 	
 	El estado de las neuronas se actualiza de manera asincrónica. En cada iteración, se selecciona una neurona al azar y se calcula su nuevo estado utilizando la siguiente regla de activación:
 	
-	$$
+	\[
 	s_i(t+1) = \text{sign}\left(\sum_{j \neq i} W_{ij} s_j(t)\right)
-	$$
+	\]
 	
 	donde \( s_i(t) \) es el estado de la neurona \( i \) en el tiempo \( t \) y \( \text{sign} \) es la función que devuelve 1 si el argumento es positivo y -1 si es negativo.
 	
@@ -2847,9 +2847,9 @@ Este enfoque estructural también influyó en la forma en que los investigadores
 	
 	Las redes de Hopfield son conocidas por su capacidad de converger a un estado estable, que corresponde a uno de los patrones almacenados. Este proceso se asemeja a la minimización de una función de energía, donde la red busca un mínimo local. La energía de la red se define como:
 	
-	$$
+	\[
 	E = -\frac{1}{2} \sum_{i \neq j} W_{ij} s_i s_j
-	$$
+	\]
 	
 	La red tiende a evolucionar hacia configuraciones de menor energía, lo que implica que, al final del proceso de actualización, la red se estabiliza en uno de los patrones almacenados.
 	
@@ -2957,7 +2957,7 @@ Este enfoque estructural también influyó en la forma en que los investigadores
 	
 	El objetivo principal del modelado del lenguaje es calcular la probabilidad de que una palabra aparezca en un contexto dado. Esto se formaliza como:
 	
-	$$ P(w_n | w_1, w_2, ..., w_{n-1}) $$
+	\[ P(w_n | w_1, w_2, ..., w_{n-1}) \]
 	
 	donde \( w_n \) es la palabra que queremos predecir y \( w_1, w_2, ..., w_{n-1} \) son las palabras anteriores en la secuencia.
 	
@@ -2965,9 +2965,9 @@ Este enfoque estructural también influyó en la forma en que los investigadores
 	
 	Uno de los enfoques más simples para el modelado del lenguaje es el modelo N-gram, que utiliza la cadena de Markov para estimar la probabilidad de la siguiente palabra basándose en las \( n-1 \) palabras anteriores. En este caso, se puede definir un modelo bigram (n=2) o trigram (n=3), entre otros. La fórmula general es:
 	
-	$$ P(w_n | w_{n-1}) \text{ para un modelo bigram} $$
+	\[ P(w_n | w_{n-1}) \text{ para un modelo bigram} \]
 	
-	$$ P(w_n | w_{n-2}, w_{n-1}) \text{ para un modelo trigram} $$
+	\[ P(w_n | w_{n-2}, w_{n-1}) \text{ para un modelo trigram} \]
 	
 	### 4. Limitaciones de los Modelos N-gram
 	
@@ -3420,9 +3420,9 @@ Este enfoque estructural también influyó en la forma en que los investigadores
 	
 	La distribución de Dirichlet es una distribución continua en el espacio de probabilidad de \( K \) dimensiones, donde \( K \) representa el número de categorías o temas. Se puede definir formalmente como sigue:
 	
-	$$
+	\[
 	p(\mathbf{x}) = \frac{1}{B(\boldsymbol{\alpha})} \prod_{k=1}^{K} x_k^{\alpha_k - 1}
-	$$
+	\]
 	
 	donde \( \mathbf{x} = (x_1, x_2, \ldots, x_K) \) es un vector que representa las proporciones de cada categoría (con \( x_k \geq 0 \) y \( \sum_{k=1}^{K} x_k = 1 \)), \( \boldsymbol{\alpha} = (\alpha_1, \alpha_2, \ldots, \alpha_K) \) es un vector de parámetros que determina la forma de la distribución, y \( B(\boldsymbol{\alpha}) \) es la función beta multivariada que actúa como un factor de normalización.
 	
@@ -3560,9 +3560,9 @@ Este enfoque estructural también influyó en la forma en que los investigadores
 	
 	Matemáticamente, esto se puede expresar como:
 	
-	$$
+	\[
 	P(z_i = k | z_{-i}, w) \propto \frac{n_{dk} + \alpha}{n_d + K\alpha} \cdot \frac{n_{kw} + \beta}{n_k + V\beta}
-	$$
+	\]
 	
 	donde:
 	- \(z_i\) es la asignación de tema para la palabra \(i\).
@@ -4202,7 +4202,7 @@ Este enfoque estructural también influyó en la forma en que los investigadores
 	
 	Una de las contribuciones más notables de la representación vectorial es la posibilidad de realizar operaciones aritméticas que tienen un significado semántico. Esto se puede ilustrar con el famoso ejemplo:
 	
-	$$ \text{Reina} - \text{Mujer} + \text{Hombre} \approx \text{Rey} $$
+	\[ \text{Reina} - \text{Mujer} + \text{Hombre} \approx \text{Rey} \]
 	
 	En esta operación, se puede observar que al restar el vector que representa "Mujer" del vector de "Reina" y luego sumar el vector de "Hombre", el resultado se aproxima al vector que representa "Rey". Esta propiedad indica que las relaciones semánticas pueden ser modeladas como operaciones en el espacio vectorial.
 	
