@@ -1954,7 +1954,7 @@ La Descomposición en Valores Singulares (SVD, por sus siglas en inglés) es una
 
 #### **Conceptos Clave de SVD**
 1. **Definición Formal**:
-- Dada una matriz \( A \) de dimensión \( m \times n \), la descomposición SVD expresa \( A \) como el producto de tres matrices:
+- Dada una matriz $\mathbf{A}$ de dimensión $m \times n$, la descomposición SVD expresa $\mathbf{A}$ como el producto de tres matrices:
 $$
 A = U \Sigma V^T
 $$
@@ -2120,7 +2120,7 @@ La descomposición en valores singulares (SVD, por sus siglas en inglés) es una
 
 ## Definición de SVD
 
-Dada una matriz \( A \) de dimensiones \( m \times n \), la descomposición en valores singulares se expresa como:
+Dada una matriz $A$ de dimensiones $m \times n$, la descomposición en valores singulares se expresa como:
 
 $$
 A = U \Sigma V^T
