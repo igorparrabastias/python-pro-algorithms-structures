@@ -1249,8 +1249,6 @@ Al aplicar técnicas de reducción de dimensionalidad, es crucial tener en cuent
 
 ## :pushpin: **Procedimiento**:
 
-### **Análisis de Componentes Principales (PCA)**
-
 El **Análisis de Componentes Principales (PCA)** es una técnica estadística de reducción de dimensionalidad ampliamente utilizada en la ciencia de datos y el procesamiento del lenguaje natural (PLN). Su objetivo principal es transformar un conjunto de datos con muchas variables correlacionadas en un conjunto más pequeño de variables no correlacionadas, llamadas **componentes principales**. Esto permite capturar la mayor cantidad de varianza posible en los datos con un número reducido de dimensiones, facilitando el análisis y la visualización.
 
 ### **Procedimiento Detallado para Aplicar PCA**
