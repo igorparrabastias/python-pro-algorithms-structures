@@ -63,7 +63,7 @@
 - [👾 2. Ventajas sobre Modelos Determinísticos](#-2-ventajas-sobre-modelos-determin%C3%ADsticos)
 - [👾 3. Aplicaciones Prácticas](#-3-aplicaciones-pr%C3%A1cticas)
 - [👾 4. Limitaciones](#-4-limitaciones)
-- [y la Revolución de Word2Vec](#y-la-revoluci%C3%B3n-de-word2vec)
+- [Año 2013 y la Revolución de Word2Vec](#a%C3%B1o-2013-y-la-revoluci%C3%B3n-de-word2vec)
 - [📟 Propuesta de Tomas Mikolov y su Equipo de Google](#-propuesta-de-tomas-mikolov-y-su-equipo-de-google)
 - [👾 1. Contexto del Descubrimiento](#-1-contexto-del-descubrimiento)
 - [👾 2. Arquitecturas Clave](#-2-arquitecturas-clave)
@@ -76,11 +76,11 @@
 - [: Modelo de Transformadores](#-modelo-de-transformadores)
 - [👾 Attention is All You Need](#-attention-is-all-you-need)
 - [👾 Revolución en NLP](#-revoluci%C3%B3n-en-nlp)
-- [: ChatGPT](#-chatgpt)
+- [Año 2020: ChatGPT](#a%C3%B1o-2020-chatgpt)
 - [📟 Fundamentos de ChatGPT](#-fundamentos-de-chatgpt)
 - [👾 Arquitectura de ChatGPT](#-arquitectura-de-chatgpt)
 - [👾  Métodos de Entrenamiento de ChatGPT](#--m%C3%A9todos-de-entrenamiento-de-chatgpt)
-- [📟 ChatGPT-4o y o1](#-chatgpt-4o-y-o1)
+- [Año 2024 ChatGPT-4o y o1](#a%C3%B1o-2024-chatgpt-4o-y-o1)
 - [👾  ChatGPT-4o 2024](#--chatgpt-4o-2024)
 - [👾   Modelo o1 Strawberry](#---modelo-o1-strawberry)
 
@@ -4087,7 +4087,7 @@ La interpretabilidad en el procesamiento de lenguaje natural es un campo en evol
 
 
 ---
-# <p align=center>2013 y la Revolución de Word2Vec</p>
+# <p align=center>Año 2013 y la Revolución de Word2Vec</p>
 
 # :pager: **Propuesta de Tomas Mikolov y su Equipo de Google**
 
@@ -4328,7 +4328,7 @@ Las palabras se representan como vectores en un espacio de alta dimensión, dond
 
 Una de las contribuciones más notables de la representación vectorial es la posibilidad de realizar operaciones aritméticas que tienen un significado semántico. Esto se puede ilustrar con el famoso ejemplo:
 
-\[ \text{Reina} - \text{Mujer} + \text{Hombre} \approx \text{Rey} \]
+$$ \text{Reina} - \text{Mujer} + \text{Hombre} \approx \text{Rey} $$
 
 En esta operación, se puede observar que al restar el vector que representa "Mujer" del vector de "Reina" y luego sumar el vector de "Hombre", el resultado se aproxima al vector que representa "Rey". Esta propiedad indica que las relaciones semánticas pueden ser modeladas como operaciones en el espacio vectorial.
 
@@ -4869,10 +4869,9 @@ La introducción de los transformadores por Vaswani et al. en 2017 desencadenó 
    - Los transformadores han impulsado una ola de innovación en la investigación de NLP y se han implementado en aplicaciones prácticas que van desde motores de búsqueda hasta asistentes de voz y sistemas de recomendación.
 
 ---
-# <p align=center>2020: ChatGPT</p>
+# <p align=center>Año 2020: ChatGPT</p>
 
 En 2020, OpenAI presentó **ChatGPT**, un modelo conversacional basado en la arquitectura de **GPT-3**. Este desarrollo representó un gran avance en el procesamiento del lenguaje natural, ya que permitió a las máquinas interactuar de manera más fluida y coherente con los humanos a través del texto. ChatGPT se entrena en un vasto corpus de datos que abarca conversaciones humanas, artículos, y contenido de la web, utilizando una combinación de técnicas avanzadas para optimizar su capacidad de generar texto.
-
 
 # :pager: **Fundamentos de ChatGPT**
 
@@ -4963,7 +4962,7 @@ Después del preentrenamiento, ChatGPT pasa por un proceso de ajuste fino para e
    - Durante el ajuste fino, se implementan técnicas para reducir la generación de contenido inapropiado o sesgado. Sin embargo, esta mitigación no es perfecta y sigue siendo un área activa de investigación.
 
 
-# :pager: ChatGPT-4o y o1
+# <p align=center>Año 2024 ChatGPT-4o y o1</p>
 
 En el contexto de los avances recientes en procesamiento del lenguaje natural, **ChatGPT-4o** y **o1** representan las últimas iteraciones de los modelos de OpenAI basados en la arquitectura de transformadores, construidos sobre el éxito de modelos como GPT-3 y GPT-4. Aquí te explico en detalle:
 
@@ -4979,7 +4978,7 @@ En el contexto de los avances recientes en procesamiento del lenguaje natural, *
 3. **Mejoras en la Precisión**:
    - El modelo ha mejorado su comprensión y generación de texto, proporcionando respuestas más precisas y contextualmente relevantes. Esto es especialmente útil en tareas complejas de lenguaje natural, donde el contexto y la sutileza son cruciales.
 
-# :space_invader:   **Modelo o1 (Strawberry)**
+# :space_invader:  **Modelo o1 (Strawberry)**
 El modelo **o1**, apodado "Strawberry", se destaca por su enfoque en **razonamiento lógico y análisis profundo**. A diferencia de otros modelos que se centran principalmente en la generación de texto, o1 ha sido diseñado para sobresalir en tareas que requieren una comprensión lógica avanzada.
 
 1. **Enfoque en Razonamiento Complejo**:
