@@ -1955,17 +1955,17 @@ La Descomposición en Valores Singulares (SVD, por sus siglas en inglés) es una
 #### **Conceptos Clave de SVD**
 1. **Definición Formal**:
 - Dada una matriz \( A \) de dimensión \( m \times n \), la descomposición SVD expresa \( A \) como el producto de tres matrices:
-\[
+$$
 A = U \Sigma V^T
-\]
-- Aquí, \( U \) es una matriz ortogonal de dimensión \( m \times m \), \( \Sigma \) es una matriz diagonal de dimensión \( m \times n \) con valores singulares no negativos ordenados de mayor a menor, y \( V^T \) es la transpuesta de una matriz ortogonal de dimensión \( n \times n \).
+$$
+- Aquí, $U$ es una matriz ortogonal de dimensión $m \times m$, $\Sigma$ es una matriz diagonal de dimensión $m \times n$ con valores singulares no negativos ordenados de mayor a menor, y $V^T$ es la transpuesta de una matriz ortogonal de dimensión $n \times n$.
 
 2. **Valores Singulares y su Interpretación**:
-- Los valores en la matriz diagonal \( \Sigma \) se llaman *valores singulares*. Estos valores representan la magnitud de las dimensiones más importantes de la matriz original. En términos simples, indican qué tan significativa es cada dimensión en la representación de los datos.
+- Los valores en la matriz diagonal $\Sigma$ se llaman *valores singulares*. Estos valores representan la magnitud de las dimensiones más importantes de la matriz original. En términos simples, indican qué tan significativa es cada dimensión en la representación de los datos.
 
-3. **Matrices Ortogonales \( U \) y \( V \)**:
-- \( U \): Las columnas de \( U \) son los *vectores singulares izquierdos* y representan las direcciones de las filas originales de \( A \).
-- \( V \): Las columnas de \( V \) son los *vectores singulares derechos* y representan las direcciones de las columnas originales de \( A \).
+3. **Matrices Ortogonales $U$ y $V$**:
+- $U$: Las columnas de $U$ son los *vectores singulares izquierdos* y representan las direcciones de las filas originales de $A$.
+- $V$: Las columnas de $V$ son los *vectores singulares derechos* y representan las direcciones de las columnas originales de $A$.
 
 #### **Aplicaciones en la Reducción de Dimensionalidad**
 La SVD se utiliza para simplificar datos complejos, especialmente cuando se trabaja con datos de alta dimensionalidad. Al eliminar las dimensiones con valores singulares pequeños, se pueden retener las características más importantes de los datos, reduciendo el ruido y manteniendo la esencia de la información.
