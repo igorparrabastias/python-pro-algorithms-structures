@@ -7,7 +7,7 @@ Bienvenidos a esta serie de documentos donde exploraremos la evolución históri
 
 - [**Evolución de la Representación Semántica: Fundamentos del Procesamiento del Lenguaje Natural y la IA**](#evolución-de-la-representación-semántica-fundamentos-del-procesamiento-del-lenguaje-natural-y-la-ia)
 - [:pager: **Introducción General**](#pager-introducción-general)
-- [:computer: **Década de 1950: Fundamentos del Análisis Semántico**](#computer-década-de-1950-fundamentos-del-análisis-semántico)
+- [:house_with_garden: **Década de 1950: Fundamentos del Análisis Semántico**](#computer-década-de-1950-fundamentos-del-análisis-semántico)
 - [:space\_invader: **1. Contexto Histórico**](#space_invader-1-contexto-histórico)
 - [:space\_invader: **2. Teorías Lingüísticas Iniciales**](#space_invader-2-teorías-lingüísticas-iniciales)
 - [:space\_invader: **3. Primeras Representaciones Semánticas**](#space_invader-3-primeras-representaciones-semánticas)
@@ -16,7 +16,7 @@ Bienvenidos a esta serie de documentos donde exploraremos la evolución históri
 - [:space\_invader: **2. Herramientas Matemáticas**](#space_invader-2-herramientas-matemáticas)
 - [:space\_invader: **3. Aplicaciones Tempranas**](#space_invader-3-aplicaciones-tempranas)
 - [:space\_invader: **4. Limitaciones y Desafíos**](#space_invader-4-limitaciones-y-desafíos)
-- [:computer: **Años 1960: Mapeo Multidimensional**](#computer-años-1960-mapeo-multidimensional)
+- [:house_with_garden: **Años 1960: Mapeo Multidimensional**](#computer-años-1960-mapeo-multidimensional)
 - [:pager: **Contribuciones de Joseph B. Kruskal y James C. Shepherd**](#pager-contribuciones-de-joseph-b-kruskal-y-james-c-shepherd)
 - [:space\_invader: **1. Introducción a los Autores**](#space_invader-1-introducción-a-los-autores)
 - [:space\_invader: **2. Desarrollo del Análisis Multidimensional**](#space_invader-2-desarrollo-del-análisis-multidimensional)
@@ -24,7 +24,7 @@ Bienvenidos a esta serie de documentos donde exploraremos la evolución históri
 - [:space\_invader: **1. Aplicación en Lingüística**](#space_invader-1-aplicación-en-lingüística)
 - [:space\_invader: **2. Método del MDS**](#space_invader-2-método-del-mds)
 - [:space\_invader: **4. Limitaciones**](#space_invader-4-limitaciones)
-- [:computer: **Década de 1970: Semántica Latente y Análisis de Componentes Principales**](#computer-década-de-1970-semántica-latente-y-análisis-de-componentes-principales)
+- [:house_with_garden: **Década de 1970: Semántica Latente y Análisis de Componentes Principales**](#computer-década-de-1970-semántica-latente-y-análisis-de-componentes-principales)
 - [:pager: **Avances en la Semántica Latente y la Importancia de los Vectores en el Análisis de Datos Semánticos**](#pager-avances-en-la-semántica-latente-y-la-importancia-de-los-vectores-en-el-análisis-de-datos-semánticos)
 - [:space\_invader: **1. Introducción a la Semántica Latente**](#space_invader-1-introducción-a-la-semántica-latente)
 - [:space\_invader: **2. Análisis de Componentes Principales (PCA)**](#space_invader-2-análisis-de-componentes-principales-pca)
@@ -34,7 +34,7 @@ Bienvenidos a esta serie de documentos donde exploraremos la evolución históri
 - [:space\_invader: **2. Aplicaciones del PCA en Lingüística**](#space_invader-2-aplicaciones-del-pca-en-lingüística)
 - [:space\_invader: **3. Ejemplos Prácticos**](#space_invader-3-ejemplos-prácticos)
 - [:space\_invader: **4. Desafíos y Limitaciones**](#space_invader-4-desafíos-y-limitaciones)
-- [:computer: **Década de 1980: Latent Semantic Analysis (LSA)**](#computer-década-de-1980-latent-semantic-analysis-lsa)
+- [:house_with_garden: **Década de 1980: Latent Semantic Analysis (LSA)**](#computer-década-de-1980-latent-semantic-analysis-lsa)
 - [:pager: **Desarrollo de LSA para Representar y Analizar Grandes Volúmenes de Texto**](#pager-desarrollo-de-lsa-para-representar-y-analizar-grandes-volúmenes-de-texto)
 - [:space\_invader: **1. Orígenes del LSA**](#space_invader-1-orígenes-del-lsa)
 - [:space\_invader: **2. Fundamentos del LSA**](#space_invader-2-fundamentos-del-lsa)
@@ -44,7 +44,7 @@ Bienvenidos a esta serie de documentos donde exploraremos la evolución históri
 - [:space\_invader: **2. Aplicaciones en Educación**](#space_invader-2-aplicaciones-en-educación)
 - [:space\_invader: **3. Avances en Procesamiento del Lenguaje Natural**](#space_invader-3-avances-en-procesamiento-del-lenguaje-natural)
 - [:space\_invader: **4. Limitaciones y Críticas**](#space_invader-4-limitaciones-y-críticas)
-- [:computer: **Década de 1990: Redes Neuronales y Representaciones Distribuidas**](#computer-década-de-1990-redes-neuronales-y-representaciones-distribuidas)
+- [:house_with_garden: **Década de 1990: Redes Neuronales y Representaciones Distribuidas**](#computer-década-de-1990-redes-neuronales-y-representaciones-distribuidas)
 - [:pager: **Uso Temprano de Redes Neuronales para Representaciones Distribuidas**](#pager-uso-temprano-de-redes-neuronales-para-representaciones-distribuidas)
 - [:space\_invader: **1. Renacimiento de las Redes Neuronales**](#space_invader-1-renacimiento-de-las-redes-neuronales)
 - [:space\_invader: **2. Representaciones Distribuidas**](#space_invader-2-representaciones-distribuidas)
@@ -54,7 +54,7 @@ Bienvenidos a esta serie de documentos donde exploraremos la evolución históri
 - [:space\_invader: **2. Limitaciones**](#space_invader-2-limitaciones)
 - [:space\_invader: **3. Comparación con Enfoques Posteriores**](#space_invader-3-comparación-con-enfoques-posteriores)
 - [:space\_invader: **4. Legado y Contribución**](#space_invader-4-legado-y-contribución)
-- [:computer: **Primeros 2000: Modelos Probabilísticos y Topic Modeling**](#computer-primeros-2000-modelos-probabilísticos-y-topic-modeling)
+- [:house_with_garden: **Primeros 2000: Modelos Probabilísticos y Topic Modeling**](#computer-primeros-2000-modelos-probabilísticos-y-topic-modeling)
 - [:pager: **Introducción de Modelos como Latent Dirichlet Allocation (LDA)**](#pager-introducción-de-modelos-como-latent-dirichlet-allocation-lda)
 - [:space\_invader: **1. Evolución del Topic Modeling**](#space_invader-1-evolución-del-topic-modeling)
 - [:space\_invader: **2. Fundamentos de LDA**](#space_invader-2-fundamentos-de-lda)
@@ -64,7 +64,7 @@ Bienvenidos a esta serie de documentos donde exploraremos la evolución históri
 - [:space\_invader: **2. Ventajas sobre Modelos Determinísticos**](#space_invader-2-ventajas-sobre-modelos-determinísticos)
 - [:space\_invader: **3. Aplicaciones Prácticas**](#space_invader-3-aplicaciones-prácticas)
 - [:space\_invader: **4. Limitaciones**](#space_invader-4-limitaciones-1)
-- [:computer: **Año 2013: la Revolución de Word2Vec**](#computer-año-2013-la-revolución-de-word2vec)
+- [:house_with_garden: **Año 2013: la Revolución de Word2Vec**](#computer-año-2013-la-revolución-de-word2vec)
 - [:pager: **Propuesta de Tomas Mikolov y su Equipo de Google**](#pager-propuesta-de-tomas-mikolov-y-su-equipo-de-google)
 - [:space\_invader: **1. Contexto del Descubrimiento**](#space_invader-1-contexto-del-descubrimiento)
 - [:space\_invader: **2. Arquitecturas Clave**](#space_invader-2-arquitecturas-clave)
@@ -74,21 +74,21 @@ Bienvenidos a esta serie de documentos donde exploraremos la evolución históri
 - [:space\_invader: **3. Impacto en Procesamiento del Lenguaje Natural**](#space_invader-3-impacto-en-procesamiento-del-lenguaje-natural)
 - [:space\_invader: **4. Limitaciones y Consideraciones Éticas**](#space_invader-4-limitaciones-y-consideraciones-éticas)
 - [:space\_invader: **5. Evolución Posterior**](#space_invader-5-evolución-posterior)
-- [:computer: **Año 2017: Modelo de Transformadores**](#computer-año-2017-modelo-de-transformadores)
+- [:house_with_garden: **Año 2017: Modelo de Transformadores**](#computer-año-2017-modelo-de-transformadores)
 - [:space\_invader: **Attention is All You Need**](#space_invader-attention-is-all-you-need)
 - [:space\_invader: **Revolución en NLP**](#space_invader-revolución-en-nlp)
-- [:computer: **Año 2020: ChatGPT**](#computer-año-2020-chatgpt)
+- [:house_with_garden: **Año 2020: ChatGPT**](#computer-año-2020-chatgpt)
 - [:pager: **Fundamentos de ChatGPT**](#pager-fundamentos-de-chatgpt)
 - [:space\_invader: **Arquitectura de ChatGPT**](#space_invader-arquitectura-de-chatgpt)
 - [:space\_invader:  **Métodos de Entrenamiento de ChatGPT**](#space_invader--métodos-de-entrenamiento-de-chatgpt)
-- [:computer: **Año 2024: ChatGPT-4o y Modelo o1**](#computer-año-2024-chatgpt-4o-y-modelo-o1)
+- [:house_with_garden: **Año 2024: ChatGPT-4o y Modelo o1**](#computer-año-2024-chatgpt-4o-y-modelo-o1)
 - [:space\_invader:  **ChatGPT-4o**](#space_invader--chatgpt-4o)
 - [:space\_invader:  **Modelo o1 (Strawberry)**](#space_invader--modelo-o1-strawberry)
 
 
 
 ---
-# <p align=center>:computer: **Década de 1950: Fundamentos del Análisis Semántico**</p>
+# <p align=center>:house_with_garden: **Década de 1950: Fundamentos del Análisis Semántico**</p>
 
 # :space_invader: **1. Contexto Histórico**
 
@@ -541,7 +541,7 @@ La transición de técnicas superficiales a enfoques más profundos ha sido clav
 
 
 ---
-# <p align=center>:computer: **Años 1960: Mapeo Multidimensional**</p>
+# <p align=center>:house_with_garden: **Años 1960: Mapeo Multidimensional**</p>
 
 # :pager: **Contribuciones de Joseph B. Kruskal y James C. Shepherd**
 
@@ -792,7 +792,7 @@ La visualización de relaciones semánticas es una herramienta poderosa en el ar
 
 - [Evolución de la Representación Semántica: Fundamentos del Procesamiento del Lenguaje Natural y la IA](#evoluci%C3%B3n-de-la-representaci%C3%B3n-sem%C3%A1ntica-fundamentos-del-procesamiento-del-lenguaje-natural-y-la-ia)
 - [📟 Introducción General](#-introducci%C3%B3n-general)
-- [💻 Década de 1950: Fundamentos del Análisis Semántico](#-d%C3%A9cada-de-1950-fundamentos-del-an%C3%A1lisis-sem%C3%A1ntico)
+- [🏡 Década de 1950: Fundamentos del Análisis Semántico](#-d%C3%A9cada-de-1950-fundamentos-del-an%C3%A1lisis-sem%C3%A1ntico)
 - [👾 1. Contexto Histórico](#-1-contexto-hist%C3%B3rico)
 - [👾 2. Teorías Lingüísticas Iniciales](#-2-teor%C3%ADas-ling%C3%BC%C3%ADsticas-iniciales)
 - [👾 3. Primeras Representaciones Semánticas](#-3-primeras-representaciones-sem%C3%A1nticas)
@@ -801,14 +801,14 @@ La visualización de relaciones semánticas es una herramienta poderosa en el ar
 - [👾 2. Herramientas Matemáticas](#-2-herramientas-matem%C3%A1ticas)
 - [👾 3. Aplicaciones Tempranas](#-3-aplicaciones-tempranas)
 - [👾 4. Limitaciones y Desafíos](#-4-limitaciones-y-desaf%C3%ADos)
-- [💻 Años 1960: Mapeo Multidimensional](#-a%C3%B1os-1960-mapeo-multidimensional)
+- [🏡 Años 1960: Mapeo Multidimensional](#-a%C3%B1os-1960-mapeo-multidimensional)
 - [📟 Contribuciones de Joseph B. Kruskal y James C. Shepherd](#-contribuciones-de-joseph-b-kruskal-y-james-c-shepherd)
 - [👾 1. Introducción a los Autores](#-1-introducci%C3%B3n-a-los-autores)
 - [👾 2. Desarrollo del Análisis Multidimensional](#-2-desarrollo-del-an%C3%A1lisis-multidimensional)
 - [📟 Propuesta del Mapeo Multidimensional y su Relevancia](#-propuesta-del-mapeo-multidimensional-y-su-relevancia)
 - [👾 1. Aplicación en Lingüística](#-1-aplicaci%C3%B3n-en-ling%C3%BC%C3%ADstica)
 - [👾 4. Limitaciones](#-4-limitaciones)
-- [💻 Década de 1970: Semántica Latente y Análisis de Componentes Principales](#-d%C3%A9cada-de-1970-sem%C3%A1ntica-latente-y-an%C3%A1lisis-de-componentes-principales)
+- [🏡 Década de 1970: Semántica Latente y Análisis de Componentes Principales](#-d%C3%A9cada-de-1970-sem%C3%A1ntica-latente-y-an%C3%A1lisis-de-componentes-principales)
 - [📟 Avances en la Semántica Latente y la Importancia de los Vectores en el Análisis de Datos Semánticos](#-avances-en-la-sem%C3%A1ntica-latente-y-la-importancia-de-los-vectores-en-el-an%C3%A1lisis-de-datos-sem%C3%A1nticos)
 - [👾 1. Introducción a la Semántica Latente](#-1-introducci%C3%B3n-a-la-sem%C3%A1ntica-latente)
 - [👾 2. Análisis de Componentes Principales PCA](#-2-an%C3%A1lisis-de-componentes-principales-pca)
@@ -818,7 +818,7 @@ La visualización de relaciones semánticas es una herramienta poderosa en el ar
 - [👾 2. Aplicaciones del PCA en Lingüística](#-2-aplicaciones-del-pca-en-ling%C3%BC%C3%ADstica)
 - [👾 3. Ejemplos Prácticos](#-3-ejemplos-pr%C3%A1cticos)
 - [👾 4. Desafíos y Limitaciones](#-4-desaf%C3%ADos-y-limitaciones)
-- [💻 Década de 1980: Latent Semantic Analysis LSA](#-d%C3%A9cada-de-1980-latent-semantic-analysis-lsa)
+- [🏡 Década de 1980: Latent Semantic Analysis LSA](#-d%C3%A9cada-de-1980-latent-semantic-analysis-lsa)
 - [📟 Desarrollo de LSA para Representar y Analizar Grandes Volúmenes de Texto](#-desarrollo-de-lsa-para-representar-y-analizar-grandes-vol%C3%BAmenes-de-texto)
 - [👾 1. Orígenes del LSA](#-1-or%C3%ADgenes-del-lsa)
 - [👾 2. Fundamentos del LSA](#-2-fundamentos-del-lsa)
@@ -828,7 +828,7 @@ La visualización de relaciones semánticas es una herramienta poderosa en el ar
 - [👾 2. Aplicaciones en Educación](#-2-aplicaciones-en-educaci%C3%B3n)
 - [👾 3. Avances en Procesamiento del Lenguaje Natural](#-3-avances-en-procesamiento-del-lenguaje-natural)
 - [👾 4. Limitaciones y Críticas](#-4-limitaciones-y-cr%C3%ADticas)
-- [💻 Década de 1990: Redes Neuronales y Representaciones Distribuidas](#-d%C3%A9cada-de-1990-redes-neuronales-y-representaciones-distribuidas)
+- [🏡 Década de 1990: Redes Neuronales y Representaciones Distribuidas](#-d%C3%A9cada-de-1990-redes-neuronales-y-representaciones-distribuidas)
 - [📟 Uso Temprano de Redes Neuronales para Representaciones Distribuidas](#-uso-temprano-de-redes-neuronales-para-representaciones-distribuidas)
 - [👾 1. Renacimiento de las Redes Neuronales](#-1-renacimiento-de-las-redes-neuronales)
 - [👾 2. Representaciones Distribuidas](#-2-representaciones-distribuidas)
@@ -838,7 +838,7 @@ La visualización de relaciones semánticas es una herramienta poderosa en el ar
 - [👾 2. Limitaciones](#-2-limitaciones)
 - [👾 3. Comparación con Enfoques Posteriores](#-3-comparaci%C3%B3n-con-enfoques-posteriores)
 - [👾 4. Legado y Contribución](#-4-legado-y-contribuci%C3%B3n)
-- [💻 Primeros 2000: Modelos Probabilísticos y Topic Modeling](#-primeros-2000-modelos-probabil%C3%ADsticos-y-topic-modeling)
+- [🏡 Primeros 2000: Modelos Probabilísticos y Topic Modeling](#-primeros-2000-modelos-probabil%C3%ADsticos-y-topic-modeling)
 - [📟 Introducción de Modelos como Latent Dirichlet Allocation LDA](#-introducci%C3%B3n-de-modelos-como-latent-dirichlet-allocation-lda)
 - [👾 1. Evolución del Topic Modeling](#-1-evoluci%C3%B3n-del-topic-modeling)
 - [👾 2. Fundamentos de LDA](#-2-fundamentos-de-lda)
@@ -848,7 +848,7 @@ La visualización de relaciones semánticas es una herramienta poderosa en el ar
 - [👾 2. Ventajas sobre Modelos Determinísticos](#-2-ventajas-sobre-modelos-determin%C3%ADsticos)
 - [👾 3. Aplicaciones Prácticas](#-3-aplicaciones-pr%C3%A1cticas)
 - [👾 4. Limitaciones](#-4-limitaciones)
-- [💻 Año 2013: la Revolución de Word2Vec](#-a%C3%B1o-2013-la-revoluci%C3%B3n-de-word2vec)
+- [🏡 Año 2013: la Revolución de Word2Vec](#-a%C3%B1o-2013-la-revoluci%C3%B3n-de-word2vec)
 - [📟 Propuesta de Tomas Mikolov y su Equipo de Google](#-propuesta-de-tomas-mikolov-y-su-equipo-de-google)
 - [👾 1. Contexto del Descubrimiento](#-1-contexto-del-descubrimiento)
 - [👾 2. Arquitecturas Clave](#-2-arquitecturas-clave)
@@ -858,14 +858,14 @@ La visualización de relaciones semánticas es una herramienta poderosa en el ar
 - [👾 3. Impacto en Procesamiento del Lenguaje Natural](#-3-impacto-en-procesamiento-del-lenguaje-natural)
 - [👾 4. Limitaciones y Consideraciones Éticas](#-4-limitaciones-y-consideraciones-%C3%A9ticas)
 - [👾 5. Evolución Posterior](#-5-evoluci%C3%B3n-posterior)
-- [💻 Año 2017: Modelo de Transformadores](#-a%C3%B1o-2017-modelo-de-transformadores)
+- [🏡 Año 2017: Modelo de Transformadores](#-a%C3%B1o-2017-modelo-de-transformadores)
 - [👾 Attention is All You Need](#-attention-is-all-you-need)
 - [👾 Revolución en NLP](#-revoluci%C3%B3n-en-nlp)
-- [💻 Año 2020: ChatGPT](#-a%C3%B1o-2020-chatgpt)
+- [🏡 Año 2020: ChatGPT](#-a%C3%B1o-2020-chatgpt)
 - [📟 Fundamentos de ChatGPT](#-fundamentos-de-chatgpt)
 - [👾 Arquitectura de ChatGPT](#-arquitectura-de-chatgpt)
 - [👾  Métodos de Entrenamiento de ChatGPT](#--m%C3%A9todos-de-entrenamiento-de-chatgpt)
-- [💻 Año 2024: ChatGPT-4o y Modelo o1](#-a%C3%B1o-2024-chatgpt-4o-y-modelo-o1)
+- [🏡 Año 2024: ChatGPT-4o y Modelo o1](#-a%C3%B1o-2024-chatgpt-4o-y-modelo-o1)
 - [👾  ChatGPT-4o](#--chatgpt-4o)
 - [👾  Modelo o1 Strawberry](#--modelo-o1-strawberry)
 
@@ -1080,7 +1080,7 @@ La computación intensiva es un componente crítico en el procesamiento de grand
 
 
 ---
-# <p align=center>:computer: **Década de 1970: Semántica Latente y Análisis de Componentes Principales**</p>
+# <p align=center>:house_with_garden: **Década de 1970: Semántica Latente y Análisis de Componentes Principales**</p>
 
 # :pager: **Avances en la Semántica Latente y la Importancia de los Vectores en el Análisis de Datos Semánticos**
 
@@ -1882,7 +1882,7 @@ La gestión de datos escasos, ya sea en forma de palabras raras o documentos cor
 
 
 ---
-# <p align=center>:computer: **Década de 1980: Latent Semantic Analysis (LSA)**</p>
+# <p align=center>:house_with_garden: **Década de 1980: Latent Semantic Analysis (LSA)**</p>
 
 # :pager: **Desarrollo de LSA para Representar y Analizar Grandes Volúmenes de Texto**
 
@@ -2668,7 +2668,7 @@ La estática del modelo representa un desafío significativo en el campo del pro
 
 
 ---
-# <p align=center>:computer: **Década de 1990: Redes Neuronales y Representaciones Distribuidas**</p>
+# <p align=center>:house_with_garden: **Década de 1990: Redes Neuronales y Representaciones Distribuidas**</p>
 
 # :pager: **Uso Temprano de Redes Neuronales para Representaciones Distribuidas**
 
@@ -3364,7 +3364,7 @@ La evolución del PLN está marcada por innovaciones constantes y un enfoque en 
 
 
 ---
-# <p align=center>:computer: **Primeros 2000: Modelos Probabilísticos y Topic Modeling**</p>
+# <p align=center>:house_with_garden: **Primeros 2000: Modelos Probabilísticos y Topic Modeling**</p>
 
 # :pager: **Introducción de Modelos como Latent Dirichlet Allocation (LDA)**
 
@@ -4041,7 +4041,7 @@ La interpretabilidad en el procesamiento de lenguaje natural es un campo en evol
 
 
 ---
-# <p align=center>:computer: **Año 2013: la Revolución de Word2Vec**</p>
+# <p align=center>:house_with_garden: **Año 2013: la Revolución de Word2Vec**</p>
 
 # :pager: **Propuesta de Tomas Mikolov y su Equipo de Google**
 
@@ -4731,7 +4731,7 @@ La introducción de los Transformers ha marcado un cambio paradigmático en el c
 
 
 ---
-# <p align=center>:computer: **Año 2017: Modelo de Transformadores**</p>
+# <p align=center>:house_with_garden: **Año 2017: Modelo de Transformadores**</p>
 
 # :space_invader: **Attention is All You Need**
 
@@ -4823,7 +4823,7 @@ La introducción de los transformadores por Vaswani et al. en 2017 desencadenó 
    - Los transformadores han impulsado una ola de innovación en la investigación de NLP y se han implementado en aplicaciones prácticas que van desde motores de búsqueda hasta asistentes de voz y sistemas de recomendación.
 
 ---
-# <p align=center>:computer: **Año 2020: ChatGPT**</p>
+# <p align=center>:house_with_garden: **Año 2020: ChatGPT**</p>
 
 En 2020, OpenAI presentó **ChatGPT**, un modelo conversacional basado en la arquitectura de **GPT-3**. Este desarrollo representó un gran avance en el procesamiento del lenguaje natural, ya que permitió a las máquinas interactuar de manera más fluida y coherente con los humanos a través del texto. ChatGPT se entrena en un vasto corpus de datos que abarca conversaciones humanas, artículos, y contenido de la web, utilizando una combinación de técnicas avanzadas para optimizar su capacidad de generar texto.
 
@@ -4916,7 +4916,7 @@ Después del preentrenamiento, ChatGPT pasa por un proceso de ajuste fino para e
    - Durante el ajuste fino, se implementan técnicas para reducir la generación de contenido inapropiado o sesgado. Sin embargo, esta mitigación no es perfecta y sigue siendo un área activa de investigación.
 
 
-# <p align=center>:computer: **Año 2024: ChatGPT-4o y Modelo o1**</p>
+# <p align=center>:house_with_garden: **Año 2024: ChatGPT-4o y Modelo o1**</p>
 
 En el contexto de los avances recientes en procesamiento del lenguaje natural, **ChatGPT-4o** y **o1** representan las últimas iteraciones de los modelos de OpenAI basados en la arquitectura de transformadores, construidos sobre el éxito de modelos como GPT-3 y GPT-4. Aquí te explico en detalle:
 
