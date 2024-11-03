@@ -4,7 +4,7 @@
 
 - [Evolución de la Representación Semántica: Fundamento del PLN y la IA](#evoluci%C3%B3n-de-la-representaci%C3%B3n-sem%C3%A1ntica-fundamento-del-pln-y-la-ia)
 - [📟 Introducción General](#-introducci%C3%B3n-general)
-- [Década de 1950: Fundamentos del Análisis Semántico](#d%C3%A9cada-de-1950-fundamentos-del-an%C3%A1lisis-sem%C3%A1ntico)
+- [💻 Década de 1950: Fundamentos del Análisis Semántico](#-d%C3%A9cada-de-1950-fundamentos-del-an%C3%A1lisis-sem%C3%A1ntico)
 - [📟 Introducción al Origen de las Representaciones Distribuidas en la Lingüística](#-introducci%C3%B3n-al-origen-de-las-representaciones-distribuidas-en-la-ling%C3%BC%C3%ADstica)
 - [👾 1. Contexto Histórico](#-1-contexto-hist%C3%B3rico)
 - [👾 2. Teorías Lingüísticas Iniciales](#-2-teor%C3%ADas-ling%C3%BC%C3%ADsticas-iniciales)
@@ -14,7 +14,7 @@
 - [👾 2. Herramientas Matemáticas](#-2-herramientas-matem%C3%A1ticas)
 - [👾 3. Aplicaciones Tempranas](#-3-aplicaciones-tempranas)
 - [👾 4. Limitaciones y Desafíos](#-4-limitaciones-y-desaf%C3%ADos)
-- [Años 1960: Mapeo Multidimensional](#a%C3%B1os-1960-mapeo-multidimensional)
+- [💻 Años 1960: Mapeo Multidimensional](#-a%C3%B1os-1960-mapeo-multidimensional)
 - [📟 Contribuciones de Joseph B. Kruskal y James C. Shepherd](#-contribuciones-de-joseph-b-kruskal-y-james-c-shepherd)
 - [👾 1. Introducción a los Autores](#-1-introducci%C3%B3n-a-los-autores)
 - [👾 2. Desarrollo del Análisis Multidimensional](#-2-desarrollo-del-an%C3%A1lisis-multidimensional)
@@ -23,7 +23,7 @@
 - [👾 2. Método del MDS](#-2-m%C3%A9todo-del-mds)
 - [👾 3. Impacto en Representaciones Vectoriales](#-3-impacto-en-representaciones-vectoriales)
 - [👾 4. Limitaciones](#-4-limitaciones)
-- [Década de 1970: Semántica Latente y Análisis de Componentes Principales](#d%C3%A9cada-de-1970-sem%C3%A1ntica-latente-y-an%C3%A1lisis-de-componentes-principales)
+- [💻 Década de 1970: Semántica Latente y Análisis de Componentes Principales](#-d%C3%A9cada-de-1970-sem%C3%A1ntica-latente-y-an%C3%A1lisis-de-componentes-principales)
 - [📟 Avances en la Semántica Latente y la Importancia de los Vectores en el Análisis de Datos Semánticos](#-avances-en-la-sem%C3%A1ntica-latente-y-la-importancia-de-los-vectores-en-el-an%C3%A1lisis-de-datos-sem%C3%A1nticos)
 - [👾 1. Introducción a la Semántica Latente](#-1-introducci%C3%B3n-a-la-sem%C3%A1ntica-latente)
 - [👾 2. Análisis de Componentes Principales PCA](#-2-an%C3%A1lisis-de-componentes-principales-pca)
@@ -33,7 +33,7 @@
 - [👾 2. Aplicaciones del PCA en Lingüística](#-2-aplicaciones-del-pca-en-ling%C3%BC%C3%ADstica)
 - [👾 3. Ejemplos Prácticos](#-3-ejemplos-pr%C3%A1cticos)
 - [👾 4. Desafíos y Limitaciones](#-4-desaf%C3%ADos-y-limitaciones)
-- [Década de 1980: Latent Semantic Analysis LSA](#d%C3%A9cada-de-1980-latent-semantic-analysis-lsa)
+- [💻 Década de 1980: Latent Semantic Analysis LSA](#-d%C3%A9cada-de-1980-latent-semantic-analysis-lsa)
 - [📟 Desarrollo de LSA para Representar y Analizar Grandes Volúmenes de Texto](#-desarrollo-de-lsa-para-representar-y-analizar-grandes-vol%C3%BAmenes-de-texto)
 - [👾 1. Orígenes del LSA](#-1-or%C3%ADgenes-del-lsa)
 - [👾 2. Fundamentos del LSA](#-2-fundamentos-del-lsa)
@@ -43,7 +43,7 @@
 - [👾 2. Aplicaciones en Educación](#-2-aplicaciones-en-educaci%C3%B3n)
 - [👾 3. Avances en Procesamiento del Lenguaje Natural](#-3-avances-en-procesamiento-del-lenguaje-natural)
 - [👾 4. Limitaciones y Críticas](#-4-limitaciones-y-cr%C3%ADticas)
-- [Década de 1990: Redes Neuronales y Representaciones Distribuidas](#d%C3%A9cada-de-1990-redes-neuronales-y-representaciones-distribuidas)
+- [💻 Década de 1990: Redes Neuronales y Representaciones Distribuidas](#-d%C3%A9cada-de-1990-redes-neuronales-y-representaciones-distribuidas)
 - [📟 Uso Temprano de Redes Neuronales para Representaciones Distribuidas](#-uso-temprano-de-redes-neuronales-para-representaciones-distribuidas)
 - [👾 1. Renacimiento de las Redes Neuronales](#-1-renacimiento-de-las-redes-neuronales)
 - [👾 2. Representaciones Distribuidas](#-2-representaciones-distribuidas)
@@ -53,7 +53,7 @@
 - [👾 2. Limitaciones](#-2-limitaciones)
 - [👾 3. Comparación con Enfoques Posteriores](#-3-comparaci%C3%B3n-con-enfoques-posteriores)
 - [👾 4. Legado y Contribución](#-4-legado-y-contribuci%C3%B3n)
-- [Primeros 2000: Modelos Probabilísticos y Topic Modeling](#primeros-2000-modelos-probabil%C3%ADsticos-y-topic-modeling)
+- [💻 Primeros 2000: Modelos Probabilísticos y Topic Modeling](#-primeros-2000-modelos-probabil%C3%ADsticos-y-topic-modeling)
 - [📟 Introducción de Modelos como Latent Dirichlet Allocation LDA](#-introducci%C3%B3n-de-modelos-como-latent-dirichlet-allocation-lda)
 - [👾 1. Evolución del Topic Modeling](#-1-evoluci%C3%B3n-del-topic-modeling)
 - [👾 2. Fundamentos de LDA](#-2-fundamentos-de-lda)
@@ -63,7 +63,7 @@
 - [👾 2. Ventajas sobre Modelos Determinísticos](#-2-ventajas-sobre-modelos-determin%C3%ADsticos)
 - [👾 3. Aplicaciones Prácticas](#-3-aplicaciones-pr%C3%A1cticas)
 - [👾 4. Limitaciones](#-4-limitaciones)
-- [Año 2013: la Revolución de Word2Vec](#a%C3%B1o-2013-la-revoluci%C3%B3n-de-word2vec)
+- [💻 Año 2013: la Revolución de Word2Vec](#-a%C3%B1o-2013-la-revoluci%C3%B3n-de-word2vec)
 - [📟 Propuesta de Tomas Mikolov y su Equipo de Google](#-propuesta-de-tomas-mikolov-y-su-equipo-de-google)
 - [👾 1. Contexto del Descubrimiento](#-1-contexto-del-descubrimiento)
 - [👾 2. Arquitecturas Clave](#-2-arquitecturas-clave)
@@ -73,14 +73,14 @@
 - [👾 3. Impacto en Procesamiento del Lenguaje Natural](#-3-impacto-en-procesamiento-del-lenguaje-natural)
 - [👾 4. Limitaciones y Consideraciones Éticas](#-4-limitaciones-y-consideraciones-%C3%A9ticas)
 - [👾 5. Evolución Posterior](#-5-evoluci%C3%B3n-posterior)
-- [Año 2017: Modelo de Transformadores](#a%C3%B1o-2017-modelo-de-transformadores)
+- [💻 Año 2017: Modelo de Transformadores](#-a%C3%B1o-2017-modelo-de-transformadores)
 - [👾 Attention is All You Need](#-attention-is-all-you-need)
 - [👾 Revolución en NLP](#-revoluci%C3%B3n-en-nlp)
-- [Año 2020: ChatGPT](#a%C3%B1o-2020-chatgpt)
+- [💻 Año 2020: ChatGPT](#-a%C3%B1o-2020-chatgpt)
 - [📟 Fundamentos de ChatGPT](#-fundamentos-de-chatgpt)
 - [👾 Arquitectura de ChatGPT](#-arquitectura-de-chatgpt)
 - [👾  Métodos de Entrenamiento de ChatGPT](#--m%C3%A9todos-de-entrenamiento-de-chatgpt)
-- [Año 2024: ChatGPT-4o y o1](#a%C3%B1o-2024-chatgpt-4o-y-o1)
+- [💻 Año 2024: ChatGPT-4o y o1](#-a%C3%B1o-2024-chatgpt-4o-y-o1)
 - [👾  ChatGPT-4o 2024](#--chatgpt-4o-2024)
 - [👾  Modelo o1 Strawberry](#--modelo-o1-strawberry)
 
@@ -91,7 +91,7 @@
 Bienvenidos a esta serie de clases donde exploraremos la evolución histórica del concepto de vectorizar palabras. A lo largo de las décadas, desde los años 1950 hasta el 2013, veremos cómo han evolucionado las técnicas y teorías que nos permiten hoy en día representar palabras en forma de vectores matemáticos, fundamentales para el procesamiento del lenguaje natural y la inteligencia artificial.
 
 ---
-# **<p align=center><b>Década de 1950: Fundamentos del Análisis Semántico</b></p>**
+# <p align=center>:computer: Década de 1950: Fundamentos del Análisis Semántico</p>
 
 # :pager: **Introducción al Origen de las Representaciones Distribuidas en la Lingüística**
 
@@ -535,7 +535,7 @@ La transición de técnicas superficiales a enfoques más profundos ha sido clav
 
 
 ---
-# <p align=center>Años 1960: Mapeo Multidimensional</p>
+# <p align=center>:computer: Años 1960: Mapeo Multidimensional</p>
 
 # :pager: **Contribuciones de Joseph B. Kruskal y James C. Shepherd**
 
@@ -1155,7 +1155,7 @@ La computación intensiva es un componente crítico en el procesamiento de grand
 
 
 ---
-# <p align=center>Década de 1970: Semántica Latente y Análisis de Componentes Principales</p>
+# <p align=center>:computer: Década de 1970: Semántica Latente y Análisis de Componentes Principales</p>
 
 # :pager: **Avances en la Semántica Latente y la Importancia de los Vectores en el Análisis de Datos Semánticos**
 
@@ -1928,7 +1928,7 @@ La gestión de datos escasos, ya sea en forma de palabras raras o documentos cor
 
 
 ---
-# <p align=center>Década de 1980: Latent Semantic Analysis (LSA)</p>
+# <p align=center>:computer: Década de 1980: Latent Semantic Analysis (LSA)</p>
 
 # :pager: **Desarrollo de LSA para Representar y Analizar Grandes Volúmenes de Texto**
 
@@ -2714,7 +2714,7 @@ La estática del modelo representa un desafío significativo en el campo del pro
 
 
 ---
-# <p align=center>Década de 1990: Redes Neuronales y Representaciones Distribuidas</p>
+# <p align=center>:computer: Década de 1990: Redes Neuronales y Representaciones Distribuidas</p>
 
 # :pager: **Uso Temprano de Redes Neuronales para Representaciones Distribuidas**
 
@@ -3410,7 +3410,7 @@ La evolución del PLN está marcada por innovaciones constantes y un enfoque en 
 
 
 ---
-# <p align=center>Primeros 2000: Modelos Probabilísticos y Topic Modeling</p>
+# <p align=center>:computer: Primeros 2000: Modelos Probabilísticos y Topic Modeling</p>
 
 # :pager: **Introducción de Modelos como Latent Dirichlet Allocation (LDA)**
 
@@ -4087,7 +4087,7 @@ La interpretabilidad en el procesamiento de lenguaje natural es un campo en evol
 
 
 ---
-# <p align=center>Año 2013: la Revolución de Word2Vec</p>
+# <p align=center>:computer: Año 2013: la Revolución de Word2Vec</p>
 
 # :pager: **Propuesta de Tomas Mikolov y su Equipo de Google**
 
@@ -4777,7 +4777,7 @@ La introducción de los Transformers ha marcado un cambio paradigmático en el c
 
 
 ---
-# <p align=center>Año 2017: Modelo de Transformadores</p>
+# <p align=center>:computer: Año 2017: Modelo de Transformadores</p>
 
 # :space_invader: **Attention is All You Need**
 
@@ -4869,7 +4869,7 @@ La introducción de los transformadores por Vaswani et al. en 2017 desencadenó 
    - Los transformadores han impulsado una ola de innovación en la investigación de NLP y se han implementado en aplicaciones prácticas que van desde motores de búsqueda hasta asistentes de voz y sistemas de recomendación.
 
 ---
-# <p align=center>Año 2020: ChatGPT</p>
+# <p align=center>:computer: Año 2020: ChatGPT</p>
 
 En 2020, OpenAI presentó **ChatGPT**, un modelo conversacional basado en la arquitectura de **GPT-3**. Este desarrollo representó un gran avance en el procesamiento del lenguaje natural, ya que permitió a las máquinas interactuar de manera más fluida y coherente con los humanos a través del texto. ChatGPT se entrena en un vasto corpus de datos que abarca conversaciones humanas, artículos, y contenido de la web, utilizando una combinación de técnicas avanzadas para optimizar su capacidad de generar texto.
 
@@ -4962,7 +4962,7 @@ Después del preentrenamiento, ChatGPT pasa por un proceso de ajuste fino para e
    - Durante el ajuste fino, se implementan técnicas para reducir la generación de contenido inapropiado o sesgado. Sin embargo, esta mitigación no es perfecta y sigue siendo un área activa de investigación.
 
 
-# <p align=center>Año 2024: ChatGPT-4o y o1</p>
+# <p align=center>:computer: Año 2024: ChatGPT-4o y o1</p>
 
 En el contexto de los avances recientes en procesamiento del lenguaje natural, **ChatGPT-4o** y **o1** representan las últimas iteraciones de los modelos de OpenAI basados en la arquitectura de transformadores, construidos sobre el éxito de modelos como GPT-3 y GPT-4. Aquí te explico en detalle:
 
