@@ -1513,9 +1513,9 @@ Las distribuciones discretas se utilizan para modelar variables aleatorias que p
 
 La distribución binomial se caracteriza por dos parámetros: \( n \) (el número de ensayos) y \( p \) (la probabilidad de éxito en cada ensayo). La función de probabilidad se define como:
 
-\[
+$$
 P(X = k) = \binom{n}{k} p^k (1-p)^{n-k}
-\]
+$$
 
 donde \( k \) es el número de éxitos.
 
@@ -2122,42 +2122,42 @@ La descomposición en valores singulares (SVD, por sus siglas en inglés) es una
 
 Dada una matriz \( A \) de dimensiones \( m \times n \), la descomposición en valores singulares se expresa como:
 
-\[
+$$
 A = U \Sigma V^T
-\]
+$$
 
 donde:
-- \( U \) es una matriz ortogonal de dimensiones \( m \times m \) que contiene los vectores singulares izquierdos.
-- \( \Sigma \) es una matriz diagonal de dimensiones \( m \times n \) que contiene los valores singulares en orden descendente.
-- \( V^T \) es la transpuesta de una matriz ortogonal \( V \) de dimensiones \( n \times n \), que contiene los vectores singulares derechos.
+- $U$ es una matriz ortogonal de dimensiones $m \times m$ que contiene los vectores singulares izquierdos.
+- $\Sigma$ es una matriz diagonal de dimensiones $m \times n$ que contiene los valores singulares en orden descendente.
+- $V^T$ es la transpuesta de una matriz ortogonal $V$ de dimensiones $n \times n$, que contiene los vectores singulares derechos.
 
 ## Proceso de Descomposición
 
 El proceso de descomposición en valores singulares implica los siguientes pasos:
 
-1. **Cálculo de la matriz \( A^TA \)**: Se calcula el producto de la matriz \( A \) por su transpuesta. Esto resulta en una matriz cuadrada de dimensiones \( n \times n \).
+1. **Cálculo de la matriz $A^TA$**: Se calcula el producto de la matriz $A$ por su transpuesta. Esto resulta en una matriz cuadrada de dimensiones $n \times n$.
 
-2. **Cálculo de los valores y vectores propios**: Se determinan los valores propios y vectores propios de la matriz \( A^TA \). Los valores propios positivos se corresponden con los cuadrados de los valores singulares de \( A \).
+2. **Cálculo de los valores y vectores propios**: Se determinan los valores propios y vectores propios de la matriz $A^TA$. Los valores propios positivos se corresponden con los cuadrados de los valores singulares de $A$.
 
-3. **Construcción de \( V \)**: Los vectores propios normalizados de \( A^TA \) forman la matriz \( V \).
+3. **Construcción de $V$**: Los vectores propios normalizados de $A^TA$ forman la matriz $V$.
 
-4. **Cálculo de \( U \)**: Los vectores singulares izquierdos se obtienen a partir de la relación \( U = AV\Sigma^{-1} \), donde \( \Sigma^{-1} \) es la inversa de la matriz diagonal \( \Sigma \).
+4. **Cálculo de $U$**: Los vectores singulares izquierdos se obtienen a partir de la relación $U = AV\Sigma^{-1}$, donde $\Sigma^{-1}$ es la inversa de la matriz diagonal $\Sigma$.
 
-5. **Construcción de \( \Sigma \)**: Los valores singulares se colocan en la matriz diagonal \( \Sigma \).
+5. **Construcción de $\Sigma$**: Los valores singulares se colocan en la matriz diagonal $\Sigma$.
 
 ## Reducción de Dimensiones
 
 Una de las aplicaciones más poderosas del SVD es la reducción de dimensiones, que permite simplificar la representación de datos manteniendo la mayor parte de la información relevante. Este proceso se realiza mediante los siguientes pasos:
 
-1. **Selección de componentes**: Se eligen los \( k \) valores singulares más grandes de \( \Sigma \) y sus correspondientes columnas en \( U \) y \( V \). Esto se puede hacer seleccionando un umbral que determine cuántos valores singulares se consideran significativos.
+1. **Selección de componentes**: Se seleccionan los $k$ valores singulares más grandes de $\Sigma$ y sus correspondientes columnas en $U$ y $V$. Esto se puede hacer seleccionando un umbral que determine cuántos valores singulares se consideran significativos.
 
-2. **Construcción de matrices reducidas**: Se forman matrices \( U_k \), \( \Sigma_k \), y \( V_k \) que contienen solo los \( k \) componentes seleccionados.
+2. **Construcción de matrices reducidas**: Se forman matrices $\mathbf{U}_k$, $\mathbf{\Sigma}_k$, y $\mathbf{V}_k$ que contienen solo los $k$ componentes seleccionados.
 
-3. **Reconstrucción aproximada**: La matriz original \( A \) se puede aproximar mediante:
+3. **Reconstrucción aproximada**: La matriz original $A$ se puede aproximar mediante:
 
-\[
+$$
 A_k = U_k \Sigma_k V_k^T
-\]
+$$
 
 Esta aproximación conserva la estructura principal de los datos mientras elimina el ruido y la redundancia.
 
