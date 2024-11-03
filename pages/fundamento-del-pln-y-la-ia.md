@@ -1,4 +1,4 @@
-# <p align=center>Evolución de la Representación Semántica: Fundamentos del procesamiento del lenguaje natural y la IA</p>
+# <p align=center>Evolución de la Representación Semántica: Fundamentos del Procesamiento del Lenguaje Natural y la IA</p>
 
 <!-- TOC depthto:1 -->
 
