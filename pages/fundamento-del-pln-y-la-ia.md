@@ -1263,11 +1263,7 @@ El **Análisis de Componentes Principales (PCA)** es una técnica estadística d
 - **Descripción**: La matriz de covarianza mide cómo varían conjuntamente las diferentes variables. En otras palabras, nos dice si hay una relación lineal entre las variables y cómo de fuerte es esa relación. Una covarianza positiva indica que las variables tienden a aumentar o disminuir juntas, mientras que una covarianza negativa sugiere que cuando una variable aumenta, la otra tiende a disminuir.
 - **Cálculo**:
   - La matriz de covarianza se obtiene utilizando los datos centrados:
-    
-    $$
-    \text{Matriz de Covarianza} = \frac{1}{n-1} \cdot X_{\text{centrado}}^T \cdot X_{\text{centrado}}
-    $$
-
+    $$\text{Matriz de Covarianza} = \frac{1}{n-1} \cdot X_{\text{centrado}}^T \cdot X_{\text{centrado}}$$
   - $X_{\text{centrado}}$ es la matriz de datos original en la que se ha restado la media de cada variable (o columna) para que el promedio de los datos en cada dimensión sea cero. Este paso es crucial en PCA para asegurar que las variaciones y relaciones entre las variables se calculen correctamente.
   - Aquí, \( $X_{\text{centrado}}^T$ \) es la transpuesta de la matriz de datos centrados, y \( n \) es el número de observaciones.
 - **Resultado**: La matriz de covarianza es una matriz cuadrada donde cada elemento \( (i, j) \) representa la covarianza entre la variable \( i \) y la variable \( j \).
