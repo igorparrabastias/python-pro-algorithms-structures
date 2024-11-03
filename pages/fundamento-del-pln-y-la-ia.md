@@ -1,11 +1,11 @@
-# <p align=center>Evolución de la Representación Semántica: Fundamentos del Procesamiento del Lenguaje Natural y la IA</p>
+# <p align=center>**Evolución de la Representación Semántica: Fundamentos del Procesamiento del Lenguaje Natural y la IA**</p>
 
 # :pager: **Introducción General**
 
 Bienvenidos a esta serie de clases donde exploraremos la evolución histórica del concepto de vectorizar palabras. A lo largo de las décadas, desde los años 1950 hasta el 2024, veremos cómo han evolucionado las técnicas y teorías que nos permiten hoy en día representar palabras en forma de vectores matemáticos, fundamentales para el procesamiento del lenguaje natural y la inteligencia artificial.
 
 
-- [Evolución de la Representación Semántica: Fundamentos del Procesamiento del Lenguaje Natural y la IA](#evolución-de-la-representación-semántica-fundamentos-del-procesamiento-del-lenguaje-natural-y-la-ia)
+- [**Evolución de la Representación Semántica: Fundamentos del Procesamiento del Lenguaje Natural y la IA**](#evolución-de-la-representación-semántica-fundamentos-del-procesamiento-del-lenguaje-natural-y-la-ia)
 - [:pager: **Introducción General**](#pager-introducción-general)
 - [:computer: **Década de 1950: Fundamentos del Análisis Semántico**](#computer-década-de-1950-fundamentos-del-análisis-semántico)
 - [:space\_invader: **1. Contexto Histórico**](#space_invader-1-contexto-histórico)
@@ -788,85 +788,6 @@ La visualización de relaciones semánticas también es útil para evaluar y mej
 ## Conclusión
 
 La visualización de relaciones semánticas es una herramienta poderosa en el arsenal del procesamiento del lenguaje natural. A través de diversas técnicas de representación gráfica, es posible desentrañar la complejidad de las relaciones entre palabras, proporcionando insights valiosos para la investigación y la aplicación práctica en diversas áreas. A medida que las tecnologías de PLN continúan evolucionando, la importancia de estas visualizaciones seguirá creciendo, permitiendo una comprensión más profunda del lenguaje humano.
-
-
-## :pushpin: **Reducción de Dimensionalidad**: Simplificación de datos complejos para su interpretación.
-
-La reducción de dimensionalidad es un concepto fundamental en el campo del aprendizaje automático y el procesamiento de datos, que se refiere a la técnica de reducir el número de variables aleatorias bajo consideración, obteniendo un conjunto de características más manejable. Esta técnica es especialmente útil en contextos donde los datos son de alta dimensionalidad, lo que puede complicar su análisis y visualización. A continuación, se presentan los aspectos clave de la reducción de dimensionalidad.
-
-## 1. Importancia de la Reducción de Dimensionalidad
-
-La alta dimensionalidad puede presentar varios desafíos:
-
-- **Curse of Dimensionality**: A medida que el número de dimensiones aumenta, la cantidad de datos necesarios para entrenar modelos precisos también aumenta exponencialmente. Esto puede llevar a un sobreajuste, donde el modelo se ajusta demasiado a los datos de entrenamiento y no generaliza bien a nuevos datos.
-
-- **Visualización**: Los datos en alta dimensión son difíciles de visualizar. La reducción de dimensionalidad permite representar datos complejos en dos o tres dimensiones, facilitando la identificación de patrones y relaciones.
-
-- **Mejora del Rendimiento**: Al reducir la cantidad de características, se puede mejorar la velocidad de los algoritmos de aprendizaje automático y la eficiencia del almacenamiento.
-
-## 2. Métodos Comunes de Reducción de Dimensionalidad
-
-### 2.1. Análisis de Componentes Principales (PCA)
-
-El PCA es una técnica estadística que transforma un conjunto de variables correlacionadas en un conjunto de variables no correlacionadas, llamadas componentes principales. Los pasos son:
-
-1. **Normalización**: Se centra en las características para que tengan media cero y varianza uno.
-2. **Cálculo de la Matriz de Covarianza**: Se determina cómo varían las características entre sí.
-3. **Cálculo de los Valores y Vectores Propios**: Se obtienen los valores y vectores propios de la matriz de covarianza.
-4. **Selección de Componentes**: Se seleccionan los primeros k vectores propios, que corresponden a los k valores propios más grandes.
-
-### 2.2. t-Distributed Stochastic Neighbor Embedding (t-SNE)
-
-t-SNE es una técnica no lineal que es particularmente efectiva para la visualización de datos. Se basa en la minimización de la divergencia de Kullback-Leibler entre distribuciones de probabilidad en dimensiones altas y bajas. Sus características son:
-
-- **Preservación de la Estructura Local**: t-SNE mantiene la proximidad de puntos similares en el espacio de alta dimensión en el espacio reducido.
-- **Visualización**: Se utiliza comúnmente para representar datos de alta dimensión, como embeddings de palabras o características de imágenes.
-
-### 2.3. Autoencoders
-
-Los autoencoders son redes neuronales que se utilizan para aprender representaciones eficientes de los datos. Consisten en dos partes:
-
-- **Codificador**: Reduce la dimensionalidad de la entrada a una representación más compacta.
-- **Decodificador**: Reconstruye la entrada original desde la representación compacta.
-
-Los autoencoders pueden ser entrenados para capturar características significativas de los datos, permitiendo la reducción de dimensionalidad.
-
-## 3. Aplicaciones de la Reducción de Dimensionalidad
-
-La reducción de dimensionalidad tiene múltiples aplicaciones en diversas áreas:
-
-- **Procesamiento de Imágenes**: Se utiliza para la compresión de imágenes y para la extracción de características relevantes en tareas de clasificación.
-- **Análisis de Texto**: En el procesamiento de lenguaje natural, se aplica para reducir la dimensionalidad de representaciones de texto, como en el caso de embeddings de palabras.
-- **Bioinformática**: Se usa para el análisis de datos genómicos, donde los datos pueden tener miles de dimensiones.
-
-## 4. Conclusiones
-
-La reducción de dimensionalidad es una herramienta poderosa que permite simplificar datos complejos, facilitando su interpretación y análisis. A través de técnicas como PCA, t-SNE y autoencoders, los investigadores y profesionales pueden abordar los desafíos asociados con la alta dimensionalidad, mejorando la eficiencia y efectividad de sus modelos y análisis. La elección de la técnica adecuada dependerá del contexto específico y de los objetivos del análisis.
-
-# :space_invader: **2. Método del MDS**
-
-## :pushpin: **Cálculo de Distancias**: Medición de similitud entre elementos.
-
-## Introducción al Cálculo de Distancias
-
-El cálculo de distancias es una técnica fundamental en el procesamiento de datos y en el análisis de similitud entre elementos. Esta técnica se utiliza en diversas disciplinas, como el aprendizaje automático, la recuperación de información y el procesamiento de lenguaje natural, entre otras. La medición de similitud permite agrupar, clasificar y encontrar patrones dentro de conjuntos de datos, facilitando la toma de decisiones informadas.
-
-## Tipos de Distancias
-
-Existen varias métricas para calcular la distancia o similitud entre elementos. A continuación, se describen algunas de las más utilizadas:
-
-### 1. Distancia Euclidiana
-
-La distancia euclidiana es la medida más común y se basa en el teorema de Pitágoras. Se utiliza para calcular la distancia entre dos puntos en un espacio euclidiano. Para dos puntos \( A(x_1, y_1) \) y \( B(x_2, y_2) \), la distancia se calcula como:
-
-d(A, B) = √((x_2 - x_1)² + (y_2 - y_1)²)
-
-Esta métrica es adecuada para datos continuos y en espacios de alta dimensión.
-
-### 2. Distancia Manhattan
-
-La distancia Manhattan, también conocida como distancia de bloque, mide la distancia entre dos puntos en una cuadrícula, calculando la suma de las diferencias absolutas de sus coordenadas. Para los puntos \( A(x_1, y_1) \) y \( B(x_2, y_2) \), se define como:
-
 <!-- TOC depthto:1 -->
 
 - [Evolución de la Representación Semántica: Fundamentos del Procesamiento del Lenguaje Natural y la IA](#evoluci%C3%B3n-de-la-representaci%C3%B3n-sem%C3%A1ntica-fundamentos-del-procesamiento-del-lenguaje-natural-y-la-ia)
@@ -944,10 +865,12 @@ La distancia Manhattan, también conocida como distancia de bloque, mide la dist
 - [💻 Año 2020: ChatGPT](#-a%C3%B1o-2020-chatgpt)
 - [📟 Fundamentos de ChatGPT](#-fundamentos-de-chatgpt)
 - [👾 Arquitectura de ChatGPT](#-arquitectura-de-chatgpt)
-<!-- TOC depthto:1 -->
+- [👾  Métodos de Entrenamiento de ChatGPT](#--m%C3%A9todos-de-entrenamiento-de-chatgpt)
+- [💻 Año 2024: ChatGPT-4o y Modelo o1](#-a%C3%B1o-2024-chatgpt-4o-y-modelo-o1)
+- [👾  ChatGPT-4o](#--chatgpt-4o)
+- [👾  Modelo o1 Strawberry](#--modelo-o1-strawberry)
 
-- [Evolución de la Representación Semántica: Fundamentos del Procesamiento del Lenguaje Natural y la IA](#evoluci%C3%B3n-de-la-representaci%C3%B3n-sem%C3%A1ntica-fundamentos-del-procesamiento-del-lenguaje-natural-y-la-ia)
-- [📟 Introducción General](#-introducci%C3%B3n-general)
+<!-- /TOC -->
 - [💻 Década de 1950: Fundamentos del Análisis Semántico](#-d%C3%A9cada-de-1950-fundamentos-del-an%C3%A1lisis-sem%C3%A1ntico)
 - [👾 1. Contexto Histórico](#-1-contexto-hist%C3%B3rico)
 - [👾 2. Teorías Lingüísticas Iniciales](#-2-teor%C3%ADas-ling%C3%BC%C3%ADsticas-iniciales)
