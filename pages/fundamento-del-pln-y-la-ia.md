@@ -63,7 +63,7 @@
 - [👾 2. Ventajas sobre Modelos Determinísticos](#-2-ventajas-sobre-modelos-determin%C3%ADsticos)
 - [👾 3. Aplicaciones Prácticas](#-3-aplicaciones-pr%C3%A1cticas)
 - [👾 4. Limitaciones](#-4-limitaciones)
-- [Año 2013 y la Revolución de Word2Vec](#a%C3%B1o-2013-y-la-revoluci%C3%B3n-de-word2vec)
+- [Año 2013: la Revolución de Word2Vec](#a%C3%B1o-2013-la-revoluci%C3%B3n-de-word2vec)
 - [📟 Propuesta de Tomas Mikolov y su Equipo de Google](#-propuesta-de-tomas-mikolov-y-su-equipo-de-google)
 - [👾 1. Contexto del Descubrimiento](#-1-contexto-del-descubrimiento)
 - [👾 2. Arquitecturas Clave](#-2-arquitecturas-clave)
@@ -73,14 +73,14 @@
 - [👾 3. Impacto en Procesamiento del Lenguaje Natural](#-3-impacto-en-procesamiento-del-lenguaje-natural)
 - [👾 4. Limitaciones y Consideraciones Éticas](#-4-limitaciones-y-consideraciones-%C3%A9ticas)
 - [👾 5. Evolución Posterior](#-5-evoluci%C3%B3n-posterior)
-- [Año 2017 Modelo de Transformadores](#a%C3%B1o-2017-modelo-de-transformadores)
+- [Año 2017: Modelo de Transformadores](#a%C3%B1o-2017-modelo-de-transformadores)
 - [👾 Attention is All You Need](#-attention-is-all-you-need)
 - [👾 Revolución en NLP](#-revoluci%C3%B3n-en-nlp)
 - [Año 2020: ChatGPT](#a%C3%B1o-2020-chatgpt)
 - [📟 Fundamentos de ChatGPT](#-fundamentos-de-chatgpt)
 - [👾 Arquitectura de ChatGPT](#-arquitectura-de-chatgpt)
 - [👾  Métodos de Entrenamiento de ChatGPT](#--m%C3%A9todos-de-entrenamiento-de-chatgpt)
-- [Año 2024 ChatGPT-4o y o1](#a%C3%B1o-2024-chatgpt-4o-y-o1)
+- [Año 2024: ChatGPT-4o y o1](#a%C3%B1o-2024-chatgpt-4o-y-o1)
 - [👾  ChatGPT-4o 2024](#--chatgpt-4o-2024)
 - [👾  Modelo o1 Strawberry](#--modelo-o1-strawberry)
 
@@ -91,7 +91,7 @@
 Bienvenidos a esta serie de clases donde exploraremos la evolución histórica del concepto de vectorizar palabras. A lo largo de las décadas, desde los años 1950 hasta el 2013, veremos cómo han evolucionado las técnicas y teorías que nos permiten hoy en día representar palabras en forma de vectores matemáticos, fundamentales para el procesamiento del lenguaje natural y la inteligencia artificial.
 
 ---
-# <p align=center>Década de 1950: Fundamentos del Análisis Semántico</p>
+# <p align=center>**Década de 1950: Fundamentos del Análisis Semántico**</p>
 
 # :pager: **Introducción al Origen de las Representaciones Distribuidas en la Lingüística**
 
