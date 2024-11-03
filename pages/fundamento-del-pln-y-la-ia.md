@@ -6,29 +6,83 @@
 - [📟 Introducción General](#-introducci%C3%B3n-general)
 - [Década de 1950: Fundamentos del Análisis Semántico](#d%C3%A9cada-de-1950-fundamentos-del-an%C3%A1lisis-sem%C3%A1ntico)
 - [📟 Introducción al Origen de las Representaciones Distribuidas en la Lingüística](#-introducci%C3%B3n-al-origen-de-las-representaciones-distribuidas-en-la-ling%C3%BC%C3%ADstica)
+- [👾 1. Contexto Histórico](#-1-contexto-hist%C3%B3rico)
+- [👾 2. Teorías Lingüísticas Iniciales](#-2-teor%C3%ADas-ling%C3%BC%C3%ADsticas-iniciales)
+- [👾 3. Primeras Representaciones Semánticas](#-3-primeras-representaciones-sem%C3%A1nticas)
 - [📟 Principales Ideas y Bases Matemáticas de la Semántica](#-principales-ideas-y-bases-matem%C3%A1ticas-de-la-sem%C3%A1ntica)
+- [👾 1. Conceptos Clave](#-1-conceptos-clave)
+- [👾 2. Herramientas Matemáticas](#-2-herramientas-matem%C3%A1ticas)
+- [👾 3. Aplicaciones Tempranas](#-3-aplicaciones-tempranas)
+- [👾 4. Limitaciones y Desafíos](#-4-limitaciones-y-desaf%C3%ADos)
 - [Años 1960: Mapeo Multidimensional](#a%C3%B1os-1960-mapeo-multidimensional)
 - [📟 Contribuciones de Joseph B. Kruskal y James C. Shepherd](#-contribuciones-de-joseph-b-kruskal-y-james-c-shepherd)
+- [👾 1. Introducción a los Autores](#-1-introducci%C3%B3n-a-los-autores)
+- [👾 2. Desarrollo del Análisis Multidimensional](#-2-desarrollo-del-an%C3%A1lisis-multidimensional)
 - [📟 Propuesta del Mapeo Multidimensional y su Relevancia](#-propuesta-del-mapeo-multidimensional-y-su-relevancia)
+- [👾 1. Aplicación en Lingüística](#-1-aplicaci%C3%B3n-en-ling%C3%BC%C3%ADstica)
+- [👾 2. Método del MDS](#-2-m%C3%A9todo-del-mds)
+- [👾 3. Impacto en Representaciones Vectoriales](#-3-impacto-en-representaciones-vectoriales)
+- [👾 4. Limitaciones](#-4-limitaciones)
 - [Década de 1970: Semántica Latente y Análisis de Componentes Principales](#d%C3%A9cada-de-1970-sem%C3%A1ntica-latente-y-an%C3%A1lisis-de-componentes-principales)
 - [📟 Avances en la Semántica Latente y la Importancia de los Vectores en el Análisis de Datos Semánticos](#-avances-en-la-sem%C3%A1ntica-latente-y-la-importancia-de-los-vectores-en-el-an%C3%A1lisis-de-datos-sem%C3%A1nticos)
+- [👾 1. Introducción a la Semántica Latente](#-1-introducci%C3%B3n-a-la-sem%C3%A1ntica-latente)
+- [👾 2. Análisis de Componentes Principales PCA](#-2-an%C3%A1lisis-de-componentes-principales-pca)
+- [👾 3. Importancia de los Vectores](#-3-importancia-de-los-vectores)
 - [📟 Utilización de Técnicas Estadísticas para Comprender el Significado de las Palabras](#-utilizaci%C3%B3n-de-t%C3%A9cnicas-estad%C3%ADsticas-para-comprender-el-significado-de-las-palabras)
+- [👾 1. Modelado Estadístico del Lenguaje](#-1-modelado-estad%C3%ADstico-del-lenguaje)
+- [👾 2. Aplicaciones del PCA en Lingüística](#-2-aplicaciones-del-pca-en-ling%C3%BC%C3%ADstica)
+- [👾 3. Ejemplos Prácticos](#-3-ejemplos-pr%C3%A1cticos)
+- [👾 4. Desafíos y Limitaciones](#-4-desaf%C3%ADos-y-limitaciones)
 - [Década de 1980: Latent Semantic Analysis LSA](#d%C3%A9cada-de-1980-latent-semantic-analysis-lsa)
 - [📟 Desarrollo de LSA para Representar y Analizar Grandes Volúmenes de Texto](#-desarrollo-de-lsa-para-representar-y-analizar-grandes-vol%C3%BAmenes-de-texto)
+- [👾 1. Orígenes del LSA](#-1-or%C3%ADgenes-del-lsa)
+- [👾 2. Fundamentos del LSA](#-2-fundamentos-del-lsa)
+- [👾 3. Proceso de LSA](#-3-proceso-de-lsa)
 - [📟 El Impacto de esta Técnica en la Comprensión Automática del Lenguaje](#-el-impacto-de-esta-t%C3%A9cnica-en-la-comprensi%C3%B3n-autom%C3%A1tica-del-lenguaje)
+- [👾 1. Mejoras en Recuperación de Información](#-1-mejoras-en-recuperaci%C3%B3n-de-informaci%C3%B3n)
+- [👾 2. Aplicaciones en Educación](#-2-aplicaciones-en-educaci%C3%B3n)
+- [👾 3. Avances en Procesamiento del Lenguaje Natural](#-3-avances-en-procesamiento-del-lenguaje-natural)
+- [👾 4. Limitaciones y Críticas](#-4-limitaciones-y-cr%C3%ADticas)
 - [Década de 1990: Redes Neuronales y Representaciones Distribuidas](#d%C3%A9cada-de-1990-redes-neuronales-y-representaciones-distribuidas)
 - [📟 Uso Temprano de Redes Neuronales para Representaciones Distribuidas](#-uso-temprano-de-redes-neuronales-para-representaciones-distribuidas)
+- [👾 1. Renacimiento de las Redes Neuronales](#-1-renacimiento-de-las-redes-neuronales)
+- [👾 2. Representaciones Distribuidas](#-2-representaciones-distribuidas)
+- [👾 3. Modelos Pioneros](#-3-modelos-pioneros)
 - [📟 Avances y Limitaciones de Estas Técnicas en Comparación con Enfoques Posteriores](#-avances-y-limitaciones-de-estas-t%C3%A9cnicas-en-comparaci%C3%B3n-con-enfoques-posteriores)
+- [👾 1. Aplicaciones en Lenguaje](#-1-aplicaciones-en-lenguaje)
+- [👾 2. Limitaciones](#-2-limitaciones)
+- [👾 3. Comparación con Enfoques Posteriores](#-3-comparaci%C3%B3n-con-enfoques-posteriores)
+- [👾 4. Legado y Contribución](#-4-legado-y-contribuci%C3%B3n)
 - [Primeros 2000: Modelos Probabilísticos y Topic Modeling](#primeros-2000-modelos-probabil%C3%ADsticos-y-topic-modeling)
 - [📟 Introducción de Modelos como Latent Dirichlet Allocation LDA](#-introducci%C3%B3n-de-modelos-como-latent-dirichlet-allocation-lda)
+- [👾 1. Evolución del Topic Modeling](#-1-evoluci%C3%B3n-del-topic-modeling)
+- [👾 2. Fundamentos de LDA](#-2-fundamentos-de-lda)
+- [👾 3. Proceso de LDA](#-3-proceso-de-lda)
 - [📟 Cómo los Modelos Probabilísticos Influyeron en la Semántica Vectorial](#-c%C3%B3mo-los-modelos-probabil%C3%ADsticos-influyeron-en-la-sem%C3%A1ntica-vectorial)
+- [👾 1. Representación Probabilística del Lenguaje](#-1-representaci%C3%B3n-probabil%C3%ADstica-del-lenguaje)
+- [👾 2. Ventajas sobre Modelos Determinísticos](#-2-ventajas-sobre-modelos-determin%C3%ADsticos)
+- [👾 3. Aplicaciones Prácticas](#-3-aplicaciones-pr%C3%A1cticas)
+- [👾 4. Limitaciones](#-4-limitaciones)
 - [Año 2013 y la Revolución de Word2Vec](#a%C3%B1o-2013-y-la-revoluci%C3%B3n-de-word2vec)
 - [📟 Propuesta de Tomas Mikolov y su Equipo de Google](#-propuesta-de-tomas-mikolov-y-su-equipo-de-google)
+- [👾 1. Contexto del Descubrimiento](#-1-contexto-del-descubrimiento)
+- [👾 2. Arquitecturas Clave](#-2-arquitecturas-clave)
 - [📟 Simplificación y Popularización de las Representaciones Vectoriales con el Modelo Word2Vec](#-simplificaci%C3%B3n-y-popularizaci%C3%B3n-de-las-representaciones-vectoriales-con-el-modelo-word2vec)
-- [: Modelo de Transformadores](#-modelo-de-transformadores)
+- [👾 1. Características Principales](#-1-caracter%C3%ADsticas-principales)
+- [👾 2. Ventajas del Modelo](#-2-ventajas-del-modelo)
+- [👾 3. Impacto en Procesamiento del Lenguaje Natural](#-3-impacto-en-procesamiento-del-lenguaje-natural)
+- [👾 4. Limitaciones y Consideraciones Éticas](#-4-limitaciones-y-consideraciones-%C3%A9ticas)
+- [👾 5. Evolución Posterior](#-5-evoluci%C3%B3n-posterior)
+- [Año 2017 Modelo de Transformadores](#a%C3%B1o-2017-modelo-de-transformadores)
+- [👾 Attention is All You Need](#-attention-is-all-you-need)
+- [👾 Revolución en NLP](#-revoluci%C3%B3n-en-nlp)
 - [Año 2020: ChatGPT](#a%C3%B1o-2020-chatgpt)
 - [📟 Fundamentos de ChatGPT](#-fundamentos-de-chatgpt)
+- [👾 Arquitectura de ChatGPT](#-arquitectura-de-chatgpt)
+- [👾  Métodos de Entrenamiento de ChatGPT](#--m%C3%A9todos-de-entrenamiento-de-chatgpt)
 - [Año 2024 ChatGPT-4o y o1](#a%C3%B1o-2024-chatgpt-4o-y-o1)
+- [👾  ChatGPT-4o 2024](#--chatgpt-4o-2024)
+- [👾  Modelo o1 Strawberry](#--modelo-o1-strawberry)
 
 <!-- /TOC -->
 
@@ -41,7 +95,7 @@ Bienvenidos a esta serie de clases donde exploraremos la evolución histórica d
 
 # :pager: **Introducción al Origen de las Representaciones Distribuidas en la Lingüística**
 
-## :space_invader: **1. Contexto Histórico**
+# :space_invader: **1. Contexto Histórico**
 
 ## :pushpin: **Posguerra y Avances Tecnológicos**: Tras la Segunda Guerra Mundial, hubo un auge en el desarrollo de tecnologías computacionales.
 
@@ -65,7 +119,7 @@ En la lingüística estructural, las palabras no se analizan en términos de su 
 
 Este enfoque estructural también influyó en la forma en que los investigadores comenzaron a pensar en representar palabras matemáticamente. La idea era que si el lenguaje es un sistema estructurado, entonces podría ser modelado mediante relaciones y patrones que pueden describirse usando conceptos matemáticos como matrices y vectores. Así, la teoría de la lingüística estructural proporcionó una base teórica para los métodos distribucionales que se usarían más adelante para vectorizar palabras. Estos métodos buscan capturar la estructura formal del lenguaje y cómo los elementos se interconectan.
 
-## :space_invader: **2. Teorías Lingüísticas Iniciales**
+# :space_invader: **2. Teorías Lingüísticas Iniciales**
 
 ## :pushpin: **Teoría de la Información de Shannon (1948)**: Base para entender cómo transmitir información eficientemente.
 
@@ -137,7 +191,7 @@ Imagina que estás leyendo un gran número de artículos sobre cocina. Si las pa
 
 La Hipótesis Distribucional de Harris ha tenido un impacto duradero en la evolución de las técnicas de vectorización de palabras. Inspiró la creación de modelos matemáticos y computacionales que utilizan contextos para capturar el significado, y continúa siendo un principio subyacente en muchos de los métodos de NLP modernos, desde la representación de palabras hasta los modelos de lenguaje más avanzados, como los basados en transformadores (BERT, GPT, etc.).
 
-## :space_invader: **3. Primeras Representaciones Semánticas**
+# :space_invader: **3. Primeras Representaciones Semánticas**
 
 ## :pushpin: **Análisis de Co-ocurrencia**: Estudio de cómo las palabras aparecen juntas en el texto.
 
@@ -201,7 +255,7 @@ Las matrices de contingencia fueron un paso crucial en el desarrollo de métodos
 
 # :pager: **Principales Ideas y Bases Matemáticas de la Semántica**
 
-## :space_invader: **1. Conceptos Clave**
+# :space_invader: **1. Conceptos Clave**
 
 ## :pushpin: **Semántica Distribucional**: Significado de una palabra basado en su uso.
 
@@ -274,7 +328,7 @@ Los **Espacios Vectoriales** son estructuras matemáticas que se utilizan para r
 Los espacios vectoriales son fundamentales porque transforman el lenguaje, un fenómeno humano y complejo, en un formato numérico que las computadoras pueden procesar y analizar. Esto ha permitido grandes avances en la capacidad de las máquinas para entender, generar y razonar con lenguaje humano, sentando las bases para aplicaciones de inteligencia artificial como chatbots, asistentes virtuales y sistemas de recomendación.
 
 
-## :space_invader: **2. Herramientas Matemáticas**
+# :space_invader: **2. Herramientas Matemáticas**
 
 ## :pushpin: **Álgebra Lineal**: Vectores, matrices y operaciones fundamentales.
 
@@ -343,7 +397,7 @@ La estadística básica es fundamental para técnicas como el **análisis de co-
 Este conocimiento estadístico fue esencial en los primeros enfoques de NLP y sigue siendo relevante en modelos más avanzados, ayudando a capturar mejor las complejidades del lenguaje humano.
 
 
-## :space_invader: **3. Aplicaciones Tempranas**
+# :space_invader: **3. Aplicaciones Tempranas**
 
 ## :pushpin: **Traducción Automática**: Intentos iniciales de traducir textos utilizando reglas y patrones estadísticos.
 
@@ -412,7 +466,7 @@ Cuando realizas una búsqueda en un motor como Google, el sistema no solo busca 
 
 La Recuperación de Información ha evolucionado significativamente, impulsada por avances en vectorización de palabras y técnicas semánticas, haciendo que las búsquedas sean más precisas y relevantes. Esto sigue siendo un área clave en el desarrollo de aplicaciones de inteligencia artificial y procesamiento del lenguaje natural.
 
-## :space_invader: **4. Limitaciones y Desafíos**
+# :space_invader: **4. Limitaciones y Desafíos**
 
 ## :pushpin: **Capacidad Computacional**: Limitada en la época, dificultando cálculos complejos.
 
@@ -485,7 +539,7 @@ La transición de técnicas superficiales a enfoques más profundos ha sido clav
 
 # :pager: **Contribuciones de Joseph B. Kruskal y James C. Shepherd**
 
-## :space_invader: **1. Introducción a los Autores**
+# :space_invader: **1. Introducción a los Autores**
 
 ## :pushpin: **Joseph B. Kruskal**: Estadístico y matemático conocido por el algoritmo de Kruskal.
 Joseph B. Kruskal (1928-2022) fue un destacado estadístico y matemático estadounidense, conocido principalmente por su contribución al campo de la teoría de grafos y el desarrollo del algoritmo de Kruskal, que es fundamental para la construcción de árboles de expansión mínima en grafos. Su trabajo ha tenido un impacto duradero en diversas áreas, incluyendo la estadística, la informática y el análisis de datos.
@@ -564,7 +618,7 @@ Shepherd también ha estado involucrado en la creación de herramientas y softwa
 James C. Shepherd ha dejado una huella indeleble en el campo del análisis multidimensional. Sus contribuciones no solo han mejorado la comprensión de técnicas complejas, sino que también han ampliado su aplicación en diversas disciplinas. A medida que la cantidad de datos disponibles continúa creciendo, el trabajo de Shepherd se vuelve cada vez más relevante, proporcionando a los investigadores las herramientas necesarias para extraer significado de la complejidad.
 
 
-## :space_invader: **2. Desarrollo del Análisis Multidimensional**
+# :space_invader: **2. Desarrollo del Análisis Multidimensional**
 
 ## :pushpin: **Análisis de Escalamiento Multidimensional (MDS)**: Técnica para visualizar similitudes o disimilitudes en datos.
 ## Introducción al Análisis de Escalamiento Multidimensional (MDS)
@@ -681,7 +735,7 @@ Al aplicar técnicas de reducción de dimensionalidad, es crucial tener en cuent
 
 # :pager: **Propuesta del Mapeo Multidimensional y su Relevancia**
 
-## :space_invader: **1. Aplicación en Lingüística**
+# :space_invader: **1. Aplicación en Lingüística**
 
 ## :pushpin: **Visualización de Relaciones Semánticas**: Representación gráfica de palabras basadas en similitudes.
 
@@ -783,7 +837,7 @@ La reducción de dimensionalidad tiene múltiples aplicaciones en diversas área
 
 La reducción de dimensionalidad es una herramienta poderosa que permite simplificar datos complejos, facilitando su interpretación y análisis. A través de técnicas como PCA, t-SNE y autoencoders, los investigadores y profesionales pueden abordar los desafíos asociados con la alta dimensionalidad, mejorando la eficiencia y efectividad de sus modelos y análisis. La elección de la técnica adecuada dependerá del contexto específico y de los objetivos del análisis.
 
-## :space_invader: **2. Método del MDS**
+# :space_invader: **2. Método del MDS**
 
 ## :pushpin: **Cálculo de Distancias**: Medición de similitud entre elementos.
 
@@ -904,7 +958,7 @@ Después de aplicar los métodos de optimización, es fundamental evaluar la cal
 
 La optimización para minimizar la diferencia entre distancias originales y representadas es un componente esencial en la representación semántica dentro del procesamiento de lenguaje natural. A través de métodos de aprendizaje supervisado y no supervisado, junto con algoritmos de optimización y funciones de pérdida adecuadas, es posible lograr representaciones que capturen de manera efectiva las relaciones semánticas en los datos. La evaluación continua y la iteración son claves para mejorar la calidad de estas representaciones.
 
-## :space_invader: **3. Impacto en Representaciones Vectoriales**
+# :space_invader: **3. Impacto en Representaciones Vectoriales**
 
 ## :pushpin: **Fundamento para Técnicas Posteriores**: Base para algoritmos de reducción dimensional como PCA y LSA.
 
@@ -1006,7 +1060,7 @@ El entendimiento de las estructuras semánticas tiene múltiples aplicaciones en
 
 El entendimiento de las estructuras semánticas y la forma en que las palabras se agrupan en espacios semánticos es un área crítica en el desarrollo de tecnologías de procesamiento de lenguaje natural. A medida que avanzamos hacia modelos más sofisticados, la capacidad de capturar y representar el significado de las palabras en contextos complejos se convierte en una herramienta poderosa para mejorar la interacción humano-computadora y la comprensión del lenguaje natural.
 
-## :space_invader: **4. Limitaciones**
+# :space_invader: **4. Limitaciones**
 
 ## :pushpin: **Interpretabilidad**: Dificultad para interpretar dimensiones reducidas.
 
@@ -1105,7 +1159,7 @@ La computación intensiva es un componente crítico en el procesamiento de grand
 
 # :pager: **Avances en la Semántica Latente y la Importancia de los Vectores en el Análisis de Datos Semánticos**
 
-## :space_invader: **1. Introducción a la Semántica Latente**
+# :space_invader: **1. Introducción a la Semántica Latente**
 
 ## :pushpin: **Concepto de Variables Latentes**: Factores ocultos que influyen en los datos observados.
 
@@ -1209,7 +1263,7 @@ A pesar de sus numerosas aplicaciones, el descubrimiento de temas subyacentes en
 El descubrimiento de temas subyacentes en textos es un campo en constante evolución que combina técnicas de lingüística y procesamiento de lenguaje natural. A medida que las herramientas y metodologías continúan desarrollándose, su aplicación se expandirá en diversas áreas, proporcionando nuevas oportunidades para la investigación y la comprensión del lenguaje humano.
 
 
-## :space_invader: **2. Análisis de Componentes Principales (PCA)**
+# :space_invader: **2. Análisis de Componentes Principales (PCA)**
 
 ## :pushpin: **Objetivo**: Reducir la dimensionalidad de los datos manteniendo la mayor varianza posible.
 
@@ -1274,7 +1328,7 @@ Al aplicar técnicas de reducción de dimensionalidad, es crucial tener en cuent
 - **Matriz de Covarianza**: Evaluar cómo varían conjuntamente las variables.
 - **Eigenvalores y Eigenvectores**: Determinar las direcciones principales.
 
-## :space_invader: **3. Importancia de los Vectores**
+# :space_invader: **3. Importancia de los Vectores**
 
 ## :pushpin: **Representación Matemática**: Las palabras y documentos se representan como vectores en un espacio.
 
@@ -1398,7 +1452,7 @@ La similitud semántica es una herramienta poderosa en el procesamiento de lengu
 
 # :pager: **Utilización de Técnicas Estadísticas para Comprender el Significado de las Palabras**
 
-## :space_invader: **1. Modelado Estadístico del Lenguaje**
+# :space_invader: **1. Modelado Estadístico del Lenguaje**
 
 ## :pushpin: **Frecuencias de Palabras**: Análisis de cómo a menudo aparecen las palabras.
 
@@ -1544,7 +1598,7 @@ donde \( C \) representa la función de conteo.
 Las distribuciones de probabilidad son una base teórica esencial para el análisis de datos y la modelación en el procesamiento de lenguaje natural. Comprender cómo modelar la probabilidad de ocurrencia de eventos es fundamental para desarrollar algoritmos y técnicas que puedan interpretar y generar lenguaje humano de manera efectiva.
 
 
-## :space_invader: **2. Aplicaciones del PCA en Lingüística**
+# :space_invader: **2. Aplicaciones del PCA en Lingüística**
 
 ## :pushpin: **Detección de Temas**: Identificar temas principales en un corpus.
 
@@ -1655,7 +1709,7 @@ El filtrado de ruido no solo mejora la calidad de los datos, sino que también:
 El filtrado de ruido es un componente esencial en el procesamiento de lenguaje natural que permite a los investigadores y desarrolladores optimizar sus modelos y análisis. Al eliminar información redundante y menos significativa, se mejora la calidad de los resultados obtenidos, lo que es crucial en aplicaciones que van desde la minería de texto hasta la traducción automática y el análisis de sentimientos. La implementación de técnicas efectivas de filtrado de ruido es, por lo tanto, un paso indispensable en el ciclo de vida de los proyectos de PLN.
 
 
-## :space_invader: **3. Ejemplos Prácticos**
+# :space_invader: **3. Ejemplos Prácticos**
 
 ## :pushpin: **Análisis de Textos**: Aplicación en libros, artículos científicos, etc.
 
@@ -1780,7 +1834,7 @@ La evaluación de la relevancia de los resultados de búsqueda es crucial para m
 La mejora en la recuperación de información es un campo multidisciplinario que combina técnicas de indexación, modelos de recuperación, aprendizaje automático y procesamiento de lenguaje natural. A medida que la tecnología avanza, la capacidad de ofrecer resultados más relevantes en búsquedas se convierte en un objetivo fundamental para los investigadores y desarrolladores. La continua evolución de estos métodos promete una experiencia de búsqueda más precisa y satisfactoria para los usuarios.
 
 
-## :space_invader: **4. Desafíos y Limitaciones**
+# :space_invader: **4. Desafíos y Limitaciones**
 
 ## :pushpin: **Interpretación de Componentes**: Las nuevas variables pueden ser abstractas.
 
@@ -1878,7 +1932,7 @@ La gestión de datos escasos, ya sea en forma de palabras raras o documentos cor
 
 # :pager: **Desarrollo de LSA para Representar y Analizar Grandes Volúmenes de Texto**
 
-## :space_invader: **1. Orígenes del LSA**
+# :space_invader: **1. Orígenes del LSA**
 
 ## :pushpin: **Propuesto por Deerwester et al. (1990)** aunque desarrollado en los 80.
 
@@ -1933,7 +1987,7 @@ La implementación de interfaces de usuario que permiten consultas en lenguaje n
 Las búsquedas basadas en palabras clave, aunque útiles, presentan limitaciones significativas que afectan su eficacia. La evolución hacia métodos que incorporan una comprensión semántica más profunda del lenguaje natural ofrece una solución prometedora. Al adoptar enfoques que consideran el contexto, las relaciones semánticas y la intención del usuario, es posible mejorar la precisión y la relevancia de los resultados de búsqueda, transformando así la manera en que interactuamos con la información.
 
 
-## :space_invader: **2. Fundamentos del LSA**
+# :space_invader: **2. Fundamentos del LSA**
 
 ## :pushpin: **Descomposición en Valores Singulares (SVD)**: Factorización de matrices para reducir dimensionalidad.
 
@@ -2040,7 +2094,7 @@ El análisis de sentimientos se beneficia del ESL al permitir que los modelos id
 El Espacio Semántico Latente es una herramienta poderosa en el procesamiento de lenguaje natural que permite representar de manera efectiva la semántica de palabras y documentos en un espacio común. Su capacidad para capturar relaciones semánticas complejas ha llevado a avances significativos en diversas aplicaciones, desde la recuperación de información hasta el análisis de sentimientos. A medida que la tecnología y los métodos de PLN continúan evolucionando, el ESL seguirá siendo un componente fundamental en el desarrollo de modelos semánticos más sofisticados.
 
 
-## :space_invader: **3. Proceso de LSA**
+# :space_invader: **3. Proceso de LSA**
 
 ## :pushpin: **Construcción de la Matriz Termino-Documento**: Frecuencias de términos en documentos.
 
@@ -2227,7 +2281,7 @@ En conclusión, la representación vectorial es una herramienta poderosa en el P
 
 # :pager: **El Impacto de esta Técnica en la Comprensión Automática del Lenguaje**
 
-## :space_invader: **1. Mejoras en Recuperación de Información**
+# :space_invader: **1. Mejoras en Recuperación de Información**
 
 ## :pushpin: **Sinónimos y Polisemia**: Capacidad para relacionar términos similares y desambiguar significados.
 
@@ -2335,7 +2389,7 @@ Basándose en la evaluación de los resultados, los usuarios deben estar dispues
 La formulación de consultas efectivas es un arte que combina la comprensión del lenguaje natural, la semántica y la estrategia. A través de la práctica y la aplicación de las técnicas discutidas en este módulo, los usuarios pueden mejorar significativamente la relevancia de los resultados en sus búsquedas, optimizando así su experiencia en la búsqueda de información. La evolución continua de las herramientas de búsqueda y el PLN promete seguir transformando cómo interactuamos con la información.
 
 
-## :space_invader: **2. Aplicaciones en Educación**
+# :space_invader: **2. Aplicaciones en Educación**
 
 ## :pushpin: **Evaluación Automática de Ensayos**: Análisis de similitud entre textos estudiantiles y materiales de referencia.
 
@@ -2446,7 +2500,7 @@ El aprendizaje automático se emplea para mejorar la precisión de las adaptacio
 Las herramientas de tutoría inteligente representan un avance significativo en la educación personalizada. Al adaptar el contenido según la comprensión del estudiante, estas herramientas no solo mejoran la efectividad del aprendizaje, sino que también fomentan la motivación y el compromiso. A medida que la tecnología continúa evolucionando, es probable que veamos una integración aún más profunda de las ITS en entornos educativos, transformando la manera en que se enseña y se aprende.
 
 
-## :space_invader: **3. Avances en Procesamiento del Lenguaje Natural**
+# :space_invader: **3. Avances en Procesamiento del Lenguaje Natural**
 
 ## :pushpin: **Traducción Automática**: Mejora en la alineación de frases y términos.
 
@@ -2577,7 +2631,7 @@ A pesar de los avances significativos, el resumen automático enfrenta varios de
 El futuro del resumen automático probablemente estará marcado por la integración de técnicas avanzadas de aprendizaje profundo y la mejora de modelos que puedan entender y generar lenguaje natural de manera más efectiva. La continua investigación en este campo promete abrir nuevas posibilidades para la automatización de la comprensión y síntesis de información.
 
 
-## :space_invader: **4. Limitaciones y Críticas**
+# :space_invader: **4. Limitaciones y Críticas**
 
 ## :pushpin: **Requerimientos Computacionales**: Procesamiento intensivo para grandes corpus.
 
@@ -2664,7 +2718,7 @@ La estática del modelo representa un desafío significativo en el campo del pro
 
 # :pager: **Uso Temprano de Redes Neuronales para Representaciones Distribuidas**
 
-## :space_invader: **1. Renacimiento de las Redes Neuronales**
+# :space_invader: **1. Renacimiento de las Redes Neuronales**
 
 ## :pushpin: **Backpropagation**: Popularización del algoritmo de retropropagación de errores.
 
@@ -2765,7 +2819,7 @@ Los modelos conexistas también se utilizan para simular procesos cognitivos com
 Los modelos conexistas representan un enfoque poderoso para la simulación de procesos cognitivos mediante redes neuronales. Su capacidad para aprender de datos y generalizar a nuevas situaciones los convierte en herramientas esenciales en el campo del procesamiento de lenguaje natural y la inteligencia artificial. A medida que la tecnología avanza, es probable que estos modelos continúen evolucionando y mejorando, ofreciendo nuevas oportunidades para la investigación y la aplicación en diversas áreas.
 
 
-## :space_invader: **2. Representaciones Distribuidas**
+# :space_invader: **2. Representaciones Distribuidas**
 
 ## :pushpin: **Concepto**: Representar información a través de patrones de activación en una red.
 
@@ -2834,7 +2888,7 @@ El manejo de información incompleta es otra ventaja crucial en el ámbito del P
 La capacidad para generalizar y manejar información incompleta son ventajas significativas en el campo del Procesamiento de Lenguaje Natural. Estas habilidades permiten a los modelos ser más adaptables, robustos y efectivos en una variedad de aplicaciones del mundo real. A medida que la investigación en PLN avanza, es probable que estas capacidades se sigan perfeccionando, lo que conducirá a sistemas aún más sofisticados y útiles en el procesamiento del lenguaje humano.
 
 
-## :space_invader: **3. Modelos Pioneros**
+# :space_invader: **3. Modelos Pioneros**
 
 ## :pushpin: **Redes de Hopfield**: Modelos de memoria asociativa.
 
@@ -2974,7 +3028,7 @@ Los modelos de Elman y Jordan son hitos en el desarrollo de redes neuronales rec
 
 # :pager: **Avances y Limitaciones de Estas Técnicas en Comparación con Enfoques Posteriores**
 
-## :space_invader: **1. Aplicaciones en Lenguaje**
+# :space_invader: **1. Aplicaciones en Lenguaje**
 
 ## :pushpin: **Modelado del Lenguaje**: Predicción de palabras siguientes en una secuencia.
 
@@ -3091,7 +3145,7 @@ A pesar de los avances en la desambiguación lexical, existen varios desafíos q
 La desambiguación lexical es una tarea fundamental en el PLN que permite a las máquinas entender el lenguaje humano de manera más efectiva. A través de la combinación de métodos basados en el conocimiento y enfoques basados en datos, se están logrando avances significativos en la identificación del significado correcto de las palabras en función del contexto. Sin embargo, la investigación continúa para superar los desafíos persistentes en esta área.
 
 
-## :space_invader: **2. Limitaciones**
+# :space_invader: **2. Limitaciones**
 
 ## :pushpin: **Capacidad Computacional**: Entrenamiento lento y problemas con grandes volúmenes de datos.
 
@@ -3172,7 +3226,7 @@ Existen varias estrategias para mitigar el problema del vanishing gradient:
 El problema del vanishing gradient es un desafío crítico en el entrenamiento de redes neuronales profundas. Comprender sus causas y consecuencias es fundamental para el diseño y la implementación de modelos de aprendizaje profundo efectivos. A medida que la investigación en este campo avanza, se están desarrollando cada vez
 
 
-## :space_invader: **3. Comparación con Enfoques Posteriores**
+# :space_invader: **3. Comparación con Enfoques Posteriores**
 
 ## :pushpin: **Frente a Word2Vec y Modelos Actuales**: Menor eficiencia y capacidad de representación.
 
@@ -3269,7 +3323,7 @@ El aprendizaje no supervisado ha encontrado aplicaciones en diversas áreas, tal
 El aprendizaje no supervisado ha revolucionado la forma en que se procesan y analizan los datos, superando las limitaciones impuestas por los métodos supervisados en la década de los 90. Con su capacidad para descubrir patrones y estructuras en grandes volúmenes de datos, este enfoque no solo ha ampliado las posibilidades del análisis de datos, sino que también ha sentado las bases para el desarrollo de tecnologías emergentes en el campo del procesamiento del lenguaje natural y más allá. La comprensión y aplicación de técnicas de aprendizaje no supervisado son esenciales para cualquier profesional que desee aprovechar al máximo el potencial de los datos en la actualidad.
 
 
-## :space_invader: **4. Legado y Contribución**
+# :space_invader: **4. Legado y Contribución**
 
 ## :pushpin: **Fundamentos Teóricos**: Sentaron bases para modelos más avanzados.
 
@@ -3360,7 +3414,7 @@ La evolución del PLN está marcada por innovaciones constantes y un enfoque en 
 
 # :pager: **Introducción de Modelos como Latent Dirichlet Allocation (LDA)**
 
-## :space_invader: **1. Evolución del Topic Modeling**
+# :space_invader: **1. Evolución del Topic Modeling**
 
 ## :pushpin: **Pritchard et al. (2000)**: Introducción de modelos genéticos que influyeron en LDA.
 
@@ -3395,7 +3449,7 @@ La obra de Pritchard et al. (2000) no solo ha tenido un impacto significativo en
 
 ## :pushpin: **Blei, Ng y Jordan (2003)**: Proponen LDA como modelo generativo.
 
-## :space_invader: **2. Fundamentos de LDA**
+# :space_invader: **2. Fundamentos de LDA**
 
 ## :pushpin: **Modelo Generativo**: Supone que los documentos son mezcla de temas, y los temas son distribuciones de palabras.
 
@@ -3496,7 +3550,7 @@ La distribución de Dirichlet es ampliamente utilizada en modelos de temas, como
 La distribución de Dirichlet es una herramienta poderosa en el arsenal del procesamiento de lenguaje natural, especialmente para el modelado de temas y palabras. Su capacidad para manejar proporciones y su flexibilidad a través de sus parámetros la convierten en una opción ideal para representar la complejidad del lenguaje humano. A medida que la investigación en PLN continúa avanzando, la comprensión y aplicación de la distribución de Dirichlet seguirán siendo fundamentales para el desarrollo de modelos más sofisticados y precisos.
 
 
-## :space_invader: **3. Proceso de LDA**
+# :space_invader: **3. Proceso de LDA**
 
 ## :pushpin: **Asignación de Temas a Palabras**: Cada palabra en un documento es asignada a un tema.
 
@@ -3631,7 +3685,7 @@ La inferencia de temas utilizando métodos como el muestreo de Gibbs es una herr
 
 # :pager: **Cómo los Modelos Probabilísticos Influyeron en la Semántica Vectorial**
 
-## :space_invader: **1. Representación Probabilística del Lenguaje**
+# :space_invader: **1. Representación Probabilística del Lenguaje**
 
 ## :pushpin: **Captura de Incertidumbre**: Las palabras y temas tienen distribuciones de probabilidad asociadas.
 
@@ -3740,7 +3794,7 @@ A pesar de los avances, el manejo de polisemia y sinónimos sigue siendo un desa
 La flexibilidad en el manejo de la polisemia y los sinónimos de manera probabilística es un aspecto esencial del procesamiento de lenguaje natural. A medida que avanzamos en el desarrollo de modelos más sofisticados, la capacidad de entender y generar lenguaje humano de manera más precisa y contextualizada se convierte en un objetivo primordial. La investigación continua en este campo es fundamental para abordar los desafíos que aún persisten y para mejorar la interacción entre humanos y máquinas.
 
 
-## :space_invader: **2. Ventajas sobre Modelos Determinísticos**
+# :space_invader: **2. Ventajas sobre Modelos Determinísticos**
 
 ## :pushpin: **Escalabilidad**: Manejo eficiente de grandes corpus.
 
@@ -3836,7 +3890,7 @@ Aunque la actualización incremental ofrece numerosas ventajas, también present
 La actualización incremental se presenta como una herramienta poderosa en el campo del procesamiento de lenguaje natural, permitiendo a los modelos adaptarse a un entorno en constante cambio. A medida que la disponibilidad de datos crece y se vuelve más dinámica, la capacidad de integrar nuevos datos sin la necesidad de reconstruir modelos completos se convierte en un aspecto crítico para mantener la eficacia y la relevancia de las soluciones de PLN. La implementación efectiva de este enfoque requiere una comprensión profunda de los métodos disponibles, así como la atención a los desafíos que pueden surgir durante el proceso.
 
 
-## :space_invader: **3. Aplicaciones Prácticas**
+# :space_invader: **3. Aplicaciones Prácticas**
 
 ## :pushpin: **Análisis de Sentimiento**: Detección de emociones y opiniones en textos.
 
@@ -3945,7 +3999,7 @@ A pesar de los avances, existen varios desafíos en la implementación de sistem
 La recomendación de contenidos es un campo en constante evolución que combina múltiples disciplinas, incluyendo el Procesamiento de Lenguaje Natural. A través de la comprensión de las preferencias del usuario y el análisis del contenido, los sistemas de recomendación pueden ofrecer experiencias personalizadas que mejoran la interacción del usuario con plataformas digitales. A medida que la tecnología avanza, es fundamental seguir explorando nuevas técnicas y metodologías para optimizar estos sistemas y enfrentar los desafíos emergentes.
 
 
-## :space_invader: **4. Limitaciones**
+# :space_invader: **4. Limitaciones**
 
 ## :pushpin: **Número de Temas**: Necesidad de predefinir la cantidad de temas.
 
@@ -4033,11 +4087,11 @@ La interpretabilidad en el procesamiento de lenguaje natural es un campo en evol
 
 
 ---
-# <p align=center>Año 2013 y la Revolución de Word2Vec</p>
+# <p align=center>Año 2013: la Revolución de Word2Vec</p>
 
 # :pager: **Propuesta de Tomas Mikolov y su Equipo de Google**
 
-## :space_invader: **1. Contexto del Descubrimiento**
+# :space_invader: **1. Contexto del Descubrimiento**
 
 ## :pushpin: **Necesidad de Representaciones Eficientes**: Manejar grandes volúmenes de datos textuales en Google.
 
@@ -4130,7 +4184,7 @@ Los experimentos deben ser diseñados para asegurar que los modelos simplificado
 La simplificación de modelos neuronales es una innovación técnica crucial que permite el avance del procesamiento de lenguaje natural y el aprendizaje profundo. A medida que la demanda de soluciones eficientes y accesibles sigue creciendo, se espera que estas técnicas se conviertan en estándares en el desarrollo de modelos de inteligencia artificial. La investigación continua en este campo promete no solo mejorar la eficiencia, sino también abrir nuevas posibilidades para la implementación de modelos avanzados en una variedad de aplicaciones.
 
 
-## :space_invader: **2. Arquitecturas Clave**
+# :space_invader: **2. Arquitecturas Clave**
 
 ## :pushpin: **Continuous Bag of Words (CBOW)**: Predice una palabra basándose en su contexto.
 
@@ -4208,7 +4262,7 @@ El modelo Skip-Gram es una técnica poderosa en el campo del procesamiento de le
 
 # :pager: **Simplificación y Popularización de las Representaciones Vectoriales con el Modelo Word2Vec**
 
-## :space_invader: **1. Características Principales**
+# :space_invader: **1. Características Principales**
 
 ## :pushpin: **Vectores de Palabras**: Cada palabra es representada como un vector en un espacio de dimensiones reducidas.
 
@@ -4311,7 +4365,7 @@ A pesar de sus ventajas, la captura de relaciones semánticas mediante operacion
 La captura de relaciones semánticas a través de operaciones aritméticas en vectores es un avance significativo en el campo del Procesamiento de Lenguaje Natural. Esta propiedad no solo permite una mejor comprensión del significado de las palabras en relación entre sí, sino que también abre la puerta a aplicaciones innovadoras en diversas áreas. A medida que la investigación avanza y se desarrollan nuevas técnicas, es probable que veamos mejoras en la forma en que las máquinas entienden y procesan el lenguaje humano.
 
 
-## :space_invader: **2. Ventajas del Modelo**
+# :space_invader: **2. Ventajas del Modelo**
 
 ## :pushpin: **Eficiencia Computacional**: Entrenamiento rápido incluso con grandes corpus.
 
@@ -4413,7 +4467,7 @@ Para evaluar la escalabilidad de un sistema de PLN, se pueden considerar varios 
 La escalabilidad es un aspecto crítico en el procesamiento de lenguaje natural, especialmente en el contexto de vocabularios extensos. Al aplicar estrategias adecuadas y evaluar continuamente el rendimiento, es posible desarrollar sistemas de PLN que no solo sean eficientes, sino que también mantengan una alta calidad en la representación semántica de los datos. La evolución de las técnicas de PLN, como el uso de modelos preentrenados y representaciones distribuidas, ha permitido abordar muchos de los desafíos asociados con la escalabilidad, facilitando así el avance en esta área de investigación.
 
 
-## :space_invader: **3. Impacto en Procesamiento del Lenguaje Natural**
+# :space_invader: **3. Impacto en Procesamiento del Lenguaje Natural**
 
 ## :pushpin: **Base para Modelos Avanzados**: Inspiró técnicas como GloVe, FastText y modelos basados en transformadores.
 
@@ -4531,7 +4585,7 @@ Los chatbots han evolucionado gracias a la implementación de modelos de lenguaj
 Las mejoras en las tareas de NLP son el resultado de la combinación de modelos avanzados, grandes volúmenes de datos y técnicas de aprendizaje profundo. Estas innovaciones han permitido que las máquinas entiendan y generen lenguaje humano de manera más efectiva, abriendo nuevas oportunidades en aplicaciones prácticas y comerciales. La investigación continua en este campo promete aún más avances en el futuro.
 
 
-## :space_invader: **4. Limitaciones y Consideraciones Éticas**
+# :space_invader: **4. Limitaciones y Consideraciones Éticas**
 
 ## :pushpin: **Sesgos en los Datos**: Los vectores pueden reflejar prejuicios presentes en los datos de entrenamiento.
 
@@ -4628,7 +4682,7 @@ Para abordar el problema del contexto limitado y mejorar la desambiguación de p
 El contexto limitado es un desafío persistente en el procesamiento de lenguaje natural, especialmente en el tratamiento de palabras polisémicas. Aunque los avances en modelos de lenguaje han mejorado la capacidad de capturar el contexto semántico, la desambiguación sigue siendo un área activa de investigación. La comprensión adecuada del significado de las palabras en diferentes contextos es fundamental para el desarrollo de aplicaciones de PLN efectivas y precisas.
 
 
-## :space_invader: **5. Evolución Posterior**
+# :space_invader: **5. Evolución Posterior**
 
 ## :pushpin: **Modelos Contextuales**: Desarrollo de Word Embeddings que consideran contexto (e.g., ELMo, BERT).
 
@@ -4723,9 +4777,9 @@ La introducción de los Transformers ha marcado un cambio paradigmático en el c
 
 
 ---
-# <p align=center>2017: Modelo de Transformadores</p>
+# <p align=center>Año 2017: Modelo de Transformadores</p>
 
-## :space_invader: **Attention is All You Need**
+# :space_invader: **Attention is All You Need**
 
 ## :pushpin: Modelo de Transformadores En 2017, Vaswani y otros colaboradores en Google publicaron el revolucionario artículo "Attention is All You Need", introduciendo el modelo de **transformadores**.
 
@@ -4769,7 +4823,7 @@ Dado que los transformadores procesan las palabras de manera paralela y no secue
 #### **Conclusión de la Propuesta**
 El trabajo de Vaswani et al. no solo propuso una arquitectura novedosa, sino que también demostró su efectividad en tareas como la traducción automática, logrando resultados superiores en comparación con las arquitecturas basadas en RNN. La simplicidad y eficiencia del modelo de transformadores han sentado las bases para futuros avances en el campo del PLN y el aprendizaje profundo.
 
-## :space_invader: **Revolución en NLP**
+# :space_invader: **Revolución en NLP**
 
 La introducción de los transformadores por Vaswani et al. en 2017 desencadenó una revolución en el procesamiento del lenguaje natural (NLP), llevando a la creación de modelos como **BERT**, **GPT** y otros. Estos modelos han cambiado radicalmente la forma en que las máquinas procesan y comprenden el lenguaje humano, logrando avances sin precedentes en tareas de PLN.
 
@@ -4859,7 +4913,7 @@ En 2020, OpenAI presentó **ChatGPT**, un modelo conversacional basado en la arq
 ## :pushpin:  **Impacto y Evolución**
 ChatGPT ha transformado la manera en que las personas interactúan con sistemas de inteligencia artificial, facilitando aplicaciones que van desde la automatización de tareas hasta el aprendizaje asistido. Ha inspirado el desarrollo de versiones más avanzadas, como ChatGPT-4, que buscan mejorar la precisión, coherencia y seguridad de las interacciones.
 
-## :space_invader: **Arquitectura de ChatGPT**
+# :space_invader: **Arquitectura de ChatGPT**
 
 ChatGPT se basa en la arquitectura de **GPT-3** (Generative Pre-trained Transformer 3), que utiliza un modelo de **transformador**. Esta arquitectura fue introducida en el paper "Attention is All You Need" de Vaswani et al. y es la base de muchos avances modernos en el procesamiento del lenguaje natural.
 
@@ -4881,7 +4935,7 @@ ChatGPT se basa en la arquitectura de **GPT-3** (Generative Pre-trained Transfor
    - Estas codificaciones se generan utilizando funciones trigonométricas (seno y coseno) que permiten al modelo distinguir la posición relativa de las palabras.
 
 
-## :space_invader:  **Métodos de Entrenamiento de ChatGPT**
+# :space_invader:  **Métodos de Entrenamiento de ChatGPT**
 ChatGPT se entrena utilizando un enfoque en dos etapas: **preentrenamiento** y **ajuste fino**.
 
 ## :pushpin:  **1. Preentrenamiento**
@@ -4908,11 +4962,11 @@ Después del preentrenamiento, ChatGPT pasa por un proceso de ajuste fino para e
    - Durante el ajuste fino, se implementan técnicas para reducir la generación de contenido inapropiado o sesgado. Sin embargo, esta mitigación no es perfecta y sigue siendo un área activa de investigación.
 
 
-# <p align=center>Año 2024 ChatGPT-4o y o1</p>
+# <p align=center>Año 2024: ChatGPT-4o y o1</p>
 
 En el contexto de los avances recientes en procesamiento del lenguaje natural, **ChatGPT-4o** y **o1** representan las últimas iteraciones de los modelos de OpenAI basados en la arquitectura de transformadores, construidos sobre el éxito de modelos como GPT-3 y GPT-4. Aquí te explico en detalle:
 
-## :space_invader:  **ChatGPT-4o (2024)**
+# :space_invader:  **ChatGPT-4o (2024)**
 **ChatGPT-4o** es una versión mejorada y optimizada del modelo GPT-4, con un enfoque en ofrecer una experiencia más rápida y eficiente. A continuación, se destacan las principales características y avances de ChatGPT-4o:
 
 1. **Multimodalidad**:
@@ -4924,7 +4978,7 @@ En el contexto de los avances recientes en procesamiento del lenguaje natural, *
 3. **Mejoras en la Precisión**:
    - El modelo ha mejorado su comprensión y generación de texto, proporcionando respuestas más precisas y contextualmente relevantes. Esto es especialmente útil en tareas complejas de lenguaje natural, donde el contexto y la sutileza son cruciales.
 
-## :space_invader:  **Modelo o1 (Strawberry)**
+# :space_invader:  **Modelo o1 (Strawberry)**
 El modelo **o1**, apodado "Strawberry", se destaca por su enfoque en **razonamiento lógico y análisis profundo**. A diferencia de otros modelos que se centran principalmente en la generación de texto, o1 ha sido diseñado para sobresalir en tareas que requieren una comprensión lógica avanzada.
 
 1. **Enfoque en Razonamiento Complejo**:
