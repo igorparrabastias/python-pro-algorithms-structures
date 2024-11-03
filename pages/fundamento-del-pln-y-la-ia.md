@@ -788,7 +788,7 @@ Los mapas de calor son representaciones gráficas que muestran la intensidad de 
 <!-- TOC depthto:1 -->
 
 - [Evolución de la Representación Semántica: Fundamentos del Procesamiento del Lenguaje Natural y la IA](#evoluci%C3%B3n-de-la-representaci%C3%B3n-sem%C3%A1ntica-fundamentos-del-procesamiento-del-lenguaje-natural-y-la-ia)
-- [📟 Introducción General](#-introducci%C3%B3n-general)
+- [📟 Introducción](#-introducci%C3%B3n)
 - [📟  Indice](#--indice)
 - [🏡 Década de 1950: Fundamentos del Análisis Semántico](#-d%C3%A9cada-de-1950-fundamentos-del-an%C3%A1lisis-sem%C3%A1ntico)
 - [👾 1. Contexto Histórico](#-1-contexto-hist%C3%B3rico)
@@ -869,8 +869,6 @@ Los mapas de calor son representaciones gráficas que muestran la intensidad de 
 - [📟  Conclusión de La Evolución de la Representación Semántica en el PLN y la IA](#--conclusi%C3%B3n-de-la-evoluci%C3%B3n-de-la-representaci%C3%B3n-sem%C3%A1ntica-en-el-pln-y-la-ia)
 
 <!-- /TOC -->
-<!-- /TOC -->taciones](#-4-limitaciones)
-- [🏡 Año 2013: la Revolución de Word2Vec](#-a%C3%B1o-2013-la-revoluci%C3%B3n-de-word2vec)
 - [📟 Propuesta de Tomas Mikolov y su Equipo de Google](#-propuesta-de-tomas-mikolov-y-su-equipo-de-google)
 - [👾 1. Contexto del Descubrimiento](#-1-contexto-del-descubrimiento)
 - [👾 2. Arquitecturas Clave](#-2-arquitecturas-clave)
@@ -4972,16 +4970,16 @@ Estos modelos, ChatGPT-4o y o1, representan un avance importante en la línea de
 ---
 # :pager:  **Conclusión de La Evolución de la Representación Semántica en el PLN y la IA**
 
-La trayectoria histórica de la representación semántica ha sido un viaje fascinante que ha moldeado profundamente el campo del procesamiento del lenguaje natural (PLN) y la inteligencia artificial (IA). Desde sus inicios en los años 50, cuando se establecieron las bases teóricas y matemáticas de la semántica, hasta los sofisticados modelos actuales, hemos visto una evolución continua que refleja la interacción entre la lingüística y el avance tecnológico.
+La trayectoria histórica de la representación semántica ha sido un viaje fascinante que ha moldeado profundamente el campo del procesamiento del lenguaje natural (**PLN**) y la inteligencia artificial (**IA**). Desde sus inicios en los años 50, cuando se establecieron las bases teóricas y matemáticas de la semántica, hasta los sofisticados modelos actuales, hemos visto una evolución continua que refleja la interacción entre la lingüística y el avance tecnológico.
 
-Los primeros enfoques, centrados en teorías estructurales y representaciones básicas, sentaron las bases para el desarrollo de métodos más matemáticos y computacionales, como el Análisis de Componentes Principales (PCA) y el escalamiento multidimensional. Aunque estas técnicas ofrecieron una comprensión inicial del lenguaje, estaban limitadas por su capacidad para captar relaciones semánticas complejas y su dependencia de altos recursos computacionales.
+Los primeros enfoques, centrados en teorías estructurales y representaciones básicas, sentaron las bases para el desarrollo de métodos más matemáticos y computacionales, como el Análisis de Componentes Principales (**PCA**) y el escalamiento multidimensional. Aunque estas técnicas ofrecieron una comprensión inicial del lenguaje, estaban limitadas por su capacidad para captar relaciones semánticas complejas y su dependencia de altos recursos computacionales.
 
-El progreso en las décadas siguientes, con el surgimiento de la semántica latente y el uso de redes neuronales, mostró una creciente sofisticación. Herramientas como LSA y las primeras redes neuronales ofrecieron nuevas formas de procesar y entender grandes volúmenes de texto, aunque enfrentaron desafíos como el *vanishing gradient* y dificultades para manejar datos escasos. No obstante, estos avances sirvieron como cimientos para las innovaciones que seguirían.
+El progreso en las décadas siguientes, con el surgimiento de la semántica latente y el uso de redes neuronales, mostró una creciente sofisticación. Herramientas como **LSA** y las primeras redes neuronales ofrecieron nuevas formas de procesar y entender grandes volúmenes de texto, aunque enfrentaron desafíos como el *vanishing gradient* y dificultades para manejar datos escasos. No obstante, estos avances sirvieron como cimientos para las innovaciones que seguirían.
 
-La llegada de modelos probabilísticos en los 2000, como LDA, aportó flexibilidad y una mejor gestión de la incertidumbre en la representación semántica, mientras que Word2Vec en 2013 transformó la forma de capturar las relaciones semánticas mediante representaciones vectoriales eficientes. Estos desarrollos no solo hicieron más accesibles las técnicas de PLN, sino que también llevaron a mejoras notables en aplicaciones prácticas, como la búsqueda y el análisis de texto.
+La llegada de modelos probabilísticos en los 2000, como **LDA**, aportó flexibilidad y una mejor gestión de la incertidumbre en la representación semántica, mientras que **Word2Vec** en 2013 transformó la forma de capturar las relaciones semánticas mediante representaciones vectoriales eficientes. Estos desarrollos no solo hicieron más accesibles las técnicas de PLN, sino que también llevaron a mejoras notables en aplicaciones prácticas, como la búsqueda y el análisis de texto.
 
-La revolución más significativa llegó en 2017 con los transformadores. Este cambio de paradigma permitió capturar dependencias semánticas complejas y procesar datos en paralelo, sentando las bases para modelos avanzados como BERT y GPT. La capacidad de los transformadores para manejar tareas de PLN con una precisión y eficiencia sin precedentes ha tenido un impacto duradero, revolucionando la forma en que las máquinas comprenden y generan lenguaje.
+La revolución más significativa llegó en 2017 con los **transformers**. Este cambio de paradigma permitió capturar dependencias semánticas complejas y procesar datos en paralelo, sentando las bases para modelos avanzados como **BERT** y **GPT**. La capacidad de los transformers para manejar tareas de PLN con una precisión y eficiencia sin precedentes ha tenido un impacto duradero, revolucionando la forma en que las máquinas comprenden y generan lenguaje.
 
-Con la introducción de ChatGPT en 2020, la tecnología alcanzó un punto donde la interacción humana con modelos de lenguaje se volvió más natural y fluida, cambiando el panorama de la IA conversacional y abriendo nuevas posibilidades para la asistencia virtual, la educación y la generación de contenido. Las iteraciones más recientes, ChatGPT-4o y o1, han llevado aún más lejos estas capacidades, enfocándose en eficiencia, multimodalidad y razonamiento lógico avanzado, expandiendo el uso de la IA a aplicaciones más complejas y técnicas.
+Con la introducción de **ChatGPT** en 2020, la tecnología alcanzó un punto donde la interacción humana con modelos de lenguaje se volvió más natural y fluida, cambiando el panorama de la IA conversacional y abriendo nuevas posibilidades para la asistencia virtual, la educación y la generación de contenido. Las iteraciones más recientes, ChatGPT-4o y **o1**, han llevado aún más lejos estas capacidades, enfocándose en eficiencia, multimodalidad y razonamiento lógico avanzado, expandiendo el uso de la IA a aplicaciones más complejas y técnicas.
 
 En conclusión, la evolución de la representación semántica ha sido un proceso de refinamiento constante, impulsado por innovaciones matemáticas, avances en el aprendizaje profundo y la búsqueda de modelos que puedan entender el lenguaje humano de manera más cercana a cómo lo hacemos nosotros. Cada década ha contribuido con avances cruciales, y hoy estamos mejor posicionados que nunca para seguir explorando las fronteras del lenguaje y la inteligencia artificial.
