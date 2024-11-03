@@ -1,17 +1,99 @@
 # <p align=center>Evolución de la Representación Semántica: Fundamento del PLN y la IA</p>
 
+<!-- TOC depthto:2 -->
 
-<!-- @import "[TOC]" {cmd="toc" depthFrom=1 depthTo=6 orderedList=false} -->
+- [Evolución de la Representación Semántica: Fundamento del PLN y la IA](#evoluci%C3%B3n-de-la-representaci%C3%B3n-sem%C3%A1ntica-fundamento-del-pln-y-la-ia)
+- [📒 Introducción General](#-introducci%C3%B3n-general)
+- [Década de 1950: Fundamentos del Análisis Semántico](#d%C3%A9cada-de-1950-fundamentos-del-an%C3%A1lisis-sem%C3%A1ntico)
+- [📒 Introducción al Origen de las Representaciones Distribuidas en la Lingüística](#-introducci%C3%B3n-al-origen-de-las-representaciones-distribuidas-en-la-ling%C3%BC%C3%ADstica)
+- [👾 1. Contexto Histórico](#-1-contexto-hist%C3%B3rico)
+- [👾 2. Teorías Lingüísticas Iniciales](#-2-teor%C3%ADas-ling%C3%BC%C3%ADsticas-iniciales)
+- [👾 3. Primeras Representaciones Semánticas](#-3-primeras-representaciones-sem%C3%A1nticas)
+- [📒 Principales Ideas y Bases Matemáticas de la Semántica](#-principales-ideas-y-bases-matem%C3%A1ticas-de-la-sem%C3%A1ntica)
+- [👾 1. Conceptos Clave](#-1-conceptos-clave)
+- [👾 2. Herramientas Matemáticas](#-2-herramientas-matem%C3%A1ticas)
+- [👾 3. Aplicaciones Tempranas](#-3-aplicaciones-tempranas)
+- [👾 4. Limitaciones y Desafíos](#-4-limitaciones-y-desaf%C3%ADos)
+- [Años 1960: Mapeo Multidimensional](#a%C3%B1os-1960-mapeo-multidimensional)
+- [📒 Contribuciones de Joseph B. Kruskal y James C. Shepherd](#-contribuciones-de-joseph-b-kruskal-y-james-c-shepherd)
+- [👾 1. Introducción a los Autores](#-1-introducci%C3%B3n-a-los-autores)
+- [👾 2. Desarrollo del Análisis Multidimensional](#-2-desarrollo-del-an%C3%A1lisis-multidimensional)
+- [📒 Propuesta del Mapeo Multidimensional y su Relevancia](#-propuesta-del-mapeo-multidimensional-y-su-relevancia)
+- [👾 1. Aplicación en Lingüística](#-1-aplicaci%C3%B3n-en-ling%C3%BC%C3%ADstica)
+- [👾 2. Método del MDS](#-2-m%C3%A9todo-del-mds)
+- [👾 3. Impacto en Representaciones Vectoriales](#-3-impacto-en-representaciones-vectoriales)
+- [👾 4. Limitaciones](#-4-limitaciones)
+- [Década de 1970: Semántica Latente y Análisis de Componentes Principales](#d%C3%A9cada-de-1970-sem%C3%A1ntica-latente-y-an%C3%A1lisis-de-componentes-principales)
+- [📒 Avances en la Semántica Latente y la Importancia de los Vectores en el Análisis de Datos Semánticos](#-avances-en-la-sem%C3%A1ntica-latente-y-la-importancia-de-los-vectores-en-el-an%C3%A1lisis-de-datos-sem%C3%A1nticos)
+- [👾 1. Introducción a la Semántica Latente](#-1-introducci%C3%B3n-a-la-sem%C3%A1ntica-latente)
+- [👾 2. Análisis de Componentes Principales PCA](#-2-an%C3%A1lisis-de-componentes-principales-pca)
+- [👾 3. Importancia de los Vectores](#-3-importancia-de-los-vectores)
+- [📒 Utilización de Técnicas Estadísticas para Comprender el Significado de las Palabras](#-utilizaci%C3%B3n-de-t%C3%A9cnicas-estad%C3%ADsticas-para-comprender-el-significado-de-las-palabras)
+- [👾 1. Modelado Estadístico del Lenguaje](#-1-modelado-estad%C3%ADstico-del-lenguaje)
+- [👾 2. Aplicaciones del PCA en Lingüística](#-2-aplicaciones-del-pca-en-ling%C3%BC%C3%ADstica)
+- [👾 3. Ejemplos Prácticos](#-3-ejemplos-pr%C3%A1cticos)
+- [👾 4. Desafíos y Limitaciones](#-4-desaf%C3%ADos-y-limitaciones)
+- [Década de 1980: Latent Semantic Analysis LSA](#d%C3%A9cada-de-1980-latent-semantic-analysis-lsa)
+- [📒 Desarrollo de LSA para Representar y Analizar Grandes Volúmenes de Texto](#-desarrollo-de-lsa-para-representar-y-analizar-grandes-vol%C3%BAmenes-de-texto)
+- [👾 1. Orígenes del LSA](#-1-or%C3%ADgenes-del-lsa)
+- [👾 2. Fundamentos del LSA](#-2-fundamentos-del-lsa)
+- [👾 3. Proceso de LSA](#-3-proceso-de-lsa)
+- [📒 El Impacto de esta Técnica en la Comprensión Automática del Lenguaje](#-el-impacto-de-esta-t%C3%A9cnica-en-la-comprensi%C3%B3n-autom%C3%A1tica-del-lenguaje)
+- [👾 1. Mejoras en Recuperación de Información](#-1-mejoras-en-recuperaci%C3%B3n-de-informaci%C3%B3n)
+- [👾 2. Aplicaciones en Educación](#-2-aplicaciones-en-educaci%C3%B3n)
+- [👾 3. Avances en Procesamiento del Lenguaje Natural](#-3-avances-en-procesamiento-del-lenguaje-natural)
+- [👾 4. Limitaciones y Críticas](#-4-limitaciones-y-cr%C3%ADticas)
+- [Década de 1990: Redes Neuronales y Representaciones Distribuidas](#d%C3%A9cada-de-1990-redes-neuronales-y-representaciones-distribuidas)
+- [📒 Uso Temprano de Redes Neuronales para Representaciones Distribuidas](#-uso-temprano-de-redes-neuronales-para-representaciones-distribuidas)
+- [👾 1. Renacimiento de las Redes Neuronales](#-1-renacimiento-de-las-redes-neuronales)
+- [👾 2. Representaciones Distribuidas](#-2-representaciones-distribuidas)
+- [👾 3. Modelos Pioneros](#-3-modelos-pioneros)
+- [📒 Avances y Limitaciones de Estas Técnicas en Comparación con Enfoques Posteriores](#-avances-y-limitaciones-de-estas-t%C3%A9cnicas-en-comparaci%C3%B3n-con-enfoques-posteriores)
+- [👾 1. Aplicaciones en Lenguaje](#-1-aplicaciones-en-lenguaje)
+- [👾 2. Limitaciones](#-2-limitaciones)
+- [👾 3. Comparación con Enfoques Posteriores](#-3-comparaci%C3%B3n-con-enfoques-posteriores)
+- [👾 4. Legado y Contribución](#-4-legado-y-contribuci%C3%B3n)
+- [Primeros 2000: Modelos Probabilísticos y Topic Modeling](#primeros-2000-modelos-probabil%C3%ADsticos-y-topic-modeling)
+- [📒 Introducción de Modelos como Latent Dirichlet Allocation LDA](#-introducci%C3%B3n-de-modelos-como-latent-dirichlet-allocation-lda)
+- [👾 1. Evolución del Topic Modeling](#-1-evoluci%C3%B3n-del-topic-modeling)
+- [👾 2. Fundamentos de LDA](#-2-fundamentos-de-lda)
+- [👾 3. Proceso de LDA](#-3-proceso-de-lda)
+- [📒 Cómo los Modelos Probabilísticos Influyeron en la Semántica Vectorial](#-c%C3%B3mo-los-modelos-probabil%C3%ADsticos-influyeron-en-la-sem%C3%A1ntica-vectorial)
+- [👾 1. Representación Probabilística del Lenguaje](#-1-representaci%C3%B3n-probabil%C3%ADstica-del-lenguaje)
+- [👾 2. Ventajas sobre Modelos Determinísticos](#-2-ventajas-sobre-modelos-determin%C3%ADsticos)
+- [👾 3. Aplicaciones Prácticas](#-3-aplicaciones-pr%C3%A1cticas)
+- [👾 4. Limitaciones](#-4-limitaciones)
+- [y la Revolución de Word2Vec](#y-la-revoluci%C3%B3n-de-word2vec)
+- [📒 Propuesta de Tomas Mikolov y su Equipo de Google](#-propuesta-de-tomas-mikolov-y-su-equipo-de-google)
+- [👾 1. Contexto del Descubrimiento](#-1-contexto-del-descubrimiento)
+- [👾 2. Arquitecturas Clave](#-2-arquitecturas-clave)
+- [📒 Simplificación y Popularización de las Representaciones Vectoriales con el Modelo Word2Vec](#-simplificaci%C3%B3n-y-popularizaci%C3%B3n-de-las-representaciones-vectoriales-con-el-modelo-word2vec)
+- [👾 1. Características Principales](#-1-caracter%C3%ADsticas-principales)
+- [👾 2. Ventajas del Modelo](#-2-ventajas-del-modelo)
+- [👾 3. Impacto en Procesamiento del Lenguaje Natural](#-3-impacto-en-procesamiento-del-lenguaje-natural)
+- [👾 4. Limitaciones y Consideraciones Éticas](#-4-limitaciones-y-consideraciones-%C3%A9ticas)
+- [👾 5. Evolución Posterior](#-5-evoluci%C3%B3n-posterior)
+- [: Modelo de Transformadores](#-modelo-de-transformadores)
+- [👾 Attention is All You Need](#-attention-is-all-you-need)
+- [👾 Revolución en NLP](#-revoluci%C3%B3n-en-nlp)
+- [: ChatGPT](#-chatgpt)
+- [📒 Fundamentos de ChatGPT](#-fundamentos-de-chatgpt)
+- [👾 Arquitectura de ChatGPT](#-arquitectura-de-chatgpt)
+- [👾  Métodos de Entrenamiento de ChatGPT](#--m%C3%A9todos-de-entrenamiento-de-chatgpt)
+- [📒 ChatGPT-4o y o1](#-chatgpt-4o-y-o1)
+- [👾  ChatGPT-4o 2024](#--chatgpt-4o-2024)
+- [👾   Modelo o1 Strawberry](#---modelo-o1-strawberry)
 
+<!-- /TOC -->
 
-# :ledger: Introducción General
+# :pager: Introducción General
 
 Bienvenidos a esta serie de clases donde exploraremos la evolución histórica del concepto de vectorizar palabras. A lo largo de las décadas, desde los años 1950 hasta el 2013, veremos cómo han evolucionado las técnicas y teorías que nos permiten hoy en día representar palabras en forma de vectores matemáticos, fundamentales para el procesamiento del lenguaje natural y la inteligencia artificial.
 
 ---
 # <p align=center>Década de 1950: Fundamentos del Análisis Semántico</p>
 
-# :ledger: **Introducción al Origen de las Representaciones Distribuidas en la Lingüística**
+# :pager: **Introducción al Origen de las Representaciones Distribuidas en la Lingüística**
 
 # :space_invader: **1. Contexto Histórico**
 
@@ -171,7 +253,7 @@ En este ejemplo, la palabra "gato" aparece 3 veces en el Documento 1, 0 veces en
 
 Las matrices de contingencia fueron un paso crucial en el desarrollo de métodos más avanzados de análisis y representación de texto, proporcionando la base para técnicas que transformarían el procesamiento del lenguaje natural.
 
-# :ledger: **Principales Ideas y Bases Matemáticas de la Semántica**
+# :pager: **Principales Ideas y Bases Matemáticas de la Semántica**
 
 # :space_invader: **1. Conceptos Clave**
 
@@ -455,7 +537,7 @@ La transición de técnicas superficiales a enfoques más profundos ha sido clav
 ---
 # <p align=center>Años 1960: Mapeo Multidimensional</p>
 
-# :ledger: **Contribuciones de Joseph B. Kruskal y James C. Shepherd**
+# :pager: **Contribuciones de Joseph B. Kruskal y James C. Shepherd**
 
 # :space_invader: **1. Introducción a los Autores**
 
@@ -651,7 +733,7 @@ La reducción de dimensionalidad tiene múltiples aplicaciones en el PLN, tales 
 
 Al aplicar técnicas de reducción de dimensionalidad, es crucial tener en cuenta el equilibrio entre la preservación de la información y la simplicidad del modelo. Cada técnica tiene sus propias ventajas y desventajas, y la elección de la adecuada dependerá del contexto del problema y de los objetivos específicos de análisis. En la práctica, es recomendable experimentar con diferentes métodos y evaluar su rendimiento en función de las tareas específicas que se desean realizar.
 
-# :ledger: **Propuesta del Mapeo Multidimensional y su Relevancia**
+# :pager: **Propuesta del Mapeo Multidimensional y su Relevancia**
 
 # :space_invader: **1. Aplicación en Lingüística**
 
@@ -1075,7 +1157,7 @@ La computación intensiva es un componente crítico en el procesamiento de grand
 ---
 # <p align=center>Década de 1970: Semántica Latente y Análisis de Componentes Principales</p>
 
-# :ledger: **Avances en la Semántica Latente y la Importancia de los Vectores en el Análisis de Datos Semánticos**
+# :pager: **Avances en la Semántica Latente y la Importancia de los Vectores en el Análisis de Datos Semánticos**
 
 # :space_invader: **1. Introducción a la Semántica Latente**
 
@@ -1368,7 +1450,7 @@ La similitud resultante nos dará un valor que indica cuán semánticamente simi
 La similitud semántica es una herramienta poderosa en el procesamiento de lenguaje natural que permite medir y comparar significados a través de representaciones vectoriales. Las métricas de distancia y ángulo entre vectores proporcionan un enfoque cuantitativo para evaluar la relación semántica entre palabras y otros elementos lingüísticos, lo que es fundamental para diversas aplicaciones en PLN, como la búsqueda de información, la traducción automática y la generación de texto.
 
 
-# :ledger: **Utilización de Técnicas Estadísticas para Comprender el Significado de las Palabras**
+# :pager: **Utilización de Técnicas Estadísticas para Comprender el Significado de las Palabras**
 
 # :space_invader: **1. Modelado Estadístico del Lenguaje**
 
@@ -1848,7 +1930,7 @@ La gestión de datos escasos, ya sea en forma de palabras raras o documentos cor
 ---
 # <p align=center>Década de 1980: Latent Semantic Analysis (LSA)</p>
 
-# :ledger: **Desarrollo de LSA para Representar y Analizar Grandes Volúmenes de Texto**
+# :pager: **Desarrollo de LSA para Representar y Analizar Grandes Volúmenes de Texto**
 
 # :space_invader: **1. Orígenes del LSA**
 
@@ -2197,7 +2279,7 @@ Las investigaciones futuras en este campo se centran en mejorar la capacidad de 
 En conclusión, la representación vectorial es una herramienta poderosa en el PLN que ha revolucionado la forma en que tratamos y analizamos el lenguaje natural. Su evolución continúa siendo un área activa de investigación, con el potencial de mejorar significativamente nuestras
 
 
-# :ledger: **El Impacto de esta Técnica en la Comprensión Automática del Lenguaje**
+# :pager: **El Impacto de esta Técnica en la Comprensión Automática del Lenguaje**
 
 # :space_invader: **1. Mejoras en Recuperación de Información**
 
@@ -2634,7 +2716,7 @@ La estática del modelo representa un desafío significativo en el campo del pro
 ---
 # <p align=center>Década de 1990: Redes Neuronales y Representaciones Distribuidas</p>
 
-# :ledger: **Uso Temprano de Redes Neuronales para Representaciones Distribuidas**
+# :pager: **Uso Temprano de Redes Neuronales para Representaciones Distribuidas**
 
 # :space_invader: **1. Renacimiento de las Redes Neuronales**
 
@@ -2944,7 +3026,7 @@ El modelo de Jordan es útil para tareas donde la salida anterior puede influir 
 Los modelos de Elman y Jordan son hitos en el desarrollo de redes neuronales recurrentes. Ambos proporcionan soluciones efectivas para manejar secuencias temporales, aunque tienen enfoques diferentes en cuanto a cómo se utiliza la información pasada. A pesar de sus limitaciones, estos modelos sentaron las bases para el desarrollo de arquitecturas más avanzadas, como las LSTM (Long Short-Term Memory) y GRU (Gated Recurrent Unit), que han mejor
 
 
-# :ledger: **Avances y Limitaciones de Estas Técnicas en Comparación con Enfoques Posteriores**
+# :pager: **Avances y Limitaciones de Estas Técnicas en Comparación con Enfoques Posteriores**
 
 # :space_invader: **1. Aplicaciones en Lenguaje**
 
@@ -3330,7 +3412,7 @@ La evolución del PLN está marcada por innovaciones constantes y un enfoque en 
 ---
 # <p align=center>Primeros 2000: Modelos Probabilísticos y Topic Modeling</p>
 
-# :ledger: **Introducción de Modelos como Latent Dirichlet Allocation (LDA)**
+# :pager: **Introducción de Modelos como Latent Dirichlet Allocation (LDA)**
 
 # :space_invader: **1. Evolución del Topic Modeling**
 
@@ -3601,7 +3683,7 @@ donde:
 La inferencia de temas utilizando métodos como el muestreo de Gibbs es una herramienta poderosa en el análisis de texto. Permite descubrir patrones ocultos en grandes volúmenes de datos textuales, facilitando la organización y comprensión de la información. A medida que avanzamos en el campo del PLN, la capacidad de model
 
 
-# :ledger: **Cómo los Modelos Probabilísticos Influyeron en la Semántica Vectorial**
+# :pager: **Cómo los Modelos Probabilísticos Influyeron en la Semántica Vectorial**
 
 # :space_invader: **1. Representación Probabilística del Lenguaje**
 
@@ -4007,7 +4089,7 @@ La interpretabilidad en el procesamiento de lenguaje natural es un campo en evol
 ---
 # <p align=center>2013 y la Revolución de Word2Vec</p>
 
-# :ledger: **Propuesta de Tomas Mikolov y su Equipo de Google**
+# :pager: **Propuesta de Tomas Mikolov y su Equipo de Google**
 
 # :space_invader: **1. Contexto del Descubrimiento**
 
@@ -4178,7 +4260,7 @@ A pesar de sus ventajas, el modelo Skip-Gram también presenta algunos desafíos
 El modelo Skip-Gram es una técnica poderosa en el campo del procesamiento de lenguaje natural que permite predecir el contexto de una palabra
 
 
-# :ledger: **Simplificación y Popularización de las Representaciones Vectoriales con el Modelo Word2Vec**
+# :pager: **Simplificación y Popularización de las Representaciones Vectoriales con el Modelo Word2Vec**
 
 # :space_invader: **1. Características Principales**
 
@@ -4792,7 +4874,7 @@ La introducción de los transformadores por Vaswani et al. en 2017 desencadenó 
 En 2020, OpenAI presentó **ChatGPT**, un modelo conversacional basado en la arquitectura de **GPT-3**. Este desarrollo representó un gran avance en el procesamiento del lenguaje natural, ya que permitió a las máquinas interactuar de manera más fluida y coherente con los humanos a través del texto. ChatGPT se entrena en un vasto corpus de datos que abarca conversaciones humanas, artículos, y contenido de la web, utilizando una combinación de técnicas avanzadas para optimizar su capacidad de generar texto.
 
 
-# :ledger: **Fundamentos de ChatGPT**
+# :pager: **Fundamentos de ChatGPT**
 
 ## :pushpin: **Arquitectura de GPT-3**
 
@@ -4881,7 +4963,7 @@ Después del preentrenamiento, ChatGPT pasa por un proceso de ajuste fino para e
    - Durante el ajuste fino, se implementan técnicas para reducir la generación de contenido inapropiado o sesgado. Sin embargo, esta mitigación no es perfecta y sigue siendo un área activa de investigación.
 
 
-# :ledger: ChatGPT-4o y o1
+# :pager: ChatGPT-4o y o1
 
 En el contexto de los avances recientes en procesamiento del lenguaje natural, **ChatGPT-4o** y **o1** representan las últimas iteraciones de los modelos de OpenAI basados en la arquitectura de transformadores, construidos sobre el éxito de modelos como GPT-3 y GPT-4. Aquí te explico en detalle:
 
