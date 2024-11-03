@@ -1,11 +1,10 @@
 # <p align=center>**Evolución de la Representación Semántica: Fundamentos del Procesamiento del Lenguaje Natural y la IA**</p>
 
-# :pager: **Introducción General**
-
 Bienvenidos a esta serie de documentos donde exploraremos la evolución histórica del concepto de vectorizar palabras. A lo largo de las décadas, desde los años 1950 hasta el 2024, veremos cómo han evolucionado las técnicas y teorías que nos permiten hoy en día representar palabras en forma de vectores matemáticos, fundamentales para el procesamiento del lenguaje natural y la inteligencia artificial.
 
-
 ---
+
+# :pager: **Introducción**
 
 La evolución de la representación semántica de palabras ha sido fundamental para los avances en el procesamiento del lenguaje natural (PLN) y la inteligencia artificial (IA). Este recorrido comienza en la **década de 1950**, cuando se sentaron las bases del análisis semántico. Durante este periodo, las ideas lingüísticas iniciales comenzaron a formarse en un contexto de posguerra, con las primeras teorías que veían el lenguaje como una estructura formal y los intentos de capturar su significado mediante representaciones semánticas. Se introdujeron conceptos clave y herramientas matemáticas que influyeron en las aplicaciones tempranas, aunque con limitaciones notables.
 
@@ -27,6 +26,7 @@ En **2020**, ChatGPT, basado en la arquitectura de GPT-3, llevó las interaccion
 
 Finalmente, en **2024**, los modelos ChatGPT-4o y o1 representaron avances adicionales. ChatGPT-4o se enfocó en eficiencia y capacidades multimodales, mientras que el modelo o1 (apodado "Strawberry") mejoró el razonamiento lógico y analítico, superando a sus predecesores en tareas científicas y técnicas. Estos modelos reflejan la constante evolución del procesamiento del lenguaje natural y continúan empujando los límites de la inteligencia artificial.
 
+# :pager:  Indice
 
 - [**Evolución de la Representación Semántica: Fundamentos del Procesamiento del Lenguaje Natural y la IA**](#evolución-de-la-representación-semántica-fundamentos-del-procesamiento-del-lenguaje-natural-y-la-ia)
 - [:pager: **Introducción General**](#pager-introducción-general)
@@ -107,8 +107,6 @@ Finalmente, en **2024**, los modelos ChatGPT-4o y o1 representaron avances adici
 - [:house_with_garden: **Año 2024: ChatGPT-4o y Modelo o1**](#computer-año-2024-chatgpt-4o-y-modelo-o1)
 - [:space\_invader:  **ChatGPT-4o**](#space_invader--chatgpt-4o)
 - [:space\_invader:  **Modelo o1 (Strawberry)**](#space_invader--modelo-o1-strawberry)
-
-
 
 ---
 # <p align=center>:house_with_garden: **Década de 1950: Fundamentos del Análisis Semántico**</p>
@@ -787,11 +785,11 @@ Para visualizar relaciones semánticas, es común aplicar técnicas de reducció
 Los mapas de calor son representaciones gráficas que muestran la intensidad de las relaciones semánticas entre palabras. En un mapa de calor, cada celda representa la similitud entre dos palabras, donde colores más oscuros pueden indicar una mayor similitud.
 
 ### Gráficas de Redes
-
 <!-- TOC depthto:1 -->
 
 - [Evolución de la Representación Semántica: Fundamentos del Procesamiento del Lenguaje Natural y la IA](#evoluci%C3%B3n-de-la-representaci%C3%B3n-sem%C3%A1ntica-fundamentos-del-procesamiento-del-lenguaje-natural-y-la-ia)
 - [📟 Introducción General](#-introducci%C3%B3n-general)
+- [📟  Indice](#--indice)
 - [🏡 Década de 1950: Fundamentos del Análisis Semántico](#-d%C3%A9cada-de-1950-fundamentos-del-an%C3%A1lisis-sem%C3%A1ntico)
 - [👾 1. Contexto Histórico](#-1-contexto-hist%C3%B3rico)
 - [👾 2. Teorías Lingüísticas Iniciales](#-2-teor%C3%ADas-ling%C3%BC%C3%ADsticas-iniciales)
@@ -868,10 +866,10 @@ Los mapas de calor son representaciones gráficas que muestran la intensidad de 
 - [🏡 Año 2024: ChatGPT-4o y Modelo o1](#-a%C3%B1o-2024-chatgpt-4o-y-modelo-o1)
 - [👾  ChatGPT-4o](#--chatgpt-4o)
 - [👾  Modelo o1 Strawberry](#--modelo-o1-strawberry)
-- [📟  Conclusión: La Evolución de la Representación Semántica en el PLN y la IA](#--conclusi%C3%B3n-la-evoluci%C3%B3n-de-la-representaci%C3%B3n-sem%C3%A1ntica-en-el-pln-y-la-ia)
+- [📟  Conclusión de La Evolución de la Representación Semántica en el PLN y la IA](#--conclusi%C3%B3n-de-la-evoluci%C3%B3n-de-la-representaci%C3%B3n-sem%C3%A1ntica-en-el-pln-y-la-ia)
 
 <!-- /TOC -->
-- [👾 4. Limitaciones](#-4-limitaciones)
+<!-- /TOC -->taciones](#-4-limitaciones)
 - [🏡 Año 2013: la Revolución de Word2Vec](#-a%C3%B1o-2013-la-revoluci%C3%B3n-de-word2vec)
 - [📟 Propuesta de Tomas Mikolov y su Equipo de Google](#-propuesta-de-tomas-mikolov-y-su-equipo-de-google)
 - [👾 1. Contexto del Descubrimiento](#-1-contexto-del-descubrimiento)
