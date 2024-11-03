@@ -1391,7 +1391,7 @@ $$
 
 ### Ejemplo Práctico
 
-Supongamos que tenemos dos palabras "rey" y "reina", representadas por los vectores **v_rey** y **v_reina** en un espacio vectorial. Para calcular su similitud semántica, podemos aplicar la distancia coseno:
+Supongamos que tenemos dos palabras "rey" y "reina", representadas por los vectores $\mathbf{v_{rey}}$ y $\mathbf{v_{reina}}$ en un espacio vectorial. Para calcular su similitud semántica, podemos aplicar la distancia coseno:
 
 1. Calcular el producto punto de los vectores.
 2. Calcular la magnitud de cada vector.
