@@ -1,5 +1,9 @@
 # <p align=center>Evolución de la Representación Semántica: Fundamento del PLN y la IA</p>
 
+
+<!-- @import "[TOC]" {cmd="toc" depthFrom=1 depthTo=6 orderedList=false} -->
+
+
 # :ledger: Introducción General
 
 Bienvenidos a esta serie de clases donde exploraremos la evolución histórica del concepto de vectorizar palabras. A lo largo de las décadas, desde los años 1950 hasta el 2013, veremos cómo han evolucionado las técnicas y teorías que nos permiten hoy en día representar palabras en forma de vectores matemáticos, fundamentales para el procesamiento del lenguaje natural y la inteligencia artificial.
