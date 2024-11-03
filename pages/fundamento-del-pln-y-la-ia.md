@@ -1,6 +1,6 @@
 # <p align=center>Evolución de la Representación Semántica: Fundamentos del Procesamiento del Lenguaje Natural y la IA</p>
 
-# :pager: Introducción General
+# :pager: **Introducción General**
 
 Bienvenidos a esta serie de clases donde exploraremos la evolución histórica del concepto de vectorizar palabras. A lo largo de las décadas, desde los años 1950 hasta el 2024, veremos cómo han evolucionado las técnicas y teorías que nos permiten hoy en día representar palabras en forma de vectores matemáticos, fundamentales para el procesamiento del lenguaje natural y la inteligencia artificial.
 
@@ -86,7 +86,7 @@ Bienvenidos a esta serie de clases donde exploraremos la evolución histórica d
 
 
 ---
-# <p align=center>:computer: Década de 1950: Fundamentos del Análisis Semántico</p>
+# <p align=center>:computer: **Década de 1950: Fundamentos del Análisis Semántico**</p>
 
 # :space_invader: **1. Contexto Histórico**
 
@@ -539,7 +539,7 @@ La transición de técnicas superficiales a enfoques más profundos ha sido clav
 
 
 ---
-# <p align=center>:computer: Años 1960: Mapeo Multidimensional</p>
+# <p align=center>:computer: **Años 1960: Mapeo Multidimensional**</p>
 
 # :pager: **Contribuciones de Joseph B. Kruskal y James C. Shepherd**
 
@@ -865,90 +865,89 @@ Esta métrica es adecuada para datos continuos y en espacios de alta dimensión.
 
 La distancia Manhattan, también conocida como distancia de bloque, mide la distancia entre dos puntos en una cuadrícula, calculando la suma de las diferencias absolutas de sus coordenadas. Para los puntos \( A(x_1, y_1) \) y \( B(x_2, y_2) \), se define como:
 
-$$
-d(A, B) = |x_2 - x_1| + |y_2 - y_1|
-$$
-
-Esta métrica es útil en situaciones donde solo se pueden mover en direcciones ortogonales.
-
-### 3. Distancia Coseno
-
-La distancia coseno mide la similitud entre dos vectores basándose en el ángulo entre ellos, en lugar de la magnitud. Se utiliza comúnmente en el procesamiento de lenguaje natural para comparar documentos o textos representados como vectores de características. La fórmula es:
-
-$$
-\text{sim}(A, B) = \frac{A \cdot B}{||A|| \cdot ||B||}
-$$
-
-Donde \( A \cdot B \) es el producto punto de los vectores y \( ||A|| \) y \( ||B|| \) son sus normas. Un valor de 1 indica que los vectores son idénticos, mientras que 0 indica que son ortogonales.
-
-### 4. Distancia de Jaccard
-
-La distancia de Jaccard se utiliza para medir la similitud entre conjuntos. Se define como el tamaño de la intersección dividido por el tamaño de la unión de los conjuntos. Para dos conjuntos \( A \) y \( B \):
-
-$$
-J(A, B) = \frac{|A \cap B|}{|A \cup B|}
-$$
-
-La distancia de Jaccard se puede derivar como:
-
-$$
-d(A, B) = 1 - J(A, B)
-$$
-
-Esta métrica es especialmente útil en problemas de clasificación y agrupamiento donde los datos son categóricos.
-
-## Aplicaciones del Cálculo de Distancias
-
-El cálculo de distancias tiene múltiples aplicaciones en el ámbito del procesamiento de lenguaje natural y más allá:
-
-- **Clasificación**: Algoritmos como K-Vecinos Más Cercanos (KNN) utilizan distancias para clasificar nuevos ejemplos basándose en la similitud con ejemplos conocidos.
-- **Agrupamiento**: Técnicas como K-Means y DBSCAN utilizan distancias para agrupar datos similares.
-- **Recomendaciones**: Sistemas de recomendación emplean métricas de distancia para sugerir productos o contenidos basados en preferencias similares de otros usuarios.
-- **Análisis de Texto**: En el procesamiento de texto, se utilizan distancias para medir la similitud entre documentos, lo que es crucial en tareas como la detección de plagio o la recuperación de información.
-
-## Consideraciones Finales
-
-La elección de la métrica de distancia adecuada es crucial y depende del tipo de datos y del problema específico que se esté abordando. Es importante considerar la naturaleza de los datos (continuos, categóricos, binarios) y el contexto del análisis para seleccionar la métrica que mejor se adapte a las necesidades del proyecto. Además, es fundamental tener en cuenta la escalabilidad y la eficiencia computacional, especialmente en conjuntos de datos de gran tamaño.
-
-## :pushpin: **Optimización**: Ajuste para minimizar la diferencia entre distancias originales y las representadas.
-
-## Introducción a la Optimización en Representación Semántica
-
-La optimización en el contexto del procesamiento de lenguaje natural (PLN) se refiere a la práctica de ajustar modelos y representaciones para lograr un desempeño óptimo en tareas específicas. En este módulo, nos centraremos en la minimización de la diferencia entre las distancias originales y las distancias representadas en un espacio de características. Esta técnica es fundamental para mejorar la calidad de la representación semántica de los datos.
-
-## Conceptos Clave
-
-### Distancias Originales y Representadas
-
-- **Distancias Originales**: Se refiere a las distancias calculadas entre objetos en su espacio original, que puede ser, por ejemplo, el espacio de características de las palabras o documentos.
-- **Distancias Representadas**: Son las distancias que se obtienen después de aplicar un modelo de representación, como un modelo de incrustación (embedding) o una reducción de dimensionalidad.
-
-### Objetivo de la Optimización
-
-El objetivo principal de la optimización es minimizar la discrepancia entre las distancias originales y las distancias representadas. Esta minimización se traduce en una representación más fiel de las relaciones semánticas entre los elementos en el espacio reducido.
-
-## Métodos de Optimización
-
-Existen varios enfoques para llevar a cabo esta optimización:
-
-### 1. Métodos de Aprendizaje Supervisado
-
-Los métodos supervisados utilizan etiquetas o categorías conocidas para guiar el proceso de optimización. Técnicas como la regresión logística y las máquinas de soporte vectorial (SVM) pueden ser empleadas para ajustar el modelo a las distancias deseadas.
-
-### 2. Métodos de Aprendizaje No Supervisado
-
-En el aprendizaje no supervisado, el modelo intenta aprender las relaciones inherentes en los datos sin etiquetas. Algoritmos como el Análisis de Componentes Principales (PCA) y el t-SNE (t-distributed Stochastic Neighbor Embedding) son ejemplos de técnicas que buscan representar las distancias originales de manera efectiva en un espacio reducido.
-
-### 3. Algoritmos de Optimización
-
-Los algoritmos de optimización, como el descenso de gradiente y sus variantes (p. ej., Adam, RMSprop), son esenciales para ajustar los parámetros del modelo. Estos algoritmos buscan minimizar una función de pérdida que cuantifica la diferencia entre las distancias originales y las representadas.
-
-## Funciones de Pérdida
-
-La elección de la función de pérdida es crucial para el éxito de la optimización. Algunas funciones de pérdida comunes incluyen:
-<!-- TOC depthto:1 -->
 <!-- TOC depthto:1 -->
 
+- [Evolución de la Representación Semántica: Fundamentos del Procesamiento del Lenguaje Natural y la IA](#evoluci%C3%B3n-de-la-representaci%C3%B3n-sem%C3%A1ntica-fundamentos-del-procesamiento-del-lenguaje-natural-y-la-ia)
+- [📟 Introducción General](#-introducci%C3%B3n-general)
+- [💻 Década de 1950: Fundamentos del Análisis Semántico](#-d%C3%A9cada-de-1950-fundamentos-del-an%C3%A1lisis-sem%C3%A1ntico)
+- [👾 1. Contexto Histórico](#-1-contexto-hist%C3%B3rico)
+- [👾 2. Teorías Lingüísticas Iniciales](#-2-teor%C3%ADas-ling%C3%BC%C3%ADsticas-iniciales)
+- [👾 3. Primeras Representaciones Semánticas](#-3-primeras-representaciones-sem%C3%A1nticas)
+- [📟 Principales Ideas y Bases Matemáticas de la Semántica](#-principales-ideas-y-bases-matem%C3%A1ticas-de-la-sem%C3%A1ntica)
+- [👾 1. Conceptos Clave](#-1-conceptos-clave)
+- [👾 2. Herramientas Matemáticas](#-2-herramientas-matem%C3%A1ticas)
+- [👾 3. Aplicaciones Tempranas](#-3-aplicaciones-tempranas)
+- [👾 4. Limitaciones y Desafíos](#-4-limitaciones-y-desaf%C3%ADos)
+- [💻 Años 1960: Mapeo Multidimensional](#-a%C3%B1os-1960-mapeo-multidimensional)
+- [📟 Contribuciones de Joseph B. Kruskal y James C. Shepherd](#-contribuciones-de-joseph-b-kruskal-y-james-c-shepherd)
+- [👾 1. Introducción a los Autores](#-1-introducci%C3%B3n-a-los-autores)
+- [👾 2. Desarrollo del Análisis Multidimensional](#-2-desarrollo-del-an%C3%A1lisis-multidimensional)
+- [📟 Propuesta del Mapeo Multidimensional y su Relevancia](#-propuesta-del-mapeo-multidimensional-y-su-relevancia)
+- [👾 1. Aplicación en Lingüística](#-1-aplicaci%C3%B3n-en-ling%C3%BC%C3%ADstica)
+- [👾 2. Método del MDS](#-2-m%C3%A9todo-del-mds)
+- [👾 4. Limitaciones](#-4-limitaciones)
+- [💻 Década de 1970: Semántica Latente y Análisis de Componentes Principales](#-d%C3%A9cada-de-1970-sem%C3%A1ntica-latente-y-an%C3%A1lisis-de-componentes-principales)
+- [📟 Avances en la Semántica Latente y la Importancia de los Vectores en el Análisis de Datos Semánticos](#-avances-en-la-sem%C3%A1ntica-latente-y-la-importancia-de-los-vectores-en-el-an%C3%A1lisis-de-datos-sem%C3%A1nticos)
+- [👾 1. Introducción a la Semántica Latente](#-1-introducci%C3%B3n-a-la-sem%C3%A1ntica-latente)
+- [👾 2. Análisis de Componentes Principales PCA](#-2-an%C3%A1lisis-de-componentes-principales-pca)
+- [👾 3. Importancia de los Vectores](#-3-importancia-de-los-vectores)
+- [📟 Utilización de Técnicas Estadísticas para Comprender el Significado de las Palabras](#-utilizaci%C3%B3n-de-t%C3%A9cnicas-estad%C3%ADsticas-para-comprender-el-significado-de-las-palabras)
+- [👾 1. Modelado Estadístico del Lenguaje](#-1-modelado-estad%C3%ADstico-del-lenguaje)
+- [👾 2. Aplicaciones del PCA en Lingüística](#-2-aplicaciones-del-pca-en-ling%C3%BC%C3%ADstica)
+- [👾 3. Ejemplos Prácticos](#-3-ejemplos-pr%C3%A1cticos)
+- [👾 4. Desafíos y Limitaciones](#-4-desaf%C3%ADos-y-limitaciones)
+- [💻 Década de 1980: Latent Semantic Analysis LSA](#-d%C3%A9cada-de-1980-latent-semantic-analysis-lsa)
+- [📟 Desarrollo de LSA para Representar y Analizar Grandes Volúmenes de Texto](#-desarrollo-de-lsa-para-representar-y-analizar-grandes-vol%C3%BAmenes-de-texto)
+- [👾 1. Orígenes del LSA](#-1-or%C3%ADgenes-del-lsa)
+- [👾 2. Fundamentos del LSA](#-2-fundamentos-del-lsa)
+- [👾 3. Proceso de LSA](#-3-proceso-de-lsa)
+- [📟 El Impacto de esta Técnica en la Comprensión Automática del Lenguaje](#-el-impacto-de-esta-t%C3%A9cnica-en-la-comprensi%C3%B3n-autom%C3%A1tica-del-lenguaje)
+- [👾 1. Mejoras en Recuperación de Información](#-1-mejoras-en-recuperaci%C3%B3n-de-informaci%C3%B3n)
+- [👾 2. Aplicaciones en Educación](#-2-aplicaciones-en-educaci%C3%B3n)
+- [👾 3. Avances en Procesamiento del Lenguaje Natural](#-3-avances-en-procesamiento-del-lenguaje-natural)
+- [👾 4. Limitaciones y Críticas](#-4-limitaciones-y-cr%C3%ADticas)
+- [💻 Década de 1990: Redes Neuronales y Representaciones Distribuidas](#-d%C3%A9cada-de-1990-redes-neuronales-y-representaciones-distribuidas)
+- [📟 Uso Temprano de Redes Neuronales para Representaciones Distribuidas](#-uso-temprano-de-redes-neuronales-para-representaciones-distribuidas)
+- [👾 1. Renacimiento de las Redes Neuronales](#-1-renacimiento-de-las-redes-neuronales)
+- [👾 2. Representaciones Distribuidas](#-2-representaciones-distribuidas)
+- [👾 3. Modelos Pioneros](#-3-modelos-pioneros)
+- [📟 Avances y Limitaciones de Estas Técnicas en Comparación con Enfoques Posteriores](#-avances-y-limitaciones-de-estas-t%C3%A9cnicas-en-comparaci%C3%B3n-con-enfoques-posteriores)
+- [👾 1. Aplicaciones en Lenguaje](#-1-aplicaciones-en-lenguaje)
+- [👾 2. Limitaciones](#-2-limitaciones)
+- [👾 3. Comparación con Enfoques Posteriores](#-3-comparaci%C3%B3n-con-enfoques-posteriores)
+- [👾 4. Legado y Contribución](#-4-legado-y-contribuci%C3%B3n)
+- [💻 Primeros 2000: Modelos Probabilísticos y Topic Modeling](#-primeros-2000-modelos-probabil%C3%ADsticos-y-topic-modeling)
+- [📟 Introducción de Modelos como Latent Dirichlet Allocation LDA](#-introducci%C3%B3n-de-modelos-como-latent-dirichlet-allocation-lda)
+- [👾 1. Evolución del Topic Modeling](#-1-evoluci%C3%B3n-del-topic-modeling)
+- [👾 2. Fundamentos de LDA](#-2-fundamentos-de-lda)
+- [👾 3. Proceso de LDA](#-3-proceso-de-lda)
+- [📟 Cómo los Modelos Probabilísticos Influyeron en la Semántica Vectorial](#-c%C3%B3mo-los-modelos-probabil%C3%ADsticos-influyeron-en-la-sem%C3%A1ntica-vectorial)
+- [👾 1. Representación Probabilística del Lenguaje](#-1-representaci%C3%B3n-probabil%C3%ADstica-del-lenguaje)
+- [👾 2. Ventajas sobre Modelos Determinísticos](#-2-ventajas-sobre-modelos-determin%C3%ADsticos)
+- [👾 3. Aplicaciones Prácticas](#-3-aplicaciones-pr%C3%A1cticas)
+- [👾 4. Limitaciones](#-4-limitaciones)
+- [💻 Año 2013: la Revolución de Word2Vec](#-a%C3%B1o-2013-la-revoluci%C3%B3n-de-word2vec)
+- [📟 Propuesta de Tomas Mikolov y su Equipo de Google](#-propuesta-de-tomas-mikolov-y-su-equipo-de-google)
+- [👾 1. Contexto del Descubrimiento](#-1-contexto-del-descubrimiento)
+- [👾 2. Arquitecturas Clave](#-2-arquitecturas-clave)
+- [📟 Simplificación y Popularización de las Representaciones Vectoriales con el Modelo Word2Vec](#-simplificaci%C3%B3n-y-popularizaci%C3%B3n-de-las-representaciones-vectoriales-con-el-modelo-word2vec)
+- [👾 1. Características Principales](#-1-caracter%C3%ADsticas-principales)
+- [👾 2. Ventajas del Modelo](#-2-ventajas-del-modelo)
+- [👾 3. Impacto en Procesamiento del Lenguaje Natural](#-3-impacto-en-procesamiento-del-lenguaje-natural)
+- [👾 4. Limitaciones y Consideraciones Éticas](#-4-limitaciones-y-consideraciones-%C3%A9ticas)
+- [👾 5. Evolución Posterior](#-5-evoluci%C3%B3n-posterior)
+- [💻 Año 2017: Modelo de Transformadores](#-a%C3%B1o-2017-modelo-de-transformadores)
+- [👾 Attention is All You Need](#-attention-is-all-you-need)
+- [👾 Revolución en NLP](#-revoluci%C3%B3n-en-nlp)
+- [💻 Año 2020: ChatGPT](#-a%C3%B1o-2020-chatgpt)
+- [📟 Fundamentos de ChatGPT](#-fundamentos-de-chatgpt)
+- [👾 Arquitectura de ChatGPT](#-arquitectura-de-chatgpt)
+- [👾  Métodos de Entrenamiento de ChatGPT](#--m%C3%A9todos-de-entrenamiento-de-chatgpt)
+- [💻 Año 2024: ChatGPT-4o y Modelo o1](#-a%C3%B1o-2024-chatgpt-4o-y-modelo-o1)
+- [👾  ChatGPT-4o](#--chatgpt-4o)
+- [👾  Modelo o1 Strawberry](#--modelo-o1-strawberry)
+
+<!-- /TOC -->
 - [Evolución de la Representación Semántica: Fundamentos del Procesamiento del Lenguaje Natural y la IA](#evoluci%C3%B3n-de-la-representaci%C3%B3n-sem%C3%A1ntica-fundamentos-del-procesamiento-del-lenguaje-natural-y-la-ia)
 - [📟 Introducción General](#-introducci%C3%B3n-general)
 - [💻 Década de 1950: Fundamentos del Análisis Semántico](#-d%C3%A9cada-de-1950-fundamentos-del-an%C3%A1lisis-sem%C3%A1ntico)
@@ -1157,7 +1156,7 @@ La computación intensiva es un componente crítico en el procesamiento de grand
 
 
 ---
-# <p align=center>:computer: Década de 1970: Semántica Latente y Análisis de Componentes Principales</p>
+# <p align=center>:computer: **Década de 1970: Semántica Latente y Análisis de Componentes Principales**</p>
 
 # :pager: **Avances en la Semántica Latente y la Importancia de los Vectores en el Análisis de Datos Semánticos**
 
@@ -1930,7 +1929,7 @@ La gestión de datos escasos, ya sea en forma de palabras raras o documentos cor
 
 
 ---
-# <p align=center>:computer: Década de 1980: Latent Semantic Analysis (LSA)</p>
+# <p align=center>:computer: **Década de 1980: Latent Semantic Analysis (LSA)**</p>
 
 # :pager: **Desarrollo de LSA para Representar y Analizar Grandes Volúmenes de Texto**
 
@@ -2716,7 +2715,7 @@ La estática del modelo representa un desafío significativo en el campo del pro
 
 
 ---
-# <p align=center>:computer: Década de 1990: Redes Neuronales y Representaciones Distribuidas</p>
+# <p align=center>:computer: **Década de 1990: Redes Neuronales y Representaciones Distribuidas**</p>
 
 # :pager: **Uso Temprano de Redes Neuronales para Representaciones Distribuidas**
 
@@ -3412,7 +3411,7 @@ La evolución del PLN está marcada por innovaciones constantes y un enfoque en 
 
 
 ---
-# <p align=center>:computer: Primeros 2000: Modelos Probabilísticos y Topic Modeling</p>
+# <p align=center>:computer: **Primeros 2000: Modelos Probabilísticos y Topic Modeling**</p>
 
 # :pager: **Introducción de Modelos como Latent Dirichlet Allocation (LDA)**
 
@@ -4089,7 +4088,7 @@ La interpretabilidad en el procesamiento de lenguaje natural es un campo en evol
 
 
 ---
-# <p align=center>:computer: Año 2013: la Revolución de Word2Vec</p>
+# <p align=center>:computer: **Año 2013: la Revolución de Word2Vec**</p>
 
 # :pager: **Propuesta de Tomas Mikolov y su Equipo de Google**
 
@@ -4779,7 +4778,7 @@ La introducción de los Transformers ha marcado un cambio paradigmático en el c
 
 
 ---
-# <p align=center>:computer: Año 2017: Modelo de Transformadores</p>
+# <p align=center>:computer: **Año 2017: Modelo de Transformadores**</p>
 
 # :space_invader: **Attention is All You Need**
 
@@ -4871,7 +4870,7 @@ La introducción de los transformadores por Vaswani et al. en 2017 desencadenó 
    - Los transformadores han impulsado una ola de innovación en la investigación de NLP y se han implementado en aplicaciones prácticas que van desde motores de búsqueda hasta asistentes de voz y sistemas de recomendación.
 
 ---
-# <p align=center>:computer: Año 2020: ChatGPT</p>
+# <p align=center>:computer: **Año 2020: ChatGPT**</p>
 
 En 2020, OpenAI presentó **ChatGPT**, un modelo conversacional basado en la arquitectura de **GPT-3**. Este desarrollo representó un gran avance en el procesamiento del lenguaje natural, ya que permitió a las máquinas interactuar de manera más fluida y coherente con los humanos a través del texto. ChatGPT se entrena en un vasto corpus de datos que abarca conversaciones humanas, artículos, y contenido de la web, utilizando una combinación de técnicas avanzadas para optimizar su capacidad de generar texto.
 
@@ -4964,7 +4963,7 @@ Después del preentrenamiento, ChatGPT pasa por un proceso de ajuste fino para e
    - Durante el ajuste fino, se implementan técnicas para reducir la generación de contenido inapropiado o sesgado. Sin embargo, esta mitigación no es perfecta y sigue siendo un área activa de investigación.
 
 
-# <p align=center>:computer: Año 2024: ChatGPT-4o y Modelo o1</p>
+# <p align=center>:computer: **Año 2024: ChatGPT-4o y Modelo o1**</p>
 
 En el contexto de los avances recientes en procesamiento del lenguaje natural, **ChatGPT-4o** y **o1** representan las últimas iteraciones de los modelos de OpenAI basados en la arquitectura de transformadores, construidos sobre el éxito de modelos como GPT-3 y GPT-4. Aquí te explico en detalle:
 
