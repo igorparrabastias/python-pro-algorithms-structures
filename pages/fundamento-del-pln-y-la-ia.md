@@ -4986,7 +4986,7 @@ En conclusión, la evolución de la representación semántica ha sido un proces
 
 ---
 
-:yum: Actualmente chatgpt "piensa" que estas son "bonitas imagenes para completar la serie"... Veamos como lo hace el próximo año...
+:yum: Actualmente chatgpt "piensa" que estas son <i>bonitas imagenes para completar la serie</i > y hace "oídos sordos" a mis quejas... Veamos como lo hace el próximo año.
 
 <p align="center">
   <img src="../img/DALL·E 2024-11-03 09.29.59 - A visually appealing and elegant representation of the evolution of natural language processing (NLP) and semantic representation. The image features .webp" alt="alt text" width="500">
