@@ -1247,11 +1247,9 @@ Los autoencoders son redes neuronales que se utilizan para aprender una represen
 
 Al aplicar técnicas de reducción de dimensionalidad, es crucial tener en cuenta el contexto y los objetivos del análisis. La elección del método adecuado dependerá de la naturaleza de los datos, la cantidad de dimensiones a reducir y el tipo de análisis posterior que se desea realizar. La reducción de dimensionalidad no solo mejora la eficiencia de los modelos, sino que también puede revelar patrones y relaciones que no son evidentes en los datos de alta dimensión.
 
-## :pushpin: **Procedimiento**:
+## :pushpin: **Procedimiento Detallado para Aplicar PCA**:
 
 El **Análisis de Componentes Principales (PCA)** es una técnica estadística de reducción de dimensionalidad ampliamente utilizada en la ciencia de datos y el procesamiento del lenguaje natural (PLN). Su objetivo principal es transformar un conjunto de datos con muchas variables correlacionadas en un conjunto más pequeño de variables no correlacionadas, llamadas **componentes principales**. Esto permite capturar la mayor cantidad de varianza posible en los datos con un número reducido de dimensiones, facilitando el análisis y la visualización.
-
-### **Procedimiento Detallado para Aplicar PCA**
 
 #### **1. Calcular la Media: Centrar los Datos**
 - **Descripción**: El primer paso en PCA es centrar los datos, lo que significa restar la media de cada variable para que los datos tengan un promedio de cero. Esto es esencial porque PCA se basa en la varianza y las relaciones lineales entre las variables, y centrar los datos garantiza que las variaciones sean calculadas correctamente desde un punto de referencia común.
