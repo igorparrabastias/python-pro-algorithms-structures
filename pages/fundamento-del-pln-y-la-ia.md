@@ -1272,9 +1272,7 @@ El **Análisis de Componentes Principales (PCA)** es una técnica estadística d
 - **Descripción**: Los eigenvalores y eigenvectores son conceptos clave en el PCA. Nos ayudan a identificar las direcciones principales (componentes principales) en las que los datos varían más. Los eigenvectores representan las direcciones de estas variaciones, y los eigenvalores indican la magnitud de la varianza en cada dirección.
 - **Cálculo**:
   - Se calculan los eigenvalores y eigenvectores de la matriz de covarianza. Esto implica resolver la ecuación característica:
-    $$
-    \text{det}(\text{Matriz de Covarianza} - \lambda I) = 0
-    $$
+    $$\text{det}(\text{Matriz de Covarianza} - \lambda I) = 0$$
   - Aquí, $\lambda$ representa los eigenvalores y $I$ es la matriz identidad.
   - Los eigenvectores asociados con los eigenvalores más grandes indican las direcciones en las que los datos tienen la mayor varianza.
 - **Resultado**: 
