@@ -1,11 +1,18 @@
 # <p align=center>Evolución de la Representación Semántica: Fundamentos del Procesamiento del Lenguaje Natural y la IA</p>
 
+# :pager: Introducción General
+
+Bienvenidos a esta serie de clases donde exploraremos la evolución histórica del concepto de vectorizar palabras. A lo largo de las décadas, desde los años 1950 hasta el 2024, veremos cómo han evolucionado las técnicas y teorías que nos permiten hoy en día representar palabras en forma de vectores matemáticos, fundamentales para el procesamiento del lenguaje natural y la inteligencia artificial.
+
+---
+# <p align=center>:computer: Década de 1950: Fundamentos del Análisis Semántico</p>
+
 <!-- TOC depthto:1 -->
 
-- [Evolución de la Representación Semántica: Fundamento del PLN y la IA](#evoluci%C3%B3n-de-la-representaci%C3%B3n-sem%C3%A1ntica-fundamento-del-pln-y-la-ia)
+- [Evolución de la Representación Semántica: Fundamentos del Procesamiento del Lenguaje Natural y la IA](#evoluci%C3%B3n-de-la-representaci%C3%B3n-sem%C3%A1ntica-fundamentos-del-procesamiento-del-lenguaje-natural-y-la-ia)
 - [📟 Introducción General](#-introducci%C3%B3n-general)
 - [💻 Década de 1950: Fundamentos del Análisis Semántico](#-d%C3%A9cada-de-1950-fundamentos-del-an%C3%A1lisis-sem%C3%A1ntico)
-- [📟 Introducción al Origen de las Representaciones Distribuidas en la Lingüística](#-introducci%C3%B3n-al-origen-de-las-representaciones-distribuidas-en-la-ling%C3%BC%C3%ADstica)
+- [📟 **Introducción al Origen de las R](#-introducci%C3%B3n-al-origen-de-las-r)
 - [👾 1. Contexto Histórico](#-1-contexto-hist%C3%B3rico)
 - [👾 2. Teorías Lingüísticas Iniciales](#-2-teor%C3%ADas-ling%C3%BC%C3%ADsticas-iniciales)
 - [👾 3. Primeras Representaciones Semánticas](#-3-primeras-representaciones-sem%C3%A1nticas)
@@ -80,20 +87,11 @@
 - [📟 Fundamentos de ChatGPT](#-fundamentos-de-chatgpt)
 - [👾 Arquitectura de ChatGPT](#-arquitectura-de-chatgpt)
 - [👾  Métodos de Entrenamiento de ChatGPT](#--m%C3%A9todos-de-entrenamiento-de-chatgpt)
-- [💻 Año 2024: ChatGPT-4o y o1](#-a%C3%B1o-2024-chatgpt-4o-y-o1)
-- [👾  ChatGPT-4o 2024](#--chatgpt-4o-2024)
+- [💻 Año 2024: ChatGPT-4o y Modelo o1](#-a%C3%B1o-2024-chatgpt-4o-y-modelo-o1)
+- [👾  ChatGPT-4o](#--chatgpt-4o)
 - [👾  Modelo o1 Strawberry](#--modelo-o1-strawberry)
 
 <!-- /TOC -->
-
-# :pager: Introducción General
-
-Bienvenidos a esta serie de clases donde exploraremos la evolución histórica del concepto de vectorizar palabras. A lo largo de las décadas, desde los años 1950 hasta el 2013, veremos cómo han evolucionado las técnicas y teorías que nos permiten hoy en día representar palabras en forma de vectores matemáticos, fundamentales para el procesamiento del lenguaje natural y la inteligencia artificial.
-
----
-# <p align=center>:computer: Década de 1950: Fundamentos del Análisis Semántico</p>
-
-# :pager: **Introducción al Origen de las Representaciones Distribuidas en la Lingüística**
 
 # :space_invader: **1. Contexto Histórico**
 
@@ -101,21 +99,33 @@ Bienvenidos a esta serie de clases donde exploraremos la evolución histórica d
 
 Después de la Segunda Guerra Mundial, el mundo experimentó un gran impulso en el desarrollo de tecnologías computacionales. Este período, conocido como la "revolución computacional de posguerra", fue catalizado por proyectos militares como ENIAC (1945), la primera computadora electrónica de propósito general, que originalmente fue diseñada para calcular tablas de tiro de artillería. Los avances tecnológicos realizados durante la guerra, incluyendo el desarrollo de COLOSSUS en Bletchley Park para descifrar códigos nazis, establecieron las bases fundamentales de la computación moderna.
 
+### La Revolución Computacional de Posguerra
 La necesidad de procesar grandes cantidades de información llevó al desarrollo de innovaciones cruciales. Claude Shannon, trabajando en los Laboratorios Bell, publicó su obra seminal "Una Teoría Matemática de la Comunicación" (1948), que estableció los fundamentos de la teoría de la información y la codificación digital. Paralelamente, John von Neumann propuso la arquitectura de computadora que lleva su nombre, estableciendo el paradigma de "programa almacenado" que seguimos usando hasta hoy.
 
+### Avances en la Teoría de la Información y la Arquitectura de Computadoras
 Gobiernos y universidades comenzaron a invertir masivamente en investigación tecnológica. El MIT, Harvard, y Stanford establecieron algunos de los primeros laboratorios de computación. La Universidad de Manchester desarrolló la Manchester Baby (1948), la primera computadora que podía almacenar programas en memoria. IBM, que había estado produciendo máquinas tabuladoras mecánicas, hizo su transición hacia las computadoras electrónicas con el IBM 701 (1952), marcando el inicio de la computación comercial.
 
+### Inversiones en Investigación y Avances en la Computación Comercial
 Este período también vio los primeros intentos de procesamiento del lenguaje natural. En 1954, el experimento Georgetown-IBM demostró la primera traducción automática de ruso a inglés, aunque con un vocabulario limitado de 250 palabras. Warren Weaver, en su memorando de 1949 "Translation", sugirió por primera vez la posibilidad de usar computadoras para la traducción, estableciendo las bases conceptuales para el análisis computacional del lenguaje.
 
+### Los Primeros Intentos de Procesamiento del Lenguaje Natural
 Esta era marcó el comienzo de una revolución en la que se comenzaron a explorar las posibilidades de la computación para resolver problemas complejos. Los primeros programadores, muchos de ellos mujeres como Grace Hopper (quien desarrolló el primer compilador) y las "computadoras humanas" del ENIAC, establecieron las bases de la programación moderna. El análisis de datos lingüísticos comenzó a emerger como un campo de estudio, con investigadores como Noam Chomsky desarrollando teorías formales sobre la estructura del lenguaje que más tarde influirían en el diseño de lenguajes de programación y sistemas de procesamiento del lenguaje natural.
 
 ## :pushpin: **Lingüística Estructural**: Dominio de teorías que veían el lenguaje como una estructura formal.
 
+## :pushpin: **Lingüística Estructural y su Influencia en el Procesamiento del Lenguaje Natural**
+
 La lingüística estructural fue un enfoque dominante en el estudio del lenguaje durante el siglo XX, basado en la idea de que el lenguaje es una estructura formal y organizada. Esto significa que las palabras y oraciones no se estudian de manera aislada, sino como parte de un sistema más amplio, donde cada elemento tiene un papel y sigue ciertas reglas. Estas teorías influyeron en el desarrollo de las primeras técnicas de vectorización de palabras, ya que llevaron a los investigadores a pensar en el lenguaje como un conjunto estructurado de relaciones que se podían analizar y representar matemáticamente.
+
+## :pushpin: **Teoría de Ferdinand de Saussure y sus Conceptos Fundamentales**
 
 La lingüística estructural es una teoría que ve el lenguaje como un sistema cerrado y organizado, donde todos sus elementos se interrelacionan. Esta teoría fue fuertemente influenciada por el lingüista Ferdinand de Saussure, quien estableció conceptos fundamentales como la "langue" (el sistema abstracto de reglas y convenciones del lenguaje) y el "parole" (el uso real del lenguaje por los hablantes). 
 
+## :pushpin: **Análisis de Palabras en la Lingüística Estructural**
+
 En la lingüística estructural, las palabras no se analizan en términos de su significado aislado, sino en cómo se relacionan y contrastan con otras palabras dentro del sistema lingüístico. Por ejemplo, el significado de una palabra como "perro" se entiende en parte porque no es "gato", "caballo" o "roca". Estas relaciones entre palabras sentaron las bases para el análisis semántico posterior, donde el significado se deriva del contexto y las conexiones con otras palabras.
+
+## :pushpin: **Influencia en la Representación Matemática de las Palabras**
 
 Este enfoque estructural también influyó en la forma en que los investigadores comenzaron a pensar en representar palabras matemáticamente. La idea era que si el lenguaje es un sistema estructurado, entonces podría ser modelado mediante relaciones y patrones que pueden describirse usando conceptos matemáticos como matrices y vectores. Así, la teoría de la lingüística estructural proporcionó una base teórica para los métodos distribucionales que se usarían más adelante para vectorizar palabras. Estos métodos buscan capturar la estructura formal del lenguaje y cómo los elementos se interconectan.
 
@@ -4962,11 +4972,11 @@ Después del preentrenamiento, ChatGPT pasa por un proceso de ajuste fino para e
    - Durante el ajuste fino, se implementan técnicas para reducir la generación de contenido inapropiado o sesgado. Sin embargo, esta mitigación no es perfecta y sigue siendo un área activa de investigación.
 
 
-# <p align=center>:computer: Año 2024: ChatGPT-4o y o1</p>
+# <p align=center>:computer: Año 2024: ChatGPT-4o y Modelo o1</p>
 
 En el contexto de los avances recientes en procesamiento del lenguaje natural, **ChatGPT-4o** y **o1** representan las últimas iteraciones de los modelos de OpenAI basados en la arquitectura de transformadores, construidos sobre el éxito de modelos como GPT-3 y GPT-4. Aquí te explico en detalle:
 
-# :space_invader:  **ChatGPT-4o (2024)**
+# :space_invader:  **ChatGPT-4o**
 **ChatGPT-4o** es una versión mejorada y optimizada del modelo GPT-4, con un enfoque en ofrecer una experiencia más rápida y eficiente. A continuación, se destacan las principales características y avances de ChatGPT-4o:
 
 1. **Multimodalidad**:
