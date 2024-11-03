@@ -91,7 +91,7 @@
 Bienvenidos a esta serie de clases donde exploraremos la evolución histórica del concepto de vectorizar palabras. A lo largo de las décadas, desde los años 1950 hasta el 2013, veremos cómo han evolucionado las técnicas y teorías que nos permiten hoy en día representar palabras en forma de vectores matemáticos, fundamentales para el procesamiento del lenguaje natural y la inteligencia artificial.
 
 ---
-# <p align=center>**Década de 1950: Fundamentos del Análisis Semántico**</p>
+# **<p align=center><b>Década de 1950: Fundamentos del Análisis Semántico</b></p>**
 
 # :pager: **Introducción al Origen de las Representaciones Distribuidas en la Lingüística**
 
