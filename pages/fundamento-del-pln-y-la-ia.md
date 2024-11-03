@@ -1,6 +1,6 @@
 # <p align=center>Evolución de la Representación Semántica: Fundamento del PLN y la IA</p>
 
-<!-- TOC depthto:2 -->
+<!-- TOC depthto:1 -->
 
 - [Evolución de la Representación Semántica: Fundamento del PLN y la IA](#evolución-de-la-representación-semántica-fundamento-del-pln-y-la-ia)
 - [:pager: Introducción General](#pager-introducción-general)
