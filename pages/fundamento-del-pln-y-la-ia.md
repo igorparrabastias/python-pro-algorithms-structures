@@ -4,9 +4,10 @@
 
 Bienvenidos a esta serie de clases donde exploraremos la evolución histórica del concepto de vectorizar palabras. A lo largo de las décadas, desde los años 1950 hasta el 2024, veremos cómo han evolucionado las técnicas y teorías que nos permiten hoy en día representar palabras en forma de vectores matemáticos, fundamentales para el procesamiento del lenguaje natural y la inteligencia artificial.
 
+
 - [Evolución de la Representación Semántica: Fundamentos del Procesamiento del Lenguaje Natural y la IA](#evolución-de-la-representación-semántica-fundamentos-del-procesamiento-del-lenguaje-natural-y-la-ia)
-- [:pager: Introducción General](#pager-introducción-general)
-- [:computer: Década de 1950: Fundamentos del Análisis Semántico](#computer-década-de-1950-fundamentos-del-análisis-semántico)
+- [:pager: **Introducción General**](#pager-introducción-general)
+- [:computer: **Década de 1950: Fundamentos del Análisis Semántico**](#computer-década-de-1950-fundamentos-del-análisis-semántico)
 - [:space\_invader: **1. Contexto Histórico**](#space_invader-1-contexto-histórico)
 - [:space\_invader: **2. Teorías Lingüísticas Iniciales**](#space_invader-2-teorías-lingüísticas-iniciales)
 - [:space\_invader: **3. Primeras Representaciones Semánticas**](#space_invader-3-primeras-representaciones-semánticas)
@@ -15,7 +16,7 @@ Bienvenidos a esta serie de clases donde exploraremos la evolución histórica d
 - [:space\_invader: **2. Herramientas Matemáticas**](#space_invader-2-herramientas-matemáticas)
 - [:space\_invader: **3. Aplicaciones Tempranas**](#space_invader-3-aplicaciones-tempranas)
 - [:space\_invader: **4. Limitaciones y Desafíos**](#space_invader-4-limitaciones-y-desafíos)
-- [:computer: Años 1960: Mapeo Multidimensional](#computer-años-1960-mapeo-multidimensional)
+- [:computer: **Años 1960: Mapeo Multidimensional**](#computer-años-1960-mapeo-multidimensional)
 - [:pager: **Contribuciones de Joseph B. Kruskal y James C. Shepherd**](#pager-contribuciones-de-joseph-b-kruskal-y-james-c-shepherd)
 - [:space\_invader: **1. Introducción a los Autores**](#space_invader-1-introducción-a-los-autores)
 - [:space\_invader: **2. Desarrollo del Análisis Multidimensional**](#space_invader-2-desarrollo-del-análisis-multidimensional)
@@ -23,7 +24,7 @@ Bienvenidos a esta serie de clases donde exploraremos la evolución histórica d
 - [:space\_invader: **1. Aplicación en Lingüística**](#space_invader-1-aplicación-en-lingüística)
 - [:space\_invader: **2. Método del MDS**](#space_invader-2-método-del-mds)
 - [:space\_invader: **4. Limitaciones**](#space_invader-4-limitaciones)
-- [:computer: Década de 1970: Semántica Latente y Análisis de Componentes Principales](#computer-década-de-1970-semántica-latente-y-análisis-de-componentes-principales)
+- [:computer: **Década de 1970: Semántica Latente y Análisis de Componentes Principales**](#computer-década-de-1970-semántica-latente-y-análisis-de-componentes-principales)
 - [:pager: **Avances en la Semántica Latente y la Importancia de los Vectores en el Análisis de Datos Semánticos**](#pager-avances-en-la-semántica-latente-y-la-importancia-de-los-vectores-en-el-análisis-de-datos-semánticos)
 - [:space\_invader: **1. Introducción a la Semántica Latente**](#space_invader-1-introducción-a-la-semántica-latente)
 - [:space\_invader: **2. Análisis de Componentes Principales (PCA)**](#space_invader-2-análisis-de-componentes-principales-pca)
@@ -33,7 +34,7 @@ Bienvenidos a esta serie de clases donde exploraremos la evolución histórica d
 - [:space\_invader: **2. Aplicaciones del PCA en Lingüística**](#space_invader-2-aplicaciones-del-pca-en-lingüística)
 - [:space\_invader: **3. Ejemplos Prácticos**](#space_invader-3-ejemplos-prácticos)
 - [:space\_invader: **4. Desafíos y Limitaciones**](#space_invader-4-desafíos-y-limitaciones)
-- [:computer: Década de 1980: Latent Semantic Analysis (LSA)](#computer-década-de-1980-latent-semantic-analysis-lsa)
+- [:computer: **Década de 1980: Latent Semantic Analysis (LSA)**](#computer-década-de-1980-latent-semantic-analysis-lsa)
 - [:pager: **Desarrollo de LSA para Representar y Analizar Grandes Volúmenes de Texto**](#pager-desarrollo-de-lsa-para-representar-y-analizar-grandes-volúmenes-de-texto)
 - [:space\_invader: **1. Orígenes del LSA**](#space_invader-1-orígenes-del-lsa)
 - [:space\_invader: **2. Fundamentos del LSA**](#space_invader-2-fundamentos-del-lsa)
@@ -43,7 +44,7 @@ Bienvenidos a esta serie de clases donde exploraremos la evolución histórica d
 - [:space\_invader: **2. Aplicaciones en Educación**](#space_invader-2-aplicaciones-en-educación)
 - [:space\_invader: **3. Avances en Procesamiento del Lenguaje Natural**](#space_invader-3-avances-en-procesamiento-del-lenguaje-natural)
 - [:space\_invader: **4. Limitaciones y Críticas**](#space_invader-4-limitaciones-y-críticas)
-- [:computer: Década de 1990: Redes Neuronales y Representaciones Distribuidas](#computer-década-de-1990-redes-neuronales-y-representaciones-distribuidas)
+- [:computer: **Década de 1990: Redes Neuronales y Representaciones Distribuidas**](#computer-década-de-1990-redes-neuronales-y-representaciones-distribuidas)
 - [:pager: **Uso Temprano de Redes Neuronales para Representaciones Distribuidas**](#pager-uso-temprano-de-redes-neuronales-para-representaciones-distribuidas)
 - [:space\_invader: **1. Renacimiento de las Redes Neuronales**](#space_invader-1-renacimiento-de-las-redes-neuronales)
 - [:space\_invader: **2. Representaciones Distribuidas**](#space_invader-2-representaciones-distribuidas)
@@ -53,7 +54,7 @@ Bienvenidos a esta serie de clases donde exploraremos la evolución histórica d
 - [:space\_invader: **2. Limitaciones**](#space_invader-2-limitaciones)
 - [:space\_invader: **3. Comparación con Enfoques Posteriores**](#space_invader-3-comparación-con-enfoques-posteriores)
 - [:space\_invader: **4. Legado y Contribución**](#space_invader-4-legado-y-contribución)
-- [:computer: Primeros 2000: Modelos Probabilísticos y Topic Modeling](#computer-primeros-2000-modelos-probabilísticos-y-topic-modeling)
+- [:computer: **Primeros 2000: Modelos Probabilísticos y Topic Modeling**](#computer-primeros-2000-modelos-probabilísticos-y-topic-modeling)
 - [:pager: **Introducción de Modelos como Latent Dirichlet Allocation (LDA)**](#pager-introducción-de-modelos-como-latent-dirichlet-allocation-lda)
 - [:space\_invader: **1. Evolución del Topic Modeling**](#space_invader-1-evolución-del-topic-modeling)
 - [:space\_invader: **2. Fundamentos de LDA**](#space_invader-2-fundamentos-de-lda)
@@ -63,7 +64,7 @@ Bienvenidos a esta serie de clases donde exploraremos la evolución histórica d
 - [:space\_invader: **2. Ventajas sobre Modelos Determinísticos**](#space_invader-2-ventajas-sobre-modelos-determinísticos)
 - [:space\_invader: **3. Aplicaciones Prácticas**](#space_invader-3-aplicaciones-prácticas)
 - [:space\_invader: **4. Limitaciones**](#space_invader-4-limitaciones-1)
-- [:computer: Año 2013: la Revolución de Word2Vec](#computer-año-2013-la-revolución-de-word2vec)
+- [:computer: **Año 2013: la Revolución de Word2Vec**](#computer-año-2013-la-revolución-de-word2vec)
 - [:pager: **Propuesta de Tomas Mikolov y su Equipo de Google**](#pager-propuesta-de-tomas-mikolov-y-su-equipo-de-google)
 - [:space\_invader: **1. Contexto del Descubrimiento**](#space_invader-1-contexto-del-descubrimiento)
 - [:space\_invader: **2. Arquitecturas Clave**](#space_invader-2-arquitecturas-clave)
@@ -73,16 +74,17 @@ Bienvenidos a esta serie de clases donde exploraremos la evolución histórica d
 - [:space\_invader: **3. Impacto en Procesamiento del Lenguaje Natural**](#space_invader-3-impacto-en-procesamiento-del-lenguaje-natural)
 - [:space\_invader: **4. Limitaciones y Consideraciones Éticas**](#space_invader-4-limitaciones-y-consideraciones-éticas)
 - [:space\_invader: **5. Evolución Posterior**](#space_invader-5-evolución-posterior)
-- [:computer: Año 2017: Modelo de Transformadores](#computer-año-2017-modelo-de-transformadores)
+- [:computer: **Año 2017: Modelo de Transformadores**](#computer-año-2017-modelo-de-transformadores)
 - [:space\_invader: **Attention is All You Need**](#space_invader-attention-is-all-you-need)
 - [:space\_invader: **Revolución en NLP**](#space_invader-revolución-en-nlp)
-- [:computer: Año 2020: ChatGPT](#computer-año-2020-chatgpt)
+- [:computer: **Año 2020: ChatGPT**](#computer-año-2020-chatgpt)
 - [:pager: **Fundamentos de ChatGPT**](#pager-fundamentos-de-chatgpt)
 - [:space\_invader: **Arquitectura de ChatGPT**](#space_invader-arquitectura-de-chatgpt)
 - [:space\_invader:  **Métodos de Entrenamiento de ChatGPT**](#space_invader--métodos-de-entrenamiento-de-chatgpt)
-- [:computer: Año 2024: ChatGPT-4o y Modelo o1](#computer-año-2024-chatgpt-4o-y-modelo-o1)
+- [:computer: **Año 2024: ChatGPT-4o y Modelo o1**](#computer-año-2024-chatgpt-4o-y-modelo-o1)
 - [:space\_invader:  **ChatGPT-4o**](#space_invader--chatgpt-4o)
 - [:space\_invader:  **Modelo o1 (Strawberry)**](#space_invader--modelo-o1-strawberry)
+
 
 
 ---
@@ -942,12 +944,8 @@ La distancia Manhattan, también conocida como distancia de bloque, mide la dist
 - [💻 Año 2020: ChatGPT](#-a%C3%B1o-2020-chatgpt)
 - [📟 Fundamentos de ChatGPT](#-fundamentos-de-chatgpt)
 - [👾 Arquitectura de ChatGPT](#-arquitectura-de-chatgpt)
-- [👾  Métodos de Entrenamiento de ChatGPT](#--m%C3%A9todos-de-entrenamiento-de-chatgpt)
-- [💻 Año 2024: ChatGPT-4o y Modelo o1](#-a%C3%B1o-2024-chatgpt-4o-y-modelo-o1)
-- [👾  ChatGPT-4o](#--chatgpt-4o)
-- [👾  Modelo o1 Strawberry](#--modelo-o1-strawberry)
+<!-- TOC depthto:1 -->
 
-<!-- /TOC -->
 - [Evolución de la Representación Semántica: Fundamentos del Procesamiento del Lenguaje Natural y la IA](#evoluci%C3%B3n-de-la-representaci%C3%B3n-sem%C3%A1ntica-fundamentos-del-procesamiento-del-lenguaje-natural-y-la-ia)
 - [📟 Introducción General](#-introducci%C3%B3n-general)
 - [💻 Década de 1950: Fundamentos del Análisis Semántico](#-d%C3%A9cada-de-1950-fundamentos-del-an%C3%A1lisis-sem%C3%A1ntico)
@@ -1025,6 +1023,10 @@ La distancia Manhattan, también conocida como distancia de bloque, mide la dist
 - [👾 Arquitectura de ChatGPT](#-arquitectura-de-chatgpt)
 - [👾  Métodos de Entrenamiento de ChatGPT](#--m%C3%A9todos-de-entrenamiento-de-chatgpt)
 - [💻 Año 2024: ChatGPT-4o y Modelo o1](#-a%C3%B1o-2024-chatgpt-4o-y-modelo-o1)
+- [👾  ChatGPT-4o](#--chatgpt-4o)
+- [👾  Modelo o1 Strawberry](#--modelo-o1-strawberry)
+
+<!-- /TOC -->4: ChatGPT-4o y Modelo o1](#-a%C3%B1o-2024-chatgpt-4o-y-modelo-o1)
 - [👾  ChatGPT-4o](#--chatgpt-4o)
 - [👾  Modelo o1 Strawberry](#--modelo-o1-strawberry)
 
