@@ -1307,13 +1307,13 @@ La representación de bolsa de palabras es una de las técnicas más sencillas y
 
 TF-IDF es una mejora sobre la bolsa de palabras que considera no solo la frecuencia de las palabras en un documento, sino también su importancia relativa en un conjunto de documentos (corpus). La fórmula se define como:
 
-\[
+$$
 \text{TF-IDF}(t, d) = \text{TF}(t, d) \times \text{IDF}(t)
-\]
+$$
 
 donde:
-- \(\text{TF}(t, d)\) es la frecuencia del término \( t \) en el documento \( d \).
-- \(\text{IDF}(t)\) es el logaritmo del número total de documentos dividido por el número de documentos que contienen el término \( t \).
+- $\text{TF}(t, d)$ es la frecuencia del término $t$ en el documento $d$.
+- $\text{IDF}(t)$ es el logaritmo del número total de documentos dividido por el número de documentos que contienen el término $t$.
 
 Esta representación ayuda a reducir el peso de las palabras comunes y resalta aquellas que son más significativas en el contexto.
 
