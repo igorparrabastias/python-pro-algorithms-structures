@@ -4984,9 +4984,18 @@ Con la introducción de **ChatGPT** en 2020, la tecnología alcanzó un punto do
 
 En conclusión, la evolución de la representación semántica ha sido un proceso de refinamiento constante, impulsado por innovaciones matemáticas, avances en el **aprendizaje profundo** y la búsqueda de modelos que puedan entender el **lenguaje humano** de manera más cercana a cómo lo hacemos nosotros. Cada década ha contribuido con avances cruciales, y hoy estamos mejor posicionados que nunca para seguir explorando las fronteras del lenguaje y la inteligencia artificial.
 
+---
 
-![alt text](<../img/DALL·E 2024-11-03 09.29.59 - A visually appealing and elegant representation of the evolution of natural language processing (NLP) and semantic representation. The image features .webp>)
+:yum: Actualmente chatgpt "piensa" que estas son "bonitas imagenes para completar la serie"... Veamos como lo hace el próximo año...
 
-![alt text](<../img/DALL·E 2024-11-03 09.30.02 - A visually appealing and elegant representation of the evolution of natural language processing (NLP) and semantic representation. The image features .webp>)
+<p align="center">
+  <img src="../img/DALL·E 2024-11-03 09.29.59 - A visually appealing and elegant representation of the evolution of natural language processing (NLP) and semantic representation. The image features .webp" alt="alt text" width="500">
+</p>
 
-![alt text](<../img/DALL·E 2024-11-03 09.30.05 - A visually appealing and elegant timeline depicting the evolution of natural language processing (NLP) from 1950 to 2024. The timeline begins with '19.webp>)
+<p align="center">
+  <img src="../img/DALL·E 2024-11-03 09.30.02 - A visually appealing and elegant representation of the evolution of natural language processing (NLP) and semantic representation. The image features .webp" alt="alt text" width="500">
+</p>
+
+<p align="center">
+  <img src="../img/DALL·E 2024-11-03 09.30.05 - A visually appealing and elegant timeline depicting the evolution of natural language processing (NLP) from 1950 to 2024. The timeline begins with '19.webp" alt="alt text" width="500">
+</p>
