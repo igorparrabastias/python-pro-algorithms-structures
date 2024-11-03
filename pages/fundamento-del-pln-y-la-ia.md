@@ -5,7 +5,7 @@
 Bienvenidos a esta serie de clases donde exploraremos la evolución histórica del concepto de vectorizar palabras. A lo largo de las décadas, desde los años 1950 hasta el 2013, veremos cómo han evolucionado las técnicas y teorías que nos permiten hoy en día representar palabras en forma de vectores matemáticos, fundamentales para el procesamiento del lenguaje natural y la inteligencia artificial.
 
 ---
-# <center>Década de 1950: Fundamentos del Análisis Semántico</center>
+# <p align=center>Década de 1950: Fundamentos del Análisis Semántico</p>
 
 # :ledger: **Introducción al Origen de las Representaciones Distribuidas en la Lingüística**
 
@@ -449,7 +449,7 @@ La transición de técnicas superficiales a enfoques más profundos ha sido clav
 
 
 ---
-# <center>Años 1960: Mapeo Multidimensional</center>
+# <p align=center>Años 1960: Mapeo Multidimensional</p>
 
 # :ledger: **Contribuciones de Joseph B. Kruskal y James C. Shepherd**
 
@@ -1069,7 +1069,7 @@ La computación intensiva es un componente crítico en el procesamiento de grand
 
 
 ---
-# <center>Década de 1970: Semántica Latente y Análisis de Componentes Principales</center>
+# <p align=center>Década de 1970: Semántica Latente y Análisis de Componentes Principales</p>
 
 # :ledger: **Avances en la Semántica Latente y la Importancia de los Vectores en el Análisis de Datos Semánticos**
 
@@ -1842,7 +1842,7 @@ La gestión de datos escasos, ya sea en forma de palabras raras o documentos cor
 
 
 ---
-# <center>Década de 1980: Latent Semantic Analysis (LSA)</center>
+# <p align=center>Década de 1980: Latent Semantic Analysis (LSA)</p>
 
 # :ledger: **Desarrollo de LSA para Representar y Analizar Grandes Volúmenes de Texto**
 
@@ -2628,7 +2628,7 @@ La estática del modelo representa un desafío significativo en el campo del pro
 
 
 ---
-# <center>Década de 1990: Redes Neuronales y Representaciones Distribuidas</center>
+# <p align=center>Década de 1990: Redes Neuronales y Representaciones Distribuidas</p>
 
 # :ledger: **Uso Temprano de Redes Neuronales para Representaciones Distribuidas**
 
@@ -3324,7 +3324,7 @@ La evolución del PLN está marcada por innovaciones constantes y un enfoque en 
 
 
 ---
-# <center>Primeros 2000: Modelos Probabilísticos y Topic Modeling</center>
+# <p align=center>Primeros 2000: Modelos Probabilísticos y Topic Modeling</p>
 
 # :ledger: **Introducción de Modelos como Latent Dirichlet Allocation (LDA)**
 
@@ -4001,7 +4001,7 @@ La interpretabilidad en el procesamiento de lenguaje natural es un campo en evol
 
 
 ---
-# <center>2013 y la Revolución de Word2Vec</center>
+# <p align=center>2013 y la Revolución de Word2Vec</p>
 
 # :ledger: **Propuesta de Tomas Mikolov y su Equipo de Google**
 
@@ -4691,7 +4691,7 @@ La introducción de los Transformers ha marcado un cambio paradigmático en el c
 
 
 ---
-# <center>2017: Modelo de Transformadores</center>
+# <p align=center>2017: Modelo de Transformadores</p>
 
 # :space_invader: **Attention is All You Need**
 
@@ -4783,7 +4783,7 @@ La introducción de los transformadores por Vaswani et al. en 2017 desencadenó 
    - Los transformadores han impulsado una ola de innovación en la investigación de NLP y se han implementado en aplicaciones prácticas que van desde motores de búsqueda hasta asistentes de voz y sistemas de recomendación.
 
 ---
-# <center>2020: ChatGPT</center>
+# <p align=center>2020: ChatGPT</p>
 
 En 2020, OpenAI presentó **ChatGPT**, un modelo conversacional basado en la arquitectura de **GPT-3**. Este desarrollo representó un gran avance en el procesamiento del lenguaje natural, ya que permitió a las máquinas interactuar de manera más fluida y coherente con los humanos a través del texto. ChatGPT se entrena en un vasto corpus de datos que abarca conversaciones humanas, artículos, y contenido de la web, utilizando una combinación de técnicas avanzadas para optimizar su capacidad de generar texto.
 
