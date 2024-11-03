@@ -2,7 +2,7 @@
 
 # :pager: **Introducción General**
 
-Bienvenidos a esta serie de clases donde exploraremos la evolución histórica del concepto de vectorizar palabras. A lo largo de las décadas, desde los años 1950 hasta el 2024, veremos cómo han evolucionado las técnicas y teorías que nos permiten hoy en día representar palabras en forma de vectores matemáticos, fundamentales para el procesamiento del lenguaje natural y la inteligencia artificial.
+Bienvenidos a esta serie de documentos donde exploraremos la evolución histórica del concepto de vectorizar palabras. A lo largo de las décadas, desde los años 1950 hasta el 2024, veremos cómo han evolucionado las técnicas y teorías que nos permiten hoy en día representar palabras en forma de vectores matemáticos, fundamentales para el procesamiento del lenguaje natural y la inteligencia artificial.
 
 
 - [**Evolución de la Representación Semántica: Fundamentos del Procesamiento del Lenguaje Natural y la IA**](#evolución-de-la-representación-semántica-fundamentos-del-procesamiento-del-lenguaje-natural-y-la-ia)
@@ -807,7 +807,6 @@ La visualización de relaciones semánticas es una herramienta poderosa en el ar
 - [👾 2. Desarrollo del Análisis Multidimensional](#-2-desarrollo-del-an%C3%A1lisis-multidimensional)
 - [📟 Propuesta del Mapeo Multidimensional y su Relevancia](#-propuesta-del-mapeo-multidimensional-y-su-relevancia)
 - [👾 1. Aplicación en Lingüística](#-1-aplicaci%C3%B3n-en-ling%C3%BC%C3%ADstica)
-- [👾 2. Método del MDS](#-2-m%C3%A9todo-del-mds)
 - [👾 4. Limitaciones](#-4-limitaciones)
 - [💻 Década de 1970: Semántica Latente y Análisis de Componentes Principales](#-d%C3%A9cada-de-1970-sem%C3%A1ntica-latente-y-an%C3%A1lisis-de-componentes-principales)
 - [📟 Avances en la Semántica Latente y la Importancia de los Vectores en el Análisis de Datos Semánticos](#-avances-en-la-sem%C3%A1ntica-latente-y-la-importancia-de-los-vectores-en-el-an%C3%A1lisis-de-datos-sem%C3%A1nticos)
@@ -1250,9 +1249,47 @@ Al aplicar técnicas de reducción de dimensionalidad, es crucial tener en cuent
 
 ## :pushpin: **Procedimiento**:
 
-- **Calcular la Media**: Centrar los datos.
-- **Matriz de Covarianza**: Evaluar cómo varían conjuntamente las variables.
-- **Eigenvalores y Eigenvectores**: Determinar las direcciones principales.
+### **Análisis de Componentes Principales (PCA)**
+
+El **Análisis de Componentes Principales (PCA)** es una técnica estadística de reducción de dimensionalidad ampliamente utilizada en la ciencia de datos y el procesamiento del lenguaje natural (PLN). Su objetivo principal es transformar un conjunto de datos con muchas variables correlacionadas en un conjunto más pequeño de variables no correlacionadas, llamadas **componentes principales**. Esto permite capturar la mayor cantidad de varianza posible en los datos con un número reducido de dimensiones, facilitando el análisis y la visualización.
+
+### **Procedimiento Detallado para Aplicar PCA**
+
+#### **1. Calcular la Media: Centrar los Datos**
+- **Descripción**: El primer paso en PCA es centrar los datos, lo que significa restar la media de cada variable para que los datos tengan un promedio de cero. Esto es esencial porque PCA se basa en la varianza y las relaciones lineales entre las variables, y centrar los datos garantiza que las variaciones sean calculadas correctamente desde un punto de referencia común.
+- **Cálculo**:
+  - Para cada variable, se calcula la media aritmética y luego se resta esta media a cada punto de datos en esa dimensión.
+  - Por ejemplo, si tenemos una matriz de datos \( X \), se obtiene la media de cada columna (variable) y se resta de cada valor de esa columna: 
+    \[
+    X_{\text{centrado}} = X - \text{media}(X)
+    \]
+- **Resultado**: Los datos centrados tienen un promedio de cero en cada dimensión.
+
+#### **2. Matriz de Covarianza: Evaluar cómo Varían Conjuntamente las Variables**
+- **Descripción**: La matriz de covarianza mide cómo varían conjuntamente las diferentes variables. En otras palabras, nos dice si hay una relación lineal entre las variables y cómo de fuerte es esa relación. Una covarianza positiva indica que las variables tienden a aumentar o disminuir juntas, mientras que una covarianza negativa sugiere que cuando una variable aumenta, la otra tiende a disminuir.
+- **Cálculo**:
+  - La matriz de covarianza se obtiene utilizando los datos centrados:
+    \[
+    \text{Matriz de Covarianza} = \frac{1}{n-1} X_{\text{centrado}}^T X_{\text{centrado}}
+    \]
+  - Aquí, \( X_{\text{centrado}}^T \) es la transpuesta de la matriz de datos centrados, y \( n \) es el número de observaciones.
+- **Resultado**: La matriz de covarianza es una matriz cuadrada donde cada elemento \( (i, j) \) representa la covarianza entre la variable \( i \) y la variable \( j \).
+
+#### **3. Eigenvalores y Eigenvectores: Determinar las Direcciones Principales**
+- **Descripción**: Los eigenvalores y eigenvectores son conceptos clave en el PCA. Nos ayudan a identificar las direcciones principales (componentes principales) en las que los datos varían más. Los eigenvectores representan las direcciones de estas variaciones, y los eigenvalores indican la magnitud de la varianza en cada dirección.
+- **Cálculo**:
+  - Se calculan los eigenvalores y eigenvectores de la matriz de covarianza. Esto implica resolver la ecuación característica:
+    \[
+    \text{det}(\text{Matriz de Covarianza} - \lambda I) = 0
+    \]
+  - Aquí, \( \lambda \) representa los eigenvalores y \( I \) es la matriz identidad.
+  - Los eigenvectores asociados con los eigenvalores más grandes indican las direcciones en las que los datos tienen la mayor varianza.
+- **Resultado**: 
+  - Los **eigenvalores** nos dicen cuánta varianza hay en cada dirección principal. Cuanto mayor sea el eigenvalor, más importante es esa dirección.
+  - Los **eigenvectores** definen las nuevas direcciones (componentes principales) a lo largo de las cuales se proyectarán los datos.
+
+### **Conclusión del Procedimiento**
+Estos pasos forman la base del Análisis de Componentes Principales. Una vez que se han calculado los eigenvalores y eigenvectores, se seleccionan los componentes principales más importantes (aquellos con los eigenvalores más grandes) y los datos originales se proyectan en estas nuevas direcciones. Esto reduce la dimensionalidad de los datos mientras se retiene la mayor parte de la información relevante, facilitando el análisis y la interpretación.
 
 # :space_invader: **3. Importancia de los Vectores**
 
