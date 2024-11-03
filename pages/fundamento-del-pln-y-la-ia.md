@@ -1256,29 +1256,27 @@ El **Análisis de Componentes Principales (PCA)** es una técnica estadística d
 - **Cálculo**:
   - Para cada variable, se calcula la media aritmética y luego se resta esta media a cada punto de datos en esa dimensión.
   - Por ejemplo, si tenemos una matriz de datos \( X \), se obtiene la media de cada columna (variable) y se resta de cada valor de esa columna: 
-    \[
-    X_{\text{centrado}} = X - \text{media}(X)
-    \]
+    $$X_{\text{centrado}} = X - \text{media}(X)$$
 - **Resultado**: Los datos centrados tienen un promedio de cero en cada dimensión.
 
 #### **2. Matriz de Covarianza: Evaluar cómo Varían Conjuntamente las Variables**
 - **Descripción**: La matriz de covarianza mide cómo varían conjuntamente las diferentes variables. En otras palabras, nos dice si hay una relación lineal entre las variables y cómo de fuerte es esa relación. Una covarianza positiva indica que las variables tienden a aumentar o disminuir juntas, mientras que una covarianza negativa sugiere que cuando una variable aumenta, la otra tiende a disminuir.
 - **Cálculo**:
   - La matriz de covarianza se obtiene utilizando los datos centrados:
-    \[
-    \text{Matriz de Covarianza} = \frac{1}{n-1} X_{\text{centrado}}^T X_{\text{centrado}}
-    \]
-  - Aquí, \( X_{\text{centrado}}^T \) es la transpuesta de la matriz de datos centrados, y \( n \) es el número de observaciones.
+    $$
+    \text{Matriz de Covarianza} = \frac{1}{n-1} \cdot X_{\text{centrado}}^T \cdot X_{\text{centrado}}
+    $$
+  - Aquí, \( $X_{\text{centrado}}^T$ \) es la transpuesta de la matriz de datos centrados, y \( n \) es el número de observaciones.
 - **Resultado**: La matriz de covarianza es una matriz cuadrada donde cada elemento \( (i, j) \) representa la covarianza entre la variable \( i \) y la variable \( j \).
 
 #### **3. Eigenvalores y Eigenvectores: Determinar las Direcciones Principales**
 - **Descripción**: Los eigenvalores y eigenvectores son conceptos clave en el PCA. Nos ayudan a identificar las direcciones principales (componentes principales) en las que los datos varían más. Los eigenvectores representan las direcciones de estas variaciones, y los eigenvalores indican la magnitud de la varianza en cada dirección.
 - **Cálculo**:
   - Se calculan los eigenvalores y eigenvectores de la matriz de covarianza. Esto implica resolver la ecuación característica:
-    \[
+    $$
     \text{det}(\text{Matriz de Covarianza} - \lambda I) = 0
-    \]
-  - Aquí, \( \lambda \) representa los eigenvalores y \( I \) es la matriz identidad.
+    $$
+  - Aquí, $\lambda$ representa los eigenvalores y $I$ es la matriz identidad.
   - Los eigenvectores asociados con los eigenvalores más grandes indican las direcciones en las que los datos tienen la mayor varianza.
 - **Resultado**: 
   - Los **eigenvalores** nos dicen cuánta varianza hay en cada dirección principal. Cuanto mayor sea el eigenvalor, más importante es esa dirección.
