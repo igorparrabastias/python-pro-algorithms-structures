@@ -5,6 +5,29 @@
 Bienvenidos a esta serie de documentos donde exploraremos la evolución histórica del concepto de vectorizar palabras. A lo largo de las décadas, desde los años 1950 hasta el 2024, veremos cómo han evolucionado las técnicas y teorías que nos permiten hoy en día representar palabras en forma de vectores matemáticos, fundamentales para el procesamiento del lenguaje natural y la inteligencia artificial.
 
 
+---
+
+La evolución de la representación semántica de palabras ha sido fundamental para los avances en el procesamiento del lenguaje natural (PLN) y la inteligencia artificial (IA). Este recorrido comienza en la **década de 1950**, cuando se sentaron las bases del análisis semántico. Durante este periodo, las ideas lingüísticas iniciales comenzaron a formarse en un contexto de posguerra, con las primeras teorías que veían el lenguaje como una estructura formal y los intentos de capturar su significado mediante representaciones semánticas. Se introdujeron conceptos clave y herramientas matemáticas que influyeron en las aplicaciones tempranas, aunque con limitaciones notables.
+
+En los **años 1960**, el trabajo de Joseph B. Kruskal y James C. Shepherd destacó por el desarrollo del análisis de escalamiento multidimensional (MDS), que permitió representar datos complejos en espacios de menor dimensión. Este enfoque se volvió relevante en lingüística, facilitando la visualización de relaciones semánticas y simplificando el análisis de grandes volúmenes de datos, aunque enfrentaba desafíos como la interpretabilidad y los altos requisitos computacionales.
+
+La **década de 1970** trajo avances significativos con la semántica latente y el análisis de componentes principales (PCA). Aquí se profundizó en cómo los vectores podían representar relaciones semánticas en datos complejos, y el uso de técnicas estadísticas permitió comprender mejor el significado de las palabras. A pesar de las aplicaciones exitosas en lingüística y modelado estadístico, surgieron desafíos relacionados con la interpretación de los datos y la escasez de ciertos términos.
+
+La **década de 1980** marcó el desarrollo del Análisis Semántico Latente (LSA), una técnica clave para manejar grandes volúmenes de texto mediante la descomposición en valores singulares (SVD). LSA mejoró la recuperación de información y encontró aplicaciones en educación y procesamiento del lenguaje, aunque fue criticado por sus altos costos computacionales y su dificultad para actualizarse con nuevos datos.
+
+En los **años 1990**, las redes neuronales y las representaciones distribuidas cobraron protagonismo. Esta época vio un renacimiento de las redes neuronales, como las redes de Hopfield y las redes recurrentes de Elman y Jordan, que introdujeron nuevas formas de representar información lingüística. Sin embargo, estas técnicas enfrentaban problemas como el *vanishing gradient* y limitaciones de escalabilidad, que se compararon desfavorablemente con enfoques más recientes.
+
+Los **primeros 2000** vieron la introducción de modelos probabilísticos y el *topic modeling*, con herramientas como Latent Dirichlet Allocation (LDA) que permitieron modelar temas en grandes corpus de texto de manera más eficiente. Estos modelos aportaron flexibilidad y capacidad de manejo de la polisemia, aunque también tenían limitaciones, como la necesidad de predefinir el número de temas y problemas de interpretabilidad.
+
+En **2013**, la llegada de Word2Vec, desarrollado por Tomas Mikolov y su equipo de Google, simplificó y popularizó las representaciones vectoriales. Las arquitecturas de Continuous Bag of Words (CBOW) y Skip-Gram revolucionaron la forma en que se capturaban las relaciones semánticas, permitiendo operaciones aritméticas con significado lingüístico y mejorando tareas de PLN. Sin embargo, también surgieron críticas por el sesgo inherente en los datos y la limitada capacidad de manejar contextos complejos.
+
+El **año 2017** trajo un cambio de paradigma con el modelo de transformadores, presentado en el artículo "Attention is All You Need". Este modelo introdujo el mecanismo de *self-attention*, que transformó el campo de PLN al mejorar la eficiencia y capturar mejor las relaciones semánticas a largo plazo. La revolución que siguió sentó las bases para modelos avanzados como BERT y GPT, que redefinieron el procesamiento de texto.
+
+En **2020**, ChatGPT, basado en la arquitectura de GPT-3, llevó las interacciones en lenguaje natural a un nivel superior. Su diseño se enfocó en la generación de texto conversacional, con una arquitectura de transformadores y métodos de entrenamiento que incluían aprendizaje supervisado y refuerzo con retroalimentación humana. ChatGPT se convirtió en una herramienta esencial para aplicaciones como la generación de contenido, soporte al cliente, y educación.
+
+Finalmente, en **2024**, los modelos ChatGPT-4o y o1 representaron avances adicionales. ChatGPT-4o se enfocó en eficiencia y capacidades multimodales, mientras que el modelo o1 (apodado "Strawberry") mejoró el razonamiento lógico y analítico, superando a sus predecesores en tareas científicas y técnicas. Estos modelos reflejan la constante evolución del procesamiento del lenguaje natural y continúan empujando los límites de la inteligencia artificial.
+
+
 - [**Evolución de la Representación Semántica: Fundamentos del Procesamiento del Lenguaje Natural y la IA**](#evolución-de-la-representación-semántica-fundamentos-del-procesamiento-del-lenguaje-natural-y-la-ia)
 - [:pager: **Introducción General**](#pager-introducción-general)
 - [:house_with_garden: **Década de 1950: Fundamentos del Análisis Semántico**](#computer-década-de-1950-fundamentos-del-análisis-semántico)
@@ -765,29 +788,6 @@ Los mapas de calor son representaciones gráficas que muestran la intensidad de 
 
 ### Gráficas de Redes
 
-Las gráficas de redes son otra forma efectiva de visualizar relaciones semánticas. En este tipo de representación, las palabras se representan como nodos, y las conexiones entre ellas (aristas) indican similitudes o relaciones semánticas. Las redes pueden ser dirigidas o no dirigidas, dependiendo de si se considera la dirección de la relación.
-
-### Diagramas de Venn
-
-Los diagramas de Venn pueden ser útiles para visualizar intersecciones entre conjuntos de palabras que comparten características semánticas. Esta técnica puede ayudar a identificar palabras que pertenecen a múltiples categorías.
-
-## Aplicaciones Prácticas
-
-### Análisis de Sentimientos
-
-La visualización de relaciones semánticas puede ser utilizada en el análisis de sentimientos para identificar palabras que se asocian comúnmente con emociones específicas. Al visualizar estas relaciones, los analistas pueden obtener insights sobre cómo se perciben diferentes conceptos en un corpus de texto.
-
-### Sistemas de Recomendación
-
-En sistemas de recomendación, las visualizaciones pueden ayudar a entender cómo se relacionan diferentes productos o servicios a nivel semántico, lo que puede mejorar la relevancia de las recomendaciones ofrecidas a los usuarios.
-
-### Mejora de Modelos de Lenguaje
-
-La visualización de relaciones semánticas también es útil para evaluar y mejorar modelos de lenguaje. Al observar cómo se agrupan las palabras en un espacio semántico, los investigadores pueden identificar sesgos o áreas de mejora en sus modelos.
-
-## Conclusión
-
-La visualización de relaciones semánticas es una herramienta poderosa en el arsenal del procesamiento del lenguaje natural. A través de diversas técnicas de representación gráfica, es posible desentrañar la complejidad de las relaciones entre palabras, proporcionando insights valiosos para la investigación y la aplicación práctica en diversas áreas. A medida que las tecnologías de PLN continúan evolucionando, la importancia de estas visualizaciones seguirá creciendo, permitiendo una comprensión más profunda del lenguaje humano.
 <!-- TOC depthto:1 -->
 
 - [Evolución de la Representación Semántica: Fundamentos del Procesamiento del Lenguaje Natural y la IA](#evoluci%C3%B3n-de-la-representaci%C3%B3n-sem%C3%A1ntica-fundamentos-del-procesamiento-del-lenguaje-natural-y-la-ia)
@@ -847,6 +847,30 @@ La visualización de relaciones semánticas es una herramienta poderosa en el ar
 - [👾 1. Representación Probabilística del Lenguaje](#-1-representaci%C3%B3n-probabil%C3%ADstica-del-lenguaje)
 - [👾 2. Ventajas sobre Modelos Determinísticos](#-2-ventajas-sobre-modelos-determin%C3%ADsticos)
 - [👾 3. Aplicaciones Prácticas](#-3-aplicaciones-pr%C3%A1cticas)
+- [👾 4. Limitaciones](#-4-limitaciones)
+- [🏡 Año 2013: la Revolución de Word2Vec](#-a%C3%B1o-2013-la-revoluci%C3%B3n-de-word2vec)
+- [📟 Propuesta de Tomas Mikolov y su Equipo de Google](#-propuesta-de-tomas-mikolov-y-su-equipo-de-google)
+- [👾 1. Contexto del Descubrimiento](#-1-contexto-del-descubrimiento)
+- [👾 2. Arquitecturas Clave](#-2-arquitecturas-clave)
+- [📟 Simplificación y Popularización de las Representaciones Vectoriales con el Modelo Word2Vec](#-simplificaci%C3%B3n-y-popularizaci%C3%B3n-de-las-representaciones-vectoriales-con-el-modelo-word2vec)
+- [👾 1. Características Principales](#-1-caracter%C3%ADsticas-principales)
+- [👾 2. Ventajas del Modelo](#-2-ventajas-del-modelo)
+- [👾 3. Impacto en Procesamiento del Lenguaje Natural](#-3-impacto-en-procesamiento-del-lenguaje-natural)
+- [👾 4. Limitaciones y Consideraciones Éticas](#-4-limitaciones-y-consideraciones-%C3%A9ticas)
+- [👾 5. Evolución Posterior](#-5-evoluci%C3%B3n-posterior)
+- [🏡 Año 2017: Modelo de Transformadores](#-a%C3%B1o-2017-modelo-de-transformadores)
+- [👾 Attention is All You Need](#-attention-is-all-you-need)
+- [👾 Revolución en NLP](#-revoluci%C3%B3n-en-nlp)
+- [🏡 Año 2020: ChatGPT](#-a%C3%B1o-2020-chatgpt)
+- [📟 Fundamentos de ChatGPT](#-fundamentos-de-chatgpt)
+- [👾 Arquitectura de ChatGPT](#-arquitectura-de-chatgpt)
+- [👾  Métodos de Entrenamiento de ChatGPT](#--m%C3%A9todos-de-entrenamiento-de-chatgpt)
+- [🏡 Año 2024: ChatGPT-4o y Modelo o1](#-a%C3%B1o-2024-chatgpt-4o-y-modelo-o1)
+- [👾  ChatGPT-4o](#--chatgpt-4o)
+- [👾  Modelo o1 Strawberry](#--modelo-o1-strawberry)
+- [📟  Conclusión: La Evolución de la Representación Semántica en el PLN y la IA](#--conclusi%C3%B3n-la-evoluci%C3%B3n-de-la-representaci%C3%B3n-sem%C3%A1ntica-en-el-pln-y-la-ia)
+
+<!-- /TOC -->
 - [👾 4. Limitaciones](#-4-limitaciones)
 - [🏡 Año 2013: la Revolución de Word2Vec](#-a%C3%B1o-2013-la-revoluci%C3%B3n-de-word2vec)
 - [📟 Propuesta de Tomas Mikolov y su Equipo de Google](#-propuesta-de-tomas-mikolov-y-su-equipo-de-google)
@@ -4946,3 +4970,20 @@ El modelo **o1**, apodado "Strawberry", se destaca por su enfoque en **razonamie
 
 ## :pushpin:  **Importancia en el Contexto de la Revolución en NLP**
 Estos modelos, ChatGPT-4o y o1, representan un avance importante en la línea de modelos basados en transformadores. Se basan en las bases sentadas por arquitecturas anteriores como BERT y GPT, pero llevan las capacidades del procesamiento de lenguaje natural a nuevos niveles. Gracias a estos avances, las aplicaciones en el mundo real se han expandido, abarcando desde la generación multimodal de contenido hasta la asistencia técnica en programación y ciencia.
+
+---
+# :pager:  **Conclusión de La Evolución de la Representación Semántica en el PLN y la IA**
+
+La trayectoria histórica de la representación semántica ha sido un viaje fascinante que ha moldeado profundamente el campo del procesamiento del lenguaje natural (PLN) y la inteligencia artificial (IA). Desde sus inicios en los años 50, cuando se establecieron las bases teóricas y matemáticas de la semántica, hasta los sofisticados modelos actuales, hemos visto una evolución continua que refleja la interacción entre la lingüística y el avance tecnológico.
+
+Los primeros enfoques, centrados en teorías estructurales y representaciones básicas, sentaron las bases para el desarrollo de métodos más matemáticos y computacionales, como el Análisis de Componentes Principales (PCA) y el escalamiento multidimensional. Aunque estas técnicas ofrecieron una comprensión inicial del lenguaje, estaban limitadas por su capacidad para captar relaciones semánticas complejas y su dependencia de altos recursos computacionales.
+
+El progreso en las décadas siguientes, con el surgimiento de la semántica latente y el uso de redes neuronales, mostró una creciente sofisticación. Herramientas como LSA y las primeras redes neuronales ofrecieron nuevas formas de procesar y entender grandes volúmenes de texto, aunque enfrentaron desafíos como el *vanishing gradient* y dificultades para manejar datos escasos. No obstante, estos avances sirvieron como cimientos para las innovaciones que seguirían.
+
+La llegada de modelos probabilísticos en los 2000, como LDA, aportó flexibilidad y una mejor gestión de la incertidumbre en la representación semántica, mientras que Word2Vec en 2013 transformó la forma de capturar las relaciones semánticas mediante representaciones vectoriales eficientes. Estos desarrollos no solo hicieron más accesibles las técnicas de PLN, sino que también llevaron a mejoras notables en aplicaciones prácticas, como la búsqueda y el análisis de texto.
+
+La revolución más significativa llegó en 2017 con los transformadores. Este cambio de paradigma permitió capturar dependencias semánticas complejas y procesar datos en paralelo, sentando las bases para modelos avanzados como BERT y GPT. La capacidad de los transformadores para manejar tareas de PLN con una precisión y eficiencia sin precedentes ha tenido un impacto duradero, revolucionando la forma en que las máquinas comprenden y generan lenguaje.
+
+Con la introducción de ChatGPT en 2020, la tecnología alcanzó un punto donde la interacción humana con modelos de lenguaje se volvió más natural y fluida, cambiando el panorama de la IA conversacional y abriendo nuevas posibilidades para la asistencia virtual, la educación y la generación de contenido. Las iteraciones más recientes, ChatGPT-4o y o1, han llevado aún más lejos estas capacidades, enfocándose en eficiencia, multimodalidad y razonamiento lógico avanzado, expandiendo el uso de la IA a aplicaciones más complejas y técnicas.
+
+En conclusión, la evolución de la representación semántica ha sido un proceso de refinamiento constante, impulsado por innovaciones matemáticas, avances en el aprendizaje profundo y la búsqueda de modelos que puedan entender el lenguaje humano de manera más cercana a cómo lo hacemos nosotros. Cada década ha contribuido con avances cruciales, y hoy estamos mejor posicionados que nunca para seguir explorando las fronteras del lenguaje y la inteligencia artificial.
