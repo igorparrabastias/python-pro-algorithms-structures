@@ -789,13 +789,6 @@ Los mapas de calor son representaciones gráficas que muestran la intensidad de 
 
 ### Gráficas de Redes
 
-
-
-
-
-
-
-
 Las gráficas de redes son otra forma efectiva de visualizar relaciones semánticas. En este tipo de representación, las palabras se representan como nodos, y las conexiones entre ellas (aristas) indican similitudes o relaciones semánticas. Las redes pueden ser dirigidas o no dirigidas, dependiendo de si se considera la dirección de la relación.
 
 ### Diagramas de Venn
@@ -888,15 +881,18 @@ Existen varias métricas para calcular la distancia o similitud entre elementos.
 
 ### 1. Distancia Euclidiana
 
-La distancia euclidiana es la medida más común y se basa en el teorema de Pitágoras. Se utiliza para calcular la distancia entre dos puntos en un espacio euclidiano. Para dos puntos \( A(x_1, y_1) \) y \( B(x_2, y_2) \), la distancia se calcula como:
+La distancia euclidiana es la medida más común y se basa en el teorema de Pitágoras. Se utiliza para calcular la distancia entre dos puntos en un espacio euclidiano. Para dos puntos $A(x_1, y_1)$ y $B(x_2, y_2)$, la distancia se calcula como:
 
+
+$$
 d(A, B) = √((x_2 - x_1)² + (y_2 - y_1)²)
+$$
 
 Esta métrica es adecuada para datos continuos y en espacios de alta dimensión.
 
 ### 2. Distancia Manhattan
 
-La distancia Manhattan, también conocida como distancia de bloque, mide la distancia entre dos puntos en una cuadrícula, calculando la suma de las diferencias absolutas de sus coordenadas. Para los puntos \( A(x_1, y_1) \) y \( B(x_2, y_2) \), se define como:
+La distancia Manhattan, también conocida como distancia de bloque, mide la distancia entre dos puntos en una cuadrícula, calculando la suma de las diferencias absolutas de sus coordenadas. Para los puntos $A(x_1, y_1)$ y $B(x_2, y_2)$, se define como:
 
 $$
 d(A, B) = |x_2 - x_1| + |y_2 - y_1|
@@ -1417,7 +1413,7 @@ En el ámbito del Procesamiento de Lenguaje Natural (PLN), la representación de
 
 Un espacio vectorial es una colección de vectores que pueden ser sumados entre sí y multiplicados por un escalar. En el contexto del PLN, consideramos un espacio en el que cada dimensión corresponde a una característica del texto, como la frecuencia de una palabra en un documento. 
 
-Por ejemplo, si tenemos un vocabulario de \( n \) palabras, cada palabra puede ser representada como un vector de \( n \) dimensiones, donde cada dimensión indica la presencia o frecuencia de la palabra en un contexto específico.
+Por ejemplo, si tenemos un vocabulario de $n$ palabras, cada palabra puede ser representada como un vector de $n$ dimensiones, donde cada dimensión indica la presencia o frecuencia de la palabra en un contexto específico.
 
 ## Representaciones de Palabras
 
@@ -1633,13 +1629,13 @@ Las distribuciones discretas se utilizan para modelar variables aleatorias que p
 
 **Ejemplo: Distribución Binomial**
 
-La distribución binomial se caracteriza por dos parámetros: \( n \) (el número de ensayos) y \( p \) (la probabilidad de éxito en cada ensayo). La función de probabilidad se define como:
+La distribución binomial se caracteriza por dos parámetros: $n$ (el número de ensayos) y $p$ (la probabilidad de éxito en cada ensayo). La función de probabilidad se define como:
 
 $$
 P(X = k) = \binom{n}{k} p^k (1-p)^{n-k}
 $$
 
-donde \( k \) es el número de éxitos.
+donde $( k )$ es el número de éxitos.
 
 ### Distribuciones Continuas
 
@@ -1647,13 +1643,13 @@ Las distribuciones continuas, por otro lado, se utilizan para modelar variables 
 
 **Ejemplo: Distribución Normal**
 
-La distribución normal está definida por dos parámetros: la media \( \mu \) y la desviación estándar \( \sigma \). La función de densidad de probabilidad se expresa como:
+La distribución normal está definida por dos parámetros: la media $\mu$ y la desviación estándar $\sigma$. La función de densidad de probabilidad se expresa como:
 
 $$
 f(x) = \frac{1}{\sigma \sqrt{2\pi}} e^{-\frac{(x - \mu)^2}{2\sigma^2}}
 $$
 
-donde \( e \) es la base del logaritmo natural.
+donde ( $e$ ) es la base del logaritmo natural.
 
 ## Aplicaciones en Procesamiento de Lenguaje Natural
 
@@ -1661,13 +1657,13 @@ En el PLN, las distribuciones de probabilidad son cruciales para modelar la ocur
 
 ### Modelos de Lenguaje
 
-Los modelos de lenguaje, como el modelo n-gram, utilizan distribuciones de probabilidad para predecir la próxima palabra en una secuencia dada. En un modelo n-gram, la probabilidad de una palabra se calcula en función de las \( n-1 \) palabras anteriores:
+Los modelos de lenguaje, como el modelo n-gram, utilizan distribuciones de probabilidad para predecir la próxima palabra en una secuencia dada. En un modelo n-gram, la probabilidad de una palabra se calcula en función de las ($n-1$) palabras anteriores:
 
 $$
 P(w_n | w_{n-1}, w_{n-2}, \ldots, w_{n-n+1}) = \frac{C(w_{n-1}, w_{n-2}, \ldots, w_{n-n+1}, w_n)}{C(w_{n-1}, w_{n-2}, \ldots, w_{n-n+1})}
 $$
 
-donde \( C \) representa la función de conteo.
+donde ( $C$ ) representa la función de conteo.
 
 ## Conclusiones
 
