@@ -1,6 +1,6 @@
 # <p align=center>**Evolución de la Representación Semántica: Fundamentos del Procesamiento del Lenguaje Natural y la IA**</p>
 
-Bienvenidos a esta serie de documentos donde exploraremos la evolución histórica del concepto de vectorizar palabras. A lo largo de las décadas, desde los años 1950 hasta el 2024, veremos cómo han evolucionado las técnicas y teorías que nos permiten hoy en día representar palabras en forma de vectores matemáticos, fundamentales para el procesamiento del lenguaje natural y la inteligencia artificial.
+Bienvenidos a esta serie de documentos donde exploraremos la evolución histórica del concepto de vectorizar palabras. A lo largo de las décadas, desde los años 1950 hasta el 2017, veremos cómo han evolucionado las técnicas y teorías que nos permiten hoy en día representar palabras en forma de vectores matemáticos, fundamentales para el procesamiento del lenguaje natural y la inteligencia artificial.
 
 ---
 
@@ -21,10 +21,6 @@ Los **primeros 2000** vieron la introducción de modelos probabilísticos y el *
 En **2013**, la llegada de Word2Vec, desarrollado por Tomas Mikolov y su equipo de Google, simplificó y popularizó las representaciones vectoriales. Las arquitecturas de Continuous Bag of Words (CBOW) y Skip-Gram revolucionaron la forma en que se capturaban las relaciones semánticas, permitiendo operaciones aritméticas con significado lingüístico y mejorando tareas de PLN. Sin embargo, también surgieron críticas por el sesgo inherente en los datos y la limitada capacidad de manejar contextos complejos.
 
 El **año 2017** trajo un cambio de paradigma con el modelo de transformadores, presentado en el artículo "Attention is All You Need". Este modelo introdujo el mecanismo de *self-attention*, que transformó el campo de PLN al mejorar la eficiencia y capturar mejor las relaciones semánticas a largo plazo. La revolución que siguió sentó las bases para modelos avanzados como BERT y GPT, que redefinieron el procesamiento de texto.
-
-En **2020**, ChatGPT, basado en la arquitectura de GPT-3, llevó las interacciones en lenguaje natural a un nivel superior. Su diseño se enfocó en la generación de texto conversacional, con una arquitectura de transformadores y métodos de entrenamiento que incluían aprendizaje supervisado y refuerzo con retroalimentación humana. ChatGPT se convirtió en una herramienta esencial para aplicaciones como la generación de contenido, soporte al cliente, y educación.
-
-Finalmente, en **2024**, los modelos ChatGPT-4o y o1 representaron avances adicionales. ChatGPT-4o se enfocó en eficiencia y capacidades multimodales, mientras que el modelo o1 (apodado "Strawberry") mejoró el razonamiento lógico y analítico, superando a sus predecesores en tareas científicas y técnicas. Estos modelos reflejan la constante evolución del procesamiento del lenguaje natural y continúan empujando los límites de la inteligencia artificial.
 
 # :pager:  Indice
 
@@ -102,13 +98,6 @@ Finalmente, en **2024**, los modelos ChatGPT-4o y o1 representaron avances adici
 - [:house\_with\_garden: **Año 2017: Modelo de Transformadores**](#house_with_garden-año-2017-modelo-de-transformadores)
 - [:space\_invader: **Attention is All You Need**](#space_invader-attention-is-all-you-need)
 - [:space\_invader: **Revolución en NLP**](#space_invader-revolución-en-nlp)
-- [:house\_with\_garden: **Año 2020: ChatGPT**](#house_with_garden-año-2020-chatgpt)
-- [:pager: **Fundamentos de ChatGPT**](#pager-fundamentos-de-chatgpt)
-- [:space\_invader: **Arquitectura de ChatGPT**](#space_invader-arquitectura-de-chatgpt)
-- [:space\_invader:  **Métodos de Entrenamiento de ChatGPT**](#space_invader--métodos-de-entrenamiento-de-chatgpt)
-- [:house\_with\_garden: **Año 2024: ChatGPT-4o y Modelo o1**](#house_with_garden-año-2024-chatgpt-4o-y-modelo-o1)
-- [:space\_invader:  **ChatGPT-4o**](#space_invader--chatgpt-4o)
-- [:space\_invader:  **Modelo o1 (Strawberry)**](#space_invader--modelo-o1-strawberry)
 - [:pager:  **Conclusión de La Evolución de la Representación Semántica en el PLN y la IA**](#pager--conclusión-de-la-evolución-de-la-representación-semántica-en-el-pln-y-la-ia)
 
 ---
@@ -4941,134 +4930,9 @@ La introducción de los transformadores por Vaswani et al. en 2017 desencadenó 
    - Los transformadores han impulsado una ola de innovación en la investigación de NLP y se han implementado en aplicaciones prácticas que van desde motores de búsqueda hasta asistentes de voz y sistemas de recomendación.
 
 ---
-# <p align=center>:house_with_garden: **Año 2020: ChatGPT**</p>
-
-En 2020, OpenAI presentó **ChatGPT**, un modelo conversacional basado en la arquitectura de **GPT-3**. Este desarrollo representó un gran avance en el procesamiento del lenguaje natural, ya que permitió a las máquinas interactuar de manera más fluida y coherente con los humanos a través del texto. ChatGPT se entrena en un vasto corpus de datos que abarca conversaciones humanas, artículos, y contenido de la web, utilizando una combinación de técnicas avanzadas para optimizar su capacidad de generar texto.
-
-# :pager: **Fundamentos de ChatGPT**
-
-## :pushpin: **Arquitectura de GPT-3**
-
-1. **Arquitectura de GPT-3**:
-   - ChatGPT se construye sobre el modelo de lenguaje GPT-3, que cuenta con **175 mil millones de parámetros**. Estos parámetros permiten al modelo captar patrones lingüísticos complejos, comprender el contexto y generar respuestas que imitan el lenguaje humano con gran precisión.
-   - A diferencia de versiones anteriores, GPT-3 utiliza un modelo de transformador con múltiples capas de autoatención, lo que mejora su capacidad para entender dependencias semánticas a lo largo de textos largos.
-
-2. **Optimización para Conversaciones**:
-   - **ChatGPT** ha sido ajustado específicamente para mantener diálogos interactivos. Durante su entrenamiento, se utilizan técnicas de ajuste fino basadas en ejemplos de conversaciones humanas, lo que ayuda al modelo a formular respuestas más contextuales y apropiadas.
-   - También ha sido optimizado para seguir instrucciones, pedir clarificaciones cuando sea necesario y recordar el contexto de la conversación actual, lo que le permite mantener una conversación más natural y humana.
-
-## :pushpin:  **Métodos de Entrenamiento**
-1. **Preentrenamiento**:
-   - ChatGPT es preentrenado en un gran volumen de datos de texto, utilizando una tarea de modelado de lenguaje donde el objetivo es predecir la siguiente palabra en una secuencia. Este proceso le proporciona un conocimiento amplio del lenguaje y la información general.
-2. **Ajuste Fino con Instrucciones**:
-   - El modelo se ajusta usando ejemplos específicos de conversaciones donde recibe instrucciones claras sobre cómo comportarse. Los ejemplos incluyen casos en los que se espera que proporcione respuestas útiles, educadas y seguras.
-   - **Entrenamiento con Retroalimentación Humana**: OpenAI ha utilizado métodos como el aprendizaje por refuerzo con retroalimentación humana (RLHF) para mejorar las respuestas de ChatGPT. En este proceso, los evaluadores humanos califican las respuestas generadas por el modelo, y estas calificaciones se utilizan para refinar el comportamiento del modelo.
-
-## :pushpin:  **Capacidades y Aplicaciones**
-1. **Conversaciones Naturales**:
-   - ChatGPT puede mantener conversaciones largas y contextualmente relevantes, recordar información a lo largo de la conversación, y adaptar sus respuestas según el tono y la intención del usuario.
-2. **Generación de Contenido**:
-   - Es capaz de escribir ensayos, resúmenes, correos electrónicos, y más. Puede asistir en la creación de contenido creativo, como historias y guiones, o proporcionar resúmenes detallados de documentos técnicos.
-3. **Soporte al Cliente y Asistencia Virtual**:
-   - ChatGPT se ha utilizado en aplicaciones de servicio al cliente para manejar consultas, resolver problemas, y proporcionar asistencia personalizada, imitando la interacción humana de manera eficiente.
-4. **Educación y Asistencia en el Aprendizaje**:
-   - Ayuda a los estudiantes respondiendo preguntas sobre una amplia gama de temas, explicando conceptos complejos, y ayudando con tareas y proyectos.
-
-## :pushpin:  **Desafíos y Limitaciones**
-1. **Generación de Información Incorrecta**:
-   - Aunque ChatGPT puede generar respuestas detalladas y persuasivas, a veces puede producir información incorrecta o inventada, lo que se conoce como "alucinaciones del modelo". Esto es un desafío importante en aplicaciones críticas donde la precisión es esencial.
-2. **Sesgos en las Respuestas**:
-   - El modelo puede reflejar sesgos presentes en los datos de entrenamiento. A pesar de los esfuerzos por mitigar estos problemas, ChatGPT aún puede generar contenido sesgado o inadecuado.
-3. **Falta de Comprensión Real**:
-   - Aunque ChatGPT imita el lenguaje humano de manera convincente, no tiene una comprensión real del significado. Sus respuestas se basan en patrones aprendidos y no en una comprensión semántica profunda.
-
-## :pushpin:  **Impacto y Evolución**
-ChatGPT ha transformado la manera en que las personas interactúan con sistemas de inteligencia artificial, facilitando aplicaciones que van desde la automatización de tareas hasta el aprendizaje asistido. Ha inspirado el desarrollo de versiones más avanzadas, como ChatGPT-4, que buscan mejorar la precisión, coherencia y seguridad de las interacciones.
-
-# :space_invader: **Arquitectura de ChatGPT**
-
-ChatGPT se basa en la arquitectura de **GPT-3** (Generative Pre-trained Transformer 3), que utiliza un modelo de **transformador**. Esta arquitectura fue introducida en el paper "Attention is All You Need" de Vaswani et al. y es la base de muchos avances modernos en el procesamiento del lenguaje natural.
-
-## :pushpin:  **Componentes Principales del Modelo de Transformadores**
-1. **Mecanismo de Self-Attention**:
-   - El mecanismo de *self-attention* permite que cada palabra en la secuencia preste atención a otras palabras del texto, ponderando la importancia de cada una en relación con las demás. Esto es crucial para capturar relaciones semánticas y contextuales a lo largo de la oración, independientemente de la distancia entre las palabras.
-   - **Cálculo de la Atención**: Se utilizan tres matrices aprendibles: **Query (Q)**, **Key (K)** y **Value (V)**. Las puntuaciones de atención se calculan como el producto escalar entre Q y K, y estas puntuaciones se normalizan utilizando softmax. Los valores resultantes se ponderan y combinan para producir la salida de la capa de atención.
-
-2. **Multi-Head Attention**:
-   - En lugar de usar una sola atención, el modelo utiliza múltiples "cabezas de atención". Esto permite al modelo enfocarse en diferentes partes de la secuencia de manera simultánea, capturando múltiples aspectos del contexto.
-   - Cada cabeza de atención realiza una operación de self-attention independiente, y sus resultados se concatenan y pasan por una capa completamente conectada.
-
-3. **Capa Feed-Forward**:
-   - Después del mecanismo de self-attention, cada posición de la secuencia pasa por una red neuronal feed-forward. Esta red consiste en dos capas lineales con una activación no lineal (por ejemplo, ReLU) en el medio.
-   - La operación se realiza de manera independiente para cada posición, lo que le da al modelo la capacidad de aprender transformaciones no lineales complejas.
-
-4. **Positional Encoding**:
-   - Debido a que los transformadores no tienen una estructura secuencial implícita como las RNN, se necesita un mecanismo para incorporar la información posicional de las palabras. Las *positional encodings* se suman a los embeddings de las palabras para que el modelo entienda el orden de las palabras en una secuencia.
-   - Estas codificaciones se generan utilizando funciones trigonométricas (seno y coseno) que permiten al modelo distinguir la posición relativa de las palabras.
-
-
-# :space_invader:  **Métodos de Entrenamiento de ChatGPT**
-ChatGPT se entrena utilizando un enfoque en dos etapas: **preentrenamiento** y **ajuste fino**.
-
-## :pushpin:  **1. Preentrenamiento**
-El modelo se preentrena en un enorme corpus de texto extraído de diversas fuentes, como libros, artículos y contenido web, utilizando una tarea de modelado de lenguaje no supervisada.
-
-- **Objetivo de Modelado de Lenguaje**: Durante el preentrenamiento, el modelo aprende a predecir la siguiente palabra en una secuencia de texto, dado el contexto de las palabras anteriores. Este proceso le proporciona un conocimiento amplio del lenguaje, incluyendo gramática, sintaxis, y una base de información general.
-- **Paralelización y Eficiencia**: Gracias a la arquitectura de los transformadores, ChatGPT puede procesar secuencias largas de manera más eficiente que las RNN, lo que permite entrenar el modelo utilizando grandes volúmenes de datos.
-
-## :pushpin:  **2. Ajuste Fino (Fine-Tuning)**
-Después del preentrenamiento, ChatGPT pasa por un proceso de ajuste fino para especializarse en tareas conversacionales. Este proceso se realiza utilizando datos etiquetados por humanos y puede incluir técnicas avanzadas como el aprendizaje por refuerzo.
-
-- **Entrenamiento Supervisado con Datos de Conversaciones**:
-  - Los entrenadores humanos proporcionan ejemplos de conversaciones en los que se espera que el modelo dé respuestas útiles y adecuadas. El modelo se ajusta utilizando estos ejemplos, aprendiendo a generar respuestas más contextuales y apropiadas.
-- **Aprendizaje por Refuerzo con Retroalimentación Humana (RLHF)**:
-  - En este método, se generan múltiples respuestas para una misma entrada, y evaluadores humanos clasifican estas respuestas según su calidad. Esta retroalimentación se utiliza para mejorar el modelo mediante un algoritmo de aprendizaje por refuerzo.
-  - **Proceso de RLHF**:
-    1. Los evaluadores humanos interactúan con el modelo y proporcionan clasificaciones para diferentes respuestas generadas.
-    2. Se utiliza un modelo de recompensa para guiar el ajuste fino del modelo principal, optimizando la calidad y relevancia de las respuestas.
-
-## :pushpin:  **Consideraciones de Entrenamiento**
-1. **Datos Diversos y Amplios**:
-   - El preentrenamiento en un corpus diverso le permite al modelo tener un conocimiento general robusto, pero también implica el riesgo de incorporar sesgos presentes en los datos.
-2. **Mitigación de Sesgos y Seguridad**:
-   - Durante el ajuste fino, se implementan técnicas para reducir la generación de contenido inapropiado o sesgado. Sin embargo, esta mitigación no es perfecta y sigue siendo un área activa de investigación.
-
-
-# <p align=center>:house_with_garden: **Año 2024: ChatGPT-4o y Modelo o1**</p>
-
-En el contexto de los avances recientes en procesamiento del lenguaje natural, **ChatGPT-4o** y **o1** representan las últimas iteraciones de los modelos de OpenAI basados en la arquitectura de transformadores, construidos sobre el éxito de modelos como GPT-3 y GPT-4. Aquí te explico en detalle:
-
-# :space_invader:  **ChatGPT-4o**
-**ChatGPT-4o** es una versión mejorada y optimizada del modelo GPT-4, con un enfoque en ofrecer una experiencia más rápida y eficiente. A continuación, se destacan las principales características y avances de ChatGPT-4o:
-
-1. **Multimodalidad**:
-   - ChatGPT-4o no solo trabaja con texto, sino que también es capaz de procesar y generar información a partir de imágenes, audio y posiblemente video. Esto amplía enormemente las aplicaciones del modelo, permitiendo interacciones más completas y contextuales en entornos multimediales.
-  
-2. **Eficiencia y Reducción de Costos**:
-   - Una de las metas principales de ChatGPT-4o es ofrecer un rendimiento más eficiente. OpenAI ha optimizado el modelo para que sea más rápido y consuma menos recursos computacionales, logrando una reducción significativa en los costos de procesamiento.
-
-3. **Mejoras en la Precisión**:
-   - El modelo ha mejorado su comprensión y generación de texto, proporcionando respuestas más precisas y contextualmente relevantes. Esto es especialmente útil en tareas complejas de lenguaje natural, donde el contexto y la sutileza son cruciales.
-
-# :space_invader:  **Modelo o1 (Strawberry)**
-El modelo **o1**, apodado "Strawberry", se destaca por su enfoque en **razonamiento lógico y análisis profundo**. A diferencia de otros modelos que se centran principalmente en la generación de texto, o1 ha sido diseñado para sobresalir en tareas que requieren una comprensión lógica avanzada.
-
-1. **Enfoque en Razonamiento Complejo**:
-   - o1 es especialmente eficaz en tareas relacionadas con matemáticas, programación, y ciencias. Gracias a técnicas avanzadas de aprendizaje por refuerzo, el modelo ha mejorado su capacidad de resolver problemas complejos y realizar análisis precisos.
-  
-2. **Optimización para Aplicaciones Técnicas**:
-   - Este modelo se ha convertido en una herramienta poderosa para desarrolladores y científicos, proporcionando soluciones precisas en programación y cálculos científicos. Puede realizar tareas como verificar código, resolver ecuaciones matemáticas y analizar datos científicos.
-
-3. **Aprendizaje por Refuerzo**:
-   - o1 ha incorporado mejoras significativas en el aprendizaje basado en retroalimentación, lo que le permite ajustarse y optimizar su rendimiento de manera continua, especialmente en situaciones que requieren un pensamiento analítico riguroso.
-
-## :pushpin:  **Importancia en el Contexto de la Revolución en NLP**
-Estos modelos, ChatGPT-4o y o1, representan un avance importante en la línea de modelos basados en transformadores. Se basan en las bases sentadas por arquitecturas anteriores como BERT y GPT, pero llevan las capacidades del procesamiento de lenguaje natural a nuevos niveles. Gracias a estos avances, las aplicaciones en el mundo real se han expandido, abarcando desde la generación multimodal de contenido hasta la asistencia técnica en programación y ciencia.
-
----
 # :pager:  **Conclusión de La Evolución de la Representación Semántica en el PLN y la IA**
 
-La trayectoria histórica de la **representación semántica ha** sido un viaje fascinante que ha moldeado profundamente el campo del procesamiento del lenguaje natural (**PLN**) y la inteligencia artificial (**IA**). Desde sus inicios en los años 50, cuando se establecieron las bases teóricas y matemáticas de la semántica, hasta los sofisticados modelos actuales, hemos visto una evolución continua que refleja la interacción entre la lingüística y el avance tecnológico.
+La trayectoria histórica de la **representación semántica** ha sido un viaje fascinante que ha moldeado profundamente el campo del procesamiento del lenguaje natural (**PLN**) y la inteligencia artificial (**IA**). Desde sus inicios en los años 50, cuando se establecieron las bases teóricas y matemáticas de la semántica, hasta los sofisticados modelos actuales, hemos visto una evolución continua que refleja la interacción entre la lingüística y el avance tecnológico.
 
 Los primeros enfoques, centrados en teorías estructurales y representaciones básicas, sentaron las bases para el desarrollo de métodos más matemáticos y computacionales, como el Análisis de Componentes Principales (**PCA**) y el escalamiento multidimensional. Aunque estas técnicas ofrecieron una **comprensión inicial del lenguaje**, estaban limitadas por su capacidad para captar relaciones semánticas complejas y su dependencia de altos recursos computacionales.
 
@@ -5078,9 +4942,9 @@ La llegada de modelos probabilísticos en los 2000, como **LDA**, aportó flexib
 
 La revolución más significativa llegó en 2017 con los **transformers**. Este cambio de paradigma permitió capturar dependencias semánticas complejas y procesar datos en paralelo, sentando las bases para modelos avanzados como **BERT** y **GPT**. La capacidad de los transformers para manejar tareas de PLN con una precisión y eficiencia sin precedentes ha tenido un impacto duradero, revolucionando la forma en que las máquinas comprenden y generan lenguaje.
 
-Con la introducción de **ChatGPT** en 2020, la tecnología alcanzó un punto donde la interacción humana con modelos de lenguaje se volvió más natural y fluida, cambiando el panorama de la IA conversacional y abriendo nuevas posibilidades para la asistencia virtual, la educación y la generación de contenido. Las iteraciones más recientes, **ChatGPT-4o** y **o1**, han llevado aún más lejos estas capacidades, enfocándose en eficiencia, multimodalidad y razonamiento lógico avanzado, expandiendo el uso de la IA a aplicaciones más complejas y técnicas.
+En conclusión, la evolución de la representación semántica ha sido un proceso de refinamiento constante, impulsado por innovaciones matemáticas, avances en el **deep learning**, y la búsqueda incesante de modelos que puedan entender el lenguaje humano de una manera más parecida a cómo lo hacemos nosotros. Cada década ha traído consigo contribuciones cruciales, desde las primeras representaciones distribucionales hasta el uso de redes neuronales y la revolución que introdujeron los modelos de **transformers**. Gracias a estas bases sólidas, hoy estamos mejor posicionados que nunca para seguir explorando y expandiendo las fronteras del lenguaje y la inteligencia artificial. Este progreso ha preparado el camino para avances revolucionarios como **ChatGPT**, que llevan la interacción humano-máquina a un nuevo nivel, permitiendo diálogos más naturales y una comprensión más profunda del contexto y significado, marcando el inicio de una nueva era en la inteligencia conversacional.
 
-En conclusión, la evolución de la representación semántica ha sido un proceso de refinamiento constante, impulsado por innovaciones matemáticas, avances en el **aprendizaje profundo** y la búsqueda de modelos que puedan entender el **lenguaje humano** de manera más cercana a cómo lo hacemos nosotros. Cada década ha contribuido con avances cruciales, y hoy estamos mejor posicionados que nunca para seguir explorando las fronteras del lenguaje y la inteligencia artificial.
+
 
 ---
 
