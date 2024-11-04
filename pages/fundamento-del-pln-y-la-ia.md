@@ -356,18 +356,21 @@ El **Álgebra Lineal** es una rama de las matemáticas que se centra en el estud
 ### Conceptos Clave
 1. **Vectores**:
 - Un vector es una lista ordenada de números que puede representar magnitudes en un espacio multidimensional. En NLP, los vectores se utilizan para representar palabras, frases o documentos.
-- Por ejemplo, un vector de 3 dimensiones podría representarse como \([2, 5, -1]\), donde cada número se refiere a una característica diferente del objeto que representa.
+- Por ejemplo, un vector de 3 dimensiones podría representarse como $[2, 5, -1]$, donde cada número se refiere a una característica diferente del objeto que representa.
 
 2. **Matrices**:
 - Una matriz es una tabla de números organizada en filas y columnas. En NLP, las matrices se utilizan para almacenar datos como las frecuencias de palabras en diferentes documentos (matrices de contingencia) o para representar relaciones entre palabras.
 - Ejemplo: Una matriz de 3 filas y 2 columnas se vería así:
-```
-1 2
-3 4
-5 6
-```
 
-3. **Operaciones Fundamentales**:
+$$
+\begin{pmatrix}
+1 & 2 \\
+3 & 4 \\
+5 & 6
+\end{pmatrix}
+$$
+
+1. **Operaciones Fundamentales**:
 - **Suma de Vectores**: Se realiza sumando los elementos correspondientes de dos vectores.
 - **Multiplicación Escalar**: Multiplicar cada componente de un vector por un número escalar.
 - **Multiplicación de Matrices**: Combina dos matrices para producir una tercera, y es crucial en cálculos como transformaciones lineales y redes neuronales.
@@ -580,9 +583,9 @@ El algoritmo de Kruskal es un método para encontrar el árbol de expansión mí
 3. **Construcción del MST**:
 - Itera sobre las aristas ordenadas, seleccionando la arista de menor peso.
 - Si la inclusión de esta arista no forma un ciclo (es decir, conecta dos componentes diferentes), se agrega al árbol de expansión.
-- Este proceso se repite hasta que se hayan incluido \( V - 1 \) aristas, donde \( V \) es el número de vértices en el grafo.
+- Este proceso se repite hasta que se hayan incluido $V - 1$ aristas, donde $V$ es el número de vértices en el grafo.
 
-El algoritmo de Kruskal es eficiente y tiene una complejidad temporal de \( O(E \log E) \), donde \( E \) es el número de aristas. Esta eficiencia lo convierte en una opción popular para resolver problemas de optimización en redes.
+El algoritmo de Kruskal es eficiente y tiene una complejidad temporal de $O(E \log E)$, donde $ E $ es el número de aristas. Esta eficiencia lo convierte en una opción popular para resolver problemas de optimización en redes.
 
 #### Otros Aportes
 
@@ -709,34 +712,34 @@ Los datos de alta dimensionalidad, como los que se encuentran en el PLN (por eje
 El Análisis de Componentes Principales (PCA) es una técnica estadística que busca encontrar las direcciones (componentes) en las que los datos varían más. Mediante la proyección de los datos en estas direcciones, PCA permite reducir la dimensionalidad mientras se conserva la mayor parte de la varianza de los datos originales. 
 
 - **Ventajas**: 
-- Sencillez y eficiencia computacional.
-- Buena preservación de la varianza.
+  - Sencillez y eficiencia computacional.
+  - Buena preservación de la varianza.
 
 - **Desventajas**:
-- Supone que los datos son lineales y puede no capturar estructuras no lineales.
+  - Supone que los datos son lineales y puede no capturar estructuras no lineales.
 
 #### 2. t-Distributed Stochastic Neighbor Embedding (t-SNE)
 
 t-SNE es una técnica no lineal de reducción de dimensionalidad que se centra en la preservación de las relaciones locales entre los puntos de datos. Esta técnica es especialmente útil para la visualización de datos en dos o tres dimensiones.
 
 - **Ventajas**:
-- Excelente para visualización de datos complejos.
-- Preserva las relaciones locales de los datos.
+  - Excelente para visualización de datos complejos.
+  - Preserva las relaciones locales de los datos.
 
 - **Desventajas**:
-- Puede ser computacionalmente intensivo.
-- No es adecuado para la preservación de la estructura global de los datos.
+  - Puede ser computacionalmente intensivo.
+  - No es adecuado para la preservación de la estructura global de los datos.
 
 #### 3. UMAP (Uniform Manifold Approximation and Projection)
 
 UMAP es otra técnica no lineal que, al igual que t-SNE, se utiliza para la visualización de datos de alta dimensionalidad. UMAP se basa en la teoría de la topología y la geometría, y es capaz de preservar tanto las relaciones locales como globales de los datos.
 
 - **Ventajas**:
-- Rápido y escalable.
-- Preserva tanto la estructura local como la global.
+  - Rápido y escalable.
+  - Preserva tanto la estructura local como la global.
 
 - **Desventajas**:
-- Requiere ajustes de parámetros que pueden ser difíciles de optimizar.
+  - Requiere ajustes de parámetros que pueden ser difíciles de optimizar.
 
 ### Aplicaciones en Procesamiento de Lenguaje Natural
 
@@ -2966,11 +2969,11 @@ Las redes de Hopfield están compuestas por un conjunto de neuronas que se conec
 
 ### Representación de Patrones
 
-Para almacenar un patrón en la red, se asignan valores a los pesos sinápticos de acuerdo con el patrón que se desea memorizar. Si se desea almacenar un patrón de \( p \) bits, la red debe tener al menos \( p \) neuronas. Los pesos se calculan utilizando la regla de Hebb, que establece que la conexión entre dos neuronas se fortalece cuando ambas se activan simultáneamente.
+Para almacenar un patrón en la red, se asignan valores a los pesos sinápticos de acuerdo con el patrón que se desea memorizar. Si se desea almacenar un patrón de $p$ bits, la red debe tener al menos $p$ neuronas. Los pesos se calculan utilizando la regla de Hebb, que establece que la conexión entre dos neuronas se fortalece cuando ambas se activan simultáneamente.
 
 ### Matriz de Pesos
 
-La matriz de pesos \( W \) se construye como sigue:
+La matriz de pesos $W$ se construye como sigue:
 
 $$
 W_{ij} = \begin{cases} 
@@ -2979,7 +2982,7 @@ W_{ij} = \begin{cases}
 \end{cases}
 $$
 
-donde \( \xi^k \) representa el \( k \)-ésimo patrón a almacenar y \( N \) es el número total de neuronas.
+donde $\xi^k$ representa el $k$-ésimo patrón a almacenar y $N$ es el número total de neuronas.
 
 ## Dinámica de la Red
 
@@ -2991,7 +2994,7 @@ $$
 s_i(t+1) = \text{sign}\left(\sum_{j \neq i} W_{ij} s_j(t)\right)
 $$
 
-donde \( s_i(t) \) es el estado de la neurona \( i \) en el tiempo \( t \) y \( \text{sign} \) es la función que devuelve 1 si el argumento es positivo y -1 si es negativo.
+donde $s_i(t)$ es el estado de la neurona $i$ en el tiempo $t$ y $\text{sign}$ es la función que devuelve $1$ si el argumento es positivo y $-1$ si es negativo.
 
 ### Convergencia y Estabilidad
 
@@ -3007,7 +3010,7 @@ La red tiende a evolucionar hacia configuraciones de menor energía, lo que impl
 
 ### Capacidad de Almacenamiento
 
-La capacidad de una red de Hopfield para almacenar patrones es limitada. Se ha demostrado que la cantidad máxima de patrones que se pueden almacenar sin interferencia es aproximadamente \( 0.15N \), donde \( N \) es el número de neuronas en la red.
+La capacidad de una red de Hopfield para almacenar patrones es limitada. Se ha demostrado que la cantidad máxima de patrones que se pueden almacenar sin interferencia es aproximadamente $\frac{0.15N}{1}$, donde $N$ es el número de neuronas en la red.
 
 ### Robustez ante Ruido
 
@@ -3108,23 +3111,23 @@ En el modelado del lenguaje, consideramos una secuencia de palabras como una ser
 
 El objetivo principal del modelado del lenguaje es calcular la probabilidad de que una palabra aparezca en un contexto dado. Esto se formaliza como:
 
-\[ P(w_n | w_1, w_2, ..., w_{n-1}) \]
+$P(w_n | w_1, w_2, ..., w_{n-1})$
 
-donde \( w_n \) es la palabra que queremos predecir y \( w_1, w_2, ..., w_{n-1} \) son las palabras anteriores en la secuencia.
+donde $w_n$ es la palabra que queremos predecir y $w_1, w_2, ..., w_{n-1}$ son las palabras anteriores en la secuencia.
 
 ### 3. Modelos N-gram
 
-Uno de los enfoques más simples para el modelado del lenguaje es el modelo N-gram, que utiliza la cadena de Markov para estimar la probabilidad de la siguiente palabra basándose en las \( n-1 \) palabras anteriores. En este caso, se puede definir un modelo bigram (n=2) o trigram (n=3), entre otros. La fórmula general es:
+Uno de los enfoques más simples para el modelado del lenguaje es el modelo N-gram, que utiliza la cadena de Markov para estimar la probabilidad de la siguiente palabra basándose en las $n-1$ palabras anteriores. En este caso, se puede definir un modelo bigram ($n=2$) o trigram ($n=3$), entre otros. La fórmula general es:
 
-\[ P(w_n | w_{n-1}) \text{ para un modelo bigram} \]
+$$P(w_n | w_{n-1}) \text{ para un modelo bigram}$$
 
-\[ P(w_n | w_{n-2}, w_{n-1}) \text{ para un modelo trigram} \]
+$$P(w_n | w_{n-2}, w_{n-1}) \text{ para un modelo trigram}$$
 
 ### 4. Limitaciones de los Modelos N-gram
 
 Aunque los modelos N-gram son fáciles de implementar y entender, presentan varias limitaciones:
 
-- **Escalabilidad**: A medida que se incrementa el valor de \( n \), el número de combinaciones posibles de palabras crece exponencialmente, lo que requiere grandes cantidades de datos para estimar correctamente las probabilidades.
+- **Escalabilidad**: A medida que se incrementa el valor de $n$, el número de combinaciones posibles de palabras crece exponencialmente, lo que requiere grandes cantidades de datos para estimar correctamente las probabilidades.
 - **Sparsity**: Muchos N-grams pueden no aparecer en el corpus de entrenamiento, lo que lleva a problemas de escasez de datos.
 - **Contexto limitado**: Los modelos N-gram solo consideran un número fijo de palabras anteriores, ignorando información contextual más amplia.
 
@@ -3573,7 +3576,7 @@ La distribución de Dirichlet es una distribución de probabilidad que juega un 
 
 ## Definición y Propiedades
 
-La distribución de Dirichlet es una distribución continua en el espacio de probabilidad de \( K \) dimensiones, donde \( K \) representa el número de categorías o temas. Se puede definir formalmente como sigue:
+La distribución de Dirichlet es una distribución continua en el espacio de probabilidad de $K$ dimensiones, donde $K$ representa el número de categorías o temas. Se puede definir formalmente como sigue:
 
 $$
 p(\mathbf{x}) = \frac{1}{B(\boldsymbol{\alpha})} \prod_{k=1}^{K} x_k^{\alpha_k - 1}
@@ -4279,8 +4282,7 @@ El objetivo principal del modelo CBOW es predecir una palabra objetivo dada una 
 El modelo Skip-Gram es una técnica fundamental en el ámbito del Procesamiento de Lenguaje Natural (PLN) que se utiliza para aprender representaciones vectoriales de palabras, también conocidas como "word embeddings". Este enfoque fue introducido por Mikolov et al. en 2013 como parte de su trabajo en Word2Vec, un marco que ha tenido un impacto significativo en la forma en que se manejan y representan las palabras en el contexto del aprendizaje automático.
 
 ## Concepto Básico
-
-El modelo Skip-Gram se basa en la idea de que una palabra puede ser utilizada para predecir el contexto en el que aparece. En este sentido, el contexto se refiere a las palabras que rodean a una palabra objetivo en una ventana de texto. Por ejemplo, si consideramos la frase "El gato se sienta en la alfombra", y seleccionamos "gato" como nuestra palabra objetivo, las palabras en su contexto podrían ser "El", "se", "sienta", "en", "la", "alfombra".
+El modelo Skip-Gram se basa en la idea de que una palabra puede ser utilizada para predecir el contexto en el que aparece. En este sentido, el contexto se refiere a las palabras que rodean a una palabra objetivo en una ventana de texto. Por ejemplo, si consideramos la frase *"El gato se sienta en la alfombra"*, y seleccionamos *"gato"* como nuestra palabra objetivo, las palabras en su contexto podrían ser *"El"*, *"se"*, *"sienta"*, *"en"*, *"la"*, *"alfombra"*.
 
 ### Ventana de Contexto
 
@@ -4292,7 +4294,7 @@ El entrenamiento del modelo Skip-Gram implica el uso de un corpus de texto para 
 
 1. **Construcción del Corpus**: Se selecciona un conjunto de datos que contenga un número significativo de ejemplos de uso de las palabras. Este corpus debe ser representativo del lenguaje y del dominio que se está estudiando.
 
-2. **Generación de Pares de Palabras**: A partir del corpus, se generan pares de palabras donde la primera palabra es la palabra objetivo y la segunda es una palabra de su contexto. Por ejemplo, con la palabra "gato" y una ventana de tamaño 2, se podrían generar pares como ("gato", "El"), ("gato", "se"), ("gato", "sienta"), etc.
+2. **Generación de Pares de Palabras**: A partir del corpus, se generan pares de palabras donde la primera palabra es la palabra objetivo y la segunda es una palabra de su contexto. Por ejemplo, con la palabra *"gato"* y una ventana de tamaño 2, se podrían generar pares como *("gato", "El")*, *("gato", "se")*, *("gato", "sienta")*, etc.
 
 3. **Modelo Predictivo**: Se utiliza un modelo de red neuronal simple, generalmente con una capa oculta, para predecir la probabilidad de que una palabra del contexto aparezca dada la palabra objetivo. La red neuronal se entrena utilizando técnicas de optimización, como el descenso del gradiente, para minimizar la función de pérdida, que mide la discrepancia entre las predicciones del modelo y las ocurrencias reales de las palabras en el contexto.
 
@@ -4300,7 +4302,7 @@ El entrenamiento del modelo Skip-Gram implica el uso de un corpus de texto para 
 
 ## Ventajas del Modelo Skip-Gram
 
-- **Captura de Relaciones Semánticas**: Skip-Gram es eficaz para capturar relaciones semánticas y sintácticas entre palabras. Por ejemplo, puede aprender que "rey" y "reina" son palabras relacionadas, así como "hombre" y "mujer".
+- **Captura de Relaciones Semánticas**: Skip-Gram es eficaz para capturar relaciones semánticas y sintácticas entre palabras. Por ejemplo, puede aprender que *"rey"* y *"reina"* son palabras relacionadas, así como *"hombre"* y *"mujer"*.
 
 - **Escalabilidad**: El modelo es escalable y puede manejar grandes volúmenes de datos, lo que lo hace adecuado para aplicaciones en el mundo real.
 
@@ -4383,7 +4385,7 @@ En el ámbito del Procesamiento de Lenguaje Natural (PLN), la representación de
 
 ## Representación Vectorial
 
-Las palabras se representan como vectores en un espacio de alta dimensión, donde cada dimensión puede considerarse como una característica semántica. Métodos como Word2Vec, GloVe y FastText generan estos vectores a partir de grandes corpus de texto, aprendiendo a partir del contexto en que aparecen las palabras. Por ejemplo, en un modelo entrenado, la palabra "rey" podría ser representada por un vector en un espacio que también incluye "reina", "hombre" y "mujer".
+Las palabras se representan como vectores en un espacio de alta dimensión, donde cada dimensión puede considerarse como una característica semántica. Métodos como Word2Vec, GloVe y FastText generan estos vectores a partir de grandes corpus de texto, aprendiendo a partir del contexto en que aparecen las palabras. Por ejemplo, en un modelo entrenado, la palabra *"rey"* podría ser representada por un vector en un espacio que también incluye *"reina"*, *"hombre"* y *"mujer"*.
 
 ## Operaciones Aritméticas en Vectores
 
@@ -4391,7 +4393,7 @@ Una de las contribuciones más notables de la representación vectorial es la po
 
 $$ \text{Reina} - \text{Mujer} + \text{Hombre} \approx \text{Rey} $$
 
-En esta operación, se puede observar que al restar el vector que representa "Mujer" del vector de "Reina" y luego sumar el vector de "Hombre", el resultado se aproxima al vector que representa "Rey". Esta propiedad indica que las relaciones semánticas pueden ser modeladas como operaciones en el espacio vectorial.
+En esta operación, se puede observar que al restar el vector que representa *"Mujer"* del vector de *"Reina"* y luego sumar el vector de *"Hombre"*, el resultado se aproxima al vector que representa *"Rey"*. Esta propiedad indica que las relaciones semánticas pueden ser modeladas como operaciones en el espacio vectorial.
 
 ### Propiedades de las Operaciones Aritméticas
 
