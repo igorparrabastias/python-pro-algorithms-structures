@@ -1,6 +1,6 @@
-# <p align=center>**Evolución de la Representación Semántica: Fundamentos del Procesamiento del Lenguaje Natural y la IA**</p>
+# <p align=center>**Evolución de la Representación Semántica: Fundamentos del Procesamiento del Lenguaje Natural y la IA (1950-2017)**</p>
 
-Bienvenidos a esta serie de documentos donde exploraremos la evolución histórica del concepto de vectorizar palabras. A lo largo de las décadas, desde los años 1950 hasta el 2017, veremos cómo han evolucionado las técnicas y teorías que nos permiten hoy en día representar palabras en forma de vectores matemáticos, fundamentales para el procesamiento del lenguaje natural y la inteligencia artificial.
+Bienvenidos a esta serie de documentos donde exploraremos la evolución histórica del concepto de vectorizar palabras. A lo largo de las décadas, desde los años **1950 hasta el 2017**, veremos cómo han evolucionado las técnicas y teorías que nos permiten hoy en día representar palabras en forma de vectores matemáticos, fundamentales para el procesamiento del lenguaje natural y la inteligencia artificial. Esto será crucial para en una próxima serie de documentos poder entender cabalmente como funcionan los modelos más avanzados de la actualidad como son los modelos de lenguaje grandes (**LLM**) y chatbots como **ChatGPT**.
 
 ---
 
@@ -24,7 +24,7 @@ El **año 2017** trajo un cambio de paradigma con el modelo de transformadores, 
 
 # :pager:  Indice
 
-- [**Evolución de la Representación Semántica: Fundamentos del Procesamiento del Lenguaje Natural y la IA**](#evolución-de-la-representación-semántica-fundamentos-del-procesamiento-del-lenguaje-natural-y-la-ia)
+- [**Evolución de la Representación Semántica: Fundamentos del Procesamiento del Lenguaje Natural y la IA (1950-2017)**](#evolución-de-la-representación-semántica-fundamentos-del-procesamiento-del-lenguaje-natural-y-la-ia-1950-2017)
 - [:pager: **Introducción**](#pager-introducción)
 - [:pager:  Indice](#pager--indice)
 - [:house\_with\_garden: **Década de 1950: Fundamentos del Análisis Semántico**](#house_with_garden-década-de-1950-fundamentos-del-análisis-semántico)
@@ -4942,8 +4942,15 @@ La llegada de modelos probabilísticos en los 2000, como **LDA**, aportó flexib
 
 La revolución más significativa llegó en 2017 con los **transformers**. Este cambio de paradigma permitió capturar dependencias semánticas complejas y procesar datos en paralelo, sentando las bases para modelos avanzados como **BERT** y **GPT**. La capacidad de los transformers para manejar tareas de PLN con una precisión y eficiencia sin precedentes ha tenido un impacto duradero, revolucionando la forma en que las máquinas comprenden y generan lenguaje.
 
-En conclusión, la evolución de la representación semántica ha sido un proceso de refinamiento constante, impulsado por innovaciones matemáticas, avances en el **deep learning**, y la búsqueda incesante de modelos que puedan entender el lenguaje humano de una manera más parecida a cómo lo hacemos nosotros. Cada década ha traído consigo contribuciones cruciales, desde las primeras representaciones distribucionales hasta el uso de redes neuronales y la revolución que introdujeron los modelos de **transformers**. Gracias a estas bases sólidas, hoy estamos mejor posicionados que nunca para seguir explorando y expandiendo las fronteras del lenguaje y la inteligencia artificial. Este progreso ha preparado el camino para avances revolucionarios como **ChatGPT**, que llevan la interacción humano-máquina a un nuevo nivel, permitiendo diálogos más naturales y una comprensión más profunda del contexto y significado, marcando el inicio de una nueva era en la inteligencia conversacional.
+En conclusión, la evolución de la representación semántica ha sido un proceso de refinamiento constante, impulsado por innovaciones matemáticas, avances en el **aprendizaje profundo** y la búsqueda de modelos que puedan entender el **lenguaje humano** de manera más cercana a cómo lo hacemos nosotros. Cada década ha contribuido con avances cruciales, y hoy estamos mejor posicionados que nunca para seguir explorando las fronteras del lenguaje y la inteligencia artificial.
 
+En una siguiente serie veremos la *transformación de la semántica en la era de los modelos de lenguaje grandes **LLM** (2018-presente)*, destacando avances como:
+
+1. **Transformers y BERT** (2018): Explica cómo el modelo Transformer cambió el enfoque hacia la semántica contextual.
+2. **GPT y ChatGPT**: Expone la evolución de los modelos autoregresivos y su impacto en el procesamiento semántico.
+3. **Instrucciones y Ajuste Fino**: Detalla cómo los modelos se adaptan a tareas específicas mediante técnicas de ajuste fino y aprendizaje por refuerzo.
+4. **Semántica Multimodal**: Explora cómo los modelos ahora integran texto, imágenes, y sonido, expandiendo la representación semántica a través de múltiples modalidades.
+5. **Vectorización en Tiempo Real y Personalización**: Examina cómo los modelos actuales buscan representar significados en contexto dinámico.
 
 
 ---
