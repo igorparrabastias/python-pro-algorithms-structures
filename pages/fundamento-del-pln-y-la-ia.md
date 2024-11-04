@@ -98,7 +98,7 @@ El **año 2017** trajo un cambio de paradigma con el modelo de transformadores, 
 - [:house\_with\_garden: **Año 2017: Modelo de Transformadores**](#house_with_garden-año-2017-modelo-de-transformadores)
 - [:space\_invader: **Attention is All You Need**](#space_invader-attention-is-all-you-need)
 - [:space\_invader: **Revolución en NLP**](#space_invader-revolución-en-nlp)
-- [:pager:  **Conclusión de La Evolución de la Representación Semántica en el PLN y la IA**](#pager--conclusión-de-la-evolución-de-la-representación-semántica-en-el-pln-y-la-ia)
+- [:pager:  **Conclusión General**](#pager--conclusión-general)
 
 ---
 # <p align=center>:house_with_garden: **Década de 1950: Fundamentos del Análisis Semántico**</p>
@@ -4932,7 +4932,7 @@ La introducción de los transformadores por Vaswani et al. en 2017 desencadenó 
    - Los transformadores han impulsado una ola de innovación en la investigación de NLP y se han implementado en aplicaciones prácticas que van desde motores de búsqueda hasta asistentes de voz y sistemas de recomendación.
 
 ---
-# :pager:  **Conclusión de La Evolución de la Representación Semántica en el PLN y la IA**
+# :pager:  **Conclusión General**
 
 La trayectoria histórica de la **representación semántica** ha sido un viaje fascinante que ha moldeado profundamente el campo del procesamiento del lenguaje natural (**PLN**) y la inteligencia artificial (**IA**). Desde sus inicios en los años 50, cuando se establecieron las bases teóricas y matemáticas de la semántica, hasta los sofisticados modelos actuales, hemos visto una evolución continua que refleja la interacción entre la lingüística y el avance tecnológico.
 
