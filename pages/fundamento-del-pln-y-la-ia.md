@@ -20,7 +20,7 @@ Los **primeros 2000** vieron la introducción de modelos probabilísticos y el *
 
 En **2013**, la llegada de Word2Vec, desarrollado por Tomas Mikolov y su equipo de Google, simplificó y popularizó las representaciones vectoriales. Las arquitecturas de Continuous Bag of Words (CBOW) y Skip-Gram revolucionaron la forma en que se capturaban las relaciones semánticas, permitiendo operaciones aritméticas con significado lingüístico y mejorando tareas de PLN. Sin embargo, también surgieron críticas por el sesgo inherente en los datos y la limitada capacidad de manejar contextos complejos.
 
-El **año 2017** trajo un cambio de paradigma con el modelo de transformadores, presentado en el artículo "Attention is All You Need". Este modelo introdujo el mecanismo de *self-attention*, que transformó el campo de PLN al mejorar la eficiencia y capturar mejor las relaciones semánticas a largo plazo. La revolución que siguió sentó las bases para modelos avanzados como BERT y GPT, que redefinieron el procesamiento de texto.
+El **año 2017** trajo un cambio de paradigma con el modelo de transformadores, presentado en el artículo "**Attention is All You Need**". Este modelo introdujo el mecanismo de *self-attention*, que transformó el campo de PLN al mejorar la eficiencia y capturar mejor las relaciones semánticas a largo plazo. La revolución que siguió sentó las bases para modelos avanzados como BERT y GPT, que redefinieron el procesamiento de texto.
 
 # :pager:  Indice
 
@@ -28,7 +28,7 @@ El **año 2017** trajo un cambio de paradigma con el modelo de transformadores, 
 - [:pager: **Introducción**](#pager-introducción)
 - [:pager:  Indice](#pager--indice)
 - [:house\_with\_garden: **Década de 1950: Fundamentos del Análisis Semántico**](#house_with_garden-década-de-1950-fundamentos-del-análisis-semántico)
-- [:space\_invader: **1. Contexto Histórico**](#space_invader-1-contexto-histórico)
+- [- :space\_invader: **1. Contexto Histórico**](#--space_invader-1-contexto-histórico)
 - [:space\_invader: **2. Teorías Lingüísticas Iniciales**](#space_invader-2-teorías-lingüísticas-iniciales)
 - [:space\_invader: **3. Primeras Representaciones Semánticas**](#space_invader-3-primeras-representaciones-semánticas)
 - [:pager: **Principales Ideas y Bases Matemáticas de la Semántica**](#pager-principales-ideas-y-bases-matemáticas-de-la-semántica)
@@ -103,7 +103,7 @@ El **año 2017** trajo un cambio de paradigma con el modelo de transformadores, 
 ---
 # <p align=center>:house_with_garden: **Década de 1950: Fundamentos del Análisis Semántico**</p>
 
-# :space_invader: **1. Contexto Histórico**
+# - :space_invader: **1. Contexto Histórico**
 
 ## :pushpin: **Posguerra y Avances Tecnológicos**: Tras la Segunda Guerra Mundial, hubo un auge en el desarrollo de tecnologías computacionales.
 
