@@ -111,7 +111,7 @@ Después de la Segunda Guerra Mundial, el mundo experimentó un gran impulso en 
 
 ### La Revolución Computacional de Posguerra
 
-La necesidad de procesar grandes cantidades de información llevó al desarrollo de innovaciones cruciales. Claude Shannon, trabajando en los Laboratorios Bell, publicó su obra seminal "Una Teoría Matemática de la Comunicación" (1948), que estableció los fundamentos de la teoría de la información y la codificación digital. Paralelamente, John von Neumann propuso la arquitectura de computadora que lleva su nombre, estableciendo el paradigma de "programa almacenado" que seguimos usando hasta hoy.
+La necesidad de procesar grandes cantidades de información llevó al desarrollo de innovaciones cruciales. Claude Shannon, trabajando en los Laboratorios Bell, publicó su obra seminal "`Una Teoría Matemática de la Comunicación`" (1948), que estableció los fundamentos de la teoría de la información y la codificación digital. Paralelamente, John von Neumann propuso la arquitectura de computadora que lleva su nombre, estableciendo el paradigma de "programa almacenado" que seguimos usando hasta hoy.
 
 ### Innovaciones en la Teoría de la Información y la Arquitectura de Computadoras
 
