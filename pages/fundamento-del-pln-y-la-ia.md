@@ -111,11 +111,11 @@ Después de la Segunda Guerra Mundial, el mundo experimentó un gran impulso en 
 
 ### La Revolución Computacional de Posguerra
 
-La necesidad de procesar grandes cantidades de información llevó al desarrollo de innovaciones cruciales. Claude Shannon, trabajando en los Laboratorios Bell, publicó su obra seminal "`Una Teoría Matemática de la Comunicación`" (1948), que estableció los fundamentos de la teoría de la información y la codificación digital. Paralelamente, John von Neumann propuso la arquitectura de computadora que lleva su nombre, estableciendo el paradigma de "programa almacenado" que seguimos usando hasta hoy.
+La necesidad de procesar grandes cantidades de información llevó al desarrollo de innovaciones cruciales. Claude Shannon, trabajando en los Laboratorios Bell, publicó su obra seminal `Una Teoría Matemática de la Comunicación` (1948), que estableció los fundamentos de la teoría de la información y la codificación digital. Paralelamente, John von Neumann propuso la arquitectura de computadora que lleva su nombre, estableciendo el paradigma de `programa almacenado` que seguimos usando hasta hoy.
 
 ### Innovaciones en la Teoría de la Información y la Arquitectura de Computadoras
 
-Gobiernos y universidades comenzaron a invertir masivamente en investigación tecnológica. El MIT, Harvard, y Stanford establecieron algunos de los primeros laboratorios de computación. La Universidad de Manchester desarrolló la Manchester Baby (1948), la primera computadora que podía almacenar programas en memoria. IBM, que había estado produciendo máquinas tabuladoras mecánicas, hizo su transición hacia las computadoras electrónicas con el IBM 701 (1952), marcando el inicio de la computación comercial.
+Gobiernos y universidades comenzaron a invertir masivamente en investigación tecnológica. El MIT, Harvard, y Stanford establecieron algunos de los primeros laboratorios de computación. La Universidad de Manchester desarrolló la `Manchester Baby (1948)`, la primera computadora que podía almacenar programas en memoria. IBM, que había estado produciendo máquinas tabuladoras mecánicas, hizo su transición hacia las computadoras electrónicas con el `IBM 701 (1952)`, marcando el inicio de la `computación comercial`.
 
 ### Inversiones en Investigación y Desarrollo de Computadoras
 
@@ -247,7 +247,7 @@ Las **Matrices de Contingencia** son estructuras matemáticas utilizadas para re
 Supongamos que tenemos un corpus con tres documentos y las palabras "gato", "perro" y "comer". Una matriz de contingencia podría verse así:
 
 | **Palabra** | **Doc 1** | **Doc 2** | **Doc 3** |
-|-------------|-----------|-----------|-----------|
+| ----------- | --------- | --------- | --------- |
 | gato        | 3         | 0         | 2         |
 | perro       | 1         | 4         | 0         |
 | comer       | 2         | 1         | 3         |
@@ -2201,11 +2201,11 @@ Una vez que los textos han sido preprocesados, se procede a calcular las frecuen
 
 La matriz se puede representar de diversas maneras, siendo la más común una tabla en la que cada fila corresponde a un término y cada columna a un documento. Por ejemplo:
 
-| Término   | Documento 1 | Documento 2 | Documento 3 |
-|-----------|-------------|-------------|-------------|
-| gato      | 3           | 0           | 1           |
-| perro     | 1           | 2           | 0           |
-| pájaro    | 0           | 1           | 1           |
+| Término | Documento 1 | Documento 2 | Documento 3 |
+| ------- | ----------- | ----------- | ----------- |
+| gato    | 3           | 0           | 1           |
+| perro   | 1           | 2           | 0           |
+| pájaro  | 0           | 1           | 1           |
 
 En este ejemplo, la matriz muestra que el término "gato" aparece 3 veces en el Documento 1, 0 veces en el Documento 2 y 1 vez en el Documento 3, y así sucesivamente para los otros términos.
 
@@ -3079,11 +3079,11 @@ El modelo de Jordan es útil para tareas donde la salida anterior puede influir 
 
 ## Comparación entre Elman y Jordan
 
-| Característica        | Modelo de Elman                     | Modelo de Jordan                      |
-|----------------------|-------------------------------------|--------------------------------------|
-| Retroalimentación    | Capa de contexto (activaciones)     | Salida anterior                       |
-| Aplicaciones         | Predicción de secuencias            | Generación de texto y secuencias     |
-| Problemas            | Desvanecimiento y explosión del gradiente | Desvanecimiento y explosión del gradiente |
+| Característica    | Modelo de Elman                           | Modelo de Jordan                          |
+| ----------------- | ----------------------------------------- | ----------------------------------------- |
+| Retroalimentación | Capa de contexto (activaciones)           | Salida anterior                           |
+| Aplicaciones      | Predicción de secuencias                  | Generación de texto y secuencias          |
+| Problemas         | Desvanecimiento y explosión del gradiente | Desvanecimiento y explosión del gradiente |
 
 ## Conclusiones
 
