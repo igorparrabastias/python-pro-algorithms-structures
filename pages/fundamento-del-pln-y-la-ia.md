@@ -119,24 +119,24 @@ Gobiernos y universidades comenzaron a invertir masivamente en investigación te
 
 ### Inversiones en Investigación y Desarrollo de Computadoras
 
-Este período también vio los primeros intentos de procesamiento del lenguaje natural. En 1954, el experimento Georgetown-IBM demostró la primera traducción automática de ruso a inglés, aunque con un vocabulario limitado de 250 palabras. Warren Weaver, en su memorando de 1949 "Translation", sugirió por primera vez la posibilidad de usar computadoras para la traducción, estableciendo las bases conceptuales para el análisis computacional del lenguaje.
+Este período también vio los primeros intentos de procesamiento del lenguaje natural. En 1954, el experimento Georgetown-IBM demostró la primera traducción automática de ruso a inglés, aunque con un vocabulario limitado de `250 palabras`. Warren Weaver, en su memorando de 1949 "Translation", sugirió por primera vez la posibilidad de usar computadoras para la traducción, estableciendo las bases conceptuales para el `análisis computacional del lenguaje`.
 
 ### Primeros Intentos de Procesamiento del Lenguaje Natural
 
-Esta era marcó el comienzo de una revolución en la que se comenzaron a explorar las posibilidades de la computación para resolver problemas complejos. Los primeros programadores, muchos de ellos mujeres como Grace Hopper (quien desarrolló el primer compilador) y las "computadoras humanas" del ENIAC, establecieron las bases de la programación moderna. El análisis de datos lingüísticos comenzó a emerger como un campo de estudio, con investigadores como Noam Chomsky desarrollando teorías formales sobre la estructura del lenguaje que más tarde influirían en el diseño de lenguajes de programación y sistemas de procesamiento del lenguaje natural.
+Esta era marcó el comienzo de una revolución en la que se comenzaron a explorar las posibilidades de la computación para resolver problemas complejos. Los primeros programadores, muchos de ellos mujeres como `Grace Hopper` (quien desarrolló el primer compilador) y las "computadoras humanas" del `ENIAC`, establecieron las bases de la programación moderna. El análisis de datos lingüísticos comenzó a emerger como un campo de estudio, con investigadores como `Noam Chomsky` desarrollando teorías formales sobre la estructura del lenguaje que más tarde influirían en el diseño de lenguajes de programación y sistemas de procesamiento del lenguaje natural.
 
 ## :pushpin: **Lingüística Estructural**: Dominio de teorías que veían el lenguaje como una estructura formal.
 
-La lingüística estructural fue un enfoque dominante en el estudio del lenguaje durante el siglo XX, basado en la idea de que el lenguaje es una estructura formal y organizada. Esto significa que las palabras y oraciones no se estudian de manera aislada, sino como parte de un sistema más amplio, donde cada elemento tiene un papel y sigue ciertas reglas. Estas teorías influyeron en el desarrollo de las primeras técnicas de vectorización de palabras, ya que llevaron a los investigadores a pensar en el lenguaje como un conjunto estructurado de relaciones que se podían analizar y representar matemáticamente.
+La lingüística estructural fue un enfoque dominante en el estudio del lenguaje durante el siglo XX, basado en la idea de que el lenguaje es una `estructura formal` y organizada. Esto significa que las palabras y oraciones no se estudian de manera aislada, sino como parte de un `sistema más amplio`, donde cada elemento tiene un papel y sigue ciertas reglas. Estas teorías influyeron en el desarrollo de las primeras técnicas de `vectorización de palabras`, ya que llevaron a los investigadores a pensar en el lenguaje como un conjunto estructurado de relaciones que se podían analizar y representar matemáticamente.
 
 ### Definición de la Lingüística Estructural
-La lingüística estructural es una teoría que ve el lenguaje como un sistema cerrado y organizado, donde todos sus elementos se interrelacionan. Esta teoría fue fuertemente influenciada por el lingüista Ferdinand de Saussure, quien estableció conceptos fundamentales como la "langue" (el sistema abstracto de reglas y convenciones del lenguaje) y el "parole" (el uso real del lenguaje por los hablantes). 
+La lingüística estructural es una teoría que ve el lenguaje como un `sistema cerrado` y organizado, donde todos sus elementos se interrelacionan. Esta teoría fue fuertemente influenciada por el lingüista `Ferdinand de Saussure`, quien estableció conceptos fundamentales como la "langue" (el sistema abstracto de reglas y convenciones del lenguaje) y el "parole" (el uso real del lenguaje por los hablantes). 
 
 ### Análisis de las Relaciones entre Palabras
-En la lingüística estructural, las palabras no se analizan en términos de su significado aislado, sino en cómo se relacionan y contrastan con otras palabras dentro del sistema lingüístico. Por ejemplo, el significado de una palabra como "perro" se entiende en parte porque no es "gato", "caballo" o "roca". Estas relaciones entre palabras sentaron las bases para el análisis semántico posterior, donde el significado se deriva del contexto y las conexiones con otras palabras.
+En la lingüística estructural, las palabras no se analizan en términos de su `significado aislado`, sino en cómo se relacionan y contrastan con otras palabras dentro del sistema lingüístico. Por ejemplo, el significado de una palabra como "perro" se entiende en parte porque no es "gato", "caballo" o "roca". Estas relaciones entre palabras sentaron las bases para el `análisis semántico` posterior, donde el significado se deriva del contexto y las conexiones con otras palabras.
 
 ### Influencia en la Representación Matemática del Lenguaje
-Este enfoque estructural también influyó en la forma en que los investigadores comenzaron a pensar en representar palabras matemáticamente. La idea era que si el lenguaje es un sistema estructurado, entonces podría ser modelado mediante relaciones y patrones que pueden describirse usando conceptos matemáticos como matrices y vectores. Así, la teoría de la lingüística estructural proporcionó una base teórica para los métodos distribucionales que se usarían más adelante para vectorizar palabras. Estos métodos buscan capturar la estructura formal del lenguaje y cómo los elementos se interconectan.
+Este enfoque estructural también influyó en la forma en que los investigadores comenzaron a pensar en representar palabras `matemáticamente`. La idea era que si el lenguaje es un sistema estructurado, entonces podría ser modelado mediante relaciones y patrones que pueden describirse usando conceptos matemáticos como `matrices` y `vectores`. Así, la teoría de la lingüística estructural proporcionó una base teórica para los métodos distribucionales que se usarían más adelante para vectorizar palabras. Estos métodos buscan capturar la estructura formal del lenguaje y cómo los elementos se interconectan.
 
 # -- :space_invader: **2. Teorías Lingüísticas Iniciales**
 
@@ -147,13 +147,13 @@ La Teoría de la Información, desarrollada por Claude Shannon en 1948, es una p
 ### Conceptos Clave de la Teoría de Shannon
 
 1. **Información y Entropía**: 
-- Shannon definió **información** como una medida de la sorpresa o incertidumbre de un mensaje. Cuanto más inesperado es un mensaje, más información lleva.
-- Introdujo el concepto de **entropía**, que mide la cantidad promedio de información contenida en un mensaje. En términos simples, es una medida de lo impredecible que es una fuente de información. Si todos los mensajes posibles son igualmente probables, la entropía es máxima.
-- Ejemplo: Si lanzamos una moneda justa, cada resultado (cara o cruz) es igual de probable, y la entropía es alta. En cambio, si siempre obtenemos "cara", la entropía es cero porque no hay incertidumbre.
+   - Shannon definió **información** como una medida de la sorpresa o incertidumbre de un mensaje. Cuanto más inesperado es un mensaje, más información lleva.
+   - Introdujo el concepto de **entropía**, que mide la cantidad promedio de información contenida en un mensaje. En términos simples, es una medida de lo impredecible que es una fuente de información. Si todos los mensajes posibles son igualmente probables, la entropía es máxima.
+   - Ejemplo: Si lanzamos una moneda justa, cada resultado (cara o cruz) es igual de probable, y la entropía es alta. En cambio, si siempre obtenemos "cara", la entropía es cero porque no hay incertidumbre.
 
 2. **Redundancia y Compresión**:
-- Shannon demostró que los mensajes pueden ser codificados de manera más eficiente reduciendo la **redundancia** o información repetitiva. Esto lleva a la idea de **compresión**, que es la eliminación de datos innecesarios para minimizar el tamaño de los mensajes transmitidos.
-- En el lenguaje natural, algunas letras o palabras son más comunes que otras (por ejemplo, "e" es más común que "z" en inglés). Aprovechando estas frecuencias, se pueden diseñar códigos más cortos para elementos frecuentes, lo que optimiza la transmisión.
+   - Shannon demostró que los mensajes pueden ser codificados de manera más eficiente reduciendo la **redundancia** o información repetitiva. Esto lleva a la idea de **compresión**, que es la eliminación de datos innecesarios para minimizar el tamaño de los mensajes transmitidos.
+   - En el lenguaje natural, algunas letras o palabras son más comunes que otras (por ejemplo, "e" es más común que "z" en inglés). Aprovechando estas frecuencias, se pueden diseñar códigos más cortos para elementos frecuentes, lo que optimiza la transmisión.
 
 3. **Capacidad del Canal**:
 - Shannon definió la **capacidad del canal** como la cantidad máxima de información que se puede transmitir de manera confiable a través de un canal con ruido. Esto establece límites teóricos sobre la cantidad de datos que se pueden enviar sin errores, dependiendo del nivel de ruido presente.
@@ -163,15 +163,15 @@ La Teoría de la Información, desarrollada por Claude Shannon en 1948, es una p
 La Teoría de la Información de Shannon sentó las bases para muchos avances en el procesamiento del lenguaje natural (NLP) y la representación de datos textuales. Aquí hay algunas maneras en las que influyó:
 
 1. **Modelado de Lenguaje**:
-- Las técnicas estadísticas de NLP que se desarrollaron más tarde, como los modelos de n-gramas, se basaron en los conceptos de probabilidad y entropía de Shannon. Estos modelos utilizan la frecuencia y distribución de palabras para predecir la probabilidad de ocurrencia de una secuencia de palabras.
-- Por ejemplo, la idea de que ciertas combinaciones de palabras son más probables que otras es esencial para la representación eficiente y la predicción de texto.
+   - Las técnicas estadísticas de NLP que se desarrollaron más tarde, como los modelos de n-gramas, se basaron en los conceptos de probabilidad y entropía de Shannon. Estos modelos utilizan la frecuencia y distribución de palabras para predecir la probabilidad de ocurrencia de una secuencia de palabras.
+   - Por ejemplo, la idea de que ciertas combinaciones de palabras son más probables que otras es esencial para la representación eficiente y la predicción de texto.
 
 2. **Optimización de Representaciones Semánticas**:
-- Cuando hablamos de vectorizar palabras, estamos buscando representar cada palabra de manera que capture la mayor cantidad de información semántica con la mínima redundancia. La Teoría de Shannon ayudó a establecer principios para diseñar estas representaciones de manera eficiente.
-- Técnicas como la reducción de dimensionalidad en modelos vectoriales (por ejemplo, Latent Semantic Analysis o LSA) se inspiran en la idea de eliminar redundancia y capturar la esencia de la información.
+   - Cuando hablamos de vectorizar palabras, estamos buscando representar cada palabra de manera que capture la mayor cantidad de información semántica con la mínima redundancia. La Teoría de Shannon ayudó a establecer principios para diseñar estas representaciones de manera eficiente.
+   - Técnicas como la reducción de dimensionalidad en modelos vectoriales (por ejemplo, Latent Semantic Analysis o LSA) se inspiran en la idea de eliminar redundancia y capturar la esencia de la información.
 
 3. **Fundamentos para Codificación y Compresión de Datos**:
-- La noción de compresión de datos también es relevante en cómo se manejan grandes corpus de texto. Los métodos modernos de representación de palabras, como Word2Vec o embeddings contextuales, utilizan principios que permiten representar palabras de manera compacta y eficiente.
+   - La noción de compresión de datos también es relevante en cómo se manejan grandes corpus de texto. Los métodos modernos de representación de palabras, como Word2Vec o embeddings contextuales, utilizan principios que permiten representar palabras de manera compacta y eficiente.
 
 En resumen, la Teoría de la Información proporcionó un marco matemático que permitió a los investigadores comprender y optimizar cómo se procesan y transmiten datos textuales. Estas ideas fueron un paso crucial hacia el desarrollo de técnicas más avanzadas para vectorizar palabras, permitiendo que los sistemas de procesamiento de lenguaje puedan manejar y entender grandes cantidades de texto de manera más eficiente y precisa.
 
@@ -182,25 +182,25 @@ La **Hipótesis Distribucional de Zellig Harris**, formulada en 1954, es un prin
 ### Implicaciones de la Hipótesis Distribucional
 
 1. **Semántica Basada en Contexto**:
-- La hipótesis de Harris cambió la manera en que se aborda el significado de las palabras. En lugar de centrarse en definiciones o características específicas, se comenzó a entender el significado en términos de patrones de co-ocurrencia con otras palabras.
-- Esto sentó las bases para enfoques matemáticos y estadísticos en el análisis semántico.
+   - La hipótesis de Harris cambió la manera en que se aborda el significado de las palabras. En lugar de centrarse en definiciones o características específicas, se comenzó a entender el significado en términos de patrones de co-ocurrencia con otras palabras.
+   - Esto sentó las bases para enfoques matemáticos y estadísticos en el análisis semántico.
 
 2. **Representaciones Vectoriales**:
-- A partir de esta hipótesis, los investigadores comenzaron a desarrollar técnicas para representar palabras en forma de vectores dentro de un espacio semántico. Estos vectores se construyen a partir de las frecuencias con las que las palabras aparecen junto a otras palabras en grandes volúmenes de texto.
-- Por ejemplo, se puede construir una **matriz de co-ocurrencia**, donde cada fila representa una palabra y cada columna representa cuántas veces esa palabra aparece junto a otras palabras específicas en un corpus.
+   - A partir de esta hipótesis, los investigadores comenzaron a desarrollar técnicas para representar palabras en forma de vectores dentro de un espacio semántico. Estos vectores se construyen a partir de las frecuencias con las que las palabras aparecen junto a otras palabras en grandes volúmenes de texto.
+   - Por ejemplo, se puede construir una **matriz de co-ocurrencia**, donde cada fila representa una palabra y cada columna representa cuántas veces esa palabra aparece junto a otras palabras específicas en un corpus.
 
 ### Cómo Influyó en el Desarrollo de Modelos Semánticos
 
 1. **Modelos de Bolsa de Palabras (Bag of Words)**:
-- Uno de los primeros enfoques en NLP fue el modelo de "Bolsa de Palabras", que ignora el orden de las palabras y se basa en la frecuencia con la que las palabras aparecen en un documento.
-- Aunque simple, este modelo utiliza la hipótesis distribucional para representar la importancia y el significado relativo de las palabras.
+   - Uno de los primeros enfoques en NLP fue el modelo de "Bolsa de Palabras", que ignora el orden de las palabras y se basa en la frecuencia con la que las palabras aparecen en un documento.
+   - Aunque simple, este modelo utiliza la hipótesis distribucional para representar la importancia y el significado relativo de las palabras.
 
 2. **Latent Semantic Analysis (LSA)**:
-- Basado en la hipótesis de Harris, LSA utiliza la co-ocurrencia de palabras en textos para representar palabras y documentos en un espacio semántico de menor dimensión. Esto ayuda a capturar relaciones semánticas implícitas entre palabras.
+   - Basado en la hipótesis de Harris, LSA utiliza la co-ocurrencia de palabras en textos para representar palabras y documentos en un espacio semántico de menor dimensión. Esto ayuda a capturar relaciones semánticas implícitas entre palabras.
 
 3. **Word Embeddings Modernos**:
-- Técnicas como **Word2Vec**, **GloVe** y otros modelos de embeddings de palabras utilizan esta hipótesis como fundamento. Estos modelos aprenden representaciones vectoriales en las que palabras con contextos similares están más cerca unas de otras en un espacio vectorial.
-- Por ejemplo, en Word2Vec, la proximidad de los vectores de "rey" y "reina" refleja su relación semántica, basada en los contextos en los que se usan estas palabras.
+   - Técnicas como **Word2Vec**, **GloVe** y otros modelos de embeddings de palabras utilizan esta hipótesis como fundamento. Estos modelos aprenden representaciones vectoriales en las que palabras con contextos similares están más cerca unas de otras en un espacio vectorial.
+   - Por ejemplo, en Word2Vec, la proximidad de los vectores de "rey" y "reina" refleja su relación semántica, basada en los contextos en los que se usan estas palabras.
 
 ### Ejemplo Práctico
 
@@ -218,19 +218,19 @@ El **Análisis de Co-ocurrencia** es un método que examina la frecuencia con la
 
 ### Cómo Funciona
 1. **Construcción de Matrices de Co-ocurrencia**:
-- Se crea una matriz donde las filas y columnas representan palabras del vocabulario.
-- Cada celda de la matriz indica cuántas veces las palabras de la fila y columna aparecen juntas en un contexto definido, como una misma frase o ventana de palabras.
+   - Se crea una matriz donde las filas y columnas representan palabras del vocabulario.
+   - Cada celda de la matriz indica cuántas veces las palabras de la fila y columna aparecen juntas en un contexto definido, como una misma frase o ventana de palabras.
 
 2. **Ejemplo Práctico**:
-- En un texto sobre animales, es probable que las palabras "perro" y "ladrar" aparezcan juntas con frecuencia. Este patrón de co-ocurrencia sugiere que existe una relación semántica entre ellas.
+   - En un texto sobre animales, es probable que las palabras "perro" y "ladrar" aparezcan juntas con frecuencia. Este patrón de co-ocurrencia sugiere que existe una relación semántica entre ellas.
 
 ### Importancia en NLP
-- **Captura de Relaciones Semánticas**: El análisis de co-ocurrencia ayuda a identificar asociaciones entre palabras, lo que es crucial para la comprensión del lenguaje por parte de las máquinas.
-- **Base para Modelos Vectoriales**: Este análisis es un paso inicial en técnicas como Latent Semantic Analysis (LSA) y Word2Vec, que buscan representar palabras en espacios vectoriales donde la proximidad refleja similitudes semánticas.
+   - **Captura de Relaciones Semánticas**: El análisis de co-ocurrencia ayuda a identificar asociaciones entre palabras, lo que es crucial para la comprensión del lenguaje por parte de las máquinas.
+   - **Base para Modelos Vectoriales**: Este análisis es un paso inicial en técnicas como Latent Semantic Analysis (LSA) y Word2Vec, que buscan representar palabras en espacios vectoriales donde la proximidad refleja similitudes semánticas.
 
 ### Limitaciones
-- **Dependencia del Contexto**: Las co-ocurrencias pueden ser ambiguas si no se consideran adecuadamente los distintos significados de una palabra.
-- **Escalabilidad**: Construir y manejar matrices de co-ocurrencia puede ser costoso en términos de almacenamiento y procesamiento para grandes corpus.
+   - **Dependencia del Contexto**: Las co-ocurrencias pueden ser ambiguas si no se consideran adecuadamente los distintos significados de una palabra.
+   - **Escalabilidad**: Construir y manejar matrices de co-ocurrencia puede ser costoso en términos de almacenamiento y procesamiento para grandes corpus.
 
 El análisis de co-ocurrencia ha sido fundamental en el desarrollo de técnicas más avanzadas que permiten a las máquinas entender y procesar el lenguaje natural de manera más eficiente y precisa.
 
@@ -239,9 +239,9 @@ El análisis de co-ocurrencia ha sido fundamental en el desarrollo de técnicas 
 Las **Matrices de Contingencia** son estructuras matemáticas utilizadas para representar la frecuencia con la que las palabras aparecen en diferentes documentos dentro de un corpus. Estas matrices son una forma organizada de almacenar y analizar datos de texto, permitiendo a los investigadores captar patrones y relaciones entre palabras y documentos.
 
 ### Cómo se Construyen
-- **Filas**: Representan las palabras únicas del vocabulario.
-- **Columnas**: Representan los documentos en el corpus.
-- **Celdas**: Cada celda de la matriz contiene un número que indica cuántas veces una palabra específica (fila) aparece en un documento particular (columna).
+   - **Filas**: Representan las palabras únicas del vocabulario.
+   - **Columnas**: Representan los documentos en el corpus.
+   - **Celdas**: Cada celda de la matriz contiene un número que indica cuántas veces una palabra específica (fila) aparece en un documento particular (columna).
 
 ### Ejemplo Práctico
 Supongamos que tenemos un corpus con tres documentos y las palabras "gato", "perro" y "comer". Una matriz de contingencia podría verse así:
@@ -256,19 +256,19 @@ En este ejemplo, la palabra "gato" aparece 3 veces en el Documento 1, 0 veces en
 
 ### Importancia en NLP
 1. **Fundamento para Análisis Semántico**:
-- Las matrices de contingencia son esenciales para modelos como Latent Semantic Analysis (LSA) y otras técnicas de reducción de dimensionalidad.
-- Ayudan a identificar qué palabras son importantes en ciertos documentos, permitiendo una mejor comprensión del contenido semántico.
+   - Las matrices de contingencia son esenciales para modelos como Latent Semantic Analysis (LSA) y otras técnicas de reducción de dimensionalidad.
+   - Ayudan a identificar qué palabras son importantes en ciertos documentos, permitiendo una mejor comprensión del contenido semántico.
 
 2. **Facilitan la Vectorización**:
-- Las palabras y documentos pueden representarse como vectores, donde las frecuencias proporcionan una forma simple de medir similitudes y diferencias.
+   - Las palabras y documentos pueden representarse como vectores, donde las frecuencias proporcionan una forma simple de medir similitudes y diferencias.
 
 ### Usos Prácticos
-- **Recuperación de Información**: Mejorar la búsqueda de documentos relevantes basándose en la frecuencia de términos clave.
-- **Clasificación de Texto**: Utilizar las frecuencias para entrenar modelos de clasificación de documentos.
+   - **Recuperación de Información**: Mejorar la búsqueda de documentos relevantes basándose en la frecuencia de términos clave.
+   - **Clasificación de Texto**: Utilizar las frecuencias para entrenar modelos de clasificación de documentos.
 
 ### Limitaciones
-- **Sparsity**: Para grandes corpus, las matrices de contingencia suelen ser muy dispersas (la mayoría de las celdas contienen ceros), lo que hace ineficiente el almacenamiento y procesamiento.
-- **Información Limitada**: Las frecuencias brutas no capturan completamente las relaciones semánticas profundas entre palabras, ya que no consideran el contexto.
+   - **Sparsity**: Para grandes corpus, las matrices de contingencia suelen ser muy dispersas (la mayoría de las celdas contienen ceros), lo que hace ineficiente el almacenamiento y procesamiento.
+   - **Información Limitada**: Las frecuencias brutas no capturan completamente las relaciones semánticas profundas entre palabras, ya que no consideran el contexto.
 
 Las matrices de contingencia fueron un paso crucial en el desarrollo de métodos más avanzados de análisis y representación de texto, proporcionando la base para técnicas que transformarían el procesamiento del lenguaje natural.
 
@@ -285,22 +285,22 @@ La idea se basa en la **Hipótesis Distribucional** de Zellig Harris, que dice: 
 
 ### Cómo Funciona
 1. **Análisis de Contexto**:
-- Para entender el significado de una palabra, se analiza su contexto, es decir, las palabras que aparecen a su alrededor en un gran corpus de texto.
-- Por ejemplo, las palabras "perro" y "gato" suelen aparecer en contextos similares (con términos como "mascota", "comida" o "veterinario"), lo que sugiere que tienen una relación semántica.
+   - Para entender el significado de una palabra, se analiza su contexto, es decir, las palabras que aparecen a su alrededor en un gran corpus de texto.
+   - Por ejemplo, las palabras "perro" y "gato" suelen aparecer en contextos similares (con términos como "mascota", "comida" o "veterinario"), lo que sugiere que tienen una relación semántica.
 
 2. **Representación Vectorial**:
-- La semántica distribucional permite representar palabras como vectores en un espacio de alta dimensionalidad, donde cada dimensión refleja una relación con otras palabras.
-- La proximidad entre vectores indica similitud semántica: las palabras con contextos similares estarán más cerca entre sí.
+   - La semántica distribucional permite representar palabras como vectores en un espacio de alta dimensionalidad, donde cada dimensión refleja una relación con otras palabras.
+   - La proximidad entre vectores indica similitud semántica: las palabras con contextos similares estarán más cerca entre sí.
 
 ### Aplicaciones en NLP
 1. **Word Embeddings**: 
-- Técnicas modernas como Word2Vec, GloVe y FastText se basan en principios de la semántica distribucional. Aprenden a representar palabras como vectores donde las relaciones semánticas son capturadas automáticamente.
+   - Técnicas modernas como Word2Vec, GloVe y FastText se basan en principios de la semántica distribucional. Aprenden a representar palabras como vectores donde las relaciones semánticas son capturadas automáticamente.
 2. **Análisis de Sentimiento y Clasificación de Texto**:
-- Al representar palabras en términos de sus contextos, es posible desarrollar modelos que entienden el tono y el significado subyacente en textos.
+   - Al representar palabras en términos de sus contextos, es posible desarrollar modelos que entienden el tono y el significado subyacente en textos.
 
 ### Ejemplo Práctico
 Consideremos las palabras "rey", "reina", "hombre" y "mujer". Gracias a la semántica distribucional, los modelos vectoriales pueden entender relaciones como:
-- "Rey - Hombre + Mujer ≈ Reina"
+   - "Rey - Hombre + Mujer ≈ Reina"
 Esto muestra cómo el significado se puede capturar y manipular matemáticamente.
 
 ### Importancia
@@ -312,36 +312,36 @@ Los **Espacios Vectoriales** son estructuras matemáticas que se utilizan para r
 
 ### Concepto Básico
 1. **Vectores en Matemáticas**:
-- Un vector es un objeto matemático que tiene tanto magnitud como dirección. En el caso de NLP, los vectores son listas de números que representan palabras.
-- Los números dentro del vector suelen derivarse de la frecuencia y el contexto de las palabras en un corpus de texto.
+   - Un vector es un objeto matemático que tiene tanto magnitud como dirección. En el caso de NLP, los vectores son listas de números que representan palabras.
+   - Los números dentro del vector suelen derivarse de la frecuencia y el contexto de las palabras en un corpus de texto.
 
 2. **Dimensiones del Espacio**:
-- Un espacio vectorial tiene múltiples dimensiones, cada una de las cuales puede representar diferentes características contextuales o semánticas. Por ejemplo, en un espacio de alta dimensionalidad, una dimensión podría corresponder a un tema como "animales" o "comida".
-- Palabras con significados similares tendrán vectores que se encuentran más cerca entre sí en este espacio.
+   - Un espacio vectorial tiene múltiples dimensiones, cada una de las cuales puede representar diferentes características contextuales o semánticas. Por ejemplo, en un espacio de alta dimensionalidad, una dimensión podría corresponder a un tema como "animales" o "comida".
+   - Palabras con significados similares tendrán vectores que se encuentran más cerca entre sí en este espacio.
 
 ### Cómo Capturan Relaciones Semánticas
 1. **Similitud de Coseno**:
-- Una métrica común para medir la similitud entre dos vectores es el **coseno del ángulo** entre ellos. Si dos palabras tienen vectores muy similares (es decir, están cerca en el espacio vectorial), su similitud de coseno será alta.
-- Esto permite que las palabras que se usan en contextos similares tengan representaciones vectoriales cercanas.
+   - Una métrica común para medir la similitud entre dos vectores es el **coseno del ángulo** entre ellos. Si dos palabras tienen vectores muy similares (es decir, están cerca en el espacio vectorial), su similitud de coseno será alta.
+   - Esto permite que las palabras que se usan en contextos similares tengan representaciones vectoriales cercanas.
 
 2. **Operaciones Semánticas**:
-- Los espacios vectoriales permiten operaciones aritméticas que reflejan relaciones semánticas. Por ejemplo:
-- "Rey - Hombre + Mujer = Reina"
-- Esta propiedad es clave para tareas como la analogía semántica y el razonamiento basado en lenguaje.
+   - Los espacios vectoriales permiten operaciones aritméticas que reflejan relaciones semánticas. Por ejemplo:
+   - "Rey - Hombre + Mujer = Reina"
+   - Esta propiedad es clave para tareas como la analogía semántica y el razonamiento basado en lenguaje.
 
 ### Construcción del Espacio Vectorial
 1. **Modelos de Co-ocurrencia**:
-- En enfoques básicos, el espacio se construye analizando cómo las palabras aparecen juntas en un texto. Las frecuencias de co-ocurrencia se convierten en valores numéricos dentro de los vectores.
+   - En enfoques básicos, el espacio se construye analizando cómo las palabras aparecen juntas en un texto. Las frecuencias de co-ocurrencia se convierten en valores numéricos dentro de los vectores.
 2. **Técnicas de Reducción de Dimensionalidad**:
-- Métodos como **Latent Semantic Analysis (LSA)** y **Word2Vec** comprimen la información de alta dimensionalidad en un espacio vectorial manejable, manteniendo las relaciones semánticas.
+   - Métodos como **Latent Semantic Analysis (LSA)** y **Word2Vec** comprimen la información de alta dimensionalidad en un espacio vectorial manejable, manteniendo las relaciones semánticas.
 
 ### Aplicaciones
 1. **Búsqueda y Recuperación de Información**:
-- Los espacios vectoriales permiten buscar documentos relevantes comparando la similitud de vectores de palabras clave.
+   - Los espacios vectoriales permiten buscar documentos relevantes comparando la similitud de vectores de palabras clave.
 2. **Traducción Automática**:
-- Representar palabras en un espacio vectorial facilita la correspondencia semántica entre diferentes idiomas.
+   - Representar palabras en un espacio vectorial facilita la correspondencia semántica entre diferentes idiomas.
 3. **Análisis de Sentimientos**:
-- Identificar emociones y opiniones en texto basándose en la proximidad de las palabras a términos positivos o negativos.
+   - Identificar emociones y opiniones en texto basándose en la proximidad de las palabras a términos positivos o negativos.
 
 ### Importancia en NLP y IA
 Los espacios vectoriales son fundamentales porque transforman el lenguaje, un fenómeno humano y complejo, en un formato numérico que las computadoras pueden procesar y analizar. Esto ha permitido grandes avances en la capacidad de las máquinas para entender, generar y razonar con lenguaje humano, sentando las bases para aplicaciones de inteligencia artificial como chatbots, asistentes virtuales y sistemas de recomendación.
