@@ -209,6 +209,26 @@ La **Hipótesis Distribucional de Zellig Harris**, formulada en 1954, es un prin
 
 Imagina que estás leyendo un gran número de artículos sobre cocina. Si las palabras "cuchara" y "tenedor" aparecen frecuentemente cerca de términos como "comida", "mesa" y "cena", podemos inferir que "cuchara" y "tenedor" tienen un significado relacionado, aunque sus funciones específicas sean diferentes. Este tipo de inferencia es posible gracias a la Hipótesis Distribucional, que permite extraer significado de patrones observados.
 
+**Frases**:
+1. "La cuchara y el tenedor están en la mesa para la cena."
+2. "La comida se sirve con cuchara y tenedor."
+3. "La mesa está lista para la cena con cuchara, tenedor y comida."
+4. "El tenedor y la cuchara son necesarios para la comida en la cena."
+
+**Matriz de Co-ocurrencia**:
+
+|             | cuchara | tenedor | comida | mesa | cena |
+| ----------- | ------- | ------- | ------ | ---- | ---- |
+| **cuchara** | 0       | 3       | 2      | 2    | 3    |
+| **tenedor** | 3       | 0       | 2      | 1    | 2    |
+| **comida**  | 2       | 2       | 0      | 1    | 2    |
+| **mesa**    | 2       | 1       | 1      | 0    | 2    |
+| **cena**    | 3       | 2       | 2      | 2    | 0    |
+
+Esta matriz refleja la frecuencia de co-ocurrencia de cada palabra con las demás en el contexto de las frases dadas.
+
+
+
 ### Impacto a Largo Plazo
 
 La Hipótesis Distribucional de Harris ha tenido un impacto duradero en la evolución de las técnicas de vectorización de palabras. Inspiró la creación de modelos matemáticos y computacionales que utilizan contextos para capturar el significado, y continúa siendo un principio subyacente en muchos de los métodos de NLP modernos, desde la representación de palabras hasta los modelos de lenguaje más avanzados, como los basados en transformadores (BERT, GPT, etc.).
