@@ -361,7 +361,7 @@ Ejemplo
 | **cocina**    | 0.0      | 0.7    | 0.8       | 0.0     | 0.6        |
 | **selva**     | 0.8      | 0.0    | 0.0       | 1.0     | 0.0        |
 
-En este espacio de mayor dimensionalidad:
+En este espacio:
 - "perro" y "gato" están cerca en "animales" y "doméstico".
 - "león" y "selva" tienen valores altos en "animales" y "salvaje".
 - "cuchara" y "plato" están próximos en "comida" y "utensilios".
