@@ -428,17 +428,17 @@ $$
    - **Producto Punto**: Una operación que mide la similitud entre dos vectores; es clave para evaluar la cercanía semántica en el análisis de palabras.
 
 
-:coffee: NOTA
-   > La **similitud de coseno** y el **producto punto** están relacionados, pero no son lo mismo:
-   > 1. **Producto Punto**: Simplemente multiplica dos vectores elemento a elemento y suma los resultados. Indica cuánto se proyecta un vector sobre otro en términos absolutos, sin normalizar. Es una medida directa de alineación pero depende de las magnitudes de los vectores.
-   >    $$
-   >    \mathbf{A} \cdot \mathbf{B} = A_x B_x + A_y B_y + \dots + A_n B_n
-   >    $$
-   > 2. **Similitud de Coseno**: Es una versión normalizada del producto punto, calculando el coseno del ángulo entre dos vectores. Da un valor entre -1 y 1, eliminando la influencia de las magnitudes y considerando solo la **dirección**.
-   >    $$
-   >    \text{Similitud de Coseno} = \frac{\mathbf{A} \cdot \mathbf{B}}{\| \mathbf{A} \| \| \mathbf{B} \|}
-   >    $$
-   > Entonces, mientras que el producto punto mide la alineación directa (y se ve afectado por las magnitudes de los vectores), la similitud de coseno mide la similitud en dirección **independientemente de la magnitud**.
+   :coffee: NOTA:
+      La **similitud de coseno** y el **producto punto** están relacionados, pero no son lo mismo:
+      1. **Producto Punto**: Simplemente multiplica dos vectores elemento a elemento y suma los resultados. Indica cuánto se proyecta un vector sobre otro en términos absolutos, sin normalizar. Es una medida directa de alineación pero depende de las magnitudes de los vectores.
+         $$
+         \mathbf{A} \cdot \mathbf{B} = A_x B_x + A_y B_y + \dots + A_n B_n
+         $$
+      2. **Similitud de Coseno**: Es una versión normalizada del producto punto, calculando el coseno del ángulo entre dos vectores. Da un valor entre -1 y 1, eliminando la influencia de las magnitudes y considerando solo la **dirección**.
+         $$
+         \text{Similitud de Coseno} = \frac{\mathbf{A} \cdot \mathbf{B}}{\| \mathbf{A} \| \| \mathbf{B} \|}
+         $$
+      Entonces, mientras que el producto punto mide la alineación directa (y se ve afectado por las magnitudes de los vectores), la similitud de coseno mide la similitud en dirección **independientemente de la magnitud**.
 
 ### Aplicaciones en Vectorización de Palabras
 1. **Representación y Transformación**:
