@@ -342,6 +342,34 @@ Los **Espacios Vectoriales** son estructuras matemáticas que se utilizan para r
    - Un espacio vectorial tiene múltiples dimensiones, cada una de las cuales puede representar diferentes características contextuales o semánticas. Por ejemplo, en un espacio de alta dimensionalidad, una dimensión podría corresponder a un tema como "animales" o "comida".
    - Palabras con significados similares tendrán vectores que se encuentran más cerca entre sí en este espacio.
 
+Ejemplo
+   1. **Palabras**: "perro", "gato", "comida", "plato", "cuchara", "zoológico", "cena", "león", "cocina", "selva".
+   2. **Dimensiones**: animales, comida, entorno doméstico, entorno salvaje, utensilios.
+
+**Representación en Espacio Vectorial:**
+
+| Palabra       | Animales | Comida | Doméstico | Salvaje | Utensilios |
+| ------------- | -------- | ------ | --------- | ------- | ---------- |
+| **perro**     | 0.9      | 0.1    | 0.8       | 0.0     | 0.1        |
+| **gato**      | 0.8      | 0.1    | 0.7       | 0.0     | 0.1        |
+| **comida**    | 0.2      | 1.0    | 0.3       | 0.0     | 0.0        |
+| **plato**     | 0.0      | 0.9    | 0.4       | 0.0     | 0.8        |
+| **cuchara**   | 0.0      | 0.8    | 0.3       | 0.0     | 1.0        |
+| **zoológico** | 1.0      | 0.0    | 0.1       | 0.4     | 0.0        |
+| **cena**      | 0.1      | 0.9    | 0.5       | 0.0     | 0.4        |
+| **león**      | 1.0      | 0.0    | 0.0       | 1.0     | 0.0        |
+| **cocina**    | 0.0      | 0.7    | 0.8       | 0.0     | 0.6        |
+| **selva**     | 0.8      | 0.0    | 0.0       | 1.0     | 0.0        |
+
+En este espacio de mayor dimensionalidad:
+- "perro" y "gato" están cerca en "animales" y "doméstico".
+- "león" y "selva" tienen valores altos en "animales" y "salvaje".
+- "cuchara" y "plato" están próximos en "comida" y "utensilios".
+
+Cada palabra se representa con valores que indican su afinidad en distintas dimensiones, permitiendo agrupaciones naturales y relaciones más complejas.
+
+
+
 ### Cómo Capturan Relaciones Semánticas
 1. **Similitud de Coseno**:
    - Una métrica común para medir la similitud entre dos vectores es el **coseno del ángulo** entre ellos. Si dos palabras tienen vectores muy similares (es decir, están cerca en el espacio vectorial), su similitud de coseno será alta.
