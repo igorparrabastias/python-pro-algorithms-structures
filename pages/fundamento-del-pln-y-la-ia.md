@@ -406,12 +406,12 @@ El **Álgebra Lineal** es una rama de las matemáticas que se centra en el estud
 
 ### Conceptos Clave
 1. **Vectores**:
-- Un vector es una lista ordenada de números que puede representar magnitudes en un espacio multidimensional. En NLP, los vectores se utilizan para representar palabras, frases o documentos.
-- Por ejemplo, un vector de 3 dimensiones podría representarse como $[2, 5, -1]$, donde cada número se refiere a una característica diferente del objeto que representa.
+   - Un vector es una lista ordenada de números que puede representar magnitudes en un espacio multidimensional. En NLP, los vectores se utilizan para representar palabras, frases o documentos.
+   - Por ejemplo, un vector de 3 dimensiones podría representarse como $[2, 5, -1]$, donde cada número se refiere a una característica diferente del objeto que representa.
 
 2. **Matrices**:
-- Una matriz es una tabla de números organizada en filas y columnas. En NLP, las matrices se utilizan para almacenar datos como las frecuencias de palabras en diferentes documentos (matrices de contingencia) o para representar relaciones entre palabras.
-- Ejemplo: Una matriz de 3 filas y 2 columnas se vería así:
+   - Una matriz es una tabla de números organizada en filas y columnas. En NLP, las matrices se utilizan para almacenar datos como las frecuencias de palabras en diferentes documentos (matrices de contingencia) o para representar relaciones entre palabras.
+   - Ejemplo: Una matriz de 3 filas y 2 columnas se vería así:
 
 $$
 \begin{pmatrix}
@@ -422,20 +422,33 @@ $$
 $$
 
 1. **Operaciones Fundamentales**:
-- **Suma de Vectores**: Se realiza sumando los elementos correspondientes de dos vectores.
-- **Multiplicación Escalar**: Multiplicar cada componente de un vector por un número escalar.
-- **Multiplicación de Matrices**: Combina dos matrices para producir una tercera, y es crucial en cálculos como transformaciones lineales y redes neuronales.
-- **Producto Punto**: Una operación que mide la similitud entre dos vectores; es clave para evaluar la cercanía semántica en el análisis de palabras.
+   - **Suma de Vectores**: Se realiza sumando los elementos correspondientes de dos vectores.
+   - **Multiplicación Escalar**: Multiplicar cada componente de un vector por un número escalar.
+   - **Multiplicación de Matrices**: Combina dos matrices para producir una tercera, y es crucial en cálculos como transformaciones lineales y redes neuronales.
+   - **Producto Punto**: Una operación que mide la similitud entre dos vectores; es clave para evaluar la cercanía semántica en el análisis de palabras.
+
+
+:coffee: NOTA
+   > La **similitud de coseno** y el **producto punto** están relacionados, pero no son lo mismo:
+   > 1. **Producto Punto**: Simplemente multiplica dos vectores elemento a elemento y suma los resultados. Indica cuánto se proyecta un vector sobre otro en términos absolutos, sin normalizar. Es una medida directa de alineación pero depende de las magnitudes de los vectores.
+   >    $$
+   >    \mathbf{A} \cdot \mathbf{B} = A_x B_x + A_y B_y + \dots + A_n B_n
+   >    $$
+   > 2. **Similitud de Coseno**: Es una versión normalizada del producto punto, calculando el coseno del ángulo entre dos vectores. Da un valor entre -1 y 1, eliminando la influencia de las magnitudes y considerando solo la **dirección**.
+   >    $$
+   >    \text{Similitud de Coseno} = \frac{\mathbf{A} \cdot \mathbf{B}}{\| \mathbf{A} \| \| \mathbf{B} \|}
+   >    $$
+   > Entonces, mientras que el producto punto mide la alineación directa (y se ve afectado por las magnitudes de los vectores), la similitud de coseno mide la similitud en dirección **independientemente de la magnitud**.
 
 ### Aplicaciones en Vectorización de Palabras
 1. **Representación y Transformación**:
-- Los modelos de representación semántica utilizan vectores y matrices para capturar el significado y las relaciones entre palabras. Por ejemplo, una palabra puede representarse como un vector en un espacio de alta dimensionalidad, y las operaciones algebraicas ayudan a calcular la similitud entre estas palabras.
+   - Los modelos de representación semántica utilizan vectores y matrices para capturar el significado y las relaciones entre palabras. Por ejemplo, una palabra puede representarse como un vector en un espacio de alta dimensionalidad, y las operaciones algebraicas ayudan a calcular la similitud entre estas palabras.
 
 2. **Reducción de Dimensionalidad**:
-- Técnicas como **Singular Value Decomposition (SVD)**, basadas en el álgebra lineal, permiten reducir la complejidad de datos textuales manteniendo la mayor parte de la información relevante. Esto es fundamental en modelos como Latent Semantic Analysis (LSA).
+   - Técnicas como **Singular Value Decomposition (SVD)**, basadas en el álgebra lineal, permiten reducir la complejidad de datos textuales manteniendo la mayor parte de la información relevante. Esto es fundamental en modelos como Latent Semantic Analysis (LSA).
 
 3. **Entrenamiento de Modelos de IA**:
-- Las redes neuronales, incluidas las que generan representaciones de palabras como Word2Vec, se construyen sobre operaciones matriciales. Durante el entrenamiento, se realizan múltiples operaciones con matrices para ajustar los pesos y optimizar el modelo.
+   - Las redes neuronales, incluidas las que generan representaciones de palabras como Word2Vec, se construyen sobre operaciones matriciales. Durante el entrenamiento, se realizan múltiples operaciones con matrices para ajustar los pesos y optimizar el modelo.
 
 ### Importancia en NLP e IA
 El álgebra lineal proporciona el marco matemático para realizar cálculos de manera eficiente y estructurada. Sin esta base, sería imposible manejar y procesar grandes conjuntos de datos de texto, hacer cálculos de similitud semántica o entrenar modelos de lenguaje complejos. Su uso se extiende a tareas como la clasificación de texto, la generación de embeddings y la optimización de modelos de aprendizaje profundo.
@@ -446,18 +459,18 @@ La **Estadística Básica** es un conjunto de conceptos fundamentales que se uti
 
 ### Conceptos Fundamentales
 1. **Probabilidad**:
-- La probabilidad mide la **posibilidad** de que ocurra un evento específico. En NLP, se usa para modelar la ocurrencia de palabras y frases en un corpus.
-- **Ejemplo**: La probabilidad de que aparezca la palabra "gato" en un documento puede calcularse como el número de veces que aparece "gato" dividido por el número total de palabras.
+   - La probabilidad mide la **posibilidad** de que ocurra un evento específico. En NLP, se usa para modelar la ocurrencia de palabras y frases en un corpus.
+   - **Ejemplo**: La probabilidad de que aparezca la palabra "gato" en un documento puede calcularse como el número de veces que aparece "gato" dividido por el número total de palabras.
 
 2. **Frecuencias**:
-- La frecuencia se refiere al **número de veces** que un evento o palabra ocurre en un conjunto de datos. 
-- **Frecuencia Absoluta**: Número total de veces que aparece una palabra.
-- **Frecuencia Relativa**: Proporción de la aparición de una palabra con respecto al total de palabras.
-- **Ejemplo**: Si "perro" aparece 50 veces en un texto de 1000 palabras, la frecuencia relativa es 50/1000 = 0.05.
+   - La frecuencia se refiere al **número de veces** que un evento o palabra ocurre en un conjunto de datos. 
+   - **Frecuencia Absoluta**: Número total de veces que aparece una palabra.
+   - **Frecuencia Relativa**: Proporción de la aparición de una palabra con respecto al total de palabras.
+   - **Ejemplo**: Si "perro" aparece 50 veces en un texto de 1000 palabras, la frecuencia relativa es 50/1000 = 0.05.
 
 3. **Distribuciones**:
-- Una distribución describe cómo se distribuyen o dispersan los datos en un conjunto. 
-- **Distribución de Palabras**: En NLP, una distribución común es la **distribución de Zipf**, que describe cómo unas pocas palabras son muy frecuentes, mientras que la mayoría son poco frecuentes.
+   - Una distribución describe cómo se distribuyen o dispersan los datos en un conjunto. 
+   - **Distribución de Palabras**: En NLP, una distribución común es la **distribución de Zipf**, que describe cómo unas pocas palabras son muy frecuentes, mientras que la mayoría son poco frecuentes.
 - **Ejemplo**: Palabras como "el", "de", "y" son extremadamente comunes, mientras que términos más específicos, como "algoritmo" o "estocástico", son mucho menos frecuentes.
 
 ### Aplicaciones en NLP
@@ -478,20 +491,20 @@ La **Traducción Automática** comenzó como uno de los primeros intentos de apl
 
 ### Enfoques Basados en Reglas
 1. **Sistemas de Reglas Lingüísticas**:
-- Estos sistemas dependían de gramáticas complejas y diccionarios bilingües. Se escribían a mano reglas específicas para manejar la estructura gramatical y las peculiaridades de los idiomas.
-- Ejemplo: Una regla podría especificar que en inglés "adjetivo + sustantivo" se traduciría al francés como "sustantivo + adjetivo".
+   - Estos sistemas dependían de gramáticas complejas y diccionarios bilingües. Se escribían a mano reglas específicas para manejar la estructura gramatical y las peculiaridades de los idiomas.
+   - Ejemplo: Una regla podría especificar que en inglés "adjetivo + sustantivo" se traduciría al francés como "sustantivo + adjetivo".
 
 2. **Limitaciones**:
-- Los sistemas basados en reglas eran frágiles y difíciles de escalar porque requerían un conocimiento detallado de ambos idiomas y no podían manejar bien las excepciones o las complejidades del lenguaje natural.
-- La calidad de las traducciones solía ser baja, especialmente para textos largos o complejos, ya que las reglas no podían capturar adecuadamente las sutilezas semánticas y contextuales.
+   - Los sistemas basados en reglas eran frágiles y difíciles de escalar porque requerían un conocimiento detallado de ambos idiomas y no podían manejar bien las excepciones o las complejidades del lenguaje natural.
+   - La calidad de las traducciones solía ser baja, especialmente para textos largos o complejos, ya que las reglas no podían capturar adecuadamente las sutilezas semánticas y contextuales.
 
 ### Enfoques Estadísticos (Década de 1980-1990)
 1. **Modelos Basados en Frecuencias y Estadísticas**:
-- A medida que el acceso a grandes corpus de texto bilingüe aumentó, los investigadores comenzaron a usar técnicas estadísticas para mejorar la traducción automática. Los modelos estadísticos, como el Modelo de Traducción de IBM, analizaban grandes conjuntos de datos para encontrar patrones en cómo se traducían las palabras y frases.
+   - A medida que el acceso a grandes corpus de texto bilingüe aumentó, los investigadores comenzaron a usar técnicas estadísticas para mejorar la traducción automática. Los modelos estadísticos, como el Modelo de Traducción de IBM, analizaban grandes conjuntos de datos para encontrar patrones en cómo se traducían las palabras y frases.
 - **Modelo de Frecuencias**: Usaba la frecuencia de las palabras y las co-ocurrencias para determinar las traducciones más probables.
 
-2. **Cadenas de Markov y Alineamiento de Palabras**:
-- Se utilizaron algoritmos de alineamiento para emparejar frases de un idioma con sus traducciones en otro idioma, calculando probabilidades para cada emparejamiento posible.
+1. **Cadenas de Markov y Alineamiento de Palabras**:
+   - Se utilizaron algoritmos de alineamiento para emparejar frases de un idioma con sus traducciones en otro idioma, calculando probabilidades para cada emparejamiento posible.
 - **Modelos Basados en Frases**: Estos sistemas traducían bloques de texto en lugar de palabras individuales, lo que mejoraba la fluidez y precisión de las traducciones.
 
 ### Desafíos y Limitaciones
@@ -507,23 +520,23 @@ La **Recuperación de Información (RI)** es un campo de la informática que se 
 
 ### Concepto Básico
 1. **Indexación de Documentos**:
-- Los sistemas de recuperación de información construyen índices de documentos en los que se almacenan palabras clave y sus ubicaciones en los documentos. Esto hace que la búsqueda sea mucho más rápida y eficiente.
-- Los términos clave se extraen de los documentos y se organizan en una estructura que permite un acceso rápido.
+   - Los sistemas de recuperación de información construyen índices de documentos en los que se almacenan palabras clave y sus ubicaciones en los documentos. Esto hace que la búsqueda sea mucho más rápida y eficiente.
+   - Los términos clave se extraen de los documentos y se organizan en una estructura que permite un acceso rápido.
 
 2. **Términos de Consulta**:
-- Cuando un usuario busca información, proporciona una consulta que consiste en uno o más términos clave.
-- El sistema compara estos términos con su índice para encontrar documentos que contengan palabras similares o relacionadas.
+   - Cuando un usuario busca información, proporciona una consulta que consiste en uno o más términos clave.
+   - El sistema compara estos términos con su índice para encontrar documentos que contengan palabras similares o relacionadas.
 
 ### Modelos de Recuperación de Información
 1. **Modelo Booleano**:
-- Basado en la lógica booleana, donde los términos clave se combinan usando operadores como "AND", "OR" y "NOT". Solo devuelve documentos que cumplan estrictamente con las condiciones.
-- Ejemplo: Una consulta como "gato AND perro" buscaría documentos que contengan ambas palabras.
+   - Basado en la lógica booleana, donde los términos clave se combinan usando operadores como "AND", "OR" y "NOT". Solo devuelve documentos que cumplan estrictamente con las condiciones.
+   - Ejemplo: Una consulta como "gato AND perro" buscaría documentos que contengan ambas palabras.
 
 2. **Modelo Vectorial**:
 - Representa tanto los documentos como la consulta del usuario en un espacio vectorial. Los documentos más relevantes son aquellos cuyos vectores están más cerca de la consulta, según una métrica de similitud como el **coseno del ángulo**.
 - Este modelo permite medir la relevancia de manera continua, en lugar de un simple "sí o no".
 
-3. **Modelo Probabilístico**:
+1. **Modelo Probabilístico**:
 - Calcula la probabilidad de que un documento sea relevante para una consulta en particular, basándose en la ocurrencia de términos clave y otros factores.
 
 ### Importancia en el Contexto de Vectorizar Palabras
@@ -548,26 +561,26 @@ La **Capacidad Computacional** en las primeras décadas del desarrollo de la int
 
 ### Limitaciones Principales
 1. **Velocidad de Procesamiento**:
-- Los procesadores eran mucho más lentos, lo que significaba que los cálculos, incluso los más simples, podían tardar considerablemente más tiempo.
-- Algoritmos como el análisis de co-ocurrencia o las operaciones con matrices requerían mucho tiempo para completarse debido a estas limitaciones.
+   - Los procesadores eran mucho más lentos, lo que significaba que los cálculos, incluso los más simples, podían tardar considerablemente más tiempo.
+   - Algoritmos como el análisis de co-ocurrencia o las operaciones con matrices requerían mucho tiempo para completarse debido a estas limitaciones.
 
 2. **Memoria y Almacenamiento**:
-- La memoria disponible en las computadoras era muy reducida, a menudo limitada a unos pocos kilobytes o megabytes. Esto restringía la cantidad de datos que se podían procesar simultáneamente.
-- El almacenamiento también era limitado y costoso, lo que dificultaba guardar grandes corpus de texto necesarios para análisis semánticos.
+   - La memoria disponible en las computadoras era muy reducida, a menudo limitada a unos pocos kilobytes o megabytes. Esto restringía la cantidad de datos que se podían procesar simultáneamente.
+   - El almacenamiento también era limitado y costoso, lo que dificultaba guardar grandes corpus de texto necesarios para análisis semánticos.
 
 3. **Costos Elevados**:
-- Las computadoras eran caras y difíciles de acceder. Solo grandes instituciones académicas, gubernamentales o corporativas podían permitirse utilizarlas para investigaciones en IA y NLP.
-- Esto limitaba el ritmo del avance científico, ya que menos personas tenían los recursos para experimentar con modelos complejos.
+   - Las computadoras eran caras y difíciles de acceder. Solo grandes instituciones académicas, gubernamentales o corporativas podían permitirse utilizarlas para investigaciones en IA y NLP.
+   - Esto limitaba el ritmo del avance científico, ya que menos personas tenían los recursos para experimentar con modelos complejos.
 
 ### Impacto en el Desarrollo de la Vectorización de Palabras
 1. **Simplificación de Modelos**:
-- Debido a las limitaciones, los primeros modelos de análisis semántico y vectorización de palabras eran bastante simples. Se priorizaban métodos que pudieran ejecutarse con los recursos disponibles, aunque sacrificaran precisión y profundidad.
-- Por ejemplo, las primeras representaciones de palabras dependían de frecuencias de co-ocurrencia y matrices dispersas que no requerían tanto procesamiento como los modelos más avanzados.
+   - Debido a las limitaciones, los primeros modelos de análisis semántico y vectorización de palabras eran bastante simples. Se priorizaban métodos que pudieran ejecutarse con los recursos disponibles, aunque sacrificaran precisión y profundidad.
+   - Por ejemplo, las primeras representaciones de palabras dependían de frecuencias de co-ocurrencia y matrices dispersas que no requerían tanto procesamiento como los modelos más avanzados.
 
 2. **Reducción de Dimensionalidad**:
 - Técnicas como la **reducción de dimensionalidad** fueron desarrolladas, en parte, para mitigar estas limitaciones computacionales. Métodos como el **Análisis de Componentes Principales (PCA)** y el **Latent Semantic Analysis (LSA)** ayudaban a simplificar los datos al mantener solo las dimensiones más importantes, reduciendo la carga de procesamiento.
 
-3. **Algoritmos Basados en Aprox. y Heurísticas**:
+1. **Algoritmos Basados en Aprox. y Heurísticas**:
 - En lugar de realizar cálculos exactos, a menudo se utilizaban aproximaciones y heurísticas para acelerar los procesos. Esto era necesario para que los sistemas pudieran operar dentro de las capacidades computacionales de la época.
 
 ### Evolución y Avances
