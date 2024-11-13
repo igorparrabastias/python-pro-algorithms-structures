@@ -582,10 +582,10 @@ La **Capacidad Computacional** en las primeras décadas del desarrollo de la int
    - Por ejemplo, las primeras representaciones de palabras dependían de frecuencias de co-ocurrencia y matrices dispersas que no requerían tanto procesamiento como los modelos más avanzados.
 
 2. **Reducción de Dimensionalidad**:
-- Técnicas como la **reducción de dimensionalidad** fueron desarrolladas, en parte, para mitigar estas limitaciones computacionales. Métodos como el **Análisis de Componentes Principales (PCA)** y el **Latent Semantic Analysis (LSA)** ayudaban a simplificar los datos al mantener solo las dimensiones más importantes, reduciendo la carga de procesamiento.
+   - Técnicas como la **reducción de dimensionalidad** fueron desarrolladas, en parte, para mitigar estas limitaciones computacionales. Métodos como el **Análisis de Componentes Principales (PCA)** y el **Latent Semantic Analysis (LSA)** ayudaban a simplificar los datos al mantener solo las dimensiones más importantes, reduciendo la carga de procesamiento.
 
-1. **Algoritmos Basados en Aprox. y Heurísticas**:
-- En lugar de realizar cálculos exactos, a menudo se utilizaban aproximaciones y heurísticas para acelerar los procesos. Esto era necesario para que los sistemas pudieran operar dentro de las capacidades computacionales de la época.
+3. **Algoritmos Basados en Aprox. y Heurísticas**:
+   - En lugar de realizar cálculos exactos, a menudo se utilizaban aproximaciones y heurísticas para acelerar los procesos. Esto era necesario para que los sistemas pudieran operar dentro de las capacidades computacionales de la época.
 
 ### Evolución y Avances
 Con el tiempo, a medida que el hardware de las computadoras mejoró, con procesadores más rápidos y mayor capacidad de memoria, se hizo posible desarrollar y ejecutar modelos mucho más complejos. Esto permitió avances significativos en la representación semántica, desde las matrices de co-ocurrencia simples hasta los sofisticados modelos de aprendizaje profundo que usamos hoy en día.
@@ -599,24 +599,24 @@ La **Comprensión Profunda del Lenguaje** se refiere a la capacidad de un sistem
 
 ### Características de las Primeras Técnicas
 1. **Enfoques Basados en Reglas y Frecuencia**:
-- Los métodos iniciales se centraban en contar la frecuencia de las palabras o en aplicar reglas gramaticales predefinidas. Aunque útiles, estos enfoques no captaban la riqueza semántica del lenguaje, como el sarcasmo, la ambigüedad o los significados implícitos.
-- Por ejemplo, en análisis de co-ocurrencia, se analizaba cuántas veces las palabras aparecían juntas, pero no se entendía el motivo o el contexto de esas apariciones.
+   - Los métodos iniciales se centraban en contar la frecuencia de las palabras o en aplicar reglas gramaticales predefinidas. Aunque útiles, estos enfoques no captaban la riqueza semántica del lenguaje, como el sarcasmo, la ambigüedad o los significados implícitos.
+   - Por ejemplo, en análisis de co-ocurrencia, se analizaba cuántas veces las palabras aparecían juntas, pero no se entendía el motivo o el contexto de esas apariciones.
 
 2. **Sin Comprensión de Contexto**:
-- Las técnicas superficiales trataban cada palabra como una entidad independiente, sin considerar cómo el significado de una palabra podría cambiar según las palabras que la rodean. Esto hacía que los modelos fueran incapaces de desambiguar palabras con múltiples significados (por ejemplo, "banco" como asiento o institución financiera).
-- No podían entender frases complejas ni procesar adecuadamente construcciones como metáforas o ironías.
+   - Las técnicas superficiales trataban cada palabra como una entidad independiente, sin considerar cómo el significado de una palabra podría cambiar según las palabras que la rodean. Esto hacía que los modelos fueran incapaces de desambiguar palabras con múltiples significados (por ejemplo, "banco" como asiento o institución financiera).
+   - No podían entender frases complejas ni procesar adecuadamente construcciones como metáforas o ironías.
 
 3. **Limitaciones Semánticas**:
-- No se capturaban relaciones semánticas más profundas, como sinónimos, antónimos o la estructura narrativa de un texto. Esto limitaba la utilidad de las aplicaciones tempranas de NLP, como la traducción automática o el análisis de sentimientos.
-- Ejemplo: Un sistema superficial podría traducir literalmente una frase, sin entender que una expresión idiomática tiene un significado diferente al de las palabras individuales.
+   - No se capturaban relaciones semánticas más profundas, como sinónimos, antónimos o la estructura narrativa de un texto. Esto limitaba la utilidad de las aplicaciones tempranas de NLP, como la traducción automática o el análisis de sentimientos.
+   - Ejemplo: Un sistema superficial podría traducir literalmente una frase, sin entender que una expresión idiomática tiene un significado diferente al de las palabras individuales.
 
 ### Implicaciones y Desafíos
 1. **Resultados Inexactos**:
-- Debido a la falta de comprensión profunda, las aplicaciones de NLP de la época eran inexactas o generaban resultados poco naturales. Los modelos no podían inferir el propósito o la intención detrás de un mensaje.
-- Por ejemplo, un sistema de recuperación de información podría devolver documentos irrelevantes porque no entendía las relaciones semánticas complejas entre los términos de búsqueda.
+   - Debido a la falta de comprensión profunda, las aplicaciones de NLP de la época eran inexactas o generaban resultados poco naturales. Los modelos no podían inferir el propósito o la intención detrás de un mensaje.
+   - Por ejemplo, un sistema de recuperación de información podría devolver documentos irrelevantes porque no entendía las relaciones semánticas complejas entre los términos de búsqueda.
 
 2. **Falta de Flexibilidad**:
-- Las técnicas basadas en reglas eran rígidas y no se adaptaban bien a la variabilidad del lenguaje humano. Esto hacía que los modelos fueran poco efectivos al enfrentarse a texto no estructurado o lenguaje informal.
+   - Las técnicas basadas en reglas eran rígidas y no se adaptaban bien a la variabilidad del lenguaje humano. Esto hacía que los modelos fueran poco efectivos al enfrentarse a texto no estructurado o lenguaje informal.
 
 ### Evolución Hacia la Comprensión Profunda
 A medida que las técnicas de NLP avanzaron, se introdujeron modelos más sofisticados, como **Word Embeddings** (e.g., Word2Vec, GloVe) y redes neuronales profundas, que comenzaron a capturar mejor los matices del lenguaje. Modelos como **BERT** y **GPT** utilizan representaciones contextuales, lo que les permite entender cómo el significado de una palabra cambia según el contexto.
@@ -649,11 +649,11 @@ El algoritmo de Kruskal es un método para encontrar el árbol de expansión mí
 2. **Ordenación**: Ordena todas las aristas del grafo en orden ascendente según su peso.
 
 3. **Construcción del MST**:
-- Itera sobre las aristas ordenadas, seleccionando la arista de menor peso.
-- Si la inclusión de esta arista no forma un ciclo (es decir, conecta dos componentes diferentes), se agrega al árbol de expansión.
-- Este proceso se repite hasta que se hayan incluido $V - 1$ aristas, donde $V$ es el número de vértices en el grafo.
+   - Itera sobre las aristas ordenadas, seleccionando la arista de menor peso.
+   - Si la inclusión de esta arista no forma un ciclo (es decir, conecta dos componentes diferentes), se agrega al árbol de expansión.
+   - Este proceso se repite hasta que se hayan incluido $V - 1$ aristas, donde $V$ es el número de vértices en el grafo.
 
-El algoritmo de Kruskal es eficiente y tiene una complejidad temporal de $O(E \log E)$, donde $ E $ es el número de aristas. Esta eficiencia lo convierte en una opción popular para resolver problemas de optimización en redes.
+El algoritmo de Kruskal es eficiente y tiene una complejidad temporal de $O(E \log E)$, donde $E$ es el número de aristas. Esta eficiencia lo convierte en una opción popular para resolver problemas de optimización en redes.
 
 #### Otros Aportes
 
