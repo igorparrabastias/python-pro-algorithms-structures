@@ -505,11 +505,11 @@ La **Traducción Automática** comenzó como uno de los primeros intentos de apl
 ### Enfoques Estadísticos (Década de 1980-1990)
 1. **Modelos Basados en Frecuencias y Estadísticas**:
    - A medida que el acceso a grandes corpus de texto bilingüe aumentó, los investigadores comenzaron a usar técnicas estadísticas para mejorar la traducción automática. Los modelos estadísticos, como el Modelo de Traducción de IBM, analizaban grandes conjuntos de datos para encontrar patrones en cómo se traducían las palabras y frases.
-- **Modelo de Frecuencias**: Usaba la frecuencia de las palabras y las co-ocurrencias para determinar las traducciones más probables.
+   - **Modelo de Frecuencias**: Usaba la frecuencia de las palabras y las co-ocurrencias para determinar las traducciones más probables.
 
-1. **Cadenas de Markov y Alineamiento de Palabras**:
+2. **Cadenas de Markov y Alineamiento de Palabras**:
    - Se utilizaron algoritmos de alineamiento para emparejar frases de un idioma con sus traducciones en otro idioma, calculando probabilidades para cada emparejamiento posible.
-- **Modelos Basados en Frases**: Estos sistemas traducían bloques de texto en lugar de palabras individuales, lo que mejoraba la fluidez y precisión de las traducciones.
+   - **Modelos Basados en Frases**: Estos sistemas traducían bloques de texto en lugar de palabras individuales, lo que mejoraba la fluidez y precisión de las traducciones.
 
 ### Desafíos y Limitaciones
 - **Pérdida de Significado**: Los métodos estadísticos a menudo no capturaban bien el contexto o las ambigüedades del lenguaje, lo que llevaba a traducciones inexactas.
@@ -537,11 +537,11 @@ La **Recuperación de Información (RI)** es un campo de la informática que se 
    - Ejemplo: Una consulta como "gato AND perro" buscaría documentos que contengan ambas palabras.
 
 2. **Modelo Vectorial**:
-- Representa tanto los documentos como la consulta del usuario en un espacio vectorial. Los documentos más relevantes son aquellos cuyos vectores están más cerca de la consulta, según una métrica de similitud como el **coseno del ángulo**.
-- Este modelo permite medir la relevancia de manera continua, en lugar de un simple "sí o no".
+   - Representa tanto los documentos como la consulta del usuario en un espacio vectorial. Los documentos más relevantes son aquellos cuyos vectores están más cerca de la consulta, según una métrica de similitud como el **coseno del ángulo**.
+   - Este modelo permite medir la relevancia de manera continua, en lugar de un simple "sí o no".
 
 1. **Modelo Probabilístico**:
-- Calcula la probabilidad de que un documento sea relevante para una consulta en particular, basándose en la ocurrencia de términos clave y otros factores.
+   - Calcula la probabilidad de que un documento sea relevante para una consulta en particular, basándose en la ocurrencia de términos clave y otros factores.
 
 ### Importancia en el Contexto de Vectorizar Palabras
 La recuperación de información es uno de los primeros campos que se benefició de las técnicas de vectorización de palabras. Al representar tanto las palabras como los documentos en forma de vectores, los sistemas pudieron mejorar significativamente la precisión y relevancia de los resultados. Estas representaciones vectoriales capturan mejor la relación semántica entre términos, permitiendo que las búsquedas encuentren documentos relevantes incluso cuando no coinciden exactamente con los términos clave proporcionados.
