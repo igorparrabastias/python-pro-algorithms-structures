@@ -428,7 +428,9 @@ $$
    - **Producto Punto**: Una operación que mide la similitud entre dos vectores; es clave para evaluar la cercanía semántica en el análisis de palabras.
 
 
-> [!TIP] La similitud de coseno y el producto punto están relacionados, pero no son lo mismo:
+> [!TIP]
+> La **similitud de coseno** y el **producto punto** están relacionados, pero no son lo mismo:
+> 
 > 1. **Producto Punto**: Simplemente multiplica dos vectores elemento a elemento y suma los resultados. Indica cuánto se proyecta un vector sobre otro en términos absolutos, sin normalizar. Es una medida directa de alineación pero depende de las magnitudes de los vectores.
 >
 > $$
@@ -657,7 +659,8 @@ El algoritmo de Kruskal es eficiente y tiene una complejidad temporal de $O(E \l
 
 
 
-> [!TIP] Ejemplo: Red de Cableado en un Edificio
+> [!TIP]
+> Ejemplo: Red de Cableado en un Edificio
 >
 > Una empresa quiere conectar todas las oficinas en un edificio con el menor uso de cable posible.
 >
