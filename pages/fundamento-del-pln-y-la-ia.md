@@ -428,8 +428,7 @@ $$
    - **Producto Punto**: Una operación que mide la similitud entre dos vectores; es clave para evaluar la cercanía semántica en el análisis de palabras.
 
 
-> [!TIP]
-> La **similitud de coseno** y el **producto punto** están relacionados, pero no son lo mismo:
+> [!TIP] La similitud de coseno y el producto punto están relacionados, pero no son lo mismo:
 > 1. **Producto Punto**: Simplemente multiplica dos vectores elemento a elemento y suma los resultados. Indica cuánto se proyecta un vector sobre otro en términos absolutos, sin normalizar. Es una medida directa de alineación pero depende de las magnitudes de los vectores.
 >
 > $$
@@ -654,6 +653,27 @@ El algoritmo de Kruskal es un método para encontrar el árbol de expansión mí
    - Este proceso se repite hasta que se hayan incluido $V - 1$ aristas, donde $V$ es el número de vértices en el grafo.
 
 El algoritmo de Kruskal es eficiente y tiene una complejidad temporal de $O(E \log E)$, donde $E$ es el número de aristas. Esta eficiencia lo convierte en una opción popular para resolver problemas de optimización en redes.
+
+
+
+
+> [!TIP] Ejemplo: Red de Cableado en un Edificio
+>
+> Una empresa quiere conectar todas las oficinas en un edificio con el menor uso de cable posible.
+>
+> Pasos del Algoritmo de Kruskal:
+>
+> 1. **Listar todas las posibles conexiones de cableado** entre oficinas, con sus respectivos costos (distancia de cable).
+> 2. **Ordenar las conexiones** de menor a mayor costo.
+> 3. **Seleccionar las conexiones en orden** y agregar solo aquellas que no formen ciclos, para evitar redundancias.
+> 4. **Detenerse** cuando todas las oficinas están conectadas.
+>
+> Resultado
+> Obtienes un sistema de cableado que conecta todas las oficinas con la mínima longitud de cable, ahorrando en costos de instalación y mantenimiento.
+
+
+
+
 
 #### Otros Aportes
 
