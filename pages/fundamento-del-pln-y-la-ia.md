@@ -657,10 +657,8 @@ El algoritmo de Kruskal es un método para encontrar el árbol de expansión mí
 El algoritmo de Kruskal es eficiente y tiene una complejidad temporal de $O(E \log E)$, donde $E$ es el número de aristas. Esta eficiencia lo convierte en una opción popular para resolver problemas de optimización en redes.
 
 
-
-
 > [!TIP]
-> Ejemplo: Red de Cableado en un Edificio
+> Ejemplo de aplicación del algoritmo de Kruskal: Red de Cableado en un Edificio
 >
 > Una empresa quiere conectar todas las oficinas en un edificio con el menor uso de cable posible.
 >
@@ -673,9 +671,6 @@ El algoritmo de Kruskal es eficiente y tiene una complejidad temporal de $O(E \l
 >
 > Resultado
 > Obtienes un sistema de cableado que conecta todas las oficinas con la mínima longitud de cable, ahorrando en costos de instalación y mantenimiento.
-
-
-
 
 
 #### Otros Aportes
