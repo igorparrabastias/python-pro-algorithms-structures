@@ -717,6 +717,30 @@ Las técnicas desarrolladas y perfeccionadas por Shepherd han encontrado aplicac
 
 - **Biología**: En estudios biológicos, el análisis multidimensional se aplica para clasificar especies y entender la biodiversidad, permitiendo a los investigadores visualizar la relación entre diferentes organismos.
 
+
+> [!TIP]
+> **Ejemplo de MDS Aplicado a Marcas de Café**
+>
+> ```
+>                Y
+>                |                     A
+>        B       |           
+>    D           |      C
+>                |
+>                |             E
+>                |             F
+>                ----------------------------- X
+> ```
+>
+> #### Explicación del Diagrama
+> - **Ejes X e Y**: Son las dimensiones generadas por el MDS que representan percepciones de los consumidores sobre las marcas.
+> - **Marcas (A, B, C, D, E, F)**: Cada letra representa una marca de café. La cercanía entre ellas sugiere percepciones similares:
+>   - **B y D** están muy cerca, indicando que se perciben como similares.
+>   - **E y F** están juntos, representando otra agrupación percibida como similar.
+>   - **A** está más alejada, lo que sugiere una percepción diferenciada en el mercado.
+>
+> Este gráfico ayuda a la empresa a entender cuáles marcas son percibidas como competidoras directas y a identificar oportunidades para diferenciar su producto en el mercado.
+
 ## Métodos y Herramientas
 
 Shepherd también ha estado involucrado en la creación de herramientas y software que facilitan el análisis multidimensional. Estas herramientas permiten a los investigadores aplicar técnicas complejas sin necesidad de un profundo conocimiento matemático, democratizando el acceso a métodos avanzados de análisis de datos.
