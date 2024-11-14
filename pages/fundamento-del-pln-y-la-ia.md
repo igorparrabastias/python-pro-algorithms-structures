@@ -658,7 +658,7 @@ El algoritmo de Kruskal es eficiente y tiene una complejidad temporal de $O(E \l
 
 
 > [!TIP]
-> Ejemplo de aplicación del algoritmo de Kruskal: Red de Cableado en un Edificio
+> **Ejemplo de aplicación del algoritmo de Kruskal: Red de Cableado en un Edificio**
 >
 > Una empresa quiere conectar todas las oficinas en un edificio con el menor uso de cable posible.
 >
