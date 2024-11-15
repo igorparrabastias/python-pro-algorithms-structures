@@ -1262,18 +1262,6 @@ La optimización para minimizar la diferencia entre distancias originales y repr
 
 La reducción dimensional es un proceso fundamental en el campo del procesamiento de datos, especialmente en el contexto del procesamiento de lenguaje natural (PLN) y el análisis de datos. Este proceso tiene como objetivo simplificar la representación de datos complejos, facilitando su análisis y visualización sin perder información relevante. Dos de los algoritmos más destacados en esta área son el Análisis de Componentes Principales (PCA) y el Análisis Semántico Latente (LSA).
 
-## Importancia de la Reducción Dimensional
-
-En muchos escenarios de PLN, los datos textuales se representan en espacios de alta dimensión, donde cada dimensión puede corresponder a una palabra o un término del vocabulario. Sin embargo, trabajar en espacios de alta dimensión puede ser problemático debido a varios factores:
-
-1. **Curse of Dimensionality**: A medida que aumenta el número de dimensiones, la cantidad de datos necesarios para obtener resultados significativos también aumenta. Esto puede llevar a la escasez de datos y a la sobreajuste de los modelos.
-
-2. **Ruido y Redundancia**: En espacios de alta dimensión, los datos pueden contener ruido y redundancia, lo que puede dificultar la identificación de patrones significativos.
-
-3. **Visualización**: La visualización de datos en dimensiones altas es inherentemente complicada, lo que dificulta la interpretación de los resultados.
-
-Por estas razones, es esencial contar con técnicas que permitan reducir la dimensionalidad de los datos, preservando al mismo tiempo la estructura y la información crítica.
-
 ## Análisis de Componentes Principales (PCA)
 
 El PCA es una técnica estadística que transforma un conjunto de variables posiblemente correlacionadas en un conjunto de variables no correlacionadas, denominadas componentes principales. Estos componentes son ordenados de tal manera que el primer componente retiene la mayor parte de la varianza de los datos, el segundo componente retiene la mayor parte de la varianza de los datos restantes, y así sucesivamente.
