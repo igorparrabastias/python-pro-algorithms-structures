@@ -1089,6 +1089,24 @@ $$
 
 Esta métrica es útil en situaciones donde solo se pueden mover en direcciones ortogonales.
 
+
+> [!TIP]
+> ### Distancia Manhattan
+>
+> De \( P(2, 3) \) a \( Q(5, 1) \):
+>
+> ```
+>   y
+>   3 |           P --->  
+>   2 |                |     
+>   1 |                ---> ---> Q
+>   0 +------------------------------ x
+>       0    1    2    3    4    5
+> ```
+>
+> **Cálculo**: |5 - 2| + |1 - 3| = 3 + 2 = 5.  
+> **Resultado**: 5 unidades (3 derecha, 2 abajo).
+
 ### 3. Distancia Coseno
 
 La distancia coseno mide la similitud entre dos vectores basándose en el ángulo entre ellos, en lugar de la magnitud. Se utiliza comúnmente en el procesamiento de lenguaje natural para comparar documentos o textos representados como vectores de características. La fórmula es:
