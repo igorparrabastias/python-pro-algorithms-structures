@@ -1123,9 +1123,7 @@ Donde $A \cdot B$ es el producto punto de los vectores y $\|A\|$ y $\|B\|$ son s
 > ### Representación de Distancia Coseno
 >
 > Vectores:  
-> $$
-> \mathbf{A} = [1, 0], \quad \mathbf{B} = [0, 1]
-> $$
+> $\mathbf{A} = [1, 0], \quad \mathbf{B} = [0, 1]$
 >
 > ```
 >     y
@@ -1137,7 +1135,7 @@ Donde $A \cdot B$ es el producto punto de los vectores y $\|A\|$ y $\|B\|$ son s
 > ```
 >
 > 1. **Producto punto**: $\mathbf{A} \cdot \mathbf{B} = 0$.  
-> 2. **Coseno del ángulo ($ \theta $)**:
+> 2. **Coseno del ángulo ($\theta$)**:
 >    $$
 >    \cos(\theta) = \frac{\mathbf{A} \cdot \mathbf{B}}{\|\mathbf{A}\| \|\mathbf{B}\|} = 0
 >    $$
