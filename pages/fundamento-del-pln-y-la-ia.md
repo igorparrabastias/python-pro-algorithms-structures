@@ -893,6 +893,11 @@ Los mapas de calor son representaciones gráficas que muestran la intensidad de 
 
 Las gráficas de redes son otra forma efectiva de visualizar relaciones semánticas. En este tipo de representación, las palabras se representan como nodos, y las conexiones entre ellas (aristas) indican similitudes o relaciones semánticas. Las redes pueden ser dirigidas o no dirigidas, dependiendo de si se considera la dirección de la relación.
 
+> [!TIP]
+> Ejemplo: Red Semántica del Método Científico.
+> 
+> ![Red Semántica](https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Redsemantica1.png/375px-Redsemantica1.png)
+
 ### Diagramas de Venn
 
 Los diagramas de Venn pueden ser útiles para visualizar intersecciones entre conjuntos de palabras que comparten características semánticas. Esta técnica puede ayudar a identificar palabras que pertenecen a múltiples categorías.
