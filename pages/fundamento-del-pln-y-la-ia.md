@@ -1276,9 +1276,6 @@ El PCA es una técnica estadística que transforma un conjunto de variables posi
 
 4. **Selección de Componentes Principales**: Se seleccionan los componentes principales que retienen la mayor parte de la varianza, reduciendo así la dimensionalidad del conjunto de datos.
 
-### Aplicaciones de PCA en PLN
-
-En el contexto del PLN, PCA puede ser utilizado para la reducción de dimensionalidad en representaciones de texto, como matrices de términos-documentos. Esta técnica permite identificar patrones subyacentes en los datos textuales, facilitando tareas como la clasificación de textos y la detección de temas.
 
 ## Análisis Semántico Latente (LSA)
 
@@ -1294,9 +1291,6 @@ El LSA es una técnica que combina la reducción dimensional con el análisis se
 
 4. **Representación Semántica**: Los términos y documentos se representan en un espacio semántico reducido, donde se pueden identificar similitudes y relaciones de manera más efectiva.
 
-### Aplicaciones de LSA en PLN
-
-LSA se utiliza ampliamente en tareas de recuperación de información, análisis de temas y clasificación de texto. Al capturar la estructura semántica de los textos, LSA permite mejorar la relevancia de los resultados en sistemas de búsqueda y recomendaciones.
 
 ## :pushpin: **Entendimiento de Estructuras Semánticas**: Cómo las palabras se agrupan en espacios semánticos.
 
