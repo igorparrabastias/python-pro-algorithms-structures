@@ -894,9 +894,31 @@ Los mapas de calor son representaciones gráficas que muestran la intensidad de 
 Las gráficas de redes son otra forma efectiva de visualizar relaciones semánticas. En este tipo de representación, las palabras se representan como nodos, y las conexiones entre ellas (aristas) indican similitudes o relaciones semánticas. Las redes pueden ser dirigidas o no dirigidas, dependiendo de si se considera la dirección de la relación.
 
 > [!TIP]
-> Ejemplo: Red Semántica del Método Científico.
+> ### Ejemplo: Gráfica de Redes para Visualizar Relaciones Semánticas
 > 
-> ![Red Semántica](https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Redsemantica1.png/375px-Redsemantica1.png)
+> Supongamos que queremos visualizar cómo diferentes conceptos relacionados con "tecnología" están conectados semánticamente:
+> 
+> #### Diagrama ASCII
+> ```
+>                [Inteligencia Artificial]
+>                         |
+>                         |
+>          [Aprendizaje Automático] -- [Redes Neuronales]
+>                         |                     |
+>          [Big Data] ----+          [Procesamiento de Lenguaje]
+>                         |
+>           [Cloud Computing] ---- [Infraestructura Tecnológica]
+> ```
+> 
+> #### Explicación
+> 1. **Nodos**: Cada término (e.g., "Inteligencia Artificial", "Big Data") es un nodo que representa un concepto.
+> 2. **Conexiones**: Las líneas representan relaciones semánticas:
+>    - **"Inteligencia Artificial"** está conectada con "Aprendizaje Automático".
+>    - **"Redes Neuronales"** se relaciona tanto con "Aprendizaje Automático" como con "Procesamiento de Lenguaje".
+> 
+> #### Interpretación
+> - La gráfica de red permite identificar conexiones fuertes (e.g., "Big Data" y "Cloud Computing") y centralidad de conceptos (e.g., "Aprendizaje Automático").
+> - Es útil para comprender cómo se agrupan y relacionan los conceptos semánticos dentro de un dominio, ayudando en la organización y análisis de datos complejos.
 
 ### Diagramas de Venn
 
