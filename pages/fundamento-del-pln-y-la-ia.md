@@ -1136,9 +1136,7 @@ Donde $A \cdot B$ es el producto punto de los vectores y $\|A\|$ y $\|B\|$ son s
 >
 > 1. **Producto punto**: $\mathbf{A} \cdot \mathbf{B} = 0$.  
 > 2. **Coseno del ángulo ($\theta$)**:
-> $$
-> \cos(\theta) = \frac{\mathbf{A} \cdot \mathbf{B}}{\|\mathbf{A}\| \|\mathbf{B}\|} = 0
-> $$
+> $$\cos(\theta) = \frac{\mathbf{A} \cdot \mathbf{B}}{\|\mathbf{A}\| \|\mathbf{B}\|} = 0$$
 > 3. **Distancia Coseno**:
 >    $1 - \cos(\theta) = 1 - 0 = 1$
 >
