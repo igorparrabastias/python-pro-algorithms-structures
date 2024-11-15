@@ -889,6 +889,37 @@ Para visualizar relaciones semánticas, es común aplicar técnicas de reducció
 
 Los mapas de calor son representaciones gráficas que muestran la intensidad de las relaciones semánticas entre palabras. En un mapa de calor, cada celda representa la similitud entre dos palabras, donde colores más oscuros pueden indicar una mayor similitud.
 
+
+> [!TIP]
+> ### Ejemplo: Mapa de Calor para Relaciones Semánticas
+> 
+> Supongamos que queremos visualizar la intensidad de las relaciones semánticas entre palabras relacionadas con **tecnología**: 
+> 
+> Palabras: **IA**, **Big Data**, **Cloud Computing**, **Redes Neuronales**, **Almacenamiento**.
+> 
+> #### Mapa de Calor (ASCII)
+> ```
+>                    IA   Big Data   Cloud    Redes   Almacenamiento
+>         IA         1       0.8       0.6     0.9          0.5
+>    Big Data       0.8       1        0.7     0.5          0.9
+>    Cloud          0.6      0.7       1       0.4          0.8
+>    Redes          0.9      0.5       0.4     1            0.3
+>    Almacenamiento 0.5      0.9       0.8     0.3          1
+> ```
+> 
+> #### Explicación
+> 1. **Ejes**: Las palabras aparecen tanto en las filas como en las columnas.
+> 2. **Valores**: Los números representan la intensidad de la relación entre dos palabras (0 a 1).
+>    - **1**: Relación máxima (e.g., IA y Redes Neuronales).
+>    - **0.5**: Relación moderada (e.g., IA y Almacenamiento).
+>    - **0**: Sin relación.
+> 
+> #### Interpretación
+> El mapa de calor permite identificar:
+> - **Relaciones fuertes**: IA ↔ Redes Neuronales (0.9), Big Data ↔ Almacenamiento (0.9).
+> - **Relaciones débiles**: Redes ↔ Almacenamiento (0.3). 
+
+
 ### Gráficas de Redes
 
 Las gráficas de redes son otra forma efectiva de visualizar relaciones semánticas. En este tipo de representación, las palabras se representan como nodos, y las conexiones entre ellas (aristas) indican similitudes o relaciones semánticas. Las redes pueden ser dirigidas o no dirigidas, dependiendo de si se considera la dirección de la relación.
