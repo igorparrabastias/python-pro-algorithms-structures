@@ -1115,7 +1115,36 @@ $$
 \text{sim}(A, B) = \frac{A \cdot B}{||A|| \cdot ||B||}
 $$
 
-Donde \( A \cdot B \) es el producto punto de los vectores y \( ||A|| \) y \( ||B|| \) son sus normas. Un valor de 1 indica que los vectores son idénticos, mientras que 0 indica que son ortogonales.
+Donde $A \cdot B$ es el producto punto de los vectores y $\|A\|$ y $\|B\|$ son sus normas. Un valor de 1 indica que los vectores son idénticos, mientras que 0 indica que son ortogonales.
+
+
+
+> [!TIP]
+> ### Representación de Distancia Coseno
+>
+> Vectores:  
+> $$
+> \mathbf{A} = [1, 0], \quad \mathbf{B} = [0, 1]
+> $$
+>
+> ```
+>     y
+>     ^  
+>     |       B (0,1)
+>     |       |
+>     |       |
+>     |---- A (1,0) ----> x
+> ```
+>
+> 1. **Producto punto**: $\mathbf{A} \cdot \mathbf{B} = 0$.  
+> 2. **Coseno del ángulo ($ \theta $)**:
+>    $$
+>    \cos(\theta) = \frac{\mathbf{A} \cdot \mathbf{B}}{\|\mathbf{A}\| \|\mathbf{B}\|} = 0
+>    $$
+> 3. **Distancia Coseno**:
+>    $1 - \cos(\theta) = 1 - 0 = 1$
+>
+> **Resultado**: Los vectores son ortogonales ($\theta = 90^\circ$) y tienen máxima distancia coseno.
 
 ### 4. Distancia de Jaccard
 
