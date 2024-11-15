@@ -1162,6 +1162,32 @@ $$
 
 Esta métrica es especialmente útil en problemas de clasificación y agrupamiento donde los datos son categóricos.
 
+
+### Representación de Distancia de Jaccard
+
+Conjuntos:  
+$A = \{1, 2, 3\}$, \quad $B = \{2, 3, 4, 5\}$
+
+#### Diagrama
+```
+  A: [1, 2, 3]
+         |-------| (Intersección: {2, 3})
+  B:    [2, 3, 4, 5]
+         |-------------------------| (Unión: {1, 2, 3, 4, 5})
+```
+
+#### Cálculo:
+1. Intersección ($|A \cap B|$) = 2 elementos: $\{2, 3\}$.
+2. Unión ($|A \cup B|$) = 5 elementos: $\{1, 2, 3, 4, 5\}$.
+3. Distancia de Jaccard:
+   $$
+   1 - \frac{|A \cap B|}{|A \cup B|} = 1 - \frac{2}{5} = 0.6
+   $$
+
+#### Resultado:
+La distancia Jaccard entre \( A \) y \( B \) es **0.6**, indicando que los conjuntos tienen una disimilitud moderada.
+
+
 ## Aplicaciones del Cálculo de Distancias
 
 El cálculo de distancias tiene múltiples aplicaciones en el ámbito del procesamiento de lenguaje natural y más allá:
