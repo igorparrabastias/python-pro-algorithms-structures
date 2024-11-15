@@ -898,7 +898,6 @@ Las gráficas de redes son otra forma efectiva de visualizar relaciones semánti
 > 
 > Supongamos que queremos visualizar cómo diferentes conceptos relacionados con "tecnología" están conectados semánticamente:
 > 
-> #### Diagrama ASCII
 > ```
 >                [Inteligencia Artificial]
 >                         |
@@ -923,6 +922,36 @@ Las gráficas de redes son otra forma efectiva de visualizar relaciones semánti
 ### Diagramas de Venn
 
 Los diagramas de Venn pueden ser útiles para visualizar intersecciones entre conjuntos de palabras que comparten características semánticas. Esta técnica puede ayudar a identificar palabras que pertenecen a múltiples categorías.
+
+
+> [!TIP]
+> ### Ejemplo: Diagrama de Venn para Relaciones Semánticas
+> 
+> **Conjuntos**:
+> - **A (IA)**: [red neuronal, aprendizaje automático, algoritmos].
+> - **B (Big Data)**: [datos masivos, almacenamiento, aprendizaje automático].
+> - **C (Cloud)**: [almacenamiento, infraestructura, virtualización].
+> 
+> #### Diagrama ASCII Mejorado
+> ```
+>            +-----------(A)-----------+
+>           /                           \
+>          /  Aprendizaje Automático     \
+>         /                               \
+>        +-------------(B)--------------+ \
+>       /                               \  \
+>      /         Almacenamiento          \  \
+>     /                                   \  \
+>    +--------------(C)-------------------+  \
+>                 Virtualización              
+> ```
+> 
+> #### Explicación Mejorada
+> - **A ∩ B**: "Aprendizaje Automático".
+> - **B ∩ C**: "Almacenamiento".
+> - **A ∩ C**: Sin intersección directa.
+> - **A ∩ B ∩ C**: No hay términos comunes entre los tres conjuntos en este ejemplo.
+
 
 ## Aplicaciones Prácticas
 
